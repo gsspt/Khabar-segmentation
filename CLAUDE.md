@@ -38,6 +38,50 @@ khabar-segmentation/
 - Langue des commits git : **français**
 - Nommage des fichiers de données : `{source}_{date}_{version}.{ext}`
 
+## Rituel de synchronisation multi-appareils
+
+À chaque changement d'environnement (VSCode → Claude Code web → smartphone), appliquer ce rituel :
+
+```
+[DÉBUT DE SESSION]  →  session-start.sh  (git pull --rebase)
+       ... travail ...
+[FIN DE SESSION]    →  session-end.sh    (git add -A + commit + push)
+```
+
+### Claude Code web (automatique)
+
+- **Début** : le hook `SessionStart` exécute `session-start.sh` automatiquement.
+- **Fin** : le hook `Stop` détecte les changements non poussés et me force à committer/pusher avant de s'arrêter.
+
+### VSCode
+
+- **Début** : la tâche `Début de session (pull)` se lance automatiquement à l'ouverture du dossier (si autorisé).
+  - Ou manuellement : `Ctrl+Shift+P` → **Tasks: Run Task** → `Début de session (pull)`
+- **Fin** : `Ctrl+Shift+P` → **Tasks: Run Task** → `Fin de session (commit + push)`
+
+### Terminal (tous environnements)
+
+```bash
+# Début de session
+bash scripts/session-start.sh
+
+# Fin de session (message automatique)
+bash scripts/session-end.sh
+
+# Fin de session (message personnalisé)
+bash scripts/session-end.sh "feat: ajout du tokeniseur arabe"
+```
+
+### Smartphone (Working Copy — iOS/Android)
+
+1. Cloner le repo dans Working Copy
+2. Activer **Auto-Fetch** dans les réglages du repo
+3. Début : pull manuel depuis Working Copy
+4. Fin : commit + push depuis Working Copy
+5. Pour exécuter du code : ouvrir le notebook dans **Google Colab** via le bouton "Open in Colab"
+
+---
+
 ## Workflow de développement
 
 ### Branching
