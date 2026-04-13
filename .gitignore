@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Données et modèles (versionnés via DVC ou HuggingFace Hub)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/annotations/*
+!data/annotations/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+*.bin
+*.pt
+*.safetensors
+*.ckpt
+*.pkl
+*.h5
+
+# Environnement
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs et runs
+logs/
+runs/
+wandb/
+mlruns/
+outputs/
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# Ruff / Black cache
+.ruff_cache/
+.black_cache/
