@@ -6,9 +6,7 @@ accelerate>=0.28.0
 peft>=0.10.0
 
 # Arabic NLP
-camel-tools>=1.5.0
 pyarabic>=0.6.15
-arabert @ git+https://github.com/aub-mind/arabert.git
 
 # Segmentation metrics
 segeval>=2.0.11

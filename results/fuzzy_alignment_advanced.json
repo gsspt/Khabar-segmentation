@@ -1,0 +1,5611 @@
+{
+  "total_akhbars": 613,
+  "found": 429,
+  "not_found": 184,
+  "avg_score": 65.6474854545479,
+  "alignment_map": [
+    {
+      "akhbar_num": 1,
+      "position": 0,
+      "score": 98.20452771272443,
+      "found": true,
+      "method": "token_set",
+      "confidence": 98.20452771272443,
+      "text_preview": "بسم الله الرحمن الرحيم وما توفيقي إلا بالله الحمد لله الذي لا يخيب لديه أمل الآم"
+    },
+    {
+      "akhbar_num": 2,
+      "position": 0,
+      "score": 86.95652173913044,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.95652173913044,
+      "text_preview": "أخبرنا أبو بكر محمد بن عبدالله الأرديشائي في المسجد الحرام قراءة عليه قال : حدثن"
+    },
+    {
+      "akhbar_num": 3,
+      "position": 0,
+      "score": 91.79331306990882,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.79331306990882,
+      "text_preview": "أخبرنا محمد بن أحمد قال : حدثنا الحسن بن محمد بن حبيب قال حدثنا أبو عبدالله محمد"
+    },
+    {
+      "akhbar_num": 4,
+      "position": 0,
+      "score": 88.78504672897196,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.78504672897196,
+      "text_preview": "أخبرنا محمد قال : سمعت الحسن يقول : سمعت الفقيه أبا حامد أحمد بن محمد بن العباس "
+    },
+    {
+      "akhbar_num": 5,
+      "position": 0,
+      "score": 94.18604651162791,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.18604651162791,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو بكر محمد بن عيسى بن علي بمرو الر"
+    },
+    {
+      "akhbar_num": 6,
+      "position": 400,
+      "score": 97.5767366720517,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.5767366720517,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : حدثنا أبو علي الحسين بن محمد بن هارون قال: ح"
+    },
+    {
+      "akhbar_num": 7,
+      "position": 800,
+      "score": 91.87145557655954,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.87145557655954,
+      "text_preview": "أخبرنا محمد قال : أنشدنا ابن حبيب قال : أنشدنا أبو الحسن علي بن محمد بن عبدالله "
+    },
+    {
+      "akhbar_num": 8,
+      "position": 1200,
+      "score": 95.08599508599508,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.08599508599508,
+      "text_preview": "وكما شاب صفات أهل الدنيا بأضدادها، كذلك شاب عقولهم بالجنون، فلا يخلو العاقل فيها"
+    },
+    {
+      "akhbar_num": 9,
+      "position": 1600,
+      "score": 97.61526232114467,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.61526232114467,
+      "text_preview": "والمجنون عند الناس من يُسمع ويسبّ ويرمي ويخرق الثوب، أو من يخالفهم في عاداتهم في"
+    },
+    {
+      "akhbar_num": 10,
+      "position": 2000,
+      "score": 95.87155963302752,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.87155963302752,
+      "text_preview": "١٠ أخبرنا محمد بن أحمد قال: أخبرنا الحسن قال : سمعت علي بن عبدالله السمرقندي يقو"
+    },
+    {
+      "akhbar_num": 11,
+      "position": 3600,
+      "score": 91.86507936507937,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.86507936507937,
+      "text_preview": "أخبرنا محمد قال: أخبرنا أبو القاسم بن حبيب قال: أخبرنا أبو علي الحسن بن محمد بن "
+    },
+    {
+      "akhbar_num": 12,
+      "position": 5200,
+      "score": 97.92349726775956,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.92349726775956,
+      "text_preview": "وأنزل الله على رسوله صلى الله عليه وسلم : فاصدع بما تؤمر وأعرض عن المشركين إنا ك"
+    },
+    {
+      "akhbar_num": 13,
+      "position": 6200,
+      "score": 96.38739431206764,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.38739431206764,
+      "text_preview": "۱۳ أخبرنا محمد بن أحمد قال : أخبرنا الحسن قال : أخبرنا أبو الحسن علي بن محمد بن "
+    },
+    {
+      "akhbar_num": 14,
+      "position": 6200,
+      "score": 94.11764705882354,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.11764705882354,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: وأخبرنا أبو العباس أحمد بن محمد بن الحسن قال:"
+    },
+    {
+      "akhbar_num": 15,
+      "position": 7000,
+      "score": 97.1830985915493,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.1830985915493,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو أحمد محمد بن إبراهيم الصريمي الم"
+    },
+    {
+      "akhbar_num": 16,
+      "position": 7200,
+      "score": 95.75757575757575,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.75757575757575,
+      "text_preview": "١٦ والمجنون عند أهل الحقائق من ركن إلى الدنيا وعمل لها وطاب بها عيشاً، بذلك نطقت"
+    },
+    {
+      "akhbar_num": 17,
+      "position": 7400,
+      "score": 90.69767441860465,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.69767441860465,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثني أبي قال : أخبرنا جعفر بن محمد بن سوار"
+    },
+    {
+      "akhbar_num": 18,
+      "position": 7600,
+      "score": 91.5360501567398,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.5360501567398,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: وسمعت أبا زكريا يحيى بن محمد بن عبدالله العنب"
+    },
+    {
+      "akhbar_num": 19,
+      "position": 7800,
+      "score": 97.2,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.2,
+      "text_preview": "أخبرنا محمد بن أحمد قال : أخبرنا الحسن قال : سمعت أبا علي محمد بن عمر بن علي الم"
+    },
+    {
+      "akhbar_num": 20,
+      "position": 8200,
+      "score": 95.84086799276673,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.84086799276673,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا بكر محمد بن أحمد القطان البلخي يقول:"
+    },
+    {
+      "akhbar_num": 21,
+      "position": 8400,
+      "score": 93.08176100628931,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.08176100628931,
+      "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: أنشدنا أبو جعفر محمد بن علي بن الطيان القمي بم"
+    },
+    {
+      "akhbar_num": 22,
+      "position": 8600,
+      "score": 88.19875776397515,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.19875776397515,
+      "text_preview": "أخبرنا محمد قال: أنشدنا الحسن قال: أنشدنا أبو بكر محمد بن عبدالله بن محمد قال: ح"
+    },
+    {
+      "akhbar_num": 23,
+      "position": 8800,
+      "score": 84.9673202614379,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.9673202614379,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : أنشدني أبو الحسن محمد بن محمد بن مسعود بنسا "
+    },
+    {
+      "akhbar_num": 24,
+      "position": 9000,
+      "score": 94.20849420849422,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.20849420849422,
+      "text_preview": "ومرّ ضِلَةُ بن أشيم بقوم قد اجتمعوا على رجل مقيد، فقال: من هذا؟ قالوا: مجنون. فق"
+    },
+    {
+      "akhbar_num": 25,
+      "position": 9200,
+      "score": 91.68765743073048,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.68765743073048,
+      "text_preview": "وأخبرنا محمد قال: حدثنا الحسن قال: أنشدنا أبو نصر أحمد بن محمد بن ملحان البصري ق"
+    },
+    {
+      "akhbar_num": 26,
+      "position": 9800,
+      "score": 96.04989604989605,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.04989604989605,
+      "text_preview": "ولقد سألني بعض أصحابي عوداً على بدء أن أصنف كتاباً في ذكر عقلاء المجانين وأوصافه"
+    },
+    {
+      "akhbar_num": 27,
+      "position": 10000,
+      "score": 99.19571045576407,
+      "found": true,
+      "method": "token_set",
+      "confidence": 99.19571045576407,
+      "text_preview": "۲۷ الجنون في اللغة الاستتار؛ تقول العرب : جنّ الشيء يجن جنوناً إذا استتر، وأجنّه"
+    },
+    {
+      "akhbar_num": 28,
+      "position": 10000,
+      "score": 88.23529411764706,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.23529411764706,
+      "text_preview": "۲۸ أخبرنا محمد قال: حدثنا الحسن قال: أنشدني أبو عبدالله محمد بن الحسين الوضاحي: "
+    },
+    {
+      "akhbar_num": 29,
+      "position": 10800,
+      "score": 96.16252821670429,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.16252821670429,
+      "text_preview": "۲۹ وجن الليل يجن جنوناً وجناناً إذا دخل، ومنه قوله تعالى فلما جن عليه الليل رأى "
+    },
+    {
+      "akhbar_num": 30,
+      "position": 10800,
+      "score": 88.45070422535211,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.45070422535211,
+      "text_preview": "أخبرنا محمد قال: أنشدنا أبو الحسن محمد بن علي القزاز لديك الجن : قم یا غلام عنان"
+    },
+    {
+      "akhbar_num": 31,
+      "position": 12000,
+      "score": 89.4466628636623,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.4466628636623,
+      "text_preview": "قال العتبي: وسميت الجن لاجتنانهم عن أعين الناس. وقيل في قوله تعالى: إلا إبليس كا"
+    },
+    {
+      "akhbar_num": 32,
+      "position": 12400,
+      "score": 86.97068403908794,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.97068403908794,
+      "text_preview": "أسماء المجانين في اللغة للمجنون في اللغة أسماء كثيرة، وقد مضى تفسير المجنون. ومن"
+    },
+    {
+      "akhbar_num": 33,
+      "position": 12400,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "ومنها المعتوه وهو الذي يولد مجنوناً. والفعل منه عته فهو معتوه."
+    },
+    {
+      "akhbar_num": 34,
+      "position": 12800,
+      "score": 95.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.0,
+      "text_preview": "٣٤ ومنها الأخرق وهو الذي لا يحسن التقدير والتدبير، والمرأة خرقاء. قال أبو عبيدة "
+    },
+    {
+      "akhbar_num": 35,
+      "position": 13400,
+      "score": 87.68844221105527,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.68844221105527,
+      "text_preview": "٣٥ ومنها المائق والفعل منه ماق يموق والاسم الموق، والموق أيضاً جمع المائق كقولهم"
+    },
+    {
+      "akhbar_num": 36,
+      "position": 13400,
+      "score": 82.5147347740668,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.5147347740668,
+      "text_preview": "٣٦ ومنها الرقيع والمرقعان وهو الأحمق الذي يتمزق عليه رأيه وعقله، والفعل منه رفع "
+    },
+    {
+      "akhbar_num": 37,
+      "position": 13400,
+      "score": 84.84848484848484,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.84848484848484,
+      "text_preview": "۳۷ ومنها الممسوس وهو الذي تخبطه الجن أو الشيطان، والاسم المس ومنه قوله عزّ وجلّ "
+    },
+    {
+      "akhbar_num": 38,
+      "position": 13800,
+      "score": 86.44859813084112,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.44859813084112,
+      "text_preview": "۳۸ ومنها المخبل والمختبل ، والاسم الخبل ، ويقال : رجل مخبل ومخبول ومختبل، قال ال"
+    },
+    {
+      "akhbar_num": 39,
+      "position": 15200,
+      "score": 90.94488188976378,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.94488188976378,
+      "text_preview": "۳۹ ومنها الأنوك، والفعل منه نوك ينوك فهو أنوك، كقولك : حَولَ فهو أحول. وسألتُ ال"
+    },
+    {
+      "akhbar_num": 40,
+      "position": 14000,
+      "score": 81.53846153846155,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.53846153846155,
+      "text_preview": "٤٠ ومنها البوهة شبهوه بطائر قال الشاعر : يا هند لا تنكحي بوهةً عليه عقيقته أحسبا"
+    },
+    {
+      "akhbar_num": 41,
+      "position": 14400,
+      "score": 86.64987405541562,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.64987405541562,
+      "text_preview": "٤١ == ومنها الدولة بالذال المعجمة، والمؤتة ضرب من الجنون، ولم أسمع منه للمجنون ا"
+    },
+    {
+      "akhbar_num": 42,
+      "position": 14400,
+      "score": 87.94326241134752,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.94326241134752,
+      "text_preview": "٤٢ ومنها العزهاة، قال الشاعر: ومن لم يواس الناس مما بكفه فذلك عزهاة من العقل مبل"
+    },
+    {
+      "akhbar_num": 43,
+      "position": 14600,
+      "score": 95.97855227882037,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.97855227882037,
+      "text_preview": "ومنها الأولق، والفعل منه ولق يولق، والولق الاسم. وأما الولق بسكون اللام فهو الكذ"
+    },
+    {
+      "akhbar_num": 44,
+      "position": 14600,
+      "score": 85.07462686567165,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.07462686567165,
+      "text_preview": "٤٤ ومنها المهوس، والاسم الهوس وهو ضرب من الجنون، فإن كان قذراً في جنونه فهو أعفك"
+    },
+    {
+      "akhbar_num": 45,
+      "position": 15400,
+      "score": 81.35593220338983,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.35593220338983,
+      "text_preview": "٤٥ ومنها الموسوس. ومنها الهلباجة وهو الأحمق الكثير الأكل، قال ابن السكيت : قال خ"
+    },
+    {
+      "akhbar_num": 46,
+      "position": 15000,
+      "score": 87.57396449704142,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.57396449704142,
+      "text_preview": "٤٦- ومنها الخذب قال ابن السكيت : يقال رجل خَذِبٌ وفيه خذب والقعرب الأحمق . قال ا"
+    },
+    {
+      "akhbar_num": 47,
+      "position": 15600,
+      "score": 88.0108991825613,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.0108991825613,
+      "text_preview": "٤٧ ومنها البرشاع . ابن السكيت : والرَّهْدَن الأحمق، وأنشد في كتاب الألفاظ : قلت "
+    },
+    {
+      "akhbar_num": 48,
+      "position": 15600,
+      "score": 90.1098901098901,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.1098901098901,
+      "text_preview": "٤٨ ومنها الأهوج، والفعل منه هوج يهوج تهوجاً فهو أهوج."
+    },
+    {
+      "akhbar_num": 49,
+      "position": 15600,
+      "score": 94.73684210526315,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.73684210526315,
+      "text_preview": "٤٩ ومنها الهائم وهو ذاهب العقل."
+    },
+    {
+      "akhbar_num": 50,
+      "position": 15800,
+      "score": 98.18181818181819,
+      "found": true,
+      "method": "token_set",
+      "confidence": 98.18181818181819,
+      "text_preview": "٥٠ ومنها المدله، قال الشاعر : تركوني مدلّهاً أرتجي حجّ قابل\nبعدما كنت ناسكاً زال"
+    },
+    {
+      "akhbar_num": 51,
+      "position": 15800,
+      "score": 84.93150684931507,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.93150684931507,
+      "text_preview": "ومنها الأبله، والفعل منه بله بلاهة فهو أبله."
+    },
+    {
+      "akhbar_num": 52,
+      "position": 15800,
+      "score": 88.88888888888889,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.88888888888889,
+      "text_preview": "٥٢ ومنها المستهتر، قال الشاعر: وبعثن وجداً للخلي وزدن في\nبرحاء وجد العاشق المسته"
+    },
+    {
+      "akhbar_num": 53,
+      "position": 16000,
+      "score": 95.63409563409563,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.63409563409563,
+      "text_preview": "ومنها الواله، والاسم الوَله وهو عند العرب الذي فقد ولده ففقد صبره، فأقبلت والها "
+    },
+    {
+      "akhbar_num": 54,
+      "position": 16200,
+      "score": 82.88288288288288,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.88288288288288,
+      "text_preview": "٥٤ فمنها قولهم: تحسبها حمقاء وهي باخس أي أنك تحسبها حمقاء ومع حمقها تظلم الناس. "
+    },
+    {
+      "akhbar_num": 55,
+      "position": 16400,
+      "score": 91.83673469387755,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.83673469387755,
+      "text_preview": "قال الأحمر: ومن أمثلتهم: أحمق بلغ، أي مع حمقه يبلغ حاجته."
+    },
+    {
+      "akhbar_num": 56,
+      "position": 16400,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "ومن أمثالهم فيه: خرقاء ذات نيقة، أي أنها حمقاء وهي مع ذلك تتأنق في الأمور."
+    },
+    {
+      "akhbar_num": 57,
+      "position": 16800,
+      "score": 96.19047619047619,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.19047619047619,
+      "text_preview": "٥٧ قال أبو عبيد فإذا اشتد موق الرجل قيل : ثأطةً مُدت بماء. والثاطة الحمأة، فإذا "
+    },
+    {
+      "akhbar_num": 58,
+      "position": 16800,
+      "score": 93.24324324324324,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.24324324324324,
+      "text_preview": "٥٨ قال الأصمعي : ومن أمثالهم في هذا : أحمق من رجلة، وهي البقلة الحمقاء وحمقها أن"
+    },
+    {
+      "akhbar_num": 59,
+      "position": 17600,
+      "score": 97.75474956822107,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.75474956822107,
+      "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: حدثنا أبو القاسم منصور بن العباس ببوشنج، قال: "
+    },
+    {
+      "akhbar_num": 60,
+      "position": 17200,
+      "score": 89.70588235294117,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.70588235294117,
+      "text_preview": "٦٠ قال أبو عمرو الشيباني ومن أمثلتهم في الحمق : إنه لأحمق من ترب العقد. والعقد ع"
+    },
+    {
+      "akhbar_num": 61,
+      "position": 17400,
+      "score": 96.61835748792271,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.61835748792271,
+      "text_preview": "٦١ قال ابن الكلبي : ومن أمثالهم في هذا : إنه لأحمق من دُعَة، وهي امرأة عمرو بن ج"
+    },
+    {
+      "akhbar_num": 62,
+      "position": 17600,
+      "score": 97.70491803278688,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.70491803278688,
+      "text_preview": "قال الأصمعي :\n ومن أمثالهم : أحمق من الممهورة إحدى خدمتيها. وذلك أن زوجها قضى حا"
+    },
+    {
+      "akhbar_num": 63,
+      "position": 18400,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "تقول العرب للمبالغ في الجنون جنونه مجنون. أخبرنا محمد قال : أخبرنا الحسن يقول : "
+    },
+    {
+      "akhbar_num": 64,
+      "position": 19200,
+      "score": 92.64069264069263,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.64069264069263,
+      "text_preview": "ما يوصف بالحمق من غير الناس فمنها الضبع، وزعموا أنها أحمق الدواب، وأنها تُشَدّ ي"
+    },
+    {
+      "akhbar_num": 65,
+      "position": 18400,
+      "score": 96.18320610687023,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.18320610687023,
+      "text_preview": "ومنها العقعق، تقول العرب: إنه لأحمق من عقعق. ومن حمقه أن ولده أبداً ضائع."
+    },
+    {
+      "akhbar_num": 66,
+      "position": 18600,
+      "score": 95.18716577540107,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.18716577540107,
+      "text_preview": "٦٦ - قال ابن الكلبي: وتقول العرب : إنه لأحمق من حمامة. وذلك أنها تبيض على الأعوا"
+    },
+    {
+      "akhbar_num": 67,
+      "position": 18800,
+      "score": 92.78846153846153,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.78846153846153,
+      "text_preview": "أسماء جنون الدواب\n تقول العرب لجنون الإبل الهيام، وهو داء يأخذها فتجن وتهيم. ويق"
+    },
+    {
+      "akhbar_num": 68,
+      "position": 18800,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "ضروب المجانين المجانين على ضروب. فمنهم المعتوه، وقد مضى تفسيره."
+    },
+    {
+      "akhbar_num": 69,
+      "position": 19000,
+      "score": 68.9655172413793,
+      "found": false,
+      "method": "token_set",
+      "confidence": 68.9655172413793,
+      "text_preview": "٦٩ ومنهم الممرور، وهو الذي أحرقته المرة. "
+    },
+    {
+      "akhbar_num": 70,
+      "position": 19000,
+      "score": 92.5,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.5,
+      "text_preview": "ومنهم الممسوس، وهو الذي تخبطه الجن والشياطين."
+    },
+    {
+      "akhbar_num": 71,
+      "position": 20400,
+      "score": 90.63829787234043,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.63829787234043,
+      "text_preview": "ومنهم العاشق الذي تيمه الحب وأجنّه. أخبرنا محمد قال: حدثنا الحسن قال: سمعت أبا ا"
+    },
+    {
+      "akhbar_num": 72,
+      "position": 19600,
+      "score": 90.56603773584905,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.56603773584905,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أنشدنا أبو محمد أحمد بن محمد بن إسحاق الجيرنج"
+    },
+    {
+      "akhbar_num": 73,
+      "position": 21000,
+      "score": 95.44787077826726,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.44787077826726,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : سمعت أبا الحسن المظفر بن محمد بن غالب الهمذا"
+    },
+    {
+      "akhbar_num": 74,
+      "position": 21600,
+      "score": 93.46938775510205,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.46938775510205,
+      "text_preview": "٧٤ = أخبرنا محمد قال : أخبرنا الحسن قال : أنشدني أبو منصور مهلهل بن علي الغنوي :"
+    },
+    {
+      "akhbar_num": 75,
+      "position": 21600,
+      "score": 97.01492537313433,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.01492537313433,
+      "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: سمعت أبا العباس الرازي الصوفي يقول: سمعت الشبل"
+    },
+    {
+      "akhbar_num": 76,
+      "position": 21600,
+      "score": 88.62559241706161,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.62559241706161,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : أنشدنا أبو العباس أحمد بن سعيد المعداني قال "
+    },
+    {
+      "akhbar_num": 77,
+      "position": 20600,
+      "score": 89.87341772151899,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.87341772151899,
+      "text_preview": "أنشدني أبو سعد أحمد بن زاذبه الكاتب الفارسي :\n ألا قل للأحبة يَرْفُقونا فإن الحب"
+    },
+    {
+      "akhbar_num": 78,
+      "position": 20800,
+      "score": 93.33333333333333,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.33333333333333,
+      "text_preview": "أنشدني أبي قال : أنشدنا أبو محمد الزنجاني لبعض الأعراب : أحبك حباً لو علمت بمثله"
+    },
+    {
+      "akhbar_num": 79,
+      "position": 22600,
+      "score": 92.99145299145299,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.99145299145299,
+      "text_preview": "٧٩ أخبرنا محمد قال : وقال الحسن وحكي لي عن حبيب بن محمد بن خالد الواسطي قال : دخ"
+    },
+    {
+      "akhbar_num": 80,
+      "position": 21600,
+      "score": 96.03960396039604,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.03960396039604,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا علي الحسن بن أحمد القزويني يقول: س"
+    },
+    {
+      "akhbar_num": 81,
+      "position": 21800,
+      "score": 86.85524126455907,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.85524126455907,
+      "text_preview": "ومنهم من اعتقد بدعة أو ارتكب كبيرة فأدركه شؤمها فجنّ. أخبرنا محمد قال : أخبرنا ا"
+    },
+    {
+      "akhbar_num": 82,
+      "position": 22200,
+      "score": 98.15950920245399,
+      "found": true,
+      "method": "token_set",
+      "confidence": 98.15950920245399,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو القاسم منصور بن العباس ببوشنج قا"
+    },
+    {
+      "akhbar_num": 83,
+      "position": 22400,
+      "score": 90.85872576177286,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.85872576177286,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو عبدالرحمن عبدالله بن عمر بن أحمد "
+    },
+    {
+      "akhbar_num": 84,
+      "position": 22600,
+      "score": 84.91379310344827,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.91379310344827,
+      "text_preview": "ومنهم من سمي مجنوناً بلا حقيقة كالشاب والمتصابي والسكران، وكانت العرب تسمي الشبا"
+    },
+    {
+      "akhbar_num": 85,
+      "position": 24200,
+      "score": 92.97912713472486,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.97912713472486,
+      "text_preview": "ومنهم من جن من خوف الله عز وجل. أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو ال"
+    },
+    {
+      "akhbar_num": 86,
+      "position": 23400,
+      "score": 91.66666666666667,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.66666666666667,
+      "text_preview": "٨٦ أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو الحسن عبدالله بن موسى السلامي "
+    },
+    {
+      "akhbar_num": 87,
+      "position": 23600,
+      "score": 98.812351543943,
+      "found": true,
+      "method": "token_set",
+      "confidence": 98.812351543943,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو الحسن المظفر بن محمد بن غالب قال "
+    },
+    {
+      "akhbar_num": 88,
+      "position": 24000,
+      "score": 93.76181474480151,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.76181474480151,
+      "text_preview": "۸۸ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو جعفر محمد بن سليمان بن منصور "
+    },
+    {
+      "akhbar_num": 89,
+      "position": 24200,
+      "score": 99.2063492063492,
+      "found": true,
+      "method": "token_set",
+      "confidence": 99.2063492063492,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا محمد بن سليمان قال : حدثنا ابن أبي ال"
+    },
+    {
+      "akhbar_num": 90,
+      "position": 24400,
+      "score": 85.97014925373134,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.97014925373134,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو جعفر محمد بن موسى بن هارون القاضي"
+    },
+    {
+      "akhbar_num": 91,
+      "position": 24600,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو بكر محمد بن الحسين الدريدي قال : "
+    },
+    {
+      "akhbar_num": 92,
+      "position": 24800,
+      "score": 97.62845849802372,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.62845849802372,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو القاسم منصور بن العباس قال: أخبرن"
+    },
+    {
+      "akhbar_num": 93,
+      "position": 25200,
+      "score": 92.37875288683603,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.37875288683603,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا منصور قال : حدثنا محمد بن إبراهيم قا"
+    },
+    {
+      "akhbar_num": 94,
+      "position": 25200,
+      "score": 92.6829268292683,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.6829268292683,
+      "text_preview": "ومنهم من تجان وتحامق وهو صحيح العقل وهم ضروب."
+    },
+    {
+      "akhbar_num": 95,
+      "position": 25600,
+      "score": 77.03180212014135,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.03180212014135,
+      "text_preview": "٩٥ فمنهم من تعاطى ذلك ليُوري شأنه ويستره على الناس. أخبرنا محمد قال : أخبرنا الح"
+    },
+    {
+      "akhbar_num": 96,
+      "position": 25600,
+      "score": 96.93593314763231,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.93593314763231,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا موسى عمران بن محمد بن الحصين يقول: س"
+    },
+    {
+      "akhbar_num": 97,
+      "position": 26200,
+      "score": 94.77054429028816,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.77054429028816,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا نصر منصور بن عبد الله الأصبهاني يقول"
+    },
+    {
+      "akhbar_num": 98,
+      "position": 26200,
+      "score": 93.50649350649351,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.50649350649351,
+      "text_preview": "٩٨ وكنت قد ابتعت ضيعة من بعض السلاطين فعلمت أنه يعنيني فتشورت والله وما عاودته ب"
+    },
+    {
+      "akhbar_num": 99,
+      "position": 27200,
+      "score": 92.80155642023347,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.80155642023347,
+      "text_preview": "وقال الفرزدق : أمر عمرو بن هند للمتلمس وطرفة بكتابين إلى عامله بالبحرين بإهلاكهم"
+    },
+    {
+      "akhbar_num": 100,
+      "position": 28400,
+      "score": 92.6261319534282,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.6261319534282,
+      "text_preview": "ومنهم من تحامق لينال غنى . أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا نصر محم"
+    },
+    {
+      "akhbar_num": 101,
+      "position": 27800,
+      "score": 95.4337899543379,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.4337899543379,
+      "text_preview": "وهذا علي بن صلاة القصيري كان ممن يجيد الشعر وكان إذ ذاك محروماً لا يؤبه له ومن ج"
+    },
+    {
+      "akhbar_num": 102,
+      "position": 29200,
+      "score": 62.900188323917135,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.900188323917135,
+      "text_preview": "ثم تحامق وأخذ في الهزل فحسنت حالته وراج أمره حتى أن الملوك والأشراف أولعوا به. ف"
+    },
+    {
+      "akhbar_num": 103,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ومنه : أسهل بطني حبّ درين جارية\nفي الحسن كالبوم\nكأنما نكهتها كامخ\nأو حزمة من حزم"
+    },
+    {
+      "akhbar_num": 104,
+      "position": 28400,
+      "score": 91.12903225806451,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.12903225806451,
+      "text_preview": "١٠٤ أخبرنا محمد قال: حدثنا الحسن قال: سمعت أبا بكر محمد بن عبدالله الحفيد يقول: "
+    },
+    {
+      "akhbar_num": 105,
+      "position": 28000,
+      "score": 70.27027027027027,
+      "found": true,
+      "method": "token_set",
+      "confidence": 70.27027027027027,
+      "text_preview": "سمعت عبدالله بن أحمد بن الصديق يقول : سمعت عبدالله بن علان يقول : مر بعض الأدباء"
+    },
+    {
+      "akhbar_num": 106,
+      "position": 28400,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أنشدنا أبو نصر محمد بن أحمد التميمي بسرخس :"
+    },
+    {
+      "akhbar_num": 107,
+      "position": 28400,
+      "score": 90.86294416243655,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.86294416243655,
+      "text_preview": "ومنهم من تحامق ليزجي وقتاً ويطيب عيشاً : أخبرنا محمد قال: أخبرنا الحسن قال: أخبر"
+    },
+    {
+      "akhbar_num": 108,
+      "position": 28600,
+      "score": 80.51948051948052,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.51948051948052,
+      "text_preview": "۱۰۸ أخبرنا محمد قال : أخبرنا الحسن قال : أنشدنا أبو الحسين المظفر بن محمد بن غال"
+    },
+    {
+      "akhbar_num": 109,
+      "position": 30400,
+      "score": 99.07692307692308,
+      "found": true,
+      "method": "token_set",
+      "confidence": 99.07692307692308,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أنشدنا أبو جعفر محمد بن علي بن الطيان القمي: "
+    },
+    {
+      "akhbar_num": 110,
+      "position": 29000,
+      "score": 89.03654485049834,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.03654485049834,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أنشدني أبو الربيع محمد بن علي الصفار البلخي: "
+    },
+    {
+      "akhbar_num": 111,
+      "position": 29200,
+      "score": 93.21266968325791,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.21266968325791,
+      "text_preview": "أنشدني أبو منصور مهلهل بن علي العنبري الروح والراحة في الحمق وفي زوال العقل والخ"
+    },
+    {
+      "akhbar_num": 112,
+      "position": 29200,
+      "score": 96.74418604651163,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.74418604651163,
+      "text_preview": "ورأيت في بعض الكتب : إذا كان الزمان زمان حمق فإن العقل حرمان وشوم\nفكن حمقاً مع ا"
+    },
+    {
+      "akhbar_num": 113,
+      "position": 29600,
+      "score": 92.4956369982548,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.4956369982548,
+      "text_preview": "۱۱۳ ومنهم من تحامق لينجو من بلاء وآفة . أخبرنا محمد قال : أخبرنا الحسن قال : حدث"
+    },
+    {
+      "akhbar_num": 114,
+      "position": 30000,
+      "score": 95.65217391304348,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.65217391304348,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت الحسن بن عمران الحنظلي بهراة يقول : حد"
+    },
+    {
+      "akhbar_num": 115,
+      "position": 31400,
+      "score": 90.93610698365528,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.93610698365528,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا عبدالله بن محمود السعدي قال : حدثنا "
+    },
+    {
+      "akhbar_num": 116,
+      "position": 32200,
+      "score": 88.59060402684564,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.59060402684564,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو زكريا يحيى بن محمد بن عبدالله الع"
+    },
+    {
+      "akhbar_num": 117,
+      "position": 32200,
+      "score": 67.58620689655172,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.58620689655172,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت عبدالله بن أحمد بن الصديق يقول : سمعت "
+    },
+    {
+      "akhbar_num": 118,
+      "position": 32000,
+      "score": 94.98607242339833,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.98607242339833,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو القاسم منصور بن العباس الفقيه ببو"
+    },
+    {
+      "akhbar_num": 119,
+      "position": 32200,
+      "score": 95.43147208121827,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.43147208121827,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو يوسف أحمد بن محمد بن قيس السجزي "
+    },
+    {
+      "akhbar_num": 120,
+      "position": 33200,
+      "score": 93.10344827586206,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.10344827586206,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو عبدالرحمن عبدالله بن عمر بن أحمد بن"
+    },
+    {
+      "akhbar_num": 121,
+      "position": 34400,
+      "score": 90.53084648493544,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.53084648493544,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى عمران بن موسى بن الحصين قراءة"
+    },
+    {
+      "akhbar_num": 122,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو يعقوب إسحاق بن سعد بن الحسن بن سف"
+    },
+    {
+      "akhbar_num": 123,
+      "position": 35800,
+      "score": 95.23809523809524,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.23809523809524,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا جعفر محمد بن أحمد بن سعيد الرازي ي"
+    },
+    {
+      "akhbar_num": 124,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو يعلى محمد بن أحمد بن حمدان النسوي"
+    },
+    {
+      "akhbar_num": 125,
+      "position": 34800,
+      "score": 81.37044967880085,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.37044967880085,
+      "text_preview": "١٢٥ أخبرنا محمد قال : حدثنا الحسن قال : أنشدنا الفقيه أبو علي زاهر بن أحمد بسرخس"
+    },
+    {
+      "akhbar_num": 126,
+      "position": 35800,
+      "score": 91.82561307901908,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.82561307901908,
+      "text_preview": "١٢٦ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا محمد عبدالله بن الحسن بن مردوي"
+    },
+    {
+      "akhbar_num": 127,
+      "position": 35200,
+      "score": 79.4979079497908,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.4979079497908,
+      "text_preview": "أنشدنا أبو الفضل العباس بن القاسم الطبري : قل لدهـر عن المكارم عطل يا قبيح الفعا"
+    },
+    {
+      "akhbar_num": 128,
+      "position": 36200,
+      "score": 95.23809523809524,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.23809523809524,
+      "text_preview": "أنشدنا أبو بكر أحمد بن عمران السوادي لابن لنكك: زمان قد تفرغ للفضول يُسوّد كل ذي"
+    },
+    {
+      "akhbar_num": 129,
+      "position": 36200,
+      "score": 83.60655737704919,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.60655737704919,
+      "text_preview": "أنشدني أبو طاهر القاسم بن نصر الخبز أرزي لابن الرومي : دهر علا قَدْرُ الرقيــع ب"
+    },
+    {
+      "akhbar_num": 130,
+      "position": 35800,
+      "score": 87.08133971291866,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.08133971291866,
+      "text_preview": "۱۳۰ أنشدني علي بن محمد بن قادم القزويني: عذلوني على الحماقة جهلا\nوهي من عقلهم أل"
+    },
+    {
+      "akhbar_num": 131,
+      "position": 36200,
+      "score": 89.44723618090453,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.44723618090453,
+      "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: سمعت أبا الحسن محمد بن محمد بن الحسن الكارزي ي"
+    },
+    {
+      "akhbar_num": 132,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: أنشدني عبد السميع بن محمد بن عبدالسميع الهاشمي"
+    },
+    {
+      "akhbar_num": 133,
+      "position": 36200,
+      "score": 95.09803921568627,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.09803921568627,
+      "text_preview": "۱۳۳ ورأيت في كتاب ابن ممشاذ : فاستعمل الحمق تكن ذا غنى قد كسد العقل وأصحابه وفتح"
+    },
+    {
+      "akhbar_num": 134,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني أبو عبد الله محمد بن جعفر بن محمد بن جعفر الأديب ببوشنج : إن أردت الغنى ف"
+    },
+    {
+      "akhbar_num": 135,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ولبعضهم :\n إن شئت أن تحظى فكن مائقا تفز بما شئت من المال\n\nواجتنب العقل وأصحابه ت"
+    },
+    {
+      "akhbar_num": 136,
+      "position": 36600,
+      "score": 91.07413010590015,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.07413010590015,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أنشدنا المظفر بن محمد بن غالب الهمذاني قال "
+    },
+    {
+      "akhbar_num": 137,
+      "position": 36600,
+      "score": 84.21052631578948,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.21052631578948,
+      "text_preview": "۱۳۷ - أنشدني عبد السميع بن محمد قال : أنشدني محمد بن سعيد المؤدب وتكايسي قال : أ"
+    },
+    {
+      "akhbar_num": 138,
+      "position": 37000,
+      "score": 92.47706422018348,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.47706422018348,
+      "text_preview": "ومن مشهور شعر علي بن محمد البرقعي : وتحاذقي\nما همتي إلا مقارعة العدى خَلَقَ الشب"
+    },
+    {
+      "akhbar_num": 139,
+      "position": 37000,
+      "score": 91.08910891089108,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.08910891089108,
+      "text_preview": "۱۳۹ أنشدني أبي رحمه الله : كم من أديب عاقل قلبه مستكمل العقل مقل عديم\nومن رقيع و"
+    },
+    {
+      "akhbar_num": 140,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ولبعضهم في مثله: رأيت العقل حرماناً وشؤماً وأهل الحمق في زي كريم\nفكن حَمِقاً تنل"
+    },
+    {
+      "akhbar_num": 141,
+      "position": 37800,
+      "score": 73.33333333333333,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.33333333333333,
+      "text_preview": "١٤١ == ولبعضهم في مثله : عجبتُ من عقلي وعقلي حكيم إذ حُرم العاقل فضل النعيم\nما ظ"
+    },
+    {
+      "akhbar_num": 142,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وأنشدت لابن الرومي: ومن انتكاس الدهر تعرفه وضع الكريم ورفع ذي دنس\nyضحي الكريم به"
+    },
+    {
+      "akhbar_num": 143,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرني محمد بن سليمان الأرجاني لابن لنكك : دنیا دنت من جاهل ونأت عن كل ذي أدبٍ ل"
+    },
+    {
+      "akhbar_num": 144,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني أبو عبد الله جعفر بن محمد بن جعفر الأديب ببوشنج : صفتِ الدنيا لأولاد الزن"
+    },
+    {
+      "akhbar_num": 145,
+      "position": 38000,
+      "score": 88.21917808219177,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.21917808219177,
+      "text_preview": "وبلغني أن امرأة أتت بزرجمهر الحكيم فقالت: أيها الحكيم؛ ما بال الأمر يلتام للعاجز"
+    },
+    {
+      "akhbar_num": 146,
+      "position": 37600,
+      "score": 75.79617834394904,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.79617834394904,
+      "text_preview": "١٤٦ أخبرنا محمد قال : حدثنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبد الله بن أ"
+    },
+    {
+      "akhbar_num": 147,
+      "position": 37600,
+      "score": 67.48166259168704,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.48166259168704,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : حدثنا أبو الحسن محمد بن محمد بن مسعود النسوي"
+    },
+    {
+      "akhbar_num": 148,
+      "position": 38000,
+      "score": 63.888888888888886,
+      "found": false,
+      "method": "token_set",
+      "confidence": 63.888888888888886,
+      "text_preview": "١٤٨ أخبرنا محمد قال : حدثنا الحسن قال : حدثنا أحمد بن محمد بن العباس الفقيه بغ ق"
+    },
+    {
+      "akhbar_num": 149,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٤٩ أخبرنا محمد قال : حدثنا الحسن قال : حدثنا الحسن بن أحمد الخياط النسوي قال : "
+    },
+    {
+      "akhbar_num": 150,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : حدثنا الحسن قال : حدثنا أبو عبدالله محمد بن إدريس القهندزي بهر"
+    },
+    {
+      "akhbar_num": 151,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٥١ أخبرنا محمد قال : أخبرنا الحسن قال: سمعت أبا الحسن علي بن محمد بن عبدالله ال"
+    },
+    {
+      "akhbar_num": 152,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٥٢ أنشدنا أبو أحمد عبدالله بن عدي الحافظ بجرجان قال : أنشدنا منصور : أجالس كلاً"
+    },
+    {
+      "akhbar_num": 153,
+      "position": 38200,
+      "score": 83.23699421965318,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.23699421965318,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو حامد أحمد بن محمد بن إسماعيل قال: "
+    },
+    {
+      "akhbar_num": 154,
+      "position": 24400,
+      "score": 64.91803278688525,
+      "found": false,
+      "method": "token_set",
+      "confidence": 64.91803278688525,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو حاتم محمد بن الفضل بن إسحاق بن محمو"
+    },
+    {
+      "akhbar_num": 155,
+      "position": 38200,
+      "score": 78.86178861788618,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.86178861788618,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو عبدالله الصفار قال: حدثنا ابن أبي ا"
+    },
+    {
+      "akhbar_num": 156,
+      "position": 37000,
+      "score": 72.5,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.5,
+      "text_preview": "١٥٦- وقال ابن المقفع : من صحب العاقل استفاد، ومن صحب الأحمق"
+    },
+    {
+      "akhbar_num": 157,
+      "position": 37800,
+      "score": 83.9080459770115,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.9080459770115,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أنشدنا الفقيه أبو حامد أحمد بن محمد بن العباس"
+    },
+    {
+      "akhbar_num": 158,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني أبي رحمه الله عوداً على بدء : وجالس كل عطار وجانِب كلَّ جزار\nفَفَوْحُ الم"
+    },
+    {
+      "akhbar_num": 159,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٥٩ أخبرنا محمد قال: أخبرنا الحسن قال : أنشدني أبو بكر محمد بن عبدالله الحامدي ا"
+    },
+    {
+      "akhbar_num": 160,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٦٠ أخبرنا محمد قال : أخبرنا الحسن قال : أنشدني أبو يعلى الحسين بن محمد الزبيري "
+    },
+    {
+      "akhbar_num": 161,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "١٦١- قال الأستاذ أبو القاسم الحسن بن محمد بن حبيب النيسابوري رحمه الله تعالى : ق"
+    },
+    {
+      "akhbar_num": 162,
+      "position": 39400,
+      "score": 86.42699926632429,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.42699926632429,
+      "text_preview": "١٦٢ وهو أويس بن أبي أويس، وهو أول من نسب إلى الجنون في الإسلام. والمعروف من حديث"
+    },
+    {
+      "akhbar_num": 163,
+      "position": 41600,
+      "score": 93.42010122921185,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.42010122921185,
+      "text_preview": "أخبرنا محمد قال: وحدثنا الحسن قال: أخبرنا أبو عبدالله محمد بن يوسف بن إبراهيم ال"
+    },
+    {
+      "akhbar_num": 164,
+      "position": 42200,
+      "score": 80.11126564673157,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.11126564673157,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو القاسم منصور بن العباس قال: حدثنا "
+    },
+    {
+      "akhbar_num": 165,
+      "position": 105600,
+      "score": 63.1578947368421,
+      "found": false,
+      "method": "token_set",
+      "confidence": 63.1578947368421,
+      "text_preview": "وكان أويس رضي الله عنه يقول: هذه ليلة الركوع، فيحيي الليل كله في ركعة. ويقول: هذ"
+    },
+    {
+      "akhbar_num": 166,
+      "position": 43600,
+      "score": 89.6700143472023,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.6700143472023,
+      "text_preview": "١٦٦ أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو القاسم عبيدالله بن المأمون بن"
+    },
+    {
+      "akhbar_num": 167,
+      "position": 44400,
+      "score": 73.14814814814815,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.14814814814815,
+      "text_preview": "وهو من جملة من يُذكر من المجانين أشهر، وحديثه أوضح وأسير. ولقد بلغ من شهرته أن ج"
+    },
+    {
+      "akhbar_num": 168,
+      "position": 43600,
+      "score": 71.3375796178344,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.3375796178344,
+      "text_preview": "١٦٨ أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا إبراهيم بن إسماعيل بن عبد الله الر"
+    },
+    {
+      "akhbar_num": 169,
+      "position": 45400,
+      "score": 82.50825082508251,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.50825082508251,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : حدثنا أبو جعفر محمد بن جعفر بن محمد بن هارون"
+    },
+    {
+      "akhbar_num": 170,
+      "position": 44600,
+      "score": 83.79446640316206,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.79446640316206,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا علي السبيعي بمرو يقول : قيل لليلى "
+    },
+    {
+      "akhbar_num": 171,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل نهيك بن محمد بن نهيك إمام ال"
+    },
+    {
+      "akhbar_num": 172,
+      "position": 45000,
+      "score": 67.90352504638219,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.90352504638219,
+      "text_preview": "۱۷۲ قال هشام محمد الكلبي : ذكر لي أن المجنون أتى رهط ليلى سراً، فصار إلى امرأة ك"
+    },
+    {
+      "akhbar_num": 173,
+      "position": 46600,
+      "score": 89.07014681892333,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.07014681892333,
+      "text_preview": "وقال الأصمعي : حدّثتُ أنّ رهط قيس قالوا لأبيه : اطلب له طبيباً لعله يطلعنا على م"
+    },
+    {
+      "akhbar_num": 174,
+      "position": 45800,
+      "score": 90.9090909090909,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.9090909090909,
+      "text_preview": "١٧٤ وذكر الأصمعي أن رهط قيس قالوا لأبيه : لو خرجت به إلى الحج فدعا الله لعله ينس"
+    },
+    {
+      "akhbar_num": 175,
+      "position": 45800,
+      "score": 92.82051282051282,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.82051282051282,
+      "text_preview": "قال جنيد: حبس المجنون مع ليلى في السجن، فقيل له : اخرج. قال : لا أخرج لأن الكون "
+    },
+    {
+      "akhbar_num": 176,
+      "position": 46000,
+      "score": 66.13226452905812,
+      "found": false,
+      "method": "token_set",
+      "confidence": 66.13226452905812,
+      "text_preview": "وقال أبو عبيدة : وذكر لي أن سعيد بن العاص بن أبي ربيعة كانت بينه وبين قيس ،صداقة"
+    },
+    {
+      "akhbar_num": 177,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وقال خالد بن كلثوم : ومرّ قيس برجلين صيادين وقد اصطادا ظبيةً فقمطاها، فلما نظر إ"
+    },
+    {
+      "akhbar_num": 178,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "قال ابن الكلبي : كان قيس يحدث جماعة من قومه فقالوا له : الحب صيرك إلى هذه الدقة "
+    },
+    {
+      "akhbar_num": 179,
+      "position": 47600,
+      "score": 86.16660384470411,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.16660384470411,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرني أبو محمد أحمد بن عبدالله المزني سنة "
+    },
+    {
+      "akhbar_num": 180,
+      "position": 48600,
+      "score": 75.09293680297398,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.09293680297398,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا نصر منصور بن عبد الله الأصبهاني يق"
+    },
+    {
+      "akhbar_num": 181,
+      "position": 48000,
+      "score": 85.82089552238806,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.82089552238806,
+      "text_preview": "أنشدني أبو بكر محمد بن المنذر الضرير للمجنون: تذكرتُ ليلى والفؤاد عميد\nوشطت نواه"
+    },
+    {
+      "akhbar_num": 182,
+      "position": 49000,
+      "score": 85.24590163934427,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.24590163934427,
+      "text_preview": "١٨٢ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الحسن المظفر بن محمد بن غالب"
+    },
+    {
+      "akhbar_num": 183,
+      "position": 48600,
+      "score": 86.85524126455907,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.85524126455907,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت المظفر هذا يقول : سمعت الحسن بن علي ال"
+    },
+    {
+      "akhbar_num": 184,
+      "position": 27200,
+      "score": 60.78431372549019,
+      "found": false,
+      "method": "token_set",
+      "confidence": 60.78431372549019,
+      "text_preview": "سمعت أبا بكر محمد بن المنذر الضرير يقول : مر رجل بمجنون بني عامر وهو يهذي ، فقال"
+    },
+    {
+      "akhbar_num": 185,
+      "position": 48800,
+      "score": 71.91011235955057,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.91011235955057,
+      "text_preview": "١٨٥ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا علي الحسن بن أحمد البيهقي القا"
+    },
+    {
+      "akhbar_num": 186,
+      "position": 49000,
+      "score": 87.85714285714286,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.85714285714286,
+      "text_preview": "وأنشدتنا غراء بنت الفقاعي البصرية: أمر مجانباً عن دار ليلى أُلِمُّ بها وفي قلبي "
+    },
+    {
+      "akhbar_num": 187,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ومن جيد شعره: يقولون مجنون بحبك مولع\nألا حبذا جنا بها وولوع\nولا خير في حب يكون ك"
+    },
+    {
+      "akhbar_num": 188,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ومنه: قالوا جننت على ليلى فقلت لهم\nالحب أعظم داء بالمجانين وقد نسب مجنون ليلى إل"
+    },
+    {
+      "akhbar_num": 189,
+      "position": 49000,
+      "score": 97.67441860465117,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.67441860465117,
+      "text_preview": "ومنه: وجاؤوا إليه بالتعاويذ والرقى\nوصبوا عليه الماء من ألم النكس\nوقالوا به من أع"
+    },
+    {
+      "akhbar_num": 190,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ومنه: وعاذلةٍ تُقطعني ملاما وفي زجر العواذل لي عزاء\n\nوقالوا لو تشاء صبرت عنها فق"
+    },
+    {
+      "akhbar_num": 191,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ومنه: أفي مكتنا عنكم ليال مرضتها\nتزيدينني ليلى على مرضي جهدا\nتعدين ذنباً أنت ليل"
+    },
+    {
+      "akhbar_num": 192,
+      "position": 49600,
+      "score": 84.42211055276383,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.42211055276383,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أنشدني المظفر بن محمد بن غالب قال : أنشدنا ا"
+    },
+    {
+      "akhbar_num": 193,
+      "position": 49400,
+      "score": 92.01877934272301,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.01877934272301,
+      "text_preview": "۱۹۳ ومن مشهور شعره : ذكرتك والحجيج لهم ضجيج ببكة والقلوب لها وجيب\nفقلتُ ونحن في "
+    },
+    {
+      "akhbar_num": 194,
+      "position": 50800,
+      "score": 86.9281045751634,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.9281045751634,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن الطيب ببوشنج قال"
+    },
+    {
+      "akhbar_num": 195,
+      "position": 50400,
+      "score": 84.80662983425414,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.80662983425414,
+      "text_preview": "١٩٥ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا أبو بكر "
+    },
+    {
+      "akhbar_num": 196,
+      "position": 50800,
+      "score": 78.4375,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.4375,
+      "text_preview": "١٩٦ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الحسن عيسى بن زيد العقيلي ال"
+    },
+    {
+      "akhbar_num": 197,
+      "position": 52000,
+      "score": 81.98757763975155,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.98757763975155,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل نصر بن أبي نصر العطار بطوس ي"
+    },
+    {
+      "akhbar_num": 198,
+      "position": 51000,
+      "score": 74.24242424242425,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.24242424242425,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن الطيب قال : حدثن"
+    },
+    {
+      "akhbar_num": 199,
+      "position": 51400,
+      "score": 73.45911949685535,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.45911949685535,
+      "text_preview": "۱۹۹ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن الطيب قال : "
+    },
+    {
+      "akhbar_num": 200,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۲۰۰ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل نصر بن أبي نصر العطار يق"
+    },
+    {
+      "akhbar_num": 201,
+      "position": 26400,
+      "score": 63.12684365781711,
+      "found": false,
+      "method": "token_set",
+      "confidence": 63.12684365781711,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 202,
+      "position": 52000,
+      "score": 90.5894519131334,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.5894519131334,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت منصور بن العباس يقول: سمعت محمد بن إبراه"
+    },
+    {
+      "akhbar_num": 203,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن الطيب قال : حدثن"
+    },
+    {
+      "akhbar_num": 204,
+      "position": 52400,
+      "score": 76.13412228796844,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.13412228796844,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا عبدالله محمد بن عبيد الله الشاشي ي"
+    },
+    {
+      "akhbar_num": 205,
+      "position": 53800,
+      "score": 83.21167883211679,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.21167883211679,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن الطيب قال : حدثن"
+    },
+    {
+      "akhbar_num": 206,
+      "position": 54200,
+      "score": 87.1401151631478,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.1401151631478,
+      "text_preview": "أخبرنا أبو بكر قال : أخبرنا الحسن قال : سمعت الحاكم أبا الحسن محمد بن الحسين الج"
+    },
+    {
+      "akhbar_num": 207,
+      "position": 54600,
+      "score": 86.15107913669064,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.15107913669064,
+      "text_preview": "۲۰۷ أخبرنا محمد قال: أخبرنا الحسن قال : سمعت أبا عبدالله محمد بن عبيد الله الشاش"
+    },
+    {
+      "akhbar_num": 208,
+      "position": 54400,
+      "score": 84.90374873353596,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.90374873353596,
+      "text_preview": "۲۰۸ حدثنا محمد بن الصباح قال: خرجنا من البصرة نستسقي، فلما أصحرنا إذ أنا بسعدون "
+    },
+    {
+      "akhbar_num": 209,
+      "position": 54600,
+      "score": 92.38329238329239,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.38329238329239,
+      "text_preview": "۲۰۹ قال : وقرأت على جبته مكتوباً : يا ذنوبي عليكِ طال بكائي صرت لي مأتماً فقل عز"
+    },
+    {
+      "akhbar_num": 210,
+      "position": 56400,
+      "score": 83.44246959775491,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.44246959775491,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت الحاكم أبا الحسن محمد بن الحسين يقول :"
+    },
+    {
+      "akhbar_num": 211,
+      "position": 55400,
+      "score": 82.46445497630332,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.46445497630332,
+      "text_preview": "قال محمد بن الصباح وقرأت على قميص لسعدون : عين فابكي عليّ قبل انطلاقي\nبدموع تمل "
+    },
+    {
+      "akhbar_num": 212,
+      "position": 56000,
+      "score": 92.85714285714286,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.85714285714286,
+      "text_preview": "وقال مالك بن دينار دخلت جبانة البصرة فإذا أنا بسعدون فقلت له : كيف حالك؟ وكيف أن"
+    },
+    {
+      "akhbar_num": 213,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٢١٣ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن"
+    },
+    {
+      "akhbar_num": 214,
+      "position": 56800,
+      "score": 85.75539568345323,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.75539568345323,
+      "text_preview": "٢١٤ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبدالله بن أ"
+    },
+    {
+      "akhbar_num": 215,
+      "position": 58000,
+      "score": 87.78565799842396,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.78565799842396,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا بكر محمد بن عبدالله حفيد العباس يق"
+    },
+    {
+      "akhbar_num": 216,
+      "position": 58600,
+      "score": 87.47616020343293,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.47616020343293,
+      "text_preview": "قال : وسمعت أبا عبدالله النشاشي يحكي عن ذي النون المصري أنه قال : بينا أنا أطوف "
+    },
+    {
+      "akhbar_num": 217,
+      "position": 59200,
+      "score": 78.18930041152264,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.18930041152264,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو يوسف أحمد بن محمد بن قيس السجزي "
+    },
+    {
+      "akhbar_num": 218,
+      "position": 58800,
+      "score": 91.90140845070422,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.90140845070422,
+      "text_preview": "وقال عيسى بن علي : رأيت سعدون ذات يوم والصبيان يؤذونه، فطردت عنه الصبيان فقال لي"
+    },
+    {
+      "akhbar_num": 219,
+      "position": 59200,
+      "score": 90.1639344262295,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.1639344262295,
+      "text_preview": "قال : وقرأت على فروة له : نغص الموت ويحـه كلَّ طِيبِ ودهاني بفقد كلّ حبيب\nكم وكم"
+    },
+    {
+      "akhbar_num": 220,
+      "position": 60000,
+      "score": 94.53551912568307,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.53551912568307,
+      "text_preview": "وقال مالك بن دينار كنت حاجا فغلبتني عيناي فرقدتُ عند الكعبة فوقف سعدون على رأسي "
+    },
+    {
+      "akhbar_num": 221,
+      "position": 59400,
+      "score": 82.07343412526998,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.07343412526998,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 222,
+      "position": 61200,
+      "score": 87.61904761904762,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.61904761904762,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : أخبرنا عل"
+    },
+    {
+      "akhbar_num": 223,
+      "position": 60000,
+      "score": 84.03755868544602,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.03755868544602,
+      "text_preview": "۲۲۳ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال: حدثنا حفص قال : حدثنا "
+    },
+    {
+      "akhbar_num": 224,
+      "position": 60600,
+      "score": 89.72868217054264,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.72868217054264,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : حدثنا إبر"
+    },
+    {
+      "akhbar_num": 225,
+      "position": 62400,
+      "score": 86.63366336633663,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.63366336633663,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : أخبرنا حفص قال :"
+    },
+    {
+      "akhbar_num": 226,
+      "position": 62400,
+      "score": 86.97674418604652,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.97674418604652,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا حفص قال : حدثنا علي قال : أخبرنا إبرا"
+    },
+    {
+      "akhbar_num": 227,
+      "position": 62800,
+      "score": 93.27731092436974,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.27731092436974,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : أخبرنا حفص قال : حدثنا عل"
+    },
+    {
+      "akhbar_num": 228,
+      "position": 62800,
+      "score": 90.9090909090909,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.9090909090909,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا محمد قال: حدثنا حفص قال: حدثنا علي قال:"
+    },
+    {
+      "akhbar_num": 229,
+      "position": 62800,
+      "score": 82.53968253968254,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.53968253968254,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : حدثنا علي"
+    },
+    {
+      "akhbar_num": 230,
+      "position": 63200,
+      "score": 79.2156862745098,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.2156862745098,
+      "text_preview": "۲۳۰ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : حدثنا"
+    },
+    {
+      "akhbar_num": 231,
+      "position": 62800,
+      "score": 85.09485094850949,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.09485094850949,
+      "text_preview": "أخبرنا أبو بكر قال : أخبرنا الحسن قال : أخرنا محمد قال : حدثنا حفص قال : حدثنا ع"
+    },
+    {
+      "akhbar_num": 232,
+      "position": 62200,
+      "score": 93.06930693069307,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.06930693069307,
+      "text_preview": "وبهذا قال: كتب إلى بعض إخوانه: تُحبُّ الصالحين بزعم قلبـك وتخلو إن فقدتهم بذنبك\n"
+    },
+    {
+      "akhbar_num": 233,
+      "position": 62200,
+      "score": 68.76227897838899,
+      "found": false,
+      "method": "token_set",
+      "confidence": 68.76227897838899,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبيدالله الشاشي "
+    },
+    {
+      "akhbar_num": 234,
+      "position": 62800,
+      "score": 85.13513513513513,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.13513513513513,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 235,
+      "position": 65400,
+      "score": 94.08901251738526,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.08901251738526,
+      "text_preview": "حكاية سعدون والمتوكل -\n\nأخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله "
+    },
+    {
+      "akhbar_num": 236,
+      "position": 67200,
+      "score": 88.81036513545348,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.81036513545348,
+      "text_preview": "٢٣٦ كوفي . أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل أحمد بن محمد بن ح"
+    },
+    {
+      "akhbar_num": 237,
+      "position": 67000,
+      "score": 88.24101068999028,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.24101068999028,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا علي الحسن بن أحمد الحناط النسوي يق"
+    },
+    {
+      "akhbar_num": 238,
+      "position": 68400,
+      "score": 79.04085257548846,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.04085257548846,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا إسحاق إبراهيم بن عبدالله بن موسى ا"
+    },
+    {
+      "akhbar_num": 239,
+      "position": 33400,
+      "score": 69.88847583643123,
+      "found": false,
+      "method": "token_set",
+      "confidence": 69.88847583643123,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو موسى عمران بن الحصين قال : حدثنا "
+    },
+    {
+      "akhbar_num": 240,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 241,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 242,
+      "position": 69600,
+      "score": 89.64577656675749,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.64577656675749,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 243,
+      "position": 69400,
+      "score": 87.32394366197182,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.32394366197182,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا نصر منصور بن محمد المطرفي بهراة يق"
+    },
+    {
+      "akhbar_num": 244,
+      "position": 24600,
+      "score": 78.61271676300578,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.61271676300578,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 245,
+      "position": 69400,
+      "score": 74.48979591836735,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.48979591836735,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو بكر محمد بن عبدالله بن محمد قال "
+    },
+    {
+      "akhbar_num": 246,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا الحسن بن سهل بن نفيس السجزي بهراة قا"
+    },
+    {
+      "akhbar_num": 247,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا محمد بن عبدالله بن محمد قال: أخبرنا مح"
+    },
+    {
+      "akhbar_num": 248,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا أبو جعفر محمد بن إبراهيم بن عبدان بن جبلة القايني قال : حدثنا محمد بن نصر"
+    },
+    {
+      "akhbar_num": 249,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 250,
+      "position": 69200,
+      "score": 82.79569892473118,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.79569892473118,
+      "text_preview": "٢٥٠ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال: حدثنا حفص بن "
+    },
+    {
+      "akhbar_num": 251,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 252,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وبهذا قال أحمد بن سهل : أخبرني بعض أصحابنا قال : قيل في مجلس شريك لرجل : أي الفا"
+    },
+    {
+      "akhbar_num": 253,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وبهذا قال أحمد بن سهل قال: قال رجل لبهلول: أما تستحي تأكل في السوق؟ قال: ويلك تط"
+    },
+    {
+      "akhbar_num": 254,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٢٥٤ قال أحمد : وقال له إسحاق بن الصباح الكندي : أكثر الله في الشيعة مثلك يا بهلو"
+    },
+    {
+      "akhbar_num": 255,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: حدث"
+    },
+    {
+      "akhbar_num": 256,
+      "position": 69200,
+      "score": 82.57756563245823,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.57756563245823,
+      "text_preview": "٢٥٦ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن"
+    },
+    {
+      "akhbar_num": 257,
+      "position": 69600,
+      "score": 93.20695102685625,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.20695102685625,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال: حدثنا حفص قال : حدثنا علي "
+    },
+    {
+      "akhbar_num": 258,
+      "position": 70400,
+      "score": 84.0834248079034,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.0834248079034,
+      "text_preview": "٢٥٨ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة ق"
+    },
+    {
+      "akhbar_num": 259,
+      "position": 72000,
+      "score": 85.20919269298763,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.20919269298763,
+      "text_preview": "٢٥٩ أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا محمد بن الطيب قال : حدثنا حفص بن "
+    },
+    {
+      "akhbar_num": 260,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 261,
+      "position": 71400,
+      "score": 81.52173913043478,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.52173913043478,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال: حدثنا حفص قال : حدثنا علي "
+    },
+    {
+      "akhbar_num": 262,
+      "position": 71800,
+      "score": 91.3738019169329,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.3738019169329,
+      "text_preview": "٢٦٢ أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا حفص قال : حدثنا علي قال : حدثنا إ"
+    },
+    {
+      "akhbar_num": 263,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو إبراهيم إسماعيل بن عبد الله الراو"
+    },
+    {
+      "akhbar_num": 264,
+      "position": 73600,
+      "score": 73.43283582089552,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.43283582089552,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبدالله بن محمد ب"
+    },
+    {
+      "akhbar_num": 265,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا يعلى محمد بن أحمد بن حمدان الفقيه ال"
+    },
+    {
+      "akhbar_num": 266,
+      "position": 141600,
+      "score": 73.21428571428572,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.21428571428572,
+      "text_preview": "٢٦٦ قال وقالت له أمه ذات يوم : يا بني، عُدَّ لي المجانين . فقال : اسكتي ابنك منه"
+    },
+    {
+      "akhbar_num": 267,
+      "position": 72600,
+      "score": 76.89594356261023,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.89594356261023,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو سعيد أحمد الزيدي قال: حدثنا محمد ب"
+    },
+    {
+      "akhbar_num": 268,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت محمد محمد بن أحمد بن حمدان يقول: سمعت جع"
+    },
+    {
+      "akhbar_num": 269,
+      "position": 73600,
+      "score": 79.37743190661479,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.37743190661479,
+      "text_preview": "٢٦٩ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت ابن أبي نصر يقول : كنت كثيراً ما أ"
+    },
+    {
+      "akhbar_num": 270,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا موسى عمران بن موسى بن الحصين يقول: س"
+    },
+    {
+      "akhbar_num": 271,
+      "position": 55000,
+      "score": 65.26315789473685,
+      "found": false,
+      "method": "token_set",
+      "confidence": 65.26315789473685,
+      "text_preview": "وقال علي بن سعدان : رأيت بهلولاً في بعض المقابر يكلم قبراً، فقلت له : ما تصنع ها"
+    },
+    {
+      "akhbar_num": 272,
+      "position": 74400,
+      "score": 83.55555555555556,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.55555555555556,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر"
+    },
+    {
+      "akhbar_num": 273,
+      "position": 73000,
+      "score": 76.3265306122449,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.3265306122449,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبد الله بن شبيب"
+    },
+    {
+      "akhbar_num": 274,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٢٧٤ قال عبد الله بن المنذر وحمل عليه الصبيان ذات يوم فألجؤوه إلى مضيق، فشد عليهم"
+    },
+    {
+      "akhbar_num": 275,
+      "position": 66600,
+      "score": 65.24271844660194,
+      "found": false,
+      "method": "token_set",
+      "confidence": 65.24271844660194,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا محمد بكار بن علي الساوي الراحل إلى"
+    },
+    {
+      "akhbar_num": 276,
+      "position": 74400,
+      "score": 82.4742268041237,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.4742268041237,
+      "text_preview": "كتب بهلول إلى الخلفاء والأمراء:\n أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو"
+    },
+    {
+      "akhbar_num": 277,
+      "position": 74400,
+      "score": 90.97222222222223,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.97222222222223,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : حدثنا علي"
+    },
+    {
+      "akhbar_num": 278,
+      "position": 75000,
+      "score": 83.92070484581498,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.92070484581498,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : حدثنا حفص قال : حدثنا علي"
+    },
+    {
+      "akhbar_num": 279,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد قال : أخبرنا حفص قال : حدثنا عل"
+    },
+    {
+      "akhbar_num": 280,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۲۸۰ قال أبو القاسم بن حبيب وبهلول هذا يقال له الصيرفي وقد روي عنه أحاديث؛ فمنها "
+    },
+    {
+      "akhbar_num": 281,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۲۸۱ أخبرنا محمد قال : أخبرنا الحسن قال : وحدثني علي بن محمد قال : حدثني ابن بكير"
+    },
+    {
+      "akhbar_num": 282,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وله مزية على أضرابه من المجانين بتحبير الشعر وتدقيق المعنى في كل ضرب منه. فمن ذل"
+    },
+    {
+      "akhbar_num": 283,
+      "position": 75800,
+      "score": 85.71428571428571,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.71428571428571,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 284,
+      "position": 75200,
+      "score": 92.01520912547528,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.01520912547528,
+      "text_preview": "وقال علي بن خالد : بت ليلة على سور طرسوس، وكان بها بهلول، فركلني برجله ثم أنشأ ي"
+    },
+    {
+      "akhbar_num": 285,
+      "position": 75200,
+      "score": 78.3410138248848,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.3410138248848,
+      "text_preview": "وسئل بهلول عن رجل مات وخلف ابناً وابنة وزوجة ولم يترك من المال شيئاً، فقال: للاب"
+    },
+    {
+      "akhbar_num": 286,
+      "position": 75400,
+      "score": 84.83516483516483,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.83516483516483,
+      "text_preview": "٢٨٦ - أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا عمران موسى بن عبد الرحمن الس"
+    },
+    {
+      "akhbar_num": 287,
+      "position": 76200,
+      "score": 68.89226100151745,
+      "found": false,
+      "method": "token_set",
+      "confidence": 68.89226100151745,
+      "text_preview": "۲۸۷ كوفي. أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى بن ا"
+    },
+    {
+      "akhbar_num": 288,
+      "position": 29600,
+      "score": 80.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت الحسن بن عمران الحنظلي بهراة يقول : سم"
+    },
+    {
+      "akhbar_num": 289,
+      "position": 77600,
+      "score": 83.74384236453201,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.74384236453201,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 290,
+      "position": 77400,
+      "score": 86.07594936708861,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.07594936708861,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا الحسن علي بن محمد بن عبدالله الصفار "
+    },
+    {
+      "akhbar_num": 291,
+      "position": 77600,
+      "score": 90.9090909090909,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.9090909090909,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 292,
+      "position": 77600,
+      "score": 88.73435326842838,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.73435326842838,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو سعيد أحمد بن محمد بن رميح الزيدي"
+    },
+    {
+      "akhbar_num": 293,
+      "position": 78000,
+      "score": 62.857142857142854,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.857142857142854,
+      "text_preview": "وكان عليان مليح التشيع، فمررت به يوماً فقلت: أيهما خير أبو بكر أم علي؟ فقال: ما "
+    },
+    {
+      "akhbar_num": 294,
+      "position": 77600,
+      "score": 90.44585987261146,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.44585987261146,
+      "text_preview": "٢٩٤ - قال علي بن محمد الكناني : كان عليان المجنون بمكة فضربه الصبيان وضربه بعض ا"
+    },
+    {
+      "akhbar_num": 295,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وقال : مررت به ذات يوم فقلت له : ألا تصير إلى المنزل؟ قال : بلى . فقلت : أتعرفه "
+    },
+    {
+      "akhbar_num": 296,
+      "position": 84000,
+      "score": 60.93366093366093,
+      "found": false,
+      "method": "token_set",
+      "confidence": 60.93366093366093,
+      "text_preview": "قال : وقال أبي : لقيت عليان يوماً ومعي قَسْبُ عَنبر قد اشتريته لأمي فقلت: يا أبا"
+    },
+    {
+      "akhbar_num": 297,
+      "position": 1800,
+      "score": 64.60176991150442,
+      "found": false,
+      "method": "token_set",
+      "confidence": 64.60176991150442,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: أخب"
+    },
+    {
+      "akhbar_num": 298,
+      "position": 78000,
+      "score": 86.97850821744628,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.97850821744628,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : سمعت ميمون بن سهل أبا طاهر الفقيه الواسطي يق"
+    },
+    {
+      "akhbar_num": 299,
+      "position": 78200,
+      "score": 83.24324324324324,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.24324324324324,
+      "text_preview": "وقال علي بن يحيى الطائي: رأيت عليان المجنون يعدو والصبيان خلفه فقال له رجل: يا م"
+    },
+    {
+      "akhbar_num": 300,
+      "position": 78600,
+      "score": 71.53792623521224,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.53792623521224,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو جعفر محمد بن صالح الأروذي قال: ح"
+    },
+    {
+      "akhbar_num": 301,
+      "position": 80000,
+      "score": 87.93185044959773,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.93185044959773,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الحسن محمد بن الحسن الحاكم ببوشنج "
+    },
+    {
+      "akhbar_num": 302,
+      "position": 80800,
+      "score": 83.06264501160092,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.06264501160092,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو سهل محمد بن محمد بن الأشعث الطالقا"
+    },
+    {
+      "akhbar_num": 303,
+      "position": 82000,
+      "score": 84.03755868544602,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.03755868544602,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: حدث"
+    },
+    {
+      "akhbar_num": 304,
+      "position": 81400,
+      "score": 93.4010152284264,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.4010152284264,
+      "text_preview": "وحكى أبو جعفر السياح القزويني قال: لقيت عليان يوم العيد على شدة شوقي إليه وقد قص"
+    },
+    {
+      "akhbar_num": 305,
+      "position": 82600,
+      "score": 89.62386511024643,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.62386511024643,
+      "text_preview": "وقال أبو علي السيرواني اشتقت إلى عليان لما كان يبلغني عنه فدخلت الكوفة في طلبه ف"
+    },
+    {
+      "akhbar_num": 306,
+      "position": 82600,
+      "score": 90.69767441860465,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.69767441860465,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبدالله بن شبيب "
+    },
+    {
+      "akhbar_num": 307,
+      "position": 83400,
+      "score": 81.43459915611814,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.43459915611814,
+      "text_preview": "۳۰۷ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : أخبرنا أحمد بن"
+    },
+    {
+      "akhbar_num": 308,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۳۰۸ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى بن الحصين"
+    },
+    {
+      "akhbar_num": 309,
+      "position": 84200,
+      "score": 85.46731496488384,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.46731496488384,
+      "text_preview": "كوفي . أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : أخبرنا أبو عوا"
+    },
+    {
+      "akhbar_num": 310,
+      "position": 85000,
+      "score": 91.30775254502741,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.30775254502741,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 311,
+      "position": 1200,
+      "score": 71.62162162162161,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.62162162162161,
+      "text_preview": "۳۱۱ أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو عبدالله بن شبيب قال: حدثنا أحمد"
+    },
+    {
+      "akhbar_num": 312,
+      "position": 85200,
+      "score": 82.25255972696246,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.25255972696246,
+      "text_preview": "كوفي أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة "
+    },
+    {
+      "akhbar_num": 313,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "قال محمد بن عبدالرحمن قال أبي وقلت له يوماً : أما ترى عجوزك قد كبرت وضعفت وقرب أ"
+    },
+    {
+      "akhbar_num": 314,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو موسى قال: حدثنا أبو عوانة قال: حدثن"
+    },
+    {
+      "akhbar_num": 315,
+      "position": 85400,
+      "score": 75.70093457943925,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.70093457943925,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو عبدالله محمد بن عبيد الله الجرجاني"
+    },
+    {
+      "akhbar_num": 316,
+      "position": 26400,
+      "score": 67.55852842809364,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.55852842809364,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا القاسم عبيد الله بن المأمون بهراة "
+    },
+    {
+      "akhbar_num": 317,
+      "position": 86400,
+      "score": 73.35243553008596,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.35243553008596,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن صالح المعافري قا"
+    },
+    {
+      "akhbar_num": 318,
+      "position": 86400,
+      "score": 72.91428571428571,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.91428571428571,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو عبد الله بن شبيب قال : أخبرني أحمد"
+    },
+    {
+      "akhbar_num": 319,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 320,
+      "position": 86400,
+      "score": 78.29181494661921,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.29181494661921,
+      "text_preview": "۳۲۰ أخبرنا محمد قال : أخبرنا الحسن قال : حدثني أبي رحمه الله قال : حدثنا إبراهيم"
+    },
+    {
+      "akhbar_num": 321,
+      "position": 87200,
+      "score": 78.38541666666667,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.38541666666667,
+      "text_preview": "۳۲۱- بصري . أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو"
+    },
+    {
+      "akhbar_num": 322,
+      "position": 87600,
+      "score": 88.18342151675485,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.18342151675485,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو عبدالله شبيب قال: حدثنا لقمان قال:"
+    },
+    {
+      "akhbar_num": 323,
+      "position": 88200,
+      "score": 93.55797819623389,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.55797819623389,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 324,
+      "position": 89000,
+      "score": 89.65517241379311,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.65517241379311,
+      "text_preview": "٣٢٤ وقال محمد بن عبد الرحمن قال لي سعيد بن عامر : كان الجعفر بن سليمان جارية يقا"
+    },
+    {
+      "akhbar_num": 325,
+      "position": 89000,
+      "score": 82.5,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.5,
+      "text_preview": "٣٢٥ بغدادي أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو عبد الله بن شبيب قال :"
+    },
+    {
+      "akhbar_num": 326,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن عبدالله قال : حدثنا أحمد بن "
+    },
+    {
+      "akhbar_num": 327,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا أحمد بن لقم"
+    },
+    {
+      "akhbar_num": 328,
+      "position": 90600,
+      "score": 77.94830371567043,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.94830371567043,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو إسحاق إبراهيم بن محمد بن بسام الطو"
+    },
+    {
+      "akhbar_num": 329,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني علي بن محمد بن عبد الله الصفار والسرخسي لجعيفران: ما خالد لأبيه ولا شبيه\n"
+    },
+    {
+      "akhbar_num": 330,
+      "position": 91600,
+      "score": 88.69565217391305,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.69565217391305,
+      "text_preview": "وأنشدت له:\n\n لا تزوج فتهلكا حذرك اليوم حذركا\n\nإن للعرس فرحة غبها يورث البكا\n\nلا "
+    },
+    {
+      "akhbar_num": 331,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو بكر أحمد بن إسحاق بن إبراهيم الأ"
+    },
+    {
+      "akhbar_num": 332,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو عبد الله بن شبّب قال : حدثنا أحمد"
+    },
+    {
+      "akhbar_num": 333,
+      "position": 24400,
+      "score": 67.00507614213197,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.00507614213197,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو محمد أحمد بن محمد بن إسحاق الجيرنجي"
+    },
+    {
+      "akhbar_num": 334,
+      "position": 91600,
+      "score": 79.11646586345381,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.11646586345381,
+      "text_preview": "٣٣٤ أخبرنا محمد قال : أخبرنا الحسن قال: أخبرنا أبو منصور مهلهل بن علي العنزي قال"
+    },
+    {
+      "akhbar_num": 335,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل أحمد بن محمد بن حمدون الفقيه"
+    },
+    {
+      "akhbar_num": 336,
+      "position": 91600,
+      "score": 85.26522593320236,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.26522593320236,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو نصر أحمد بن محمد بن ملحان البصري ق"
+    },
+    {
+      "akhbar_num": 337,
+      "position": 91400,
+      "score": 91.66666666666667,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.66666666666667,
+      "text_preview": "قال : وأُنشدت له : يا واعد الوعد ليس يُنجزه\nأفٌ لمن لا يُتم ما وعدا\nأفٌ لمن لا ي"
+    },
+    {
+      "akhbar_num": 338,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "ولجعيفران : بين السماح وعون فرق كثير وبون\nللجود حاتم طي وحاتم البخل عون\nمطابخ بي"
+    },
+    {
+      "akhbar_num": 339,
+      "position": 91600,
+      "score": 90.5982905982906,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.5982905982906,
+      "text_preview": "وله في أبي الرازي : لا تيأسنْ إن كنت ذا فاقةٍ بعد أبي الرازي من الرزق\nبينا الفتى"
+    },
+    {
+      "akhbar_num": 340,
+      "position": 91600,
+      "score": 88.88888888888889,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.88888888888889,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 341,
+      "position": 92800,
+      "score": 86.29032258064517,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.29032258064517,
+      "text_preview": "٣٤١ كوفي . أخبرنا محمد قال: أخبرنا الحسن قال : حدثنا أبو موسى عمران بن موسى بن ا"
+    },
+    {
+      "akhbar_num": 342,
+      "position": 1200,
+      "score": 73.5632183908046,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.5632183908046,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن عبدالله بن شبيب قال : حدثنا "
+    },
+    {
+      "akhbar_num": 343,
+      "position": 17600,
+      "score": 71.875,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.875,
+      "text_preview": "٣٤٣ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا عبدالله بن علي بن إسماعيل البغوي"
+    },
+    {
+      "akhbar_num": 344,
+      "position": 92600,
+      "score": 85.85858585858585,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.85858585858585,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن عبدالله بن شبيب قال : أخبرني"
+    },
+    {
+      "akhbar_num": 345,
+      "position": 93200,
+      "score": 85.03468780971258,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.03468780971258,
+      "text_preview": "٣٤٥ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة ق"
+    },
+    {
+      "akhbar_num": 346,
+      "position": 94000,
+      "score": 83.27702702702703,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.27702702702703,
+      "text_preview": "٣٤٦ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا محمد بن عبدالله بن شبيب قال : حد"
+    },
+    {
+      "akhbar_num": 347,
+      "position": 94000,
+      "score": 89.1891891891892,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.1891891891892,
+      "text_preview": "٣٤٧ قال أيضاً: ومر بي وأنا أتنقل في صحن المسجد، فصحت به ليعطف علي فقال: أَقبل عل"
+    },
+    {
+      "akhbar_num": 348,
+      "position": 2000,
+      "score": 91.156462585034,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.156462585034,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا محمد بن الحسين "
+    },
+    {
+      "akhbar_num": 349,
+      "position": 95800,
+      "score": 87.04663212435233,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.04663212435233,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال : "
+    },
+    {
+      "akhbar_num": 350,
+      "position": 95800,
+      "score": 92.9957805907173,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.9957805907173,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 351,
+      "position": 97200,
+      "score": 86.65850673194615,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.65850673194615,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 352,
+      "position": 96800,
+      "score": 91.7941585535466,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.7941585535466,
+      "text_preview": "وبهذا قال ابن أبي فديك : كان أبو نصر يخرج كل جمعة، فيدخل السوق مما يلي الثنية، ف"
+    },
+    {
+      "akhbar_num": 353,
+      "position": 98600,
+      "score": 79.71095052807115,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.71095052807115,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو القاسم منصور بن العباس بن منصور ال"
+    },
+    {
+      "akhbar_num": 354,
+      "position": 98200,
+      "score": 85.4368932038835,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.4368932038835,
+      "text_preview": "٣٥٤ - وبهذا قال عطاء : ومررتُ به يوماً في مقابر البصرة وهو واقف على قبر يخاطبه ف"
+    },
+    {
+      "akhbar_num": 355,
+      "position": 98400,
+      "score": 85.90163934426229,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.90163934426229,
+      "text_preview": "٣٥٥ وبهذا قال عطاء ومررت فقلت: كيف أصبحت يا حيان؟ فقال : ذات يوم في بعض أزقة الب"
+    },
+    {
+      "akhbar_num": 356,
+      "position": 100200,
+      "score": 82.61199696279422,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.61199696279422,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى بن الحصين قال "
+    },
+    {
+      "akhbar_num": 357,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 358,
+      "position": 99400,
+      "score": 84.12017167381974,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.12017167381974,
+      "text_preview": "وبهذا قال بشر بن أبي قبيصة : دخل عليه شعيب بن مخلد الدهان فقال له : يا همام ما ه"
+    },
+    {
+      "akhbar_num": 359,
+      "position": 100800,
+      "score": 77.97356828193833,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.97356828193833,
+      "text_preview": "٣٥٩ قال بشر : واجتمعنا يوماً فقلنا له : أي شيء تأمر في سهمك من ميراثك عن أبيك؟ ق"
+    },
+    {
+      "akhbar_num": 360,
+      "position": 25400,
+      "score": 63.507109004739334,
+      "found": false,
+      "method": "token_set",
+      "confidence": 63.507109004739334,
+      "text_preview": "٣٦٠ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الفرج أحمد بن محمد بن دينار "
+    },
+    {
+      "akhbar_num": 361,
+      "position": 100600,
+      "score": 81.15015974440894,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.15015974440894,
+      "text_preview": "٣٦١ مقدسي. أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا الفضل نصر بن أبي نصر العط"
+    },
+    {
+      "akhbar_num": 362,
+      "position": 36000,
+      "score": 74.76635514018692,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.76635514018692,
+      "text_preview": "٣٦٢ قال نصر : وسمعت عبيد الله يقول : سمعت جعيلا يقول : من عرف الله سار، ومن سار "
+    },
+    {
+      "akhbar_num": 363,
+      "position": 100000,
+      "score": 85.49618320610688,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.49618320610688,
+      "text_preview": "قال : وسمعت عبد الله بن عبدالعزيز الصوفي بجرجان يقول : سمعت جعفر بن عبد القادر ا"
+    },
+    {
+      "akhbar_num": 364,
+      "position": 101600,
+      "score": 89.88095238095238,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.88095238095238,
+      "text_preview": "٣٦٤ وسمعت عبد الله يقول : سمعت جعفراً يقول : طلبت جعيلاً ذات يوم فإذا به في بعض "
+    },
+    {
+      "akhbar_num": 365,
+      "position": 100200,
+      "score": 78.35051546391753,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.35051546391753,
+      "text_preview": "٣٦٥ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفضل العطار يقول : سمعت عبيد "
+    },
+    {
+      "akhbar_num": 366,
+      "position": 101800,
+      "score": 87.60529482551144,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.60529482551144,
+      "text_preview": "حيري. أخبرنا محمد قال: أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى قال : حد"
+    },
+    {
+      "akhbar_num": 367,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٣٦٧ بصري. أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوان"
+    },
+    {
+      "akhbar_num": 368,
+      "position": 101800,
+      "score": 89.03394255874673,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.03394255874673,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: أخب"
+    },
+    {
+      "akhbar_num": 369,
+      "position": 102200,
+      "score": 79.59183673469389,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.59183673469389,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : أخبرنا أبو عوانة قال "
+    },
+    {
+      "akhbar_num": 370,
+      "position": 33800,
+      "score": 67.3992673992674,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.3992673992674,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 371,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: حدثنا أبو علي قال: حدثنا محمد قال: حدث"
+    },
+    {
+      "akhbar_num": 372,
+      "position": 103200,
+      "score": 72.65170407315046,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.65170407315046,
+      "text_preview": "أخبرنا أبو موسى : قال أبو عوانة قال : حدثنا أبو علي قال : حدثنا محمد بن الحسين ع"
+    },
+    {
+      "akhbar_num": 373,
+      "position": 23400,
+      "score": 74.10071942446044,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.10071942446044,
+      "text_preview": "۳۷۳ أخبرنا أبو موسى قال : حدثنا أبو عوانة قال: حدثنا أبو علي قال : حدثنا محمد عن"
+    },
+    {
+      "akhbar_num": 374,
+      "position": 102600,
+      "score": 98.59719438877755,
+      "found": true,
+      "method": "token_set",
+      "confidence": 98.59719438877755,
+      "text_preview": "قال عثمان : وقلت له يوماً : يا سلمة ادع الله لي . فقال : أستعيذ بالله من الشيطان"
+    },
+    {
+      "akhbar_num": 375,
+      "position": 104200,
+      "score": 69.97455470737913,
+      "found": false,
+      "method": "token_set",
+      "confidence": 69.97455470737913,
+      "text_preview": "أخبرنا أبو موسى قال : حدثنا أبو عوانة قال : حدثنا أبو علي قال : حدثنا محمد بن إس"
+    },
+    {
+      "akhbar_num": 376,
+      "position": 104000,
+      "score": 86.09865470852017,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.09865470852017,
+      "text_preview": "أخبرنا أبو موسى قال : حدثنا أبو عوانة قال : حدثنا أبو علي قال : حدثنا محمد قال :"
+    },
+    {
+      "akhbar_num": 377,
+      "position": 104200,
+      "score": 78.92720306513411,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.92720306513411,
+      "text_preview": "بغدادي أخبرنا أبو موسى قال : حدثنا أبو عوانة قال : حدثنا أبو علي قال : حدثنا محم"
+    },
+    {
+      "akhbar_num": 378,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۳۷۸ مدائني . سمعت أبا حاتم محمد بن حبان بن أحمد قال : سمعت أبا منصور التكريري يق"
+    },
+    {
+      "akhbar_num": 379,
+      "position": 104400,
+      "score": 82.42424242424242,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.42424242424242,
+      "text_preview": "وبلغني أن أبا جوالق ذهب ليشتري حماراً، فقال صديق له : إلى أين؟ قال: أشتري حماراً"
+    },
+    {
+      "akhbar_num": 380,
+      "position": 106200,
+      "score": 85.63899868247694,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.63899868247694,
+      "text_preview": "أخبرنا أبو عبدالله محمد بن الطيب قال : حدثنا حفص بن عمر بن حفص قال : حدثنا علي ب"
+    },
+    {
+      "akhbar_num": 381,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۳۸۱ بغدادي . أخبرنا أبو موسى قال : حدثنا أبو عوانة قال : حدثنا أبو علي قال : حدث"
+    },
+    {
+      "akhbar_num": 382,
+      "position": 106600,
+      "score": 75.37473233404711,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.37473233404711,
+      "text_preview": "سمعت أبا الفوارس حنتف بن أحمد بن حنتف الطبري برباط فراوة يقول: سمعتُ سهل بن أحمد"
+    },
+    {
+      "akhbar_num": 383,
+      "position": 106200,
+      "score": 80.72072072072072,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.72072072072072,
+      "text_preview": "موصلي أخبرنا أبو حاتم محمد بن حبان بن أحمد البستي قال : حدثنا عبدالرحمن بن إدريس"
+    },
+    {
+      "akhbar_num": 384,
+      "position": 105400,
+      "score": 78.48101265822785,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.48101265822785,
+      "text_preview": "٣٨٤ قال نعيم : ورأيته في مقابر الموصل ذات يوم واقفاً على قبر وهو يقول : حَسْبُ ا"
+    },
+    {
+      "akhbar_num": 385,
+      "position": 105600,
+      "score": 77.25631768953069,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.25631768953069,
+      "text_preview": "٣٨٥ قال نعيم : وكان يأنس بي في الأحايين فأطعمه ما يشتهيه، فتشهى علي ذات يوم أرزا"
+    },
+    {
+      "akhbar_num": 386,
+      "position": 105600,
+      "score": 82.41758241758242,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.41758241758242,
+      "text_preview": "٣٨٦ قال : وكان عندي ذات ليلة، فلما أراد الخروج هبت ريح شديدة، فقال : يا غلام، ها"
+    },
+    {
+      "akhbar_num": 387,
+      "position": 106600,
+      "score": 83.69829683698296,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.69829683698296,
+      "text_preview": "حدثنا أبو القاسم قال: سمعت أبا بكر محمد بن عبدالله بن محمد الحفيد قال: سمعت جدي "
+    },
+    {
+      "akhbar_num": 388,
+      "position": 106400,
+      "score": 93.7062937062937,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.7062937062937,
+      "text_preview": "۳۸۸ وحكي لي عن أحمد بن إبراهيم الدورقي قال : كان ولهان مهيباً يهابه كل من رآه من"
+    },
+    {
+      "akhbar_num": 389,
+      "position": 106800,
+      "score": 80.95238095238095,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.95238095238095,
+      "text_preview": "بصري. أخبرنا محمد بن الطيب قال : حدثنا حفص بن عمر قال: حدثنا علي بن عبد الحميد ق"
+    },
+    {
+      "akhbar_num": 390,
+      "position": 106800,
+      "score": 95.67901234567901,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.67901234567901,
+      "text_preview": "۳۹۰ حدثنا محمد قال: حدثنا حفص قال: حدثنا علي بن إبراهيم قال: حدثنا بكار بن علي ق"
+    },
+    {
+      "akhbar_num": 391,
+      "position": 107000,
+      "score": 72.02295552367289,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.02295552367289,
+      "text_preview": "بصري . حدثنا أبو الهيثم جميل بن أحمد القهستاني قال : حدثنا إسحاق بن السري بن بهل"
+    },
+    {
+      "akhbar_num": 392,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۳۹۲ بصري. سمعت أبا الحسن محمد بن الحسين الحاكم الجرجاني ببوشنج يقول : سمعت إبراه"
+    },
+    {
+      "akhbar_num": 393,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "۳۹۳ سمعت أبا نصر منصور بن عبدالله الأصبهاني بهراة قال : سمعت أبا بكر القحطبي يقو"
+    },
+    {
+      "akhbar_num": 394,
+      "position": 28600,
+      "score": 76.07361963190183,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.07361963190183,
+      "text_preview": "سمعت أبا الحسن الحاكم قال : سمعت إبراهيم بن فاتك يقول: قلت لسمنون : كيف كنت البا"
+    },
+    {
+      "akhbar_num": 395,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وسمعت الحاكم قال : سمعت إبراهيم يقول: سمعت سمنون يقول كان رجل من العباد فوق سطح "
+    },
+    {
+      "akhbar_num": 396,
+      "position": 107200,
+      "score": 91.85185185185185,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.85185185185185,
+      "text_preview": "قال ابن فاتك قلت لسمنون: أي منزل إذا قام به العبد قام مقام العباد؟ قال: إذا ترك "
+    },
+    {
+      "akhbar_num": 397,
+      "position": 107400,
+      "score": 91.6030534351145,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.6030534351145,
+      "text_preview": "سمعت الحاكم قال : إبراهيم بن فاتك يقول: سألت سمنون عن المحبة فقال : عن محبة الله"
+    },
+    {
+      "akhbar_num": 398,
+      "position": 21800,
+      "score": 71.23287671232876,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.23287671232876,
+      "text_preview": "قال إبراهيم: وسألته عن القرب فقال: ارتفاع المسافة."
+    },
+    {
+      "akhbar_num": 399,
+      "position": 109200,
+      "score": 74.54545454545455,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.54545454545455,
+      "text_preview": "أنشدنا الحاكم قال : أنشدنا إبراهيم قال : أنشدنا سمنون : أُكْثِرُ الذِّكْرَ لا لأ"
+    },
+    {
+      "akhbar_num": 400,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدنا أبو نصر منصور بن عبدالله الأصبهاني قال: أنشدنا محمد بن علي الكتاني بمكة ق"
+    },
+    {
+      "akhbar_num": 401,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٠١ - سمعت الحاكم أبا الحسن قال : سمعت إبراهيم بن فاتك يقول : سمعت سمنون يقول : "
+    },
+    {
+      "akhbar_num": 402,
+      "position": 107800,
+      "score": 72.1311475409836,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.1311475409836,
+      "text_preview": "حدثني أبو عبد الله محمد بن صالح المعافري الأندلسي قال: حدثنا ليث بن السري الصوفي"
+    },
+    {
+      "akhbar_num": 403,
+      "position": 108000,
+      "score": 84.92307692307692,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.92307692307692,
+      "text_preview": "أخبرنا الحاكم قال: سمعت إبراهيم بن فاتك يقول: أنشدني روحي إليك بكلها قد أجمعت لو"
+    },
+    {
+      "akhbar_num": 404,
+      "position": 108000,
+      "score": 82.57575757575758,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.57575757575758,
+      "text_preview": "أنشدنا الحاكم قال: أنشدنا ابن فاتك قال: أنشدنا سمنون: لطائفُ بِرِّكَ ما تنقضي وط"
+    },
+    {
+      "akhbar_num": 405,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وأنشدنا الحاكم قال : أنشدنا إبراهيم قال : أنشدنا سمنون : صار قلبا\nعجبتُ من قَلْب"
+    },
+    {
+      "akhbar_num": 406,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدنا الحاكم قال : أنشدنا إبراهيم قال : أنشدنا سمنون : لقد وضح الطريق إليك حقاً"
+    },
+    {
+      "akhbar_num": 407,
+      "position": 140600,
+      "score": 66.93548387096774,
+      "found": false,
+      "method": "token_set",
+      "confidence": 66.93548387096774,
+      "text_preview": "سمعت أبا نصر منصور بن عبدالله يقول : سمعت أبا الحسن بن زرعان يقول : كنت عند سمنو"
+    },
+    {
+      "akhbar_num": 408,
+      "position": 108200,
+      "score": 76.81159420289855,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.81159420289855,
+      "text_preview": "٤٠٨- سمعت أبا علي الزنجاني الصوفي يقول: سمعت أبا أحمد الخباز الصوفي يقول: سمعت س"
+    },
+    {
+      "akhbar_num": 409,
+      "position": 109200,
+      "score": 84.33734939759036,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.33734939759036,
+      "text_preview": "أنشدني الحاكم قال : أنشدنا إبراهيم بن فاتك لسمنون : أُجِلُّك أن أسكو الهوى فيك إ"
+    },
+    {
+      "akhbar_num": 410,
+      "position": 131200,
+      "score": 66.66666666666666,
+      "found": false,
+      "method": "token_set",
+      "confidence": 66.66666666666666,
+      "text_preview": "سمعت الحاكم يقول: سمعت إبراهيم يقول: سمعت سمنوناً يقول: إني أذكر مجيء الناس إلي "
+    },
+    {
+      "akhbar_num": 411,
+      "position": 108400,
+      "score": 82.84518828451883,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.84518828451883,
+      "text_preview": "٤١١ سمعت الحاكم يقول : سمعت إبراهيم يقول : سُئل سمنون : أي الطعام أشهى ؟ قال : ل"
+    },
+    {
+      "akhbar_num": 412,
+      "position": 24600,
+      "score": 65.49707602339181,
+      "found": false,
+      "method": "token_set",
+      "confidence": 65.49707602339181,
+      "text_preview": "سمعت أبا سعيد محمد بن جعفر الصوفي الهروي يقول: سمعت محمد بن علي القراطيسي يقول: "
+    },
+    {
+      "akhbar_num": 413,
+      "position": 109200,
+      "score": 86.22222222222223,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.22222222222223,
+      "text_preview": "٤١٣ أنشدني الحاكم قال: أنشدني إبراهيم بن فاتك لسمنون: حرام على قلب تحرّم بالهوى "
+    },
+    {
+      "akhbar_num": 414,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت محمد بن علي بن محمد بن حاتم الرازي الصوفي يقول: سمعت أحمد بن علي الدمشقي يق"
+    },
+    {
+      "akhbar_num": 415,
+      "position": 108600,
+      "score": 72.58064516129032,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.58064516129032,
+      "text_preview": "٤١٥ سمعت محمد بن علي يقول : سمعت الدمشقي يقول: سألت سمنون: ما علامة من بقي له رب"
+    },
+    {
+      "akhbar_num": 416,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤١٦ أنشدنا الحاكم قال : أنشدنا ابن فاتك لسمنون : وكم أداوي لسقم لا شفاء له سقامَ"
+    },
+    {
+      "akhbar_num": 417,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤١٧ سمعت منصور بن عبدالله قال : سمعت أبا عمر الدمشقي يقول : سمعت سمنون يقول : إذ"
+    },
+    {
+      "akhbar_num": 418,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني الحاكم قال : أنشدني ابن فاتك لسمنون : تبادر تني حتى إذا ما تبادرت معانيك "
+    },
+    {
+      "akhbar_num": 419,
+      "position": 108600,
+      "score": 67.5925925925926,
+      "found": false,
+      "method": "token_set",
+      "confidence": 67.5925925925926,
+      "text_preview": "سمعت محمد بن أحمد بن الحارث المقرىء بمرو يقول : سمعت أبا بكر القحطبي يقول : سمعت"
+    },
+    {
+      "akhbar_num": 420,
+      "position": 1000,
+      "score": 62.56983240223464,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.56983240223464,
+      "text_preview": "سمعت أبا ذر الترمذي يقول : سمعت أحمد بن علي الدمشقي يقول : سألت سمنون عن الصبر ف"
+    },
+    {
+      "akhbar_num": 421,
+      "position": 108800,
+      "score": 81.81818181818181,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.81818181818181,
+      "text_preview": "وسمعت أبا ذر يقول: سمعت الدمشقي يقول: سمعت سمنون يقول: رأيت إبليس في المنام لا أ"
+    },
+    {
+      "akhbar_num": 422,
+      "position": 110000,
+      "score": 79.02439024390245,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.02439024390245,
+      "text_preview": "أنشدنا أبو ذر قال : أنشدنا الدمشقي السمنون : بين المحبين سر ليس يُفشيه قول ولا ق"
+    },
+    {
+      "akhbar_num": 423,
+      "position": 110400,
+      "score": 77.53623188405797,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.53623188405797,
+      "text_preview": "٤٢٣- سمعت أبا عبدالله محمد بن عبيد الله الشاشي يقول : سمعت عبيد بن بحر يقول : قا"
+    },
+    {
+      "akhbar_num": 424,
+      "position": 18800,
+      "score": 63.73626373626374,
+      "found": false,
+      "method": "token_set",
+      "confidence": 63.73626373626374,
+      "text_preview": "٤٢٤- سمعت أبا الحسن الحاكم يقول : سمعت ابن فاتك يقول : سألت سمنوناً عن قوله جل ذ"
+    },
+    {
+      "akhbar_num": 425,
+      "position": 110400,
+      "score": 78.74015748031496,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.74015748031496,
+      "text_preview": "سمعت أبا عبدالله محمد بن عبيد الله الشاشي يقول : سمعت عبيد بن بحر يقول: سألت سمن"
+    },
+    {
+      "akhbar_num": 426,
+      "position": 110000,
+      "score": 92.722371967655,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.722371967655,
+      "text_preview": "٤٢٦- سمعت محمد بن الحسين الحاكم يقول: سمعت إبراهيم بن فاتك يقول : سئل سمنون عن م"
+    },
+    {
+      "akhbar_num": 427,
+      "position": 110600,
+      "score": 94.44444444444444,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.44444444444444,
+      "text_preview": "٤٢٧ أنشدنا الحاكم قال : أنشدنا ابن فاتك قال : أنشدنا سمنون : لئن أمسيت في ثوبي ع"
+    },
+    {
+      "akhbar_num": 428,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت منصور بن عبد الله يقول : سمعت أبا بكر القحطبي يقول : سمعت سمنون يقول : رؤية"
+    },
+    {
+      "akhbar_num": 429,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٢٩- سمعت أبا ذر الترمذي يقول : سمعت أحمد بن علي الدمشقي يقول : سمعت سمنون يقول "
+    },
+    {
+      "akhbar_num": 430,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت أبا عبدالله الوليد بن أحمد الهمذاني يقول : سئل سمنون عن المحبة فقال : ما خل"
+    },
+    {
+      "akhbar_num": 431,
+      "position": 111400,
+      "score": 69.93006993006993,
+      "found": false,
+      "method": "token_set",
+      "confidence": 69.93006993006993,
+      "text_preview": "سمعت عمرو بن محمد بن سعيد الكرجي قال : سمعت أبا عمر محمد بن عبدالواحد اللغوي غلا"
+    },
+    {
+      "akhbar_num": 432,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت أبا القاسم النصراباذي يقول: حكي لي عن سمنون أنه قال: أول وصال العبد للحق هج"
+    },
+    {
+      "akhbar_num": 433,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني أبو الطيب طاهر بن أحمد المرزبان الصوفي بمرو الروذ لسمنون : قد بان بَيْنِي"
+    },
+    {
+      "akhbar_num": 434,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدني الوليد بن أحمد الهمذاني قال : أنشدني أبو عمر الزاهد قال : أنشدني سمنون : "
+    },
+    {
+      "akhbar_num": 435,
+      "position": 110000,
+      "score": 79.65116279069767,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.65116279069767,
+      "text_preview": "٤٣٥ أنشدنا أبو نصر منصور بن عبدالله الأصبهاني قال : أنشدنا أبو بكر بن طاهر لسمنو"
+    },
+    {
+      "akhbar_num": 436,
+      "position": 110600,
+      "score": 85.71428571428571,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.71428571428571,
+      "text_preview": "أنشدنا الحاكم قال: أنشدنا ابن فاتك قال: أنشدنا سمنون: أفسدتني بهواك بل أصلَحْتَن"
+    },
+    {
+      "akhbar_num": 437,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٣٧ قال : وكان سمنون يدخل كل يوم السجن والمقابر ودار المرضى ويقول لنفسه : لو كنت"
+    },
+    {
+      "akhbar_num": 438,
+      "position": 111800,
+      "score": 89.31216931216932,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.31216931216932,
+      "text_preview": "حمصي. سمعت أبا عبدالله محمد بن عبيد الله الجرجاني يقول: سمعت عمر بن محمد بن حمزة"
+    },
+    {
+      "akhbar_num": 439,
+      "position": 111800,
+      "score": 79.36507936507937,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.36507936507937,
+      "text_preview": "أخبرنا أبو القاسم عبدالعزيز بن محمد بن النضر الفهري قال : أخبرني مدرك بن عمرو ال"
+    },
+    {
+      "akhbar_num": 440,
+      "position": 111400,
+      "score": 86.42857142857143,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.42857142857143,
+      "text_preview": "٤٤٠ - مكي. أخبرنا عبد العزيز بن محمد قال: أخبرني محمد بن المغيرة بمكة قال : وقف "
+    },
+    {
+      "akhbar_num": 441,
+      "position": 111800,
+      "score": 77.51937984496124,
+      "found": true,
+      "method": "token_set",
+      "confidence": 77.51937984496124,
+      "text_preview": "٤٤١ أخبرني عبد العزيز قال : أخبرني محمد بن المغيرة بمكة قال : مر صباح بقوم قُعود"
+    },
+    {
+      "akhbar_num": 442,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت أبا الحسن علي بن عبد الرحيم القتاد يقول : مر موسى بن الزرقاء، فناداه صباح ا"
+    },
+    {
+      "akhbar_num": 443,
+      "position": 112600,
+      "score": 81.1529933481153,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.1529933481153,
+      "text_preview": "٤٤٣ - ثغري . سمعت أبا بكر محمد بن أحمد بن زياد بن عبد الخالق الأزدي الخطيب بكرما"
+    },
+    {
+      "akhbar_num": 444,
+      "position": 112000,
+      "score": 97.82608695652173,
+      "found": true,
+      "method": "token_set",
+      "confidence": 97.82608695652173,
+      "text_preview": "٤٤٤ قال الواسطي : وسمعته يقول مرة أخرى: الدنيا دار زوال وانتقال واضمحلال، والآخر"
+    },
+    {
+      "akhbar_num": 445,
+      "position": 112200,
+      "score": 91.20879120879121,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.20879120879121,
+      "text_preview": "قال : وسألته : من الحكيم ؟ قال : من لا يتعرض للعذاب الأليم. قلت : وما العذاب الأ"
+    },
+    {
+      "akhbar_num": 446,
+      "position": 112400,
+      "score": 75.99364069952306,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.99364069952306,
+      "text_preview": "٤٤٦ - واسطي . أخبرنا أبو الفضل أحمد بن محمد بن حمدون الفقيه بشرمقان نيسا يقول: س"
+    },
+    {
+      "akhbar_num": 447,
+      "position": 113000,
+      "score": 80.33898305084746,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.33898305084746,
+      "text_preview": "أخبرنا منصور بن عبدالله الأصبهاني بهراة قال : حدثنا الحسين بن كرامة قال : سمعت أ"
+    },
+    {
+      "akhbar_num": 448,
+      "position": 114200,
+      "score": 91.42567224759006,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.42567224759006,
+      "text_preview": "سمعت أبا بكر أحمد بن عبدالرحمن المروزي يقول: سمعت يعقوب بن نصر النسوي يقول: سمعت"
+    },
+    {
+      "akhbar_num": 449,
+      "position": 114200,
+      "score": 62.447257383966246,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.447257383966246,
+      "text_preview": "٤٤٩ يماني . أخبرنا أبو عبد الله محمد بن عبد الله بن محمد بن شبيب قال : أخبرنا أب"
+    },
+    {
+      "akhbar_num": 450,
+      "position": 114600,
+      "score": 85.34322820037106,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.34322820037106,
+      "text_preview": "سمعت أبا أحمد محمد بن يحيى البغوي بها يقول: سمعت عمي يقول: سمعت محمد بن قطن يقول"
+    },
+    {
+      "akhbar_num": 451,
+      "position": 116400,
+      "score": 92.744901370779,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.744901370779,
+      "text_preview": "ميمون  واسطي . قال المسيب بن شريك: بلغني أن ميموناً المجنون أدخل على الحجاج بن ي"
+    },
+    {
+      "akhbar_num": 452,
+      "position": 117200,
+      "score": 76.75070028011204,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.75070028011204,
+      "text_preview": "سمعت أبا عرابة يحيى بن المتمم الدوسي يقول: كان بدير عاقول مجنون يقال له طبرونة ف"
+    },
+    {
+      "akhbar_num": 453,
+      "position": 118000,
+      "score": 85.87319243604004,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.87319243604004,
+      "text_preview": "أخبرنا أبو علي الحسن بن أحمد الصوفي القزويني باسفراين قال : حدثنا شاذك بن جعفر ب"
+    },
+    {
+      "akhbar_num": 454,
+      "position": 117600,
+      "score": 85.64356435643565,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.64356435643565,
+      "text_preview": "٤٥٤ أخبرنا أبو علي قال : حدثنا شاذك قال : حدثنا يحيى بن سليمان قال : سمعت محمد ب"
+    },
+    {
+      "akhbar_num": 455,
+      "position": 117800,
+      "score": 81.01983002832861,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.01983002832861,
+      "text_preview": "وبهذا قال محمد بن زراد: ورأيته ذات يوم وقد أخذ بيد المتهم به، فقال له المحبوب رج"
+    },
+    {
+      "akhbar_num": 456,
+      "position": 119600,
+      "score": 76.77725118483413,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.77725118483413,
+      "text_preview": "٤٥٦ - وبهذا قال محمد : وقلت له يوماً : متى حدث بك هذا العشق قال : مذ زمان، إلا أ"
+    },
+    {
+      "akhbar_num": 457,
+      "position": 118200,
+      "score": 84.40677966101696,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.40677966101696,
+      "text_preview": "سمعت أبا الحسن علي بن أحمد القهندري بهراة يقول : سمعت سلمة بن بشر الفراء يقول : "
+    },
+    {
+      "akhbar_num": 458,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "حدثنا أبو عمران موسى بن عبدالرحمن السندي قال: حدثني محمد بن عبد العزيز الأسدي بب"
+    },
+    {
+      "akhbar_num": 459,
+      "position": 119000,
+      "score": 83.27586206896552,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.27586206896552,
+      "text_preview": "أخبرنا أبو جعفر محمد بن صالح الأوبري قال : حدثنا علي بن بدر الرملي بالرافقة قال "
+    },
+    {
+      "akhbar_num": 460,
+      "position": 121200,
+      "score": 91.74511223750905,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.74511223750905,
+      "text_preview": "٤٦٠ - بغدادي . حدثنا أبو بكر أحمد بن عبدالرحمن المروزي قال : حدثنا أبو بكر بن ال"
+    },
+    {
+      "akhbar_num": 461,
+      "position": 123000,
+      "score": 94.46064139941691,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.46064139941691,
+      "text_preview": "أنشدني أبو عبد الله محمد بن الحسين الوضاحي الماني: لما رأيتُ البدر في أفق السماء"
+    },
+    {
+      "akhbar_num": 462,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٦٢ أنشدني عبدالعزيز بن محمد بن النضر الفهري لماني: زعموا أن من تشاغل باللذات عم"
+    },
+    {
+      "akhbar_num": 463,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أنشدنا أبو عرابة يحيى بن المتمم الدوسي له : شادن وجهه من البدر أوضا\nبعضه في الجم"
+    },
+    {
+      "akhbar_num": 464,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وله : يا نسيم الريح في السَّحَر وشبيه الشمس والقمر\n\nإِنَّ مَن أَسْهَرْتَ ليلته ل"
+    },
+    {
+      "akhbar_num": 465,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وله : أنا من مَيْلِكَ في مَشْيِكَ مرعوب مُخرَّفٌ\n\nبالذي أَنْبَتَ في حدَّيْكَ ورد"
+    },
+    {
+      "akhbar_num": 466,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وله : ولقد قلتُ حين قَبَّلْتُ منه مَبْسِماً عَلَّني فُوَيْه اللثام\n\nرَبِّ إن كان"
+    },
+    {
+      "akhbar_num": 467,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "سمعت علي بن عبدالملك بن دهثم القاضي يقول: كان بطرسوس مجنون يقال له رزام، وكان مد"
+    },
+    {
+      "akhbar_num": 468,
+      "position": 123200,
+      "score": 87.9786286731968,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.9786286731968,
+      "text_preview": "مجانين الأعراب جساس - ٤٦٨ بدوي. أخبرنا أبو علي الحسن بن عمران الحنظلي بهراة قال:"
+    },
+    {
+      "akhbar_num": 469,
+      "position": 123200,
+      "score": 74.38330170777988,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.38330170777988,
+      "text_preview": "أخبرنا أبو حاتم محمد بن حبان البستي قال: حدثنا محمد بن إبراهيم الخالدي قال: حدثن"
+    },
+    {
+      "akhbar_num": 470,
+      "position": 125000,
+      "score": 79.96965098634294,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.96965098634294,
+      "text_preview": "أخبرنا أبو العباس الفضل بن سهل بن نفيس السجزي بهراة قال : حدثنا علي بن محمد بن أ"
+    },
+    {
+      "akhbar_num": 471,
+      "position": 125000,
+      "score": 75.49407114624506,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.49407114624506,
+      "text_preview": "٤٧١ أخبرنا أبو القاسم منصور بن العباس ببوشنج قال: حدثنا محمد بن عبد الرحمن الشام"
+    },
+    {
+      "akhbar_num": 472,
+      "position": 125800,
+      "score": 80.21139166177335,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.21139166177335,
+      "text_preview": "سمعت أبا الحسن عيسى بن زيد بن عيسى الفرضي المديني النسابة يقول : سمعت بشر بن موس"
+    },
+    {
+      "akhbar_num": 473,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "بدوي. سمعت أبا الحسن محمد بن محمد بن مسعود النسوي بها يقول : سمعت أبا بكر محمد ب"
+    },
+    {
+      "akhbar_num": 474,
+      "position": 127400,
+      "score": 84.070796460177,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.070796460177,
+      "text_preview": "قيسي أخبرنا أبو عبدالله بن شبيب قال : حدثنا أحمد بن لقمان قال : حدثنا عبدالعزيز "
+    },
+    {
+      "akhbar_num": 475,
+      "position": 127800,
+      "score": 83.0122591943958,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.0122591943958,
+      "text_preview": "أخبرنا أبو عبد الله محمد بن الطيب قال : حدثنا حفص بن عمر قال : حدثنا علي بن عبد "
+    },
+    {
+      "akhbar_num": 476,
+      "position": 128000,
+      "score": 78.16091954022988,
+      "found": true,
+      "method": "token_set",
+      "confidence": 78.16091954022988,
+      "text_preview": "وأخبرنا أبو عبد الله قال : حدثنا حفص قال : حدثنا علي قال : حدثنا إبراهيم عن محمد"
+    },
+    {
+      "akhbar_num": 477,
+      "position": 128000,
+      "score": 79.68337730870712,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.68337730870712,
+      "text_preview": "وأخبرنا أبو عبد الله، حدثنا حفص، حدثنا علي، حدثنا إبراهيم عن محمد بن الحسين عن م"
+    },
+    {
+      "akhbar_num": 478,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٧٨ قيل لسهل بن عبدالله : ما تقول في ريحانة؟ قال: ما أقول فيها إلا خيراً. وأنشدو"
+    },
+    {
+      "akhbar_num": 479,
+      "position": 128400,
+      "score": 61.320754716981135,
+      "found": false,
+      "method": "token_set",
+      "confidence": 61.320754716981135,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : ح"
+    },
+    {
+      "akhbar_num": 480,
+      "position": 129200,
+      "score": 76.19047619047619,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.19047619047619,
+      "text_preview": "قال فرقد السبخي : لم يكن في نساء الأبلة والبصرة أقوم بالليل من ريحانة، ولقد سمعت"
+    },
+    {
+      "akhbar_num": 481,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: حدثنا أبو عبدالله قال: حدثنا حفص قال: حدثنا ع"
+    },
+    {
+      "akhbar_num": 482,
+      "position": 128600,
+      "score": 68.70503597122303,
+      "found": false,
+      "method": "token_set",
+      "confidence": 68.70503597122303,
+      "text_preview": "٤٨٢ - أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا حفص قا"
+    },
+    {
+      "akhbar_num": 483,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : ح"
+    },
+    {
+      "akhbar_num": 484,
+      "position": 22600,
+      "score": 71.49321266968326,
+      "found": true,
+      "method": "token_set",
+      "confidence": 71.49321266968326,
+      "text_preview": "٤٨٤ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال"
+    },
+    {
+      "akhbar_num": 485,
+      "position": 128800,
+      "score": 88.02588996763754,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.02588996763754,
+      "text_preview": "وقال عبد الله بن سهل: أنشدتني ريحانة: أرى الدنيا لمن هي في يديه عذاباً كلما كثرت"
+    },
+    {
+      "akhbar_num": 486,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٨٦ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو جعفر محمد بن علي بن الطيان ا"
+    },
+    {
+      "akhbar_num": 487,
+      "position": 129800,
+      "score": 83.8340486409156,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.8340486409156,
+      "text_preview": "٤٨٧ بغدادية. أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا"
+    },
+    {
+      "akhbar_num": 488,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٨٨ أهوازية أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا "
+    },
+    {
+      "akhbar_num": 489,
+      "position": 129800,
+      "score": 76.66232073011734,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.66232073011734,
+      "text_preview": "أخبرنا محمد قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : حدثنا علي قال : حدثن"
+    },
+    {
+      "akhbar_num": 490,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "\nأخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : "
+    },
+    {
+      "akhbar_num": 491,
+      "position": 129800,
+      "score": 79.42238267148014,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.42238267148014,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا حفص قال : حد"
+    },
+    {
+      "akhbar_num": 492,
+      "position": 129400,
+      "score": 66.8896321070234,
+      "found": false,
+      "method": "token_set",
+      "confidence": 66.8896321070234,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : ح"
+    },
+    {
+      "akhbar_num": 493,
+      "position": 130800,
+      "score": 96.22166246851386,
+      "found": true,
+      "method": "token_set",
+      "confidence": 96.22166246851386,
+      "text_preview": "وبهذا قال سلام صامت حيونة حتى اسودت. فعوتبت في ذلك فرفعت طرفها نحو السماء وقالت "
+    },
+    {
+      "akhbar_num": 494,
+      "position": 129800,
+      "score": 87.89473684210526,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.89473684210526,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : ح"
+    },
+    {
+      "akhbar_num": 495,
+      "position": 130000,
+      "score": 91.11111111111111,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.11111111111111,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو عبد الله قال: حدثنا حفص قال: حدثنا"
+    },
+    {
+      "akhbar_num": 496,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٤٩٦ وقال علي بن هاشم الأبلي : دخلت الأهواز فسألت عن حيونة فقيل : في خرابات دار ا"
+    },
+    {
+      "akhbar_num": 497,
+      "position": 131200,
+      "score": 81.36094674556213,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.36094674556213,
+      "text_preview": "وبهذا قال عن محمد بن الحسين: إنه قد بلغني من حديث حيونة ما أنساني زهد الحسن ومال"
+    },
+    {
+      "akhbar_num": 498,
+      "position": 130400,
+      "score": 79.85611510791367,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.85611510791367,
+      "text_preview": "٤٩٨ وبهذا قال سلام : وكنت إذا فقدت حيونة طلبتها في المقابر . قال : فقلت لها يوما"
+    },
+    {
+      "akhbar_num": 499,
+      "position": 130600,
+      "score": 88.9655172413793,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.9655172413793,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبد الله قال : حدثنا حفص قال : ح"
+    },
+    {
+      "akhbar_num": 500,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وبهذا قال سلام : سمعتُ حيونة تقول لبعض الناس : يا بطال، ألك طاقة بكلام مالك، وهو"
+    },
+    {
+      "akhbar_num": 501,
+      "position": 160800,
+      "score": 64.7887323943662,
+      "found": false,
+      "method": "token_set",
+      "confidence": 64.7887323943662,
+      "text_preview": "وكانت إذا شهقت في بعض الأحايين يخرج من مناخرها الدم، فأقول لها : ما هذا ؟ قالت :"
+    },
+    {
+      "akhbar_num": 502,
+      "position": 130800,
+      "score": 100.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 100.0,
+      "text_preview": "قال: وكانت تقول: اللهم هب لي سكون قلبي بعقد الثقة بك، واجعل جميع خواطري واثقة بر"
+    },
+    {
+      "akhbar_num": 503,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "قال سلام : وكنت أضع الطعام بين يديها فتبكي وتقول : حبيب يحبّ حبيبه، يشتغل بالأكل"
+    },
+    {
+      "akhbar_num": 504,
+      "position": 131000,
+      "score": 80.11363636363636,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.11363636363636,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله قال : حدثنا حفص قال : حد"
+    },
+    {
+      "akhbar_num": 505,
+      "position": 131200,
+      "score": 85.53719008264463,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.53719008264463,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا عبد الله محمد بن جعفر الخاقاني يقول:"
+    },
+    {
+      "akhbar_num": 506,
+      "position": 132000,
+      "score": 79.61595273264402,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.61595273264402,
+      "text_preview": "حمصية. أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو سعيد أحمد بن محمد بن رميح"
+    },
+    {
+      "akhbar_num": 507,
+      "position": 132800,
+      "score": 82.23583460949465,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.23583460949465,
+      "text_preview": "كوفية . أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن الحصين قال"
+    },
+    {
+      "akhbar_num": 508,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا بكر محمد بن عبدالله بن محمد يقول :"
+    },
+    {
+      "akhbar_num": 509,
+      "position": 133600,
+      "score": 89.1566265060241,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.1566265060241,
+      "text_preview": "٥٠٩ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت الحاكم أبا الحسن محمد بن الحسين يق"
+    },
+    {
+      "akhbar_num": 510,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "مكية . هي ريطة بنت عُمير بن كعب بن سعد بن تيم بن مرة . وكانت تلقب بجعدة لحمقها. "
+    },
+    {
+      "akhbar_num": 511,
+      "position": 127600,
+      "score": 75.09025270758123,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.09025270758123,
+      "text_preview": "٥١١ واسطية أخبرنا أبو عبدالله محمد بن الطيب قال : حدثنا حفص قال : حدثنا علي قال "
+    },
+    {
+      "akhbar_num": 512,
+      "position": 127400,
+      "score": 85.3731343283582,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.3731343283582,
+      "text_preview": "وسمعت أبا نصر منصور بن عبدالله الأصبهاني قال : سمعت عبدالله بن أحمد الجوهري القا"
+    },
+    {
+      "akhbar_num": 513,
+      "position": 127600,
+      "score": 75.18248175182481,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.18248175182481,
+      "text_preview": "أخبرنا محمد بن الطيب قال: حدثنا حفص قال: حدثنا علي قال: حدثنا إبراهيم عن عبد الر"
+    },
+    {
+      "akhbar_num": 514,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وبهذا عن إبراهيم عن سعيد بن عبد الرحمن قال: رأيت عوسجة في خرابات واسط تبكي وتقول"
+    },
+    {
+      "akhbar_num": 515,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وبهذا عن إبراهيم عن عبدالرحمن الواسطي قال: سمعتها مرة وهي تقول: ظهر البلاء بجسمه"
+    },
+    {
+      "akhbar_num": 516,
+      "position": 127600,
+      "score": 62.76150627615063,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.76150627615063,
+      "text_preview": "وبهذا عن إبراهيم قال : سمعت إسماعيل بن ذر يقول : رأيت عوسجة حول بيت الله الحرام "
+    },
+    {
+      "akhbar_num": 517,
+      "position": 131200,
+      "score": 72.65306122448979,
+      "found": true,
+      "method": "token_set",
+      "confidence": 72.65306122448979,
+      "text_preview": "وبهذا قال إبراهيم : سمعت زيد بن الحباب يقول : رأيت عوسجة حول بيت الله وهي تقول :"
+    },
+    {
+      "akhbar_num": 518,
+      "position": 134600,
+      "score": 87.29016786570743,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.29016786570743,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الحسن محمد بن محمد بن الحسن بن ا"
+    },
+    {
+      "akhbar_num": 519,
+      "position": 135200,
+      "score": 85.83783783783784,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.83783783783784,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا بشر محمد بن عبدالله بن بشر الأصبها"
+    },
+    {
+      "akhbar_num": 520,
+      "position": 135200,
+      "score": 83.54755784061697,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.54755784061697,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا سعيد أحمد بن أحمد بن محمد بن رميح "
+    },
+    {
+      "akhbar_num": 521,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "الحسن قال : سمعت أبي رحمه الله يقول : سمعت أحمد بن محمد بن الصلت المعروف بابن شن"
+    },
+    {
+      "akhbar_num": 522,
+      "position": 136600,
+      "score": 85.4066985645933,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.4066985645933,
+      "text_preview": "الحسن قال : سمعت أبا القاسم عبد الرحمن بن المظفر الأنباري بسرخس يقول : سمعت أبا "
+    },
+    {
+      "akhbar_num": 523,
+      "position": 136400,
+      "score": 89.74358974358974,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.74358974358974,
+      "text_preview": "الحسن قال : سمعت الحاكم يقول : حدثنا الحسن محمد بن الحسين بجرجان قال: سمعت فارس "
+    },
+    {
+      "akhbar_num": 524,
+      "position": 137200,
+      "score": 79.4688457609806,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.4688457609806,
+      "text_preview": "قال المصنف: وبلغني عن المبرد أنه قال: دخلت دار المرضى فإذا أنا بشاب مقيد إلى جدا"
+    },
+    {
+      "akhbar_num": 525,
+      "position": 138400,
+      "score": 84.67374810318665,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.67374810318665,
+      "text_preview": "قال : أخبرنا أبو الحسين عبيد الله بن موسى السلامي قال : حدثنا محمد بن أحمد الدقا"
+    },
+    {
+      "akhbar_num": 526,
+      "position": 137200,
+      "score": 87.68267223382045,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.68267223382045,
+      "text_preview": "روى أهل العراق أن عطاء الخراساني كان يقاربهم في سبيل الله ، فيقوم الليل حتى إذا "
+    },
+    {
+      "akhbar_num": 527,
+      "position": 138000,
+      "score": 86.26198083067092,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.26198083067092,
+      "text_preview": "الحسن قال : سمعت الشريف أبا الحسن محمد بن علي بن الحسين بن الحسن الهمذاني يقول :"
+    },
+    {
+      "akhbar_num": 528,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "الحسن قال : حدثنا أبو علي الحسن بن أحمد بن الحناط النسوي بها قال : حدثنا محمد بن"
+    },
+    {
+      "akhbar_num": 529,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "الحسن قال : حدثنا أبو حاتم محمد بن حيان بن أحمد قال : حدثنا محمد بن الحسن بن قتي"
+    },
+    {
+      "akhbar_num": 530,
+      "position": 138200,
+      "score": 89.59183673469389,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.59183673469389,
+      "text_preview": "الحسن قال : كتب إلي جعفر بن محمد بن نصير الخُلدي أن أبا العباس أحمد بن يحيى حدثه"
+    },
+    {
+      "akhbar_num": 531,
+      "position": 140000,
+      "score": 73.17880794701986,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.17880794701986,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الحسين عبدالله بن موسى السلامي ب"
+    },
+    {
+      "akhbar_num": 532,
+      "position": 140000,
+      "score": 86.66666666666667,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.66666666666667,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : أخبرنا أبو الحسن محمد بن محمد الكارزي قراءةً "
+    },
+    {
+      "akhbar_num": 533,
+      "position": 140000,
+      "score": 88.60759493670886,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.60759493670886,
+      "text_preview": "حدثنا محمد قال: أخبرنا الحسن قال: سمعت محمد بن سليمان بن منصور يقول: سمعت علي بن"
+    },
+    {
+      "akhbar_num": 534,
+      "position": 139200,
+      "score": 83.1234256926952,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.1234256926952,
+      "text_preview": "حدثنا محمد قال: حدثنا الحسن قال: حدثنا أبو إسحاق إبراهيم بن أحمد بن سليمان بن عب"
+    },
+    {
+      "akhbar_num": 535,
+      "position": 140000,
+      "score": 91.37254901960785,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.37254901960785,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا الحسن علي بن عبدالرحيم القناد بمرو ا"
+    },
+    {
+      "akhbar_num": 536,
+      "position": 140000,
+      "score": 91.183879093199,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.183879093199,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : حدثنا أبو عمرو المعتز بن محمد بن الفضل القاضي"
+    },
+    {
+      "akhbar_num": 537,
+      "position": 140200,
+      "score": 90.5940594059406,
+      "found": true,
+      "method": "token_set",
+      "confidence": 90.5940594059406,
+      "text_preview": "٥٣٧ حدثنا محمد قال : حدثنا الحسن قال: سمعت أبا عبدالله بن محمد بن جعفر الطبيب ال"
+    },
+    {
+      "akhbar_num": 538,
+      "position": 140400,
+      "score": 94.22632794457274,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.22632794457274,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا منصور مهلهل بن علي العنزي يقول : كان"
+    },
+    {
+      "akhbar_num": 539,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٥٣٩ = حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا محمد الحسن بن صالح بن عُجيف ال"
+    },
+    {
+      "akhbar_num": 540,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا نصر أحمد بن محمد بن ملحان البصري يقو"
+    },
+    {
+      "akhbar_num": 541,
+      "position": 141600,
+      "score": 80.30303030303031,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.30303030303031,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا موسی عمران بن موسى بن الحصين يقول : "
+    },
+    {
+      "akhbar_num": 542,
+      "position": 141400,
+      "score": 81.13017154389506,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.13017154389506,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : سمعت أبا الفوارس حنتف بن أحمد بن أحمد بن حنتف"
+    },
+    {
+      "akhbar_num": 543,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "حدثنا محمد قال: حدثنا الحسن قال: سمعت أبا جعفر محمد بن علي بن الطيان القمي يقول:"
+    },
+    {
+      "akhbar_num": 544,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "حدثنا محمد قال : حدثنا الحسن قال : حدثنا ثمل بن عبدالله بن محمد الطرسوسي المعروف"
+    },
+    {
+      "akhbar_num": 545,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الفضل نصر بن أبي نصر العطار بطوس"
+    },
+    {
+      "akhbar_num": 546,
+      "position": 141400,
+      "score": 76.80890538033395,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.80890538033395,
+      "text_preview": "٥٤٦ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا عبدالله محمد بن عاد البغدادي ي"
+    },
+    {
+      "akhbar_num": 547,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٥٤٧ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا يعلى محمد بن أحمد بن حمدان الن"
+    },
+    {
+      "akhbar_num": 548,
+      "position": 141600,
+      "score": 82.64462809917356,
+      "found": true,
+      "method": "token_set",
+      "confidence": 82.64462809917356,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا العباس عبدالله بن محمد الحياني ببو"
+    },
+    {
+      "akhbar_num": 549,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال: سمعت أبا القاسم عبيد الله بن المأمون بن أحمد"
+    },
+    {
+      "akhbar_num": 550,
+      "position": 26000,
+      "score": 62.745098039215684,
+      "found": false,
+      "method": "token_set",
+      "confidence": 62.745098039215684,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى بن الحصين قال"
+    },
+    {
+      "akhbar_num": 551,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا منصور مهلهل بن علي العنزي يقول: سم"
+    },
+    {
+      "akhbar_num": 552,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت علي بن أحمد النسوي يقول : سمعت أبا بكر"
+    },
+    {
+      "akhbar_num": 553,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا بكر محمد بن المنذر الضرير يقول : س"
+    },
+    {
+      "akhbar_num": 554,
+      "position": 142400,
+      "score": 88.72858431018936,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.72858431018936,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: سمعت أبا محمد بن سعيد بن علي الفارسي ببخارى ي"
+    },
+    {
+      "akhbar_num": 555,
+      "position": 142800,
+      "score": 86.34361233480176,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.34361233480176,
+      "text_preview": "وحكي عن مالك بن دينار قال: مررت يوماً ببعض سكك البصرة فإذا بصبيان يرمون رجلاً با"
+    },
+    {
+      "akhbar_num": 556,
+      "position": 7400,
+      "score": 64.16184971098266,
+      "found": false,
+      "method": "token_set",
+      "confidence": 64.16184971098266,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا زكريا يحيى بن محمد بن عبد الله الع"
+    },
+    {
+      "akhbar_num": 557,
+      "position": 25800,
+      "score": 68.09651474530831,
+      "found": false,
+      "method": "token_set",
+      "confidence": 68.09651474530831,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو بكر محمد بن عبدالله بن محمد قال: س"
+    },
+    {
+      "akhbar_num": 558,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الحسن علي بن عبد الملك بن درهم الق"
+    },
+    {
+      "akhbar_num": 559,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الطيب محمد بن أحمد بن حمدون المذكر"
+    },
+    {
+      "akhbar_num": 560,
+      "position": 143000,
+      "score": 76.5873015873016,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.5873015873016,
+      "text_preview": "٥٦٠ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبد الله بن "
+    },
+    {
+      "akhbar_num": 561,
+      "position": 143200,
+      "score": 93.80530973451327,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.80530973451327,
+      "text_preview": "قال وقيل لآخر وقد بال في قميصه والناس يبكون: ما حالك؟ أيبكي الناظرون لسوء حالي\nو"
+    },
+    {
+      "akhbar_num": 562,
+      "position": 10200,
+      "score": 65.21739130434783,
+      "found": false,
+      "method": "token_set",
+      "confidence": 65.21739130434783,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبدالله بن شبيب "
+    },
+    {
+      "akhbar_num": 563,
+      "position": 138000,
+      "score": 64.53674121405751,
+      "found": false,
+      "method": "token_set",
+      "confidence": 64.53674121405751,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفرج أحمد بن محمد بن بنان النهاون"
+    },
+    {
+      "akhbar_num": 564,
+      "position": 143800,
+      "score": 85.62300319488818,
+      "found": true,
+      "method": "token_set",
+      "confidence": 85.62300319488818,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أحمد بن عمران السوادي يقول : سمعت أبا "
+    },
+    {
+      "akhbar_num": 565,
+      "position": 145200,
+      "score": 80.49359278595159,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.49359278595159,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو الفضل جعفر بن محمد بن الصديق بنس"
+    },
+    {
+      "akhbar_num": 566,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٥٦٦ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله بن شبيب قال : حدثنا "
+    },
+    {
+      "akhbar_num": 567,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا الحاكم أبو الحسن محمد بن الحسين الجر"
+    },
+    {
+      "akhbar_num": 568,
+      "position": 146600,
+      "score": 69.78818283166109,
+      "found": false,
+      "method": "token_set",
+      "confidence": 69.78818283166109,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو صابر المعلى بن أسد الواسطي قال :"
+    },
+    {
+      "akhbar_num": 569,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وقال يحيى بن سعيد : مر حوشب بمجنون من بني أسد وهو راكب قصبة والصبيان معه . فقال "
+    },
+    {
+      "akhbar_num": 570,
+      "position": 147000,
+      "score": 69.3935119887165,
+      "found": false,
+      "method": "token_set",
+      "confidence": 69.3935119887165,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا علي الحسن بن أحمد بن علي الزنجاني "
+    },
+    {
+      "akhbar_num": 571,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا حمد محمد بن محمد بن بجيد بن أحمد ي"
+    },
+    {
+      "akhbar_num": 572,
+      "position": 25600,
+      "score": 61.23348017621145,
+      "found": false,
+      "method": "token_set",
+      "confidence": 61.23348017621145,
+      "text_preview": "٥٧٢ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عبدالله بن أ"
+    },
+    {
+      "akhbar_num": 573,
+      "position": 146400,
+      "score": 86.25235404896422,
+      "found": true,
+      "method": "token_set",
+      "confidence": 86.25235404896422,
+      "text_preview": "٥٧٣ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الحسن علي بن عبد الرحيم القناد"
+    },
+    {
+      "akhbar_num": 574,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الحسن محمد بن أحمد بن الحسين الميز"
+    },
+    {
+      "akhbar_num": 575,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٥٧٥ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفرج أحمد بن محمد بن بنان الن"
+    },
+    {
+      "akhbar_num": 576,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وقال سالم خادم ذي النون المصري: قال ذو النون: رأيت مجنوناً أسود في بعض البوادي، "
+    },
+    {
+      "akhbar_num": 577,
+      "position": 148000,
+      "score": 89.30997497318556,
+      "found": true,
+      "method": "token_set",
+      "confidence": 89.30997497318556,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو موسى عمران بن موسى بن الحصين قال "
+    },
+    {
+      "akhbar_num": 578,
+      "position": 149000,
+      "score": 80.0,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.0,
+      "text_preview": "٥٧٨ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أحمد بن عمران السوادي يقول : قال ا"
+    },
+    {
+      "akhbar_num": 579,
+      "position": 22400,
+      "score": 60.714285714285715,
+      "found": false,
+      "method": "token_set",
+      "confidence": 60.714285714285715,
+      "text_preview": "٥٧٩ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا سليمان الفارسي يقول : بلغني عن"
+    },
+    {
+      "akhbar_num": 580,
+      "position": 150200,
+      "score": 83.19427890345649,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.19427890345649,
+      "text_preview": "٥٨٠ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى عمران بن موسى قال : حدث"
+    },
+    {
+      "akhbar_num": 581,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 582,
+      "position": 1200,
+      "score": 76.11336032388664,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.11336032388664,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة قال :"
+    },
+    {
+      "akhbar_num": 583,
+      "position": 150400,
+      "score": 84.94983277591973,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.94983277591973,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: حدث"
+    },
+    {
+      "akhbar_num": 584,
+      "position": 24400,
+      "score": 60.790273556231,
+      "found": false,
+      "method": "token_set",
+      "confidence": 60.790273556231,
+      "text_preview": "أخبرنا محمد قال: أخبرنا الحسن قال: أخبرنا أبو موسى قال: حدثنا أبو عوانة قال: حدث"
+    },
+    {
+      "akhbar_num": 585,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٥٨٥ أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو موسى قال : حدثنا أبو عوانة :"
+    },
+    {
+      "akhbar_num": 586,
+      "position": 149400,
+      "score": 76.53631284916202,
+      "found": true,
+      "method": "token_set",
+      "confidence": 76.53631284916202,
+      "text_preview": "٥٨٦ أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الفرج أحمد بن محمد بن بنان الن"
+    },
+    {
+      "akhbar_num": 587,
+      "position": 150800,
+      "score": 75.92891760904685,
+      "found": true,
+      "method": "token_set",
+      "confidence": 75.92891760904685,
+      "text_preview": "٥٨٧ وروي عن ثمامة بن الأشرس قال : دخلت دير هرقل فرأيتُ شابًا مشدوداً إلى سارية ."
+    },
+    {
+      "akhbar_num": 588,
+      "position": 151200,
+      "score": 84.12017167381974,
+      "found": true,
+      "method": "token_set",
+      "confidence": 84.12017167381974,
+      "text_preview": "٥٨٨ أخبرنا محمد قال: أخبرنا الحسن قال : سمعت أبا الفضل جعفر بن أحمد بن الحسين يق"
+    },
+    {
+      "akhbar_num": 589,
+      "position": 150600,
+      "score": 91.29287598944592,
+      "found": true,
+      "method": "token_set",
+      "confidence": 91.29287598944592,
+      "text_preview": "٥٨٩ أخبرنا محمد قال : أخبرنا الحسن قال : كتب إلي جعفر بن محمد بن نصير الخلدي أن "
+    },
+    {
+      "akhbar_num": 590,
+      "position": 150600,
+      "score": 95.59082892416225,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.59082892416225,
+      "text_preview": "وقال أبو غسان الإسماعيلي : دخلت البصرة فرأيتُ مجنوناً قد أحدق به الناس، فتأملتُ "
+    },
+    {
+      "akhbar_num": 591,
+      "position": 151200,
+      "score": 92.7487352445194,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.7487352445194,
+      "text_preview": "وقال بعض السياح: دخلت مسجد البصرة يوماً، فرأيتُ فقيراً عليه أثر البؤس وهو يترنّم"
+    },
+    {
+      "akhbar_num": 592,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : أخبرنا أبو عبدالله محمد بن عاد البغدادي بأب"
+    },
+    {
+      "akhbar_num": 593,
+      "position": 151200,
+      "score": 83.92857142857143,
+      "found": true,
+      "method": "token_set",
+      "confidence": 83.92857142857143,
+      "text_preview": "٥٩٣ أخبرنا محمد قال : أخبرنا الحسن قال : أنشدني أبو بكر أحمد بن عمر السوادي السي"
+    },
+    {
+      "akhbar_num": 594,
+      "position": 151800,
+      "score": 92.80517380759903,
+      "found": true,
+      "method": "token_set",
+      "confidence": 92.80517380759903,
+      "text_preview": "وقال عمرو بن عثمان الصير في شَعْرَةُ : دخلت جبال فإذا أنا برجل في كوخ . فأقمت عل"
+    },
+    {
+      "akhbar_num": 595,
+      "position": 152200,
+      "score": 87.65060240963855,
+      "found": true,
+      "method": "token_set",
+      "confidence": 87.65060240963855,
+      "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت أبا الحسن عيسى بن زيد العقيلي يقول : س"
+    },
+    {
+      "akhbar_num": 596,
+      "position": 152600,
+      "score": 94.84978540772532,
+      "found": true,
+      "method": "token_set",
+      "confidence": 94.84978540772532,
+      "text_preview": "وقال زياد النميري : دخلت دار المجانين، فإذا شاب حسن الوجه في زاوية، مشدود إلى جد"
+    },
+    {
+      "akhbar_num": 597,
+      "position": 152800,
+      "score": 95.65217391304348,
+      "found": true,
+      "method": "token_set",
+      "confidence": 95.65217391304348,
+      "text_preview": "وقال سُكَينُ بن موسى : كنت مجاوراً بمكة، وكان بها مجنون ينطق بالحكمة. فقلت له : "
+    },
+    {
+      "akhbar_num": 598,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "وقال علي بن المرداس الهاشمي : أتيتُ بغداد في تجارة، فدخلتُ دار المرضى فإذا مجاني"
+    },
+    {
+      "akhbar_num": 599,
+      "position": 152800,
+      "score": 88.54961832061069,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.54961832061069,
+      "text_preview": "وقال ذو النون: قلت لعليم: لم سُمِّيت مجنوناً؟ قال: أنا مجنون عن معصيته لا عن معر"
+    },
+    {
+      "akhbar_num": 600,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "قال الأستاذ أبو القاسم رحمه الله: قد ذكرنا في هذا الكتاب ما حضر على الشرط الذي ش"
+    },
+    {
+      "akhbar_num": 601,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "٦٠١ قال : ودخلت بهراة دار المرضى فإذا شيخ مسلسل، فقلت له : يا شيخ أتريد النجاة م"
+    },
+    {
+      "akhbar_num": 602,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "قال: وقلت لمجنون: ما اسمك؟ قال: خليل الرحمن. قلت: فما لك ها هنا؟ قال: كان حظ إبر"
+    },
+    {
+      "akhbar_num": 603,
+      "position": 153000,
+      "score": 93.61702127659575,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.61702127659575,
+      "text_preview": "٦٠٣ قال: وقلت لآخر: أنت مجنون؟ قال: وأنت عاقل؟ الناس كلهم مجانين ولكن حظي صار أو"
+    },
+    {
+      "akhbar_num": 604,
+      "position": 144200,
+      "score": 73.5632183908046,
+      "found": true,
+      "method": "token_set",
+      "confidence": 73.5632183908046,
+      "text_preview": "وقلت لآخر: ما تصنع ها هنا ولست له بأهل؟ قال: خلق لي وخلقت له."
+    },
+    {
+      "akhbar_num": 605,
+      "position": 153000,
+      "score": 93.41317365269461,
+      "found": true,
+      "method": "token_set",
+      "confidence": 93.41317365269461,
+      "text_preview": "٦٠٥ قال : وقلت لآخر : لم أر مجنوناً أعقل منك . قال : الجنون ما أنت فيه؛ تأكل رزق"
+    },
+    {
+      "akhbar_num": 606,
+      "position": 143000,
+      "score": 74.07407407407408,
+      "found": true,
+      "method": "token_set",
+      "confidence": 74.07407407407408,
+      "text_preview": "٦٠٦ - قال : وقلت لآخر : ما الذي أصارك إلى ما أرى؟ . فقال : محتوم"
+    },
+    {
+      "akhbar_num": 607,
+      "position": 152800,
+      "score": 79.45205479452055,
+      "found": true,
+      "method": "token_set",
+      "confidence": 79.45205479452055,
+      "text_preview": "٦٠٧ قال: وقلت لآخر: أنت مجنون؟ قال: وأنت فسترد قبري."
+    },
+    {
+      "akhbar_num": 608,
+      "position": 154000,
+      "score": 81.52031454783749,
+      "found": true,
+      "method": "token_set",
+      "confidence": 81.52031454783749,
+      "text_preview": "٦٠٨ قال : ودخلت دار المرضى بنيسابور، فرأيت شابا من أبناء النعم يقال له أبو صادق "
+    },
+    {
+      "akhbar_num": 609,
+      "position": 81400,
+      "score": 80.76923076923077,
+      "found": true,
+      "method": "token_set",
+      "confidence": 80.76923076923077,
+      "text_preview": "قال : وقلت لآخر : ما تشتهي؟ قال: ما يقضى لي.\n"
+    },
+    {
+      "akhbar_num": 610,
+      "position": 153000,
+      "score": 88.88888888888889,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.88888888888889,
+      "text_preview": "قال وقلت لآخر: غريب أنت؟ قال: أما عن عقلي فنعم، وأما عن البلد فلا."
+    },
+    {
+      "akhbar_num": 611,
+      "position": 143000,
+      "score": 60.3448275862069,
+      "found": false,
+      "method": "token_set",
+      "confidence": 60.3448275862069,
+      "text_preview": "وقال : وقلت لآخر ما تشتهي ؟ قال : موت الجازي . وكان الجازي صاحب المجانين يسقيهم "
+    },
+    {
+      "akhbar_num": 612,
+      "position": 155200,
+      "score": 88.60759493670886,
+      "found": true,
+      "method": "token_set",
+      "confidence": 88.60759493670886,
+      "text_preview": "وقال عبدان بن أحمد الهيتي : كان بباب خراسان إنسان موسوس، وكان يجالس الحسين بن من"
+    },
+    {
+      "akhbar_num": 613,
+      "position": -1,
+      "score": 0,
+      "found": false,
+      "method": "none",
+      "confidence": 0,
+      "text_preview": "تم الكتاب بحمد الله ومنه وطوله ، وصلى الله على سيدنا ونبينا محمد، وآله وصحبه وسل"
+    }
+  ],
+  "score_distribution": {
+    "high": 258,
+    "medium": 171,
+    "low": 48,
+    "very_low": 136
+  },
+  "method_distribution": {
+    "token_set": 477,
+    "none": 136
+  },
+  "percentages": {
+    "found_percent": 69.9836867862969,
+    "high_quality": 42.08809135399674,
+    "medium_quality": 27.895595432300162,
+    "low_quality": 7.830342577487764
+  },
+  "failure_analysis": {
+    "total_failed": 184,
+    "sample_failures": [
+      {
+        "akhbar_num": 69,
+        "score": 68.9655172413793,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "٦٩ ومنهم الممرور، وهو الذي أحرقته المرة. "
+      },
+      {
+        "akhbar_num": 102,
+        "score": 62.900188323917135,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "ثم تحامق وأخذ في الهزل فحسنت حالته وراج أمره حتى أن الملوك والأشراف أولعوا به. ف"
+      },
+      {
+        "akhbar_num": 103,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "ومنه : أسهل بطني حبّ درين جارية\nفي الحسن كالبوم\nكأنما نكهتها كامخ\nأو حزمة من حزم"
+      },
+      {
+        "akhbar_num": 117,
+        "score": 67.58620689655172,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : سمعت عبدالله بن أحمد بن الصديق يقول : سمعت "
+      },
+      {
+        "akhbar_num": 122,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو يعقوب إسحاق بن سعد بن الحسن بن سف"
+      },
+      {
+        "akhbar_num": 124,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "أخبرنا محمد قال : أخبرنا الحسن قال : حدثنا أبو يعلى محمد بن أحمد بن حمدان النسوي"
+      },
+      {
+        "akhbar_num": 132,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "أخبرنا محمد قال: حدثنا الحسن قال: أنشدني عبد السميع بن محمد بن عبدالسميع الهاشمي"
+      },
+      {
+        "akhbar_num": 134,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "أنشدني أبو عبد الله محمد بن جعفر بن محمد بن جعفر الأديب ببوشنج : إن أردت الغنى ف"
+      },
+      {
+        "akhbar_num": 135,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "ولبعضهم :\n إن شئت أن تحظى فكن مائقا تفز بما شئت من المال\n\nواجتنب العقل وأصحابه ت"
+      },
+      {
+        "akhbar_num": 140,
+        "score": 0,
+        "status": "Pas trouvé dans le texte",
+        "text_preview": "ولبعضهم في مثله: رأيت العقل حرماناً وشؤماً وأهل الحمق في زي كريم\nفكن حَمِقاً تنل"
+      }
+    ],
+    "common_issues": {
+      "very_short": 0,
+      "text_not_in_raw": 10,
+      "heavily_modified": 0
+    }
+  }
+}
