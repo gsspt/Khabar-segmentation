@@ -104,6 +104,21 @@ pip install -r requirements.txt
 black src/ scripts/
 ruff check src/ scripts/ --fix
 
+# ===== SEGMENTATION BASELINE ISNAD-KHABAR =====
+# Segmenter un texte arabe
+python scripts/baseline_isnad_segmentation.py \
+  --input "chemin/vers/texte.txt" \
+  --target 613 \
+  --samples 5
+
+# Exemples sur corpus OpenITI
+python scripts/baseline_isnad_segmentation.py \
+  --input "/path/to/0406IbnHabibNaysaburi.CuqalaMajanin.JK010625-ara1" \
+  --target 613
+
+# Résultats dans results/segmentation_baseline.txt
+
+# ===== PRÉTRAITEMENT ET ENTRAÎNEMENT (PHASE 2+) =====
 # Prétraitement
 python scripts/preprocess.py --input data/raw/ --output data/processed/
 
@@ -165,13 +180,51 @@ Pour les modifications légères depuis mobile :
 - Valider des PRs et lire les résultats d'expériences
 - Pour exécuter du code mobile : utiliser un notebook **Google Colab** lié au dépôt
 
-## Modèles et expériences
+## État actuel de la segmentation Isnad-Khabar
 
-### Approches à explorer (par ordre de priorité)
+### ✅ Baseline v1 implémentée et testée (2026-04-14)
 
-1. **Baseline CRF** — features linguistiques arabes (préfixes, ponctuation, longueur)
-2. **Fine-tuning AraBERT / CAMeL-BERT** — séquence-à-séquence ou token classification
-3. **Modèles génératifs** — Jais, AraT5, ou autre LLM arabe pour segmentation zero-shot/few-shot
+**Approche** : Détection linguistique basée sur la structure historique arabe
+- Détecte les **isnads** (chaînes de transmission) via verbes spécifiques (حدثنا، أخبرنا، قال)
+- Identifie les **transitions isnad→récit** (passage à 1ère personne, verbes narratifs)
+- Segmente les **frontières de khabar** (ponctuation, nouveaux isnads)
+
+**Résultats de test** :
+| Texte | Akhbars | Écart | Couverture | Statut |
+|-------|---------|-------|-----------|--------|
+| 406IbnHabibNaysaburi (40.7K mots) | 708 | +15.5% vs 613 cible | 92.4% | ✅ Excellent |
+| 392IbnIsmacilMisri (4.1K mots) | 39 | - | 90.8% | ✅ Cohérent |
+
+**Scripts** :
+- `scripts/baseline_isnad_segmentation.py` — **Utiliser celle-ci (v1)**
+- `scripts/baseline_isnad_segmentation_v2.py` — Trop restrictive (37 akhbars)
+
+**Documentation** :
+- `BASELINE_RESULTS.md` — Analyse détaillée + recommandations
+- `results/TEST_SUMMARY.md` — Résumé des tests sur deux textes
+- `results/comparison_results.txt` — Analyse comparative
+
+### Modèles et expériences à explorer
+
+#### Phase 1 (Complétée)
+1. ✅ **Baseline linguistique** — structure isnad→khabar [**FAIT**]
+   - Écart 15.5% acceptable pour approche pure linguistique
+   - Fondation robuste pour amélioration progressive
+
+#### Phase 2 (Prochaine)
+1. **Post-processing** (rapide, 1-2 jours)
+   - Filtrer isnads < 5 mots → réduire écart de 15% → ~8%
+   - Exclure citations coraniques
+   - Résultat attendu : écart < 10%
+
+2. **Fine-tune AraBERT / CAMeL-BERT** (1-2 semaines)
+   - Annoter 100-200 exemples manuels
+   - Token classifier (BIO tagging)
+   - Résultat attendu : écart < 5%
+
+3. **Modèles génératifs** (optionnel)
+   - Jais, AraT5, ou autre LLM arabe pour zero-shot/few-shot
+   - Combiner avec baseline pour robustesse
 
 ### Métriques d'évaluation
 
@@ -199,3 +252,18 @@ Charger avec : `python-dotenv` ou `export $(cat .env | xargs)`
 - Avant tout entraînement, vérifier que les données sont bien équilibrées (ratio frontières/non-frontières).
 - Préférer les configs YAML dans `configs/` aux arguments en dur dans les scripts.
 - Documenter chaque expérience dans `notebooks/experiments_log.md`.
+
+### Baseline Isnad-Segmentation (depuis 2026-04-14)
+
+**État** : ✅ Phase 1 terminée (baseline v1)
+
+**Références** :
+- Script principal : `scripts/baseline_isnad_segmentation.py`
+- Résumé de progression : `BASELINE_RESULTS.md` et `results/TEST_SUMMARY.md`
+- Données de test : corpus OpenITI (406IbnHabib, 392IbnIsmacil)
+
+**Résultat clé** : 708 akhbars détectés vs 613 cible = écart acceptable de 15.5%
+
+**Prochaines étapes** :
+1. Post-processing pour réduire écart à ~8% (très rapide)
+2. Fine-tune CAMeL-BERT sur 100-200 exemples annotés (1-2 semaines)
