@@ -51,10 +51,11 @@ CHAIN_VERB_STARTS: Tuple[str, ...] = (
 
 # Verbes d'ouverture d'isnad (premier mot du segment)
 ISNAD_OPENERS: Tuple[str, ...] = (
-    # حدّث/أخبر — forme directe (حدثني retiré : 9 FP 0 TP dans ce corpus)
-    'حدثنا', 'حدثه', 'حدثها', 'حدثهم',
+    # حدّث/أخبر — حدثني retiré (9 FP 0 TP) ; حدثه/حدثهم/وحدثنا retirés (0-1 TP, 1-3 FP)
+    # سمعنا retiré (1 TP 2 FP, 33%)
+    'حدثنا', 'حدثها',
     'اخبرنا', 'اخبرني', 'اخبره', 'اخبرها', 'اخبرهم',
-    'سمعت', 'سمعنا',
+    'سمعت',
     # أنشد — وانشدت retiré : 4 FP 0 TP
     'انشدني', 'انشدنا', 'انشدتنا',
     'انبانا', 'انباني',
@@ -64,10 +65,11 @@ ISNAD_OPENERS: Tuple[str, ...] = (
     'بلغنا',
     # وقال : filtré par _waqal_is_akhbar_opener() dans find_isnad_starts
     'وقال',
-    'وحدثنا', 'وحدثني', 'واخبرنا', 'واخبرني',
+    'وحدثني', 'واخبرنا', 'واخبرني',
     'وسمعت', 'وسمعنا', 'وانشدني', 'وانشدنا', 'وانشدتنا',
     'وبلغني', 'وحكى', 'وحكي', 'ومنهم', 'ومنها', 'وبهذا',
     # وله / ولغيره : attribution poétique (وله = "et pour lui [ce poème]")
+    # filtré par end-boundary check (ولها / ولهان rejetés automatiquement)
     'وله', 'ولغيره', 'ولبعض',
     'ولبعضهم',
 )
@@ -79,6 +81,16 @@ NARRATIVE_PARTICLES = frozenset([
 ])
 
 QAL_RE = re.compile(r'قال[ا]?|يقول')
+
+# Mots qui, s'ils suivent سمعت, indiquent un usage narratif (non isnad)
+_SAMIATU_NARRATIVE = frozenset([
+    'يقول', 'يقولون', 'قول',           # سمعت + discours direct rapporté
+    'مثل', 'بان', 'انه', 'ان',         # سمعت مثل / أن
+    'منه', 'منها', 'منهم', 'اذا', 'ما', 'كيف',
+    'به', 'بها', 'بهم', 'بهن',         # سمعت به = "j'en ai entendu parler"
+    'هذا', 'هذه', 'ذلك', 'ذا',         # سمعت هذا = "j'ai entendu cela"
+    'كتبا', 'كتابا', 'في',             # سمعت كتباً / سمعت في
+])
 
 # Verbes dont l'occurrence après قال indique obligatoirement un maillon de chaîne
 # (ces verbes peuvent aussi ouvrir un isnad, mais pas immédiatement après قال)
@@ -254,6 +266,12 @@ def find_isnad_starts(text_norm: str) -> List[Tuple[int, str]]:
                 break
             # Vérifier que le verbe commence un mot (pas infixe)
             if idx == 0 or not text_norm[idx - 1].isalpha():
+                # Vérifier aussi que le verbe finit un mot (pas préfixe d'un mot plus long)
+                # Ex : وله rejeté dans ولها / ولهان ; سمعت rejeté dans سمعته
+                verb_end = idx + len(verb)
+                if verb_end < len(text_norm) and text_norm[verb_end].isalpha():
+                    pos = idx + 1
+                    continue
                 # Filtrer les maillons de chaîne pour les verbes sensibles
                 if verb in _CHAIN_SENSITIVE and is_chain_context(text_norm, idx):
                     pos = idx + 1
@@ -262,6 +280,16 @@ def find_isnad_starts(text_norm: str) -> List[Tuple[int, str]]:
                 if verb == 'وقال' and not _waqal_is_akhbar_opener(text_norm, idx):
                     pos = idx + 1
                     continue
+                # سمعت : rejeter les usages narratifs (سمعت أن / سمعت في / …)
+                if verb == 'سمعت':
+                    chunk = re.sub(
+                        r'^[\s:،؛.«»"\'\u200c\u200d]+', '',
+                        text_norm[idx + 5: idx + 45],
+                    )
+                    nxt = chunk.split()[0] if chunk.split() else ''
+                    if nxt in _SAMIATU_NARRATIVE:
+                        pos = idx + 1
+                        continue
                 starts.append((idx, verb))
             pos = idx + 1
 
