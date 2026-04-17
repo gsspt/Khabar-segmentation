@@ -62,11 +62,13 @@ ISNAD_OPENERS: Tuple[str, ...] = (
     'روى', 'رواه', 'روينا',
     # بلغ — بلغني standalone retiré (17 FP 2 TP) ; forme waw gardée
     'بلغنا',
-    # وقال : contient «قال» → find_isnad_end se déclenche sur lui-même.
-    # De plus, très fréquent dans les dialogues → bruit élevé. Exclu.
+    # وقال : filtré par _waqal_is_akhbar_opener() dans find_isnad_starts
+    'وقال',
     'وحدثنا', 'وحدثني', 'واخبرنا', 'واخبرني',
     'وسمعت', 'وسمعنا', 'وانشدني', 'وانشدنا', 'وانشدتنا',
     'وبلغني', 'وحكى', 'وحكي', 'ومنهم', 'ومنها', 'وبهذا',
+    # وله / ولغيره : attribution poétique (وله = "et pour lui [ce poème]")
+    'وله', 'ولغيره', 'ولبعض',
     'ولبعضهم',
 )
 
@@ -151,6 +153,55 @@ def find_isnad_end(
     return isnad_start + min(300, window // 3)
 
 
+# ── Filtre وقال → ouvreur d'akhbar vs dialogue interne ──────────────────────
+
+# Marqueurs de nom propre : حدثنا = akhbar, ابن/ابو/بن précèdent un nom
+_NAME_MARKERS = frozenset(['ابن', 'ابو', 'ابي', 'بن', 'بنت', 'ابنه'])
+# Indices que ce qui suit est du discours direct (non attribution)
+_WAQAL_REJECT = frozenset([
+    'ت', 'وا', 'نا', 'تم', 'تن', 'ن',        # suffixes verbaux
+    'لي', 'لنا', 'له', 'لها', 'لهم', 'لك',    # pronoms/prépositions
+    'بعضهم', 'بعضهن', 'بعضها',               # attributions vagues
+    'الاخر', 'الاخري',                        # "l'autre"
+])
+
+
+def _waqal_is_akhbar_opener(text_norm: str, pos: int) -> bool:
+    """
+    Renvoie True si وقال à `pos` ouvre un nouvel akhbar (suivi d'un nom propre),
+    False s'il est du discours narratif interne (suivi d'un pronom, d'une
+    forme verbale, ou d'une attribution ordinale comme للثاني).
+
+    Cette fonction est appelée UNIQUEMENT pour وقال (4 chars).
+    """
+    chunk = re.sub(
+        r'^[\s،؛.«»"\'\u200c\u200d]+', '',
+        text_norm[pos + 4: pos + 70],
+    )
+    words = chunk.split()
+    if not words:
+        return False
+    first = words[0]
+
+    # Marqueur de nom → ouvreur
+    if first in _NAME_MARKERS:
+        return True
+    # Rejet explicite
+    if first in _WAQAL_REJECT:
+        return False
+    # Attributions ordinales/prépositionnelles : للـ (للثاني, للرشيد…)
+    if first.startswith('لل'):
+        return False
+    # Mot trop court (particule, pronom)
+    if len(first) <= 2:
+        return False
+    # Préfixe de l'imparfait → verbe, pas un nom
+    if first[0] in 'يتن' and len(first) >= 3:
+        return False
+    # Par défaut : nom propre présumé → accepter
+    return True
+
+
 # ── Filtre de contexte de chaîne ─────────────────────────────────────────────
 
 def is_chain_context(text_norm: str, pos: int, window: int = 14) -> bool:
@@ -205,6 +256,10 @@ def find_isnad_starts(text_norm: str) -> List[Tuple[int, str]]:
             if idx == 0 or not text_norm[idx - 1].isalpha():
                 # Filtrer les maillons de chaîne pour les verbes sensibles
                 if verb in _CHAIN_SENSITIVE and is_chain_context(text_norm, idx):
+                    pos = idx + 1
+                    continue
+                # وقال : filtre supplémentaire basé sur le mot qui suit
+                if verb == 'وقال' and not _waqal_is_akhbar_opener(text_norm, idx):
                     pos = idx + 1
                     continue
                 starts.append((idx, verb))
