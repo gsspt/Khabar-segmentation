@@ -38,6 +38,7 @@ checkpoints/*
 .env
 .env.local
 *.env
+wsl_venv/
 
 # IDE
 .vscode/settings.json

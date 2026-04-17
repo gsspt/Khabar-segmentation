@@ -1,0 +1,13 @@
+================================================================================
+DEBUG: ISNAD VERB DETECTION
+================================================================================
+
+Corpus length: 268,540 chars
+Traceback (most recent call last):
+  File "C:\Users\augus\Desktop\Khabar-segmentation\scripts\debug_isnad_verbs.py", line 41, in <module>
+    print(f"First 200 chars: {corpus[:200]}\n")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 17-19: character maps to <undefined>
