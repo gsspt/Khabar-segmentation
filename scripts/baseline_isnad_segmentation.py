@@ -24,19 +24,29 @@ import sys
 # DICTIONNAIRES LINGUISTIQUES ARABES
 # ============================================================================
 
-# Verbes de transmission typiques en arabe classique
-ISNAD_VERBS = {
+# Verbes de transmission fiables (hautes confiance)
+ISNAD_VERBS_RELIABLE = {
     'حدثنا', 'حدثني', 'حدثه', 'حدثها', 'حدثهم', 'حدثهن',
     'أخبرنا', 'أخبرني', 'أخبره', 'أخبرها', 'أخبرهم', 'أخبرهن',
-    'قال', 'قالت', 'قالوا', 'قلن',
     'روى', 'رويت', 'روينا',
-    'نقل', 'نقلت', 'نقلنا',
-    'ذكر', 'ذكرت', 'ذكرنا',
     'أنبأ', 'أنبأني', 'أنبأنا',
     'سمعت', 'سمعنا',
-    'وجدت', 'وجدنا',
-    'قرأت', 'قرأنا',
 }
+
+# Verbes ambigus (trop génériques, créent trop de faux positifs)
+ISNAD_VERBS_AMBIGUOUS = {
+    'قال', 'قالت', 'قالوا', 'قلن',  # Trop génériques - peuvent être du discours rapporté
+    'ذكر', 'ذكرت', 'ذكرنا',  # "mentionné" - trop vague
+    'نقل', 'نقلت', 'نقلنا',  # "rapporté" - trop vague
+    'وجدت', 'وجدنا',  # "trouvé" - trop vague
+    'قرأت', 'قرأنا',  # "lu" - trop vague
+}
+
+# Tous les verbes (pour compatibilité backward)
+ISNAD_VERBS = ISNAD_VERBS_RELIABLE | ISNAD_VERBS_AMBIGUOUS
+
+# Par défaut, utiliser seulement les verbes fiables
+ISNAD_VERBS_STRICT = ISNAD_VERBS_RELIABLE
 
 # Marqueurs de transmission (connecteurs)
 TRANSMISSION_MARKERS = {
@@ -131,10 +141,20 @@ def extract_root(word: str) -> str:
 # DÉTECTION DE STRUCTURE ISNAD ET TRANSITIONS
 # ============================================================================
 
-def is_isnad_verb(word: str) -> bool:
-    """Vérifie si le mot est un verbe de transmission."""
+def is_isnad_verb(word: str, strict: bool = True) -> bool:
+    """
+    Vérife si le mot est un verbe de transmission.
+
+    Args:
+        word: Mot à vérifier
+        strict: Si True, utiliser seulement les verbes fiables.
+                Si False, inclure aussi les verbes ambigus.
+    """
     normalized = normalize_arabic_text(word)
-    return normalized in ISNAD_VERBS
+    if strict:
+        return normalized in ISNAD_VERBS_STRICT
+    else:
+        return normalized in ISNAD_VERBS
 
 
 def is_first_person_form(word: str) -> bool:

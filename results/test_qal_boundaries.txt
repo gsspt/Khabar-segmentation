@@ -1,0 +1,6 @@
+TEST: QAL WORD BOUNDARIES
+
+Total qal occurrences (simple count): 3208
+With valid word boundaries: 0
+Percentage: 0.0%
+First valid position: -1

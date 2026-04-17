@@ -1,0 +1,10 @@
+TEST: Find قال after حدثنا
+================================================================================
+
+First حدثنا at position 814
+
+Next 10 قال positions: [852, 910, 955, 1003, 1143, 1209, 1243, 1312, 1360, 1392]
+
+First قال at 852
+Isnad length: 40 chars
+Status: OUT OF RANGE (need 50-400)

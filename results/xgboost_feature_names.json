@@ -1,0 +1,30 @@
+{
+  "feature_names": [
+    "avg_word_length",
+    "distance_to_next_isnad",
+    "has_end_suffix",
+    "has_faqal",
+    "has_halath",
+    "has_qal",
+    "has_waqal",
+    "narrative_verb_count",
+    "pronoun_count",
+    "punctuation_count",
+    "qal_distance",
+    "qal_in_valid_range",
+    "qal_to_reference_diff",
+    "reference_in_early_window",
+    "reference_in_late_window",
+    "window_char_count",
+    "window_word_count"
+  ],
+  "feature_count": 17,
+  "metrics": {
+    "mae": 7.167278611141702,
+    "rmse": 13.289867943430938,
+    "r2": 0.9707280213074043,
+    "within_20": 95.65217391304348,
+    "within_50": 97.82608695652173,
+    "within_100": 100.0
+  }
+}
