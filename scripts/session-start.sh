@@ -12,10 +12,13 @@ if ! git rev-parse --git-dir >/dev/null 2>&1; then
     exit 1
 fi
 
-# Configurer le remote avec le token si disponible
+# Injecter le token uniquement si le remote pointe directement vers GitHub
+# (pas dans Claude Code web où un proxy local gère l'auth)
 if [[ -n "${GITHUB_TOKEN:-}" ]]; then
-    REMOTE_URL=$(git remote get-url origin | sed 's|https://[^@]*@|https://|')
-    git remote set-url origin "https://${GITHUB_TOKEN}@${REMOTE_URL#https://}"
+    REMOTE_URL=$(git remote get-url origin)
+    if [[ "$REMOTE_URL" == https://github.com/* ]]; then
+        git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${REMOTE_URL#https://github.com/}"
+    fi
 fi
 
 echo "↓ Synchronisation depuis origin/$BRANCH..."
