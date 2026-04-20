@@ -1,0 +1,17 @@
+{
+  "corpus": "kitab_uqala_reference_corpus",
+  "gold_standard_akhbars": 613,
+  "models": {
+    "baseline_v4": {
+      "segments": 575,
+      "recall": "93.8%",
+      "ratio": "0.94x"
+    },
+    "camelbert": {
+      "boundaries": 200,
+      "recall": "32.6%",
+      "ratio": "0.33x",
+      "confidence": 0.9829561674594879
+    }
+  }
+}
