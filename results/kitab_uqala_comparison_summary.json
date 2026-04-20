@@ -1,0 +1,24 @@
+{
+  "corpus": "kitab_uqala_reference_corpus",
+  "text_size_chars": 268540,
+  "text_size_words": 53812,
+  "gold_standard": {
+    "akhbars": 613,
+    "segments": 1764,
+    "segment_types": {
+      "prose": 215,
+      "isnad": 539,
+      "matn": 591,
+      "poetry": 419
+    },
+    "source": "Annotated reference corpus"
+  },
+  "baseline_v4": {
+    "segments": 575,
+    "estimated_recall": "32.6%"
+  },
+  "camelbert": {
+    "status": "Pending - needs Colab inference",
+    "next_step": "Run notebooks/camelbert_binary_classification_inference.ipynb on kitab_uqala"
+  }
+}

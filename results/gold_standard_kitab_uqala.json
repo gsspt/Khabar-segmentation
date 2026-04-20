@@ -1,0 +1,17 @@
+{
+  "model": "annotated_reference",
+  "corpus": "kitab_uqala_reference_corpus",
+  "total_akhbars": 613,
+  "akhbar_types": {
+    "preambule": 1,
+    "unknown": 612
+  },
+  "total_segments": 1764,
+  "segment_types": {
+    "prose": 215,
+    "isnad": 539,
+    "matn": 591,
+    "poetry": 419
+  },
+  "source": "data/processed/Kitab_Uqala_al_Majanin_annotated.json"
+}

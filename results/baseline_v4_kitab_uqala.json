@@ -1,0 +1,10 @@
+{
+  "model": "baseline_v4",
+  "corpus": "kitab_uqala_reference_corpus",
+  "text_size": 268540,
+  "word_count": 53812,
+  "total_segments": 575,
+  "type_breakdown": {
+    "unknown": 575
+  }
+}
