@@ -1,0 +1,61 @@
+{
+  "title": "Complete Three-Model Comparison Across Two Texts",
+  "date": "2026-04-20",
+  "corpora": {
+    "small": {
+      "name": "0392IbnIsmacil (Test Text)",
+      "size_chars": 15462,
+      "size_words": 2978,
+      "gold_standard": 63,
+      "baseline_v4": 7,
+      "camelbert": 112,
+      "camelbert_ratio": "1.78x over",
+      "baseline_recall": "11.1%",
+      "camelbert_recall": "177.8%"
+    },
+    "large": {
+      "name": "Kitab Uqala (Reference Corpus)",
+      "size_chars": 268540,
+      "size_words": 53812,
+      "gold_standard": 1764,
+      "baseline_v4": 575,
+      "camelbert": 208,
+      "camelbert_ratio": "0.12x under",
+      "baseline_recall": "32.6%",
+      "camelbert_recall": "11.3%"
+    }
+  },
+  "key_findings": [
+    "CAMeL-BERT exhibits OPPOSITE behavior on different text sizes",
+    "Over-segments small text (1.78x) but under-segments large (0.12x)",
+    "High confidence (0.98+) is misleading - model is overconfident in both cases",
+    "Baseline v4 more reliable on large corpus despite simpler approach",
+    "Model generalization failure due to overfitting to small training text",
+    "Segment density mismatch: 4.1/1K chars (train) vs 6.6/1K chars (large corpus)"
+  ],
+  "model_rankings": {
+    "small_text": {
+      "1st": "Gold Standard (100.0%)",
+      "2nd": "CAMeL-BERT (177.8% - over-segments)",
+      "3rd": "Baseline v4 (11.1% - too conservative)"
+    },
+    "large_text": {
+      "1st": "Gold Standard (100.0%)",
+      "2nd": "Baseline v4 (32.6% - conservative but predictable)",
+      "3rd": "CAMeL-BERT (11.3% - fails to generalize)"
+    }
+  },
+  "recommendations": {
+    "for_small_texts": "Use Gold Standard or Baseline v4; CAMeL-BERT over-segments",
+    "for_large_texts": "Use Baseline v4 as primary (32.6% recall); avoid CAMeL-BERT",
+    "hybrid_approach": "Combine Baseline (precision) with linguistic rules (coverage)",
+    "future_work": "Retrain CAMeL-BERT on diverse corpus sizes with proper balance"
+  },
+  "reports_generated": [
+    "results/THREE_MODEL_COMPARISON.md - Small text analysis",
+    "results/KITAB_UQALA_COMPARISON.md - Large corpus comparison",
+    "results/PARADOX_ANALYSIS_CAMELBERT.md - Why over/under-segmentation reverses",
+    "results/kitab_uqala_detailed_comparison.json - Structured metrics",
+    "results/detailed_comparison.json - Small text metrics (0392IbnIsmacil)"
+  ]
+}
