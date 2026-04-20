@@ -1,0 +1,17 @@
+GOLD STANDARD VALIDATION REPORT
+============================================================
+
+[OK] First akhbar is from chunk 0
+[OK] All 65 segments have content
+[WARN] Potential duplicate: akhbars 3 and 7
+[WARN] Potential duplicate: akhbars 8 and 9
+[WARN] Potential duplicate: akhbars 11 and 12
+[WARN] Potential duplicate: akhbars 19 and 21
+[WARN] Potential duplicate: akhbars 48 and 50
+[INFO] Total akhbar content: 17,543 chars (original: 15,462)
+
+
+SEGMENT SUMMARY:
+  Total segments: 65
+  Types: {'poetry': 18, 'continuation': 2, 'prose': 17, 'with_isnad': 28}
+  Chunk distribution: {0: 4, 1: 4, 2: 5, 3: 6, 4: 4, 5: 14, 6: 2, 7: 3, 8: 6, 9: 6, 10: 3, 11: 8}

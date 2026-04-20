@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(python3 -m py_compile scripts/gold_standard/create_gold_standard_deepseek_v2.py)"
     ]
   }
 }

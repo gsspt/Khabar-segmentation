@@ -1,0 +1,28 @@
+{
+  "text_info": {
+    "file": "0392IbnIsmacilMisri.CuqalaMajanin",
+    "chars": 15462,
+    "words": 2978
+  },
+  "models": {
+    "gold_standard_deepseek": {
+      "total": 63,
+      "with_isnad": 26,
+      "poetry": 20,
+      "prose": 16,
+      "continuation": 1,
+      "notes": "Deepseek API annotations (deduplicated)"
+    },
+    "baseline_v4": {
+      "total": 7,
+      "with_isnad": 7,
+      "poetry": 0,
+      "prose": 0,
+      "notes": "Rule-based linguistic detection (very conservative)"
+    },
+    "camelbert_finetuned": {
+      "total": "?",
+      "notes": "Pending - need to run Colab inference"
+    }
+  }
+}

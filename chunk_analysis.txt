@@ -1,0 +1,23 @@
+Analyzing chunk structure vs gold standard output...
+CHUNK 0 items: 4
+  [0] type=with_isnad, is_fragment_start=False, is_fragment_end=False      Length: 1083 chars
+  [1] type=poetry, is_fragment_start=False, is_fragment_end=False      Length: 124 chars
+  [2] type=with_isnad, is_fragment_start=False, is_fragment_end=False      Length: 264 chars
+  [3] type=continuation, is_fragment_start=False, is_fragment_end=True      Length: 1 chars
+
+CHUNK 1 items: 5
+  [0] type=prose, is_fragment_start=True, is_fragment_end=False      Length: 31 chars
+  [1] type=with_isnad, is_fragment_start=False, is_fragment_end=False      Length: 264 chars
+  [2] type=with_isnad, is_fragment_start=False, is_fragment_end=False      Length: 477 chars
+  [3] type=with_isnad, is_fragment_start=False, is_fragment_end=False      Length: 620 chars
+  [4] type=with_isnad, is_fragment_start=False, is_fragment_end=True      Length: 100 chars
+
+GOLD STANDARD first 8 akhbars:
+  [1] type=with_isnad, chunk=0      Length: 1083 chars      Fragment flags: start=False, end=False      Position: {'start_char': 23, 'end_char': 1107}
+  [2] type=poetry, chunk=0      Length: 124 chars      Fragment flags: start=False, end=False      Position: {'start_char': 1107, 'end_char': 1231}
+  [3] type=with_isnad, chunk=0      Length: 264 chars      Fragment flags: start=False, end=False      Position: {'start_char': 1233, 'end_char': 1498}
+  [4] type=continuation, chunk=0      Length: 1 chars      Fragment flags: start=False, end=True      Position: {'start_char': 14, 'end_char': 15}
+  [5] type=prose, chunk=1      Length: 31 chars      Fragment flags: start=True, end=False      Position: {'start_char': 1200, 'end_char': 1231}
+  [6] type=with_isnad, chunk=1      Length: 264 chars      Fragment flags: start=False, end=False      Position: {'start_char': 1233, 'end_char': 1498}
+  [7] type=with_isnad, chunk=1      Length: 477 chars      Fragment flags: start=False, end=False      Position: {'start_char': 1499, 'end_char': 1977}
+  [8] type=with_isnad, chunk=1      Length: 620 chars      Fragment flags: start=False, end=False      Position: {'start_char': 1978, 'end_char': 2599}
