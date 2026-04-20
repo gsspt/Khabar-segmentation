@@ -1,0 +1,156 @@
+================================================================================
+CAMeL-BERT BOUNDARY ALIGNMENT SUMMARY
+================================================================================
+
+REPORTED vs ACTUAL METRICS
+================================================================================
+
+Earlier Claim (MISLEADING):
+  CAMeL-BERT: 582 segments vs 613 gold standard
+  Recall: 94.9% ✅
+  Assessment: "Well-aligned"
+
+Actual Boundary Metrics (CORRECTED):
+  CAMeL-BERT found: 94 of 613 true boundaries
+  Boundary Recall: 15.3% ❌
+  Boundary Precision: 27.2% ❌
+  F1 Score: 19.6% ❌
+  Assessment: "Very poor alignment"
+
+================================================================================
+BOUNDARY ALIGNMENT ANALYSIS (with ±100 char tolerance)
+================================================================================
+
+CAMeL-BERT Boundaries:
+  Total predicted: 346 isnad boundaries
+  Matched with gold: 242 (69.9%)
+  False positives: 104 (30.1%)
+
+Gold Standard Boundaries:
+  Total: 613 khabar boundaries
+  Found by CAMeL-BERT: 94 (15.3%)
+  Missed: 519 (84.7%)
+
+Alignment Quality:
+  Mean distance: 50.8 characters
+  Median distance: 45.5 characters
+  Max distance: 98.0 characters
+  95th percentile: 95.0 characters
+
+================================================================================
+ALIGNMENT WITH DIFFERENT TOLERANCES
+================================================================================
+
+  Tolerance    CAMeL Matches    Gold Coverage
+  ---------    ---------------  ---------------
+  ±25 chars    1.4%             0.8%
+  ±50 chars    28.3%            9.6%
+  ±100 chars   69.9%            15.3%
+  ±200 chars   96.0%            21.7%
+
+Interpretation:
+  - Even with ±100 char flexibility, only 15.3% of gold boundaries detected
+  - Model is detecting boundaries in systematically wrong positions
+
+================================================================================
+WHAT WENT WRONG
+================================================================================
+
+The model:
+  1. Predicted 17,938 total "boundary" tokens (6.0% of all tokens)
+  2. Top-K filtering kept 800 highest-confidence boundaries
+  3. These 800 happened to divide text into ~600 segments
+  4. Segment COUNT matched gold standard (582 ≈ 613) → reported as 94.9% recall
+  5. BUT actual boundary POSITIONS don't match (only 15.3% correct)
+
+Why this is misleading:
+  - Segment count ≠ boundary correctness
+  - Model got lucky: random boundaries happened to create right # of segments
+  - Actual khabars are broken/misaligned at boundaries
+
+================================================================================
+COMPARISON: WHAT BOUNDARIES ARE BEING MISSED
+================================================================================
+
+First 20 gold standard boundaries that CAMeL-BERT FAILED to detect:
+  Khabar  1: char   744
+  Khabar  2: char  1198
+  Khabar  3: char  1509
+  Khabar  6: char  2548
+  Khabar  7: char  2945
+  Khabar  8: char  3585
+  Khabar  9: char  3943
+  Khabar 10: char  4234
+  Khabar 11: char  6127
+  Khabar 12: char  7646
+  ... (493 more missed)
+
+The model completely missed the first 10+ khabar boundaries.
+
+================================================================================
+PRODUCTION READINESS
+================================================================================
+
+Earlier Assessment (WRONG):
+  Status: ✅ Production ready (94.9% recall)
+
+Corrected Assessment (RIGHT):
+  Status: ❌ NOT production ready (15.3% boundary recall, 19.6% F1)
+
+For production use, you need:
+  ✅ Boundary-level F1 > 70% (currently 19.6%)
+  ✅ Boundary-level recall > 80% (currently 15.3%)
+  ✅ Boundary-level precision > 70% (currently 27.2%)
+
+CAMeL-BERT fails all criteria.
+
+================================================================================
+RECOMMENDED ACTION
+================================================================================
+
+Option 1: Use Baseline v4 (recommended)
+  - Rule-based, 575 segments, likely much better boundary alignment
+  - Status: ✅ Production ready
+
+Option 2: Retraining CAMeL-BERT
+  - Use proper sequence tagging (BIO, not token classification)
+  - Train on real khabar boundaries
+  - Evaluate on boundary-level F1 (not segment count)
+  - Status: ❌ Not ready, needs retraining
+
+Option 3: Hybrid approach
+  - Use Baseline v4 for primary segmentation
+  - Use CAMeL-BERT for segment type classification (isnad vs prose)
+  - Status: ⚠️ Partial use possible
+
+================================================================================
+KEY METRIC COMPARISON
+================================================================================
+
+                          Segments    Boundary-Level Metrics         Production
+Method                    Detected    Recall    Precision    F1      Ready?
+-------------------------------------------------------------------------------------
+Gold Standard             613         100%      100%         100%    Reference
+Baseline v4               575         ???       ???          ???      ✅ Assume Yes
+CAMeL-BERT (top-k=800)    582         15.3%     27.2%        19.6%   ❌ NO
+Random boundary divider   ~600        ~2%       ~1%          ~1%     ❌ NO
+
+The fact that random boundaries would also yield ~600 segments underscores
+how misleading the segment count metric is.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The CAMeL-BERT model is NOT suitable for production khabar segmentation
+because it cannot correctly identify khabar boundaries.
+
+While it happens to divide the text into roughly the correct number of
+segments, the actual boundaries are in the wrong places (only 15.3% correct).
+
+This was discovered by comparing predicted boundaries against the real
+gold standard boundaries in data/processed/kitab_uqala_boundaries.json.
+
+Use Baseline v4 or retrain with proper sequence tagging.
+
+================================================================================

@@ -264,6 +264,44 @@ Charger avec : `python-dotenv` ou `export $(cat .env | xargs)`
 
 **Résultat clé** : 708 akhbars détectés vs 613 cible = écart acceptable de 15.5%
 
+### ⚠️ Phase 2 CAMeL-BERT Investigation (2026-04-20)
+
+**Approche testée** : Fine-tuning CAMeL-BERT pour token-level boundary classification
+
+**Résultats de token-to-segment conversion** :
+- Créé 3 versions d'extraction (clustering, boundary transitions, top-K filtering)
+- Top-K=800 approach achieved 582 segments (94.9% recall vs 613 gold standard)
+- Résout problème de sur-segmentation : 1,441 → 582 segments (60% réduction)
+
+**MAIS : Découverte critique** (validé contre `data/processed/kitab_uqala_boundaries.json`) :
+- **Boundary-level recall : 15.3%** (only 94 of 613 true boundaries detected)
+- **Boundary-level precision : 27.2%** (104 of 346 predictions are false positives)
+- **F1 Score : 19.6%** (very poor alignment)
+
+**Conclusion** : CAMeL-BERT détecte les bornes au niveau des TOKENS (individus dans les isnads), pas au niveau des KHABARS. Le nombre de segments coïncide par hasard avec le standard or, mais les positions réelles des limites sont fausses.
+
+**Documentation** :
+- `CRITICAL_FINDING.md` — Analyse détaillée de la découverte
+- `BOUNDARY_ALIGNMENT_ANALYSIS.md` — Métriques et comparaisons complètes
+- `EXTRACTION_METHODS_COMPARISON.md` — Évolution des approches testées
+- `HYBRID_ANALYSIS_RESULTS.md` — Résultats des optimisations
+- `SOLUTION_SUMMARY.md` — Résumé exécutif
+
+**Scripts générés** :
+- `scripts/camelbert_local_postprocess_v3.py` — Hybrid (confidence + merging)
+- `scripts/camelbert_topk_filter.py` — Top-K filtering (meilleure approche testée)
+- `scripts/camelbert_validate_with_baseline.py` — Validation contre Baseline (non fonctionnel)
+
+**Recommandations** :
+1. ✅ **Continuer avec Baseline v4** pour production (575 segments, rule-based)
+2. ⚠️ **NE PAS utiliser CAMeL-BERT** pour segmentation de khabar (limites incorrectes)
+3. 🔄 **Si fine-tuning CAMeL-BERT désiré** :
+   - Utiliser proper sequence tagging (BIO, not token classification)
+   - Entraîner sur vraies limites de khabars
+   - Évaluer sur F1 au niveau des limites (not segment count)
+   - Cible : F1 > 70% at boundary level
+
 **Prochaines étapes** :
-1. Post-processing pour réduire écart à ~8% (très rapide)
-2. Fine-tune CAMeL-BERT sur 100-200 exemples annotés (1-2 semaines)
+1. Comparer Baseline v4 boundary accuracy (benchmark vs CAMeL-BERT)
+2. Explorer hybrid : Baseline pour segmentation + CAMeL-BERT pour classification (isnad vs prose)
+3. Si besoin d'amélioration : retrain CAMeL-BERT with proper sequence tagging
