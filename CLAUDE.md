@@ -264,44 +264,85 @@ Charger avec : `python-dotenv` ou `export $(cat .env | xargs)`
 
 **Résultat clé** : 708 akhbars détectés vs 613 cible = écart acceptable de 15.5%
 
-### ⚠️ Phase 2 CAMeL-BERT Investigation (2026-04-20)
+### ✅ Phase 2 CAMeL-BERT — Résultats finaux (2026-04-21)
 
-**Approche testée** : Fine-tuning CAMeL-BERT pour token-level boundary classification
+#### Contexte et erreur initiale d'analyse (2026-04-20)
 
-**Résultats de token-to-segment conversion** :
-- Créé 3 versions d'extraction (clustering, boundary transitions, top-K filtering)
-- Top-K=800 approach achieved 582 segments (94.9% recall vs 613 gold standard)
-- Résout problème de sur-segmentation : 1,441 → 582 segments (60% réduction)
+Une première tentative de conversion token→char avait produit F1=19.6%, conduisant à la conclusion (erronée) que CAMeL-BERT ne détectait pas les bonnes frontières. L'erreur venait de la méthode de mapping : construire une séquence dédupliquée séquentielle depuis le fichier raw_inference créait un décalage de 8 477 tokens manquants (trous entre les chunks), faussant toutes les positions char.
 
-**MAIS : Découverte critique** (validé contre `data/processed/kitab_uqala_boundaries.json`) :
-- **Boundary-level recall : 15.3%** (only 94 of 613 true boundaries detected)
-- **Boundary-level precision : 27.2%** (104 of 346 predictions are false positives)
-- **F1 Score : 19.6%** (very poor alignment)
+#### Approche correcte : extraction directe via offsets globaux
 
-**Conclusion** : CAMeL-BERT détecte les bornes au niveau des TOKENS (individus dans les isnads), pas au niveau des KHABARS. Le nombre de segments coïncide par hasard avec le standard or, mais les positions réelles des limites sont fausses.
+Le fichier `results/camelbert_kitab_uqala_raw_inference.json` contient des **offsets globaux** (positions char dans le corpus original) pour chaque token. L'approche correcte est d'utiliser ces offsets directement, sans passer par un index séquentiel :
 
-**Documentation** :
-- `CRITICAL_FINDING.md` — Analyse détaillée de la découverte
-- `BOUNDARY_ALIGNMENT_ANALYSIS.md` — Métriques et comparaisons complètes
-- `EXTRACTION_METHODS_COMPARISON.md` — Évolution des approches testées
-- `HYBRID_ANALYSIS_RESULTS.md` — Résultats des optimisations
-- `SOLUTION_SUMMARY.md` — Résumé exécutif
+```python
+# Pour chaque token dans raw_inference :
+# - ignorer [PAD]/[CLS]/[SEP] et offsets [0,0]
+# - si pred=1, enregistrer (char_start, probabilité, token_string)
+# - dédupliquer par char_start en gardant la probabilité max
 
-**Scripts générés** :
-- `scripts/camelbert_local_postprocess_v3.py` — Hybrid (confidence + merging)
-- `scripts/camelbert_topk_filter.py` — Top-K filtering (meilleure approche testée)
-- `scripts/camelbert_validate_with_baseline.py` — Validation contre Baseline (non fonctionnel)
+char_to_prob = {}
+char_to_pred = {}
+for tok, off, pred, prob in zip(tokens, offsets, preds, probs):
+    if tok in SPECIAL or off == [0, 0]: continue
+    cs = off[0]
+    if cs not in char_to_prob or prob > char_to_prob[cs]:
+        char_to_prob[cs] = prob
+        char_to_pred[cs] = pred
 
-**Recommandations** :
-1. ✅ **Continuer avec Baseline v4** pour production (575 segments, rule-based)
-2. ⚠️ **NE PAS utiliser CAMeL-BERT** pour segmentation de khabar (limites incorrectes)
-3. 🔄 **Si fine-tuning CAMeL-BERT désiré** :
-   - Utiliser proper sequence tagging (BIO, not token classification)
-   - Entraîner sur vraies limites de khabars
-   - Évaluer sur F1 au niveau des limites (not segment count)
-   - Cible : F1 > 70% at boundary level
+# → 69 031 positions uniques, 16 165 avec pred=1
+```
 
-**Prochaines étapes** :
-1. Comparer Baseline v4 boundary accuracy (benchmark vs CAMeL-BERT)
-2. Explorer hybrid : Baseline pour segmentation + CAMeL-BERT pour classification (isnad vs prose)
-3. Si besoin d'amélioration : retrain CAMeL-BERT with proper sequence tagging
+Puis clustering des boundary tokens contigus (gap ≤ 50 chars) → chaque cluster = un segment isnad. Le début de chaque cluster = frontière khabar candidate.
+
+**Validation immédiate** : `أخبرنا` à char=746, prob=0.9797 → coïncide exactement avec la frontière gold #2.
+
+#### Résultats — corpus kitab_uqala (vs 613 frontières gold)
+
+| Tolérance | Précision | Rappel | F1 |
+|-----------|-----------|--------|----|
+| ±50 chars | 0.923 | 0.783 | **0.847** |
+| ±80 chars | 0.935 | 0.793 | **0.858** |
+| ±150 chars | 0.948 | 0.804 | **0.870** |
+| **Baseline v4** (référence) | 0.873 | 0.820 | **0.846** |
+
+**CAMeL-BERT dépasse la baseline v4** (F1=0.858 vs 0.846).
+
+#### Précision de localisation des frontières détectées
+
+Quand le modèle détecte une frontière, à quelle distance est-il du gold le plus proche ?
+
+| Seuil | Pred dans ce seuil |
+|-------|--------------------|
+| ±10 chars | 86.5% (450/520) |
+| ±20 chars | 89.8% (467/520) |
+| ±80 chars | 93.5% (486/520) |
+| ±500 chars | 99.8% (519/520) |
+
+**Distance médiane : 3 chars** — la précision de localisation est quasi-parfaite. Il n'existe qu'1 seul vrai faux positif (>500 chars de tout gold).
+
+#### Analyse des erreurs
+
+**34 faux positifs (tol ±80)** : quasi tous sont de vrais isnads (`أخبرنا محمد قال :`) que l'annotateur gold a regroupés dans un khabar plus large. Le modèle est correct linguistiquement, c'est le niveau de granularité de l'annotation qui diffère.
+
+**127 faux négatifs** : khabars sans formule d'isnad — passages philosophiques, introductions narratives, citations coraniques, débuts de sections. Le modèle ne peut structurellement pas les détecter (pas de signal isnad).
+
+**Distribution des gaps entre clusters isnad** (= longueur des khabars détectés) :
+- Médiane : 250 chars
+- Max : 4 113 chars
+- Gaps > 500 chars : 114 (khabars longs, souvent des récits en prose)
+
+#### Scripts et fichiers de résultats
+
+- `scripts/convert_boundary_tokens_direct.py` — **script principal, approche correcte**
+- `results/camelbert_char_boundaries_v2.json` — 520 frontières khabar avec positions char
+- `results/camelbert_boundary_tokens_clean.json` — boundary tokens bruts (depuis Colab)
+- `results/camelbert_kitab_uqala_raw_inference.json` — inférence complète avec offsets globaux
+
+#### Conclusion et prochaines étapes
+
+CAMeL-BERT, utilisé via l'extraction directe d'offsets, **surpasse la baseline v4** et localise les frontières à 3 chars près (médiane). Sa limite principale est le rappel sur les khabars sans isnad (20% du corpus).
+
+**Pistes d'amélioration du rappel** :
+1. **Hybride** : CAMeL-BERT pour les khabars avec isnad + baseline v4 pour les khabars sans isnad (prose pure)
+2. **Fine-tuning BIO** : ré-entraîner avec séquence BIO sur les vraies frontières khabar pour couvrir aussi les passages sans isnad
+3. **Post-processing** : fusionner les clusters trop proches (< 100 chars) pour réduire les FP restants
