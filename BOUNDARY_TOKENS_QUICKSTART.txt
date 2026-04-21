@@ -1,0 +1,102 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  EXTRAIRE LES BOUNDARY TOKENS DU MODÈLE CAMeL-BERT                          ║
+║  Guide Rapide                                                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🎯 OBJECTIF
+═══════════════════════════════════════════════════════════════════════════════
+Extraire les tokens individuels (17,938) prédits comme ISNADS par CAMeL-BERT
+et les sauvegarder dans un fichier JSON propre et structuré.
+
+
+📋 FICHIERS FOURNIS
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Notebook Colab (RECOMMANDÉ)
+   └─ notebooks/quick_boundary_extraction.ipynb  (VERSION COURTE - 10 lignes)
+   └─ notebooks/extract_boundary_tokens_colab.ipynb  (VERSION LONGUE - Détaillée)
+
+2. Script Python
+   └─ scripts/extract_boundary_tokens.py  (Pour exécution locale ou Colab)
+
+3. Documentation
+   └─ EXTRACT_BOUNDARY_TOKENS_README.md  (Guide complet)
+
+
+🚀 QUICKSTART (3 MINUTES)
+═══════════════════════════════════════════════════════════════════════════════
+
+ÉTAPE 1 : Ouvrir Google Colab
+   → https://colab.research.google.com
+
+ÉTAPE 2 : Ouvrir le notebook
+   → File → Upload notebook
+   → Sélectionner: notebooks/quick_boundary_extraction.ipynb
+
+ÉTAPE 3 : Exécuter les cellules
+   → Cliquer sur ▶ pour chaque cellule (3 au total)
+
+ÉTAPE 4 : Télécharger le résultat
+   → Le fichier "camelbert_boundary_tokens_clean.json" sera téléchargé
+   → Taille: ~800 KB
+   → Contient: 17,938 tokens
+
+
+📊 RÉSULTAT OBTENU
+═══════════════════════════════════════════════════════════════════════════════
+
+Fichier: camelbert_boundary_tokens_clean.json
+
+Structure:
+{
+  "metadata": {
+    "corpus": "kitab_uqala_reference_corpus.txt",
+    "model": "CAMeL-Lab/bert-base-arabic-camelbert-msa",
+    "total_boundary_tokens": 17938,
+    "boundary_percentage": 6.03
+  },
+  "boundary_tokens": [
+    "[CLS]",
+    "أبو",
+    "بكر",
+    "محمد",
+    "بن",
+    ...  (17,938 tokens au total)
+  ],
+  "boundary_indices": [0, 583, 590, 591, 592, ...]
+}
+
+
+✨ CARACTÉRISTIQUES
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ Simple - Une seule cellule pour exécution rapide
+✓ Propre - Fichier JSON bien structuré
+✓ Complet - Inclut tokens + indices + métadonnées
+✓ Efficace - ~5 minutes d'exécution sur Colab
+
+
+💡 UTILISATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Python:
+    import json
+    with open('camelbert_boundary_tokens_clean.json') as f:
+        data = json.load(f)
+    
+    tokens = data['boundary_tokens']  # 17,938 tokens
+    indices = data['boundary_indices']  # positions dans le corpus
+
+
+📖 DOCUMENTATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour plus de détails:
+  → Lire: EXTRACT_BOUNDARY_TOKENS_README.md
+  → Scripts: scripts/extract_boundary_tokens.py
+
+
+═══════════════════════════════════════════════════════════════════════════════
+Créé: 2026-04-21
+═══════════════════════════════════════════════════════════════════════════════
