@@ -4,28 +4,30 @@
 
 Entraîner des modèles de Machine Learning pour segmenter automatiquement un texte arabe en **unités narratives cohérentes** (khabar, pl. akhbar). Le texte cible est typiquement issu de sources historiographiques, littéraires ou journalistiques arabes.
 
-## Structure du projet
+## Structure du projet (Production-Ready)
 
 ```
 khabar-segmentation/
-├── CLAUDE.md                  # Ce fichier
-├── .gitignore
-├── requirements.txt
-├── configs/                   # Hyperparamètres et configs de modèles
-├── data/
-│   ├── raw/                   # Textes arabes bruts (ne pas modifier)
-│   ├── processed/             # Données après prétraitement
-│   └── annotations/           # Annotations manuelles (format JSON/JSONL)
-├── notebooks/                 # Exploration et visualisation (Jupyter)
-├── scripts/
-│   ├── preprocess.py          # Nettoyage et tokenisation
-│   ├── train.py               # Boucle d'entraînement
-│   └── evaluate.py            # Métriques d'évaluation
-└── src/
-    ├── __init__.py
-    ├── data/                  # Loaders et datasets PyTorch/HuggingFace
-    ├── models/                # Architectures de modèles
-    └── utils/                 # Fonctions utilitaires (métriques, viz…)
+├── CLAUDE.md                               # Ce fichier
+│
+├── scripts/                                # 3 pipelines essentiels
+│   ├── baseline_isnad_segmentation.py      # v1 Baseline (linguistique)
+│   ├── baseline_v4.py                      # v4 Baseline (final optimisé)
+│   └── convert_boundary_tokens_direct.py   # CAMeL-BERT post-processing
+│
+├── notebooks/
+│   └── extract_boundary_tokens_colab.ipynb # CAMeL-BERT inference on Colab
+│
+├── data/processed/                         # 3 données sources essentielles
+│   ├── kitab_uqala_reference_corpus.txt    # Corpus brut (467 KB)
+│   ├── Kitab_Uqala_al_Majanin_annotated.json # Gold standard (4.9 MB)
+│   └── kitab_uqala_boundaries.json         # Gold boundaries (68 KB)
+│
+└── results/                                # 4 fichiers résultats pré-calculés
+    ├── baseline_v4_boundaries.json         # Baseline v4 résultats
+    ├── baseline_v4_kitab_uqala.json        # Baseline v4 comparaison
+    ├── camelbert_char_boundaries_v2.json   # CAMeL-BERT résultats (361 KB)
+    └── camelbert_kitab_uqala_raw_inference.json # CAMeL-BERT raw (31 MB)
 ```
 
 ## Conventions de code
@@ -346,3 +348,252 @@ CAMeL-BERT, utilisé via l'extraction directe d'offsets, **surpasse la baseline 
 1. **Hybride** : CAMeL-BERT pour les khabars avec isnad + baseline v4 pour les khabars sans isnad (prose pure)
 2. **Fine-tuning BIO** : ré-entraîner avec séquence BIO sur les vraies frontières khabar pour couvrir aussi les passages sans isnad
 3. **Post-processing** : fusionner les clusters trop proches (< 100 chars) pour réduire les FP restants
+
+---
+
+## 🔄 Phase 3 — Multi-Pipeline Comparison Framework (2026-04-22)
+
+### Objectif
+Créer une **procédure systématique** pour comparer les 3 pipelines (Baseline v4, CAMeL-BERT, Deepseek API) sur de nouveaux textes OpenITI et évaluer leur performance relative.
+
+### Pipelines à Comparer
+
+| Pipeline | Approche | Avantage | Limite |
+|----------|----------|----------|--------|
+| **Baseline v4** | Linguistique (verbes + transitions) | Rapide, interprétable | Rappel limité (~82%) |
+| **CAMeL-BERT** | ML (token classification) | Haute précision (93.46%), appris | Pas de khabars sans isnad |
+| **Deepseek API** | LLM (zero-shot prompt) | Couvre tous les cas | Temps latence, coût API |
+
+### Plan Complet (6 étapes)
+
+#### Étape 1 : Nettoyer les textes OpenITI
+**Script à créer** : `scripts/clean_openiti_text.py`
+
+```bash
+python scripts/clean_openiti_text.py \
+  --input data/raw/0406IbnHabib.raw.txt \
+  --output data/processed/0406IbnHabib_clean.txt
+```
+
+**Processus** :
+- Supprimer la section `### |HEADER-METADATA|...|END HEADER|`
+- Supprimer les lignes `###` (footer metadata)
+- Normaliser les espaces (préserver structure texte)
+- Vérifier intégrité (pas de perte de caractères)
+
+#### Étape 2 : Inférence CAMeL-BERT (sur Colab)
+**Procédure** : Utiliser `notebooks/extract_boundary_tokens_colab.ipynb`
+
+```
+1. Ouvrir notebook sur Google Colab
+2. Monter Google Drive (où se trouve le modèle entraîné)
+3. Charger texte propre
+4. Inférer sur TOUT le texte (pas juste 512 tokens)
+   - Chunking + overlap pour gérer taille
+5. Sauvegarder résultats bruts :
+   - results/camelbert_[TEXTNAME]_raw_inference.json
+```
+
+#### Étape 3 : Post-traitement CAMeL-BERT (localement)
+**Script existant** : `scripts/convert_boundary_tokens_direct.py`
+
+```bash
+python scripts/convert_boundary_tokens_direct.py \
+  --input results/camelbert_[TEXTNAME]_raw_inference.json \
+  --corpus data/processed/[TEXTNAME]_clean.txt \
+  --output results/camelbert_[TEXTNAME]_char_boundaries.json
+```
+
+#### Étape 4 : Exécuter Baseline v4
+**Script existant** : `scripts/baseline_v4.py`
+
+```bash
+python scripts/baseline_v4.py \
+  --input data/processed/[TEXTNAME]_clean.txt \
+  --output results/baseline_v4_[TEXTNAME]_segments.json
+```
+
+#### Étape 5 : Segmenter en Narrative Units
+**Script à créer** : `scripts/segment_narrative_units.py`
+
+Convertir les résultats des deux pipelines en **unités narratives** (khabars avec isnads) :
+
+```bash
+# CAMeL-BERT
+python scripts/segment_narrative_units.py \
+  --boundaries results/camelbert_[TEXTNAME]_char_boundaries.json \
+  --corpus data/processed/[TEXTNAME]_clean.txt \
+  --pipeline camelbert \
+  --output results/camelbert_[TEXTNAME]_narrative_units.json
+
+# Baseline
+python scripts/segment_narrative_units.py \
+  --segments results/baseline_v4_[TEXTNAME]_segments.json \
+  --corpus data/processed/[TEXTNAME]_clean.txt \
+  --pipeline baseline \
+  --output results/baseline_v4_[TEXTNAME]_narrative_units.json
+```
+
+#### Étape 6 : Gold Standard via Deepseek API
+**Script à créer** : `scripts/generate_gold_standard_deepseek.py`
+
+```bash
+python scripts/generate_gold_standard_deepseek.py \
+  --text data/processed/[TEXTNAME]_clean.txt \
+  --api-key $DEEPSEEK_API_KEY \
+  --output results/gold_standard_[TEXTNAME]_deepseek.json
+```
+
+**Prompt pour Deepseek** :
+```
+Segmentez ce texte arabe en unités narratives (khabars).
+Pour chaque khabar:
+- Position de début et fin (en numéros de caractères)
+- Présence ou non d'un isnad
+- Texte complet de l'isnad (si présent)
+
+Format de réponse (JSON):
+{
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "char_start": 100,
+      "char_end": 500,
+      "has_isnad": true,
+      "isnad_text": "..."
+    }
+  ]
+}
+```
+
+#### Étape 7 : Comparer les Résultats
+**Script à créer** : `scripts/compare_pipelines.py`
+
+```bash
+python scripts/compare_pipelines.py \
+  --camelbert results/camelbert_[TEXTNAME]_narrative_units.json \
+  --baseline results/baseline_v4_[TEXTNAME]_narrative_units.json \
+  --gold results/gold_standard_[TEXTNAME]_deepseek.json \
+  --output results/comparison_[TEXTNAME].json
+```
+
+**Métriques calculées** :
+- Precision, Recall, F1 pour chaque pipeline vs gold
+- Distance médiane entre positions prédites et gold
+- Taux de chevauchement (overlap %)
+- Analyse des faux positifs / faux négatifs
+
+#### Étape 8 : Visualiser & Comparer Manuellement
+**Script à créer** : `scripts/visualize_pipeline_comparison.py`
+
+```bash
+python scripts/visualize_pipeline_comparison.py \
+  --text data/processed/[TEXTNAME]_clean.txt \
+  --camelbert results/camelbert_[TEXTNAME]_narrative_units.json \
+  --baseline results/baseline_v4_[TEXTNAME]_narrative_units.json \
+  --gold results/gold_standard_[TEXTNAME]_deepseek.json \
+  --output results/visualization_[TEXTNAME]_comparison.html
+```
+
+**Fonctionnalités HTML** :
+- Texte complet avec surlignes 3 couleurs (CAMeL-BERT, Baseline, Gold)
+- Boutons toggle pour chaque pipeline
+- Hover pour voir détails + métriques de chaque segment
+- Légende concordance/discordance
+- Panel statistiques et résumé
+- Export comparison comme JSON/CSV
+
+---
+
+### 📝 Nommage des Fichiers
+
+**Convention** : `{pipeline}_{textname}_{phase}.{ext}`
+
+```
+Input OpenITI : 0406IbnHabibNaysaburi.raw.txt
+                ↓
+Step 1: 0406IbnHabib_clean.txt
+                ↓
+Step 2: camelbert_0406IbnHabib_raw_inference.json (from Colab)
+        ↓
+Step 3: camelbert_0406IbnHabib_char_boundaries.json
+        ↓
+Step 4: baseline_v4_0406IbnHabib_segments.json
+        ↓
+Step 5: camelbert_0406IbnHabib_narrative_units.json
+        baseline_v4_0406IbnHabib_narrative_units.json
+        ↓
+Step 6: gold_standard_0406IbnHabib_deepseek.json
+        ↓
+Step 7: comparison_0406IbnHabib.json
+        ↓
+Step 8: visualization_0406IbnHabib_comparison.html
+```
+
+---
+
+### 🚀 Scripts à Implémenter
+
+| # | Script | Étape | Priorité |
+|---|--------|-------|----------|
+| 1 | `scripts/clean_openiti_text.py` | 1 | 🔴 HAUTE |
+| 2 | `scripts/segment_narrative_units.py` | 5 | 🔴 HAUTE |
+| 3 | `scripts/generate_gold_standard_deepseek.py` | 6 | 🟠 MOYENNE |
+| 4 | `scripts/compare_pipelines.py` | 7 | 🔴 HAUTE |
+| 5 | `scripts/visualize_pipeline_comparison.py` | 8 | 🟠 MOYENNE |
+
+---
+
+### ✅ Validation Checklist
+
+Avant de déclarer un texte comme "fully processed" :
+
+- [ ] Clean text sans metadata (pas de `###` lines)
+- [ ] CAMeL-BERT inference complète sans erreurs
+- [ ] Baseline v4 produit des segments
+- [ ] Narrative units générées pour les deux pipelines
+- [ ] Gold standard généré depuis Deepseek
+- [ ] Métriques de comparaison calculées (P, R, F1)
+- [ ] Visualisation HTML générée et consultable
+- [ ] Résultats exportés (JSON, CSV si applicable)
+
+---
+
+### 🔄 Workflow Entièrement Automatisé
+
+Une fois les scripts implémentés, créer un **master script** :
+
+```bash
+python scripts/evaluate_text_multipl.py \
+  --input data/raw/[TEXTNAME].raw.txt \
+  --output-dir results/evaluation_[TEXTNAME]/ \
+  --colab-notebook notebooks/extract_boundary_tokens_colab.ipynb \
+  --deepseek-key $DEEPSEEK_API_KEY \
+  --generate-viz true
+```
+
+Cela :
+1. Nettoie le texte
+2. Lance Colab (ou utilise fichier pré-calculé)
+3. Exécute baseline
+4. Segmente en narrative units
+5. Génère gold standard
+6. Compare tous les pipelines
+7. Crée visualisation interactive
+
+---
+
+### 📊 Cas d'Usage
+
+**Test d'un nouveau texte OpenITI** :
+```bash
+# En ~15 minutes (excluant temps Deepseek API) :
+python scripts/evaluate_text_multi.py --input data/raw/0392IbnIsmacil.raw.txt
+```
+
+**Résultat** : Dossier `results/evaluation_0392IbnIsmacil/` contenant :
+- Texte propre
+- Résultats baseline + CAMeL-BERT
+- Gold standard Deepseek
+- Comparaison metrics
+- Visualisation interactive HTML

@@ -1,0 +1,5526 @@
+{
+  "metadata": {
+    "source": "gold_standard",
+    "total_units": 613,
+    "units_with_isnad": 613
+  },
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "type": "khabar",
+      "char_start": 0,
+      "char_end": 744,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 744
+    },
+    {
+      "unit_id": 1,
+      "type": "khabar",
+      "char_start": 746,
+      "char_end": 1198,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 452
+    },
+    {
+      "unit_id": 2,
+      "type": "khabar",
+      "char_start": 1200,
+      "char_end": 1509,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 309
+    },
+    {
+      "unit_id": 3,
+      "type": "khabar",
+      "char_start": 1511,
+      "char_end": 1827,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 316
+    },
+    {
+      "unit_id": 4,
+      "type": "khabar",
+      "char_start": 1829,
+      "char_end": 2088,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 259
+    },
+    {
+      "unit_id": 5,
+      "type": "khabar",
+      "char_start": 2090,
+      "char_end": 2548,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 458
+    },
+    {
+      "unit_id": 6,
+      "type": "khabar",
+      "char_start": 2550,
+      "char_end": 2945,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 395
+    },
+    {
+      "unit_id": 7,
+      "type": "khabar",
+      "char_start": 2947,
+      "char_end": 3585,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 638
+    },
+    {
+      "unit_id": 8,
+      "type": "khabar",
+      "char_start": 3587,
+      "char_end": 3943,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 356
+    },
+    {
+      "unit_id": 9,
+      "type": "khabar",
+      "char_start": 3945,
+      "char_end": 4234,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 289
+    },
+    {
+      "unit_id": 10,
+      "type": "khabar",
+      "char_start": 4236,
+      "char_end": 6127,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1891
+    },
+    {
+      "unit_id": 11,
+      "type": "khabar",
+      "char_start": 6129,
+      "char_end": 7646,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1517
+    },
+    {
+      "unit_id": 12,
+      "type": "khabar",
+      "char_start": 7648,
+      "char_end": 8690,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1042
+    },
+    {
+      "unit_id": 13,
+      "type": "khabar",
+      "char_start": 8692,
+      "char_end": 8913,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 221
+    },
+    {
+      "unit_id": 14,
+      "type": "khabar",
+      "char_start": 8915,
+      "char_end": 9763,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 848
+    },
+    {
+      "unit_id": 15,
+      "type": "khabar",
+      "char_start": 9765,
+      "char_end": 9854,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 89
+    },
+    {
+      "unit_id": 16,
+      "type": "khabar",
+      "char_start": 9856,
+      "char_end": 10081,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 225
+    },
+    {
+      "unit_id": 17,
+      "type": "khabar",
+      "char_start": 10083,
+      "char_end": 10329,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 246
+    },
+    {
+      "unit_id": 18,
+      "type": "khabar",
+      "char_start": 10331,
+      "char_end": 10684,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 353
+    },
+    {
+      "unit_id": 19,
+      "type": "khabar",
+      "char_start": 10686,
+      "char_end": 11124,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 438
+    },
+    {
+      "unit_id": 20,
+      "type": "khabar",
+      "char_start": 11126,
+      "char_end": 11349,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 223
+    },
+    {
+      "unit_id": 21,
+      "type": "khabar",
+      "char_start": 11351,
+      "char_end": 11615,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 264
+    },
+    {
+      "unit_id": 22,
+      "type": "khabar",
+      "char_start": 11617,
+      "char_end": 11835,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 218
+    },
+    {
+      "unit_id": 23,
+      "type": "khabar",
+      "char_start": 11837,
+      "char_end": 11990,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 153
+    },
+    {
+      "unit_id": 24,
+      "type": "khabar",
+      "char_start": 11992,
+      "char_end": 12247,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 255
+    },
+    {
+      "unit_id": 25,
+      "type": "khabar",
+      "char_start": 12249,
+      "char_end": 12829,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 580
+    },
+    {
+      "unit_id": 26,
+      "type": "khabar",
+      "char_start": 12831,
+      "char_end": 13058,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 227
+    },
+    {
+      "unit_id": 27,
+      "type": "khabar",
+      "char_start": 13060,
+      "char_end": 13187,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 127
+    },
+    {
+      "unit_id": 28,
+      "type": "khabar",
+      "char_start": 13189,
+      "char_end": 13749,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 560
+    },
+    {
+      "unit_id": 29,
+      "type": "khabar",
+      "char_start": 13751,
+      "char_end": 13972,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 221
+    },
+    {
+      "unit_id": 30,
+      "type": "khabar",
+      "char_start": 13974,
+      "char_end": 15308,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1334
+    },
+    {
+      "unit_id": 31,
+      "type": "khabar",
+      "char_start": 15310,
+      "char_end": 15724,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 414
+    },
+    {
+      "unit_id": 32,
+      "type": "khabar",
+      "char_start": 15726,
+      "char_end": 15788,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 62
+    },
+    {
+      "unit_id": 33,
+      "type": "khabar",
+      "char_start": 15790,
+      "char_end": 16142,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 352
+    },
+    {
+      "unit_id": 34,
+      "type": "khabar",
+      "char_start": 16144,
+      "char_end": 16682,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 538
+    },
+    {
+      "unit_id": 35,
+      "type": "khabar",
+      "char_start": 16684,
+      "char_end": 17035,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 351
+    },
+    {
+      "unit_id": 36,
+      "type": "khabar",
+      "char_start": 17037,
+      "char_end": 17175,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 138
+    },
+    {
+      "unit_id": 37,
+      "type": "khabar",
+      "char_start": 17177,
+      "char_end": 17481,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 304
+    },
+    {
+      "unit_id": 38,
+      "type": "khabar",
+      "char_start": 17483,
+      "char_end": 17798,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 315
+    },
+    {
+      "unit_id": 39,
+      "type": "khabar",
+      "char_start": 17800,
+      "char_end": 17880,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 80
+    },
+    {
+      "unit_id": 40,
+      "type": "khabar",
+      "char_start": 17882,
+      "char_end": 18144,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 262
+    },
+    {
+      "unit_id": 41,
+      "type": "khabar",
+      "char_start": 18146,
+      "char_end": 18227,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 81
+    },
+    {
+      "unit_id": 42,
+      "type": "khabar",
+      "char_start": 18229,
+      "char_end": 18447,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 218
+    },
+    {
+      "unit_id": 43,
+      "type": "khabar",
+      "char_start": 18449,
+      "char_end": 18530,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 81
+    },
+    {
+      "unit_id": 44,
+      "type": "khabar",
+      "char_start": 18532,
+      "char_end": 18891,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 359
+    },
+    {
+      "unit_id": 45,
+      "type": "khabar",
+      "char_start": 18893,
+      "char_end": 19023,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 130
+    },
+    {
+      "unit_id": 46,
+      "type": "khabar",
+      "char_start": 19025,
+      "char_end": 19518,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 493
+    },
+    {
+      "unit_id": 47,
+      "type": "khabar",
+      "char_start": 19520,
+      "char_end": 19573,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 53
+    },
+    {
+      "unit_id": 48,
+      "type": "khabar",
+      "char_start": 19575,
+      "char_end": 19606,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 31
+    },
+    {
+      "unit_id": 49,
+      "type": "khabar",
+      "char_start": 19608,
+      "char_end": 19699,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 91
+    },
+    {
+      "unit_id": 50,
+      "type": "khabar",
+      "char_start": 19701,
+      "char_end": 19745,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 44
+    },
+    {
+      "unit_id": 51,
+      "type": "khabar",
+      "char_start": 19747,
+      "char_end": 19829,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 82
+    },
+    {
+      "unit_id": 52,
+      "type": "khabar",
+      "char_start": 19831,
+      "char_end": 20106,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 275
+    },
+    {
+      "unit_id": 53,
+      "type": "khabar",
+      "char_start": 20108,
+      "char_end": 20266,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 158
+    },
+    {
+      "unit_id": 54,
+      "type": "khabar",
+      "char_start": 20268,
+      "char_end": 20325,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 57
+    },
+    {
+      "unit_id": 55,
+      "type": "khabar",
+      "char_start": 20327,
+      "char_end": 20401,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 74
+    },
+    {
+      "unit_id": 56,
+      "type": "khabar",
+      "char_start": 20403,
+      "char_end": 20526,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 123
+    },
+    {
+      "unit_id": 57,
+      "type": "khabar",
+      "char_start": 20528,
+      "char_end": 20783,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 255
+    },
+    {
+      "unit_id": 58,
+      "type": "khabar",
+      "char_start": 20785,
+      "char_end": 21165,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 380
+    },
+    {
+      "unit_id": 59,
+      "type": "khabar",
+      "char_start": 21167,
+      "char_end": 21340,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 173
+    },
+    {
+      "unit_id": 60,
+      "type": "khabar",
+      "char_start": 21342,
+      "char_end": 21465,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 123
+    },
+    {
+      "unit_id": 61,
+      "type": "khabar",
+      "char_start": 21467,
+      "char_end": 21650,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 183
+    },
+    {
+      "unit_id": 62,
+      "type": "khabar",
+      "char_start": 21652,
+      "char_end": 21898,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 246
+    },
+    {
+      "unit_id": 63,
+      "type": "khabar",
+      "char_start": 21900,
+      "char_end": 22362,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 462
+    },
+    {
+      "unit_id": 64,
+      "type": "khabar",
+      "char_start": 22364,
+      "char_end": 22437,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 73
+    },
+    {
+      "unit_id": 65,
+      "type": "khabar",
+      "char_start": 22439,
+      "char_end": 22544,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 105
+    },
+    {
+      "unit_id": 66,
+      "type": "khabar",
+      "char_start": 22546,
+      "char_end": 22830,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 284
+    },
+    {
+      "unit_id": 67,
+      "type": "khabar",
+      "char_start": 22832,
+      "char_end": 22895,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 63
+    },
+    {
+      "unit_id": 68,
+      "type": "khabar",
+      "char_start": 22897,
+      "char_end": 22937,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 40
+    },
+    {
+      "unit_id": 69,
+      "type": "khabar",
+      "char_start": 22939,
+      "char_end": 22984,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 45
+    },
+    {
+      "unit_id": 70,
+      "type": "khabar",
+      "char_start": 22986,
+      "char_end": 23346,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 360
+    },
+    {
+      "unit_id": 71,
+      "type": "khabar",
+      "char_start": 23348,
+      "char_end": 23584,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 236
+    },
+    {
+      "unit_id": 72,
+      "type": "khabar",
+      "char_start": 23586,
+      "char_end": 24043,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 457
+    },
+    {
+      "unit_id": 73,
+      "type": "khabar",
+      "char_start": 24045,
+      "char_end": 24369,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 324
+    },
+    {
+      "unit_id": 74,
+      "type": "khabar",
+      "char_start": 24371,
+      "char_end": 24603,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 232
+    },
+    {
+      "unit_id": 75,
+      "type": "khabar",
+      "char_start": 24605,
+      "char_end": 24908,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 303
+    },
+    {
+      "unit_id": 76,
+      "type": "khabar",
+      "char_start": 24910,
+      "char_end": 25006,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 96
+    },
+    {
+      "unit_id": 77,
+      "type": "khabar",
+      "char_start": 25008,
+      "char_end": 25163,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 155
+    },
+    {
+      "unit_id": 78,
+      "type": "khabar",
+      "char_start": 25165,
+      "char_end": 25521,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 356
+    },
+    {
+      "unit_id": 79,
+      "type": "khabar",
+      "char_start": 25523,
+      "char_end": 25794,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 271
+    },
+    {
+      "unit_id": 80,
+      "type": "khabar",
+      "char_start": 25796,
+      "char_end": 26274,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 478
+    },
+    {
+      "unit_id": 81,
+      "type": "khabar",
+      "char_start": 26276,
+      "char_end": 26738,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 462
+    },
+    {
+      "unit_id": 82,
+      "type": "khabar",
+      "char_start": 26740,
+      "char_end": 27062,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 322
+    },
+    {
+      "unit_id": 83,
+      "type": "khabar",
+      "char_start": 27064,
+      "char_end": 27390,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 326
+    },
+    {
+      "unit_id": 84,
+      "type": "khabar",
+      "char_start": 27392,
+      "char_end": 27801,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 409
+    },
+    {
+      "unit_id": 85,
+      "type": "khabar",
+      "char_start": 27803,
+      "char_end": 28174,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 371
+    },
+    {
+      "unit_id": 86,
+      "type": "khabar",
+      "char_start": 28176,
+      "char_end": 28484,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 308
+    },
+    {
+      "unit_id": 87,
+      "type": "khabar",
+      "char_start": 28486,
+      "char_end": 28888,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 402
+    },
+    {
+      "unit_id": 88,
+      "type": "khabar",
+      "char_start": 28890,
+      "char_end": 29237,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 347
+    },
+    {
+      "unit_id": 89,
+      "type": "khabar",
+      "char_start": 29239,
+      "char_end": 29517,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 278
+    },
+    {
+      "unit_id": 90,
+      "type": "khabar",
+      "char_start": 29519,
+      "char_end": 29736,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 217
+    },
+    {
+      "unit_id": 91,
+      "type": "khabar",
+      "char_start": 29738,
+      "char_end": 30101,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 363
+    },
+    {
+      "unit_id": 92,
+      "type": "khabar",
+      "char_start": 30103,
+      "char_end": 30427,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 324
+    },
+    {
+      "unit_id": 93,
+      "type": "khabar",
+      "char_start": 30429,
+      "char_end": 30474,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 45
+    },
+    {
+      "unit_id": 94,
+      "type": "khabar",
+      "char_start": 30476,
+      "char_end": 30686,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 210
+    },
+    {
+      "unit_id": 95,
+      "type": "khabar",
+      "char_start": 30688,
+      "char_end": 31164,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 476
+    },
+    {
+      "unit_id": 96,
+      "type": "khabar",
+      "char_start": 31166,
+      "char_end": 31782,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 616
+    },
+    {
+      "unit_id": 97,
+      "type": "khabar",
+      "char_start": 31784,
+      "char_end": 31867,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 83
+    },
+    {
+      "unit_id": 98,
+      "type": "khabar",
+      "char_start": 31869,
+      "char_end": 32559,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 690
+    },
+    {
+      "unit_id": 99,
+      "type": "khabar",
+      "char_start": 32561,
+      "char_end": 33077,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 516
+    },
+    {
+      "unit_id": 100,
+      "type": "khabar",
+      "char_start": 33079,
+      "char_end": 33326,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 247
+    },
+    {
+      "unit_id": 101,
+      "type": "khabar",
+      "char_start": 33328,
+      "char_end": 33737,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 409
+    },
+    {
+      "unit_id": 102,
+      "type": "khabar",
+      "char_start": 33739,
+      "char_end": 33961,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 222
+    },
+    {
+      "unit_id": 103,
+      "type": "khabar",
+      "char_start": 33963,
+      "char_end": 34288,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 325
+    },
+    {
+      "unit_id": 104,
+      "type": "khabar",
+      "char_start": 34290,
+      "char_end": 34392,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 102
+    },
+    {
+      "unit_id": 105,
+      "type": "khabar",
+      "char_start": 34394,
+      "char_end": 34528,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 134
+    },
+    {
+      "unit_id": 106,
+      "type": "khabar",
+      "char_start": 34530,
+      "char_end": 34818,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 288
+    },
+    {
+      "unit_id": 107,
+      "type": "khabar",
+      "char_start": 34820,
+      "char_end": 35125,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 305
+    },
+    {
+      "unit_id": 108,
+      "type": "khabar",
+      "char_start": 35127,
+      "char_end": 35327,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 200
+    },
+    {
+      "unit_id": 109,
+      "type": "khabar",
+      "char_start": 35329,
+      "char_end": 35518,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 189
+    },
+    {
+      "unit_id": 110,
+      "type": "khabar",
+      "char_start": 35520,
+      "char_end": 35647,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 127
+    },
+    {
+      "unit_id": 111,
+      "type": "khabar",
+      "char_start": 35649,
+      "char_end": 35763,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 114
+    },
+    {
+      "unit_id": 112,
+      "type": "khabar",
+      "char_start": 35765,
+      "char_end": 36203,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 438
+    },
+    {
+      "unit_id": 113,
+      "type": "khabar",
+      "char_start": 36205,
+      "char_end": 36741,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 536
+    },
+    {
+      "unit_id": 114,
+      "type": "khabar",
+      "char_start": 36743,
+      "char_end": 37769,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1026
+    },
+    {
+      "unit_id": 115,
+      "type": "khabar",
+      "char_start": 37771,
+      "char_end": 38316,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 545
+    },
+    {
+      "unit_id": 116,
+      "type": "khabar",
+      "char_start": 38318,
+      "char_end": 38590,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 272
+    },
+    {
+      "unit_id": 117,
+      "type": "khabar",
+      "char_start": 38592,
+      "char_end": 39137,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 545
+    },
+    {
+      "unit_id": 118,
+      "type": "khabar",
+      "char_start": 39139,
+      "char_end": 39411,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 272
+    },
+    {
+      "unit_id": 119,
+      "type": "khabar",
+      "char_start": 39413,
+      "char_end": 40544,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1131
+    },
+    {
+      "unit_id": 120,
+      "type": "khabar",
+      "char_start": 40546,
+      "char_end": 41771,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1225
+    },
+    {
+      "unit_id": 121,
+      "type": "khabar",
+      "char_start": 41773,
+      "char_end": 42160,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 387
+    },
+    {
+      "unit_id": 122,
+      "type": "khabar",
+      "char_start": 42162,
+      "char_end": 42492,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 330
+    },
+    {
+      "unit_id": 123,
+      "type": "khabar",
+      "char_start": 42494,
+      "char_end": 42948,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 454
+    },
+    {
+      "unit_id": 124,
+      "type": "khabar",
+      "char_start": 42950,
+      "char_end": 43271,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 321
+    },
+    {
+      "unit_id": 125,
+      "type": "khabar",
+      "char_start": 43273,
+      "char_end": 43759,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 486
+    },
+    {
+      "unit_id": 126,
+      "type": "khabar",
+      "char_start": 43761,
+      "char_end": 43907,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 146
+    },
+    {
+      "unit_id": 127,
+      "type": "khabar",
+      "char_start": 43909,
+      "char_end": 44045,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 136
+    },
+    {
+      "unit_id": 128,
+      "type": "khabar",
+      "char_start": 44047,
+      "char_end": 44198,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 151
+    },
+    {
+      "unit_id": 129,
+      "type": "khabar",
+      "char_start": 44200,
+      "char_end": 44449,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 249
+    },
+    {
+      "unit_id": 130,
+      "type": "khabar",
+      "char_start": 44451,
+      "char_end": 44878,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 427
+    },
+    {
+      "unit_id": 131,
+      "type": "khabar",
+      "char_start": 44880,
+      "char_end": 45183,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 303
+    },
+    {
+      "unit_id": 132,
+      "type": "khabar",
+      "char_start": 45185,
+      "char_end": 45300,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 115
+    },
+    {
+      "unit_id": 133,
+      "type": "khabar",
+      "char_start": 45302,
+      "char_end": 45459,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 157
+    },
+    {
+      "unit_id": 134,
+      "type": "khabar",
+      "char_start": 45461,
+      "char_end": 45558,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 97
+    },
+    {
+      "unit_id": 135,
+      "type": "khabar",
+      "char_start": 45560,
+      "char_end": 45996,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 436
+    },
+    {
+      "unit_id": 136,
+      "type": "khabar",
+      "char_start": 45998,
+      "char_end": 46211,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 213
+    },
+    {
+      "unit_id": 137,
+      "type": "khabar",
+      "char_start": 46213,
+      "char_end": 46517,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 304
+    },
+    {
+      "unit_id": 138,
+      "type": "khabar",
+      "char_start": 46519,
+      "char_end": 46631,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 112
+    },
+    {
+      "unit_id": 139,
+      "type": "khabar",
+      "char_start": 46633,
+      "char_end": 46747,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 114
+    },
+    {
+      "unit_id": 140,
+      "type": "khabar",
+      "char_start": 46749,
+      "char_end": 46868,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 119
+    },
+    {
+      "unit_id": 141,
+      "type": "khabar",
+      "char_start": 46870,
+      "char_end": 47031,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 161
+    },
+    {
+      "unit_id": 142,
+      "type": "khabar",
+      "char_start": 47033,
+      "char_end": 47170,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 137
+    },
+    {
+      "unit_id": 143,
+      "type": "khabar",
+      "char_start": 47172,
+      "char_end": 47383,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 211
+    },
+    {
+      "unit_id": 144,
+      "type": "khabar",
+      "char_start": 47385,
+      "char_end": 47619,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 234
+    },
+    {
+      "unit_id": 145,
+      "type": "khabar",
+      "char_start": 47621,
+      "char_end": 47909,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 288
+    },
+    {
+      "unit_id": 146,
+      "type": "khabar",
+      "char_start": 47911,
+      "char_end": 48326,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 415
+    },
+    {
+      "unit_id": 147,
+      "type": "khabar",
+      "char_start": 48328,
+      "char_end": 48616,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 288
+    },
+    {
+      "unit_id": 148,
+      "type": "khabar",
+      "char_start": 48618,
+      "char_end": 48946,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 328
+    },
+    {
+      "unit_id": 149,
+      "type": "khabar",
+      "char_start": 48948,
+      "char_end": 49288,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 340
+    },
+    {
+      "unit_id": 150,
+      "type": "khabar",
+      "char_start": 49290,
+      "char_end": 49621,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 331
+    },
+    {
+      "unit_id": 151,
+      "type": "khabar",
+      "char_start": 49623,
+      "char_end": 49779,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 156
+    },
+    {
+      "unit_id": 152,
+      "type": "khabar",
+      "char_start": 49781,
+      "char_end": 50198,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 417
+    },
+    {
+      "unit_id": 153,
+      "type": "khabar",
+      "char_start": 50200,
+      "char_end": 50502,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 302
+    },
+    {
+      "unit_id": 154,
+      "type": "khabar",
+      "char_start": 50504,
+      "char_end": 50701,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 197
+    },
+    {
+      "unit_id": 155,
+      "type": "khabar",
+      "char_start": 50703,
+      "char_end": 50762,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 59
+    },
+    {
+      "unit_id": 156,
+      "type": "khabar",
+      "char_start": 50764,
+      "char_end": 51028,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 264
+    },
+    {
+      "unit_id": 157,
+      "type": "khabar",
+      "char_start": 51030,
+      "char_end": 51173,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 143
+    },
+    {
+      "unit_id": 158,
+      "type": "khabar",
+      "char_start": 51175,
+      "char_end": 51599,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 424
+    },
+    {
+      "unit_id": 159,
+      "type": "khabar",
+      "char_start": 51601,
+      "char_end": 52001,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 400
+    },
+    {
+      "unit_id": 160,
+      "type": "khabar",
+      "char_start": 52003,
+      "char_end": 52301,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 298
+    },
+    {
+      "unit_id": 161,
+      "type": "khabar",
+      "char_start": 52303,
+      "char_end": 53506,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1203
+    },
+    {
+      "unit_id": 162,
+      "type": "khabar",
+      "char_start": 53508,
+      "char_end": 56875,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 3367
+    },
+    {
+      "unit_id": 163,
+      "type": "khabar",
+      "char_start": 56877,
+      "char_end": 57562,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 685
+    },
+    {
+      "unit_id": 164,
+      "type": "khabar",
+      "char_start": 57564,
+      "char_end": 57681,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 117
+    },
+    {
+      "unit_id": 165,
+      "type": "khabar",
+      "char_start": 57683,
+      "char_end": 58959,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1276
+    },
+    {
+      "unit_id": 166,
+      "type": "khabar",
+      "char_start": 58961,
+      "char_end": 59451,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 490
+    },
+    {
+      "unit_id": 167,
+      "type": "khabar",
+      "char_start": 59453,
+      "char_end": 59762,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 309
+    },
+    {
+      "unit_id": 168,
+      "type": "khabar",
+      "char_start": 59764,
+      "char_end": 60450,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 686
+    },
+    {
+      "unit_id": 169,
+      "type": "khabar",
+      "char_start": 60452,
+      "char_end": 60644,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 192
+    },
+    {
+      "unit_id": 170,
+      "type": "khabar",
+      "char_start": 60646,
+      "char_end": 61840,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1194
+    },
+    {
+      "unit_id": 171,
+      "type": "khabar",
+      "char_start": 61842,
+      "char_end": 62238,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 396
+    },
+    {
+      "unit_id": 172,
+      "type": "khabar",
+      "char_start": 62240,
+      "char_end": 62629,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 389
+    },
+    {
+      "unit_id": 173,
+      "type": "khabar",
+      "char_start": 62631,
+      "char_end": 62849,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 218
+    },
+    {
+      "unit_id": 174,
+      "type": "khabar",
+      "char_start": 62851,
+      "char_end": 63135,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 284
+    },
+    {
+      "unit_id": 175,
+      "type": "khabar",
+      "char_start": 63137,
+      "char_end": 63505,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 368
+    },
+    {
+      "unit_id": 176,
+      "type": "khabar",
+      "char_start": 63507,
+      "char_end": 63810,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 303
+    },
+    {
+      "unit_id": 177,
+      "type": "khabar",
+      "char_start": 63812,
+      "char_end": 64108,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 296
+    },
+    {
+      "unit_id": 178,
+      "type": "khabar",
+      "char_start": 64110,
+      "char_end": 66482,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 2372
+    },
+    {
+      "unit_id": 179,
+      "type": "khabar",
+      "char_start": 66484,
+      "char_end": 66713,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 229
+    },
+    {
+      "unit_id": 180,
+      "type": "khabar",
+      "char_start": 66715,
+      "char_end": 66870,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 155
+    },
+    {
+      "unit_id": 181,
+      "type": "khabar",
+      "char_start": 66872,
+      "char_end": 67489,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 617
+    },
+    {
+      "unit_id": 182,
+      "type": "khabar",
+      "char_start": 67491,
+      "char_end": 67899,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 408
+    },
+    {
+      "unit_id": 183,
+      "type": "khabar",
+      "char_start": 67901,
+      "char_end": 68058,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 157
+    },
+    {
+      "unit_id": 184,
+      "type": "khabar",
+      "char_start": 68060,
+      "char_end": 68440,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 380
+    },
+    {
+      "unit_id": 185,
+      "type": "khabar",
+      "char_start": 68442,
+      "char_end": 68621,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 179
+    },
+    {
+      "unit_id": 186,
+      "type": "khabar",
+      "char_start": 68623,
+      "char_end": 68727,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 104
+    },
+    {
+      "unit_id": 187,
+      "type": "khabar",
+      "char_start": 68729,
+      "char_end": 68902,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 173
+    },
+    {
+      "unit_id": 188,
+      "type": "khabar",
+      "char_start": 68904,
+      "char_end": 69027,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 123
+    },
+    {
+      "unit_id": 189,
+      "type": "khabar",
+      "char_start": 69029,
+      "char_end": 69228,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 199
+    },
+    {
+      "unit_id": 190,
+      "type": "khabar",
+      "char_start": 69230,
+      "char_end": 69455,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 225
+    },
+    {
+      "unit_id": 191,
+      "type": "khabar",
+      "char_start": 69457,
+      "char_end": 69748,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 291
+    },
+    {
+      "unit_id": 192,
+      "type": "khabar",
+      "char_start": 69750,
+      "char_end": 69988,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 238
+    },
+    {
+      "unit_id": 193,
+      "type": "khabar",
+      "char_start": 69990,
+      "char_end": 70969,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 979
+    },
+    {
+      "unit_id": 194,
+      "type": "khabar",
+      "char_start": 70971,
+      "char_end": 71518,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 547
+    },
+    {
+      "unit_id": 195,
+      "type": "khabar",
+      "char_start": 71520,
+      "char_end": 72028,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 508
+    },
+    {
+      "unit_id": 196,
+      "type": "khabar",
+      "char_start": 72030,
+      "char_end": 72406,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 376
+    },
+    {
+      "unit_id": 197,
+      "type": "khabar",
+      "char_start": 72408,
+      "char_end": 72767,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 359
+    },
+    {
+      "unit_id": 198,
+      "type": "khabar",
+      "char_start": 72769,
+      "char_end": 73405,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 636
+    },
+    {
+      "unit_id": 199,
+      "type": "khabar",
+      "char_start": 73407,
+      "char_end": 73776,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 369
+    },
+    {
+      "unit_id": 200,
+      "type": "khabar",
+      "char_start": 73778,
+      "char_end": 74100,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 322
+    },
+    {
+      "unit_id": 201,
+      "type": "khabar",
+      "char_start": 74102,
+      "char_end": 74870,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 768
+    },
+    {
+      "unit_id": 202,
+      "type": "khabar",
+      "char_start": 74872,
+      "char_end": 75306,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 434
+    },
+    {
+      "unit_id": 203,
+      "type": "khabar",
+      "char_start": 75308,
+      "char_end": 75735,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 427
+    },
+    {
+      "unit_id": 204,
+      "type": "khabar",
+      "char_start": 75737,
+      "char_end": 76244,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 507
+    },
+    {
+      "unit_id": 205,
+      "type": "khabar",
+      "char_start": 76246,
+      "char_end": 77010,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 764
+    },
+    {
+      "unit_id": 206,
+      "type": "khabar",
+      "char_start": 77012,
+      "char_end": 77803,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 791
+    },
+    {
+      "unit_id": 207,
+      "type": "khabar",
+      "char_start": 77805,
+      "char_end": 78509,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 704
+    },
+    {
+      "unit_id": 208,
+      "type": "khabar",
+      "char_start": 78511,
+      "char_end": 78750,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 239
+    },
+    {
+      "unit_id": 209,
+      "type": "khabar",
+      "char_start": 78752,
+      "char_end": 79724,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 972
+    },
+    {
+      "unit_id": 210,
+      "type": "khabar",
+      "char_start": 79726,
+      "char_end": 79871,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 145
+    },
+    {
+      "unit_id": 211,
+      "type": "khabar",
+      "char_start": 79873,
+      "char_end": 80657,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 784
+    },
+    {
+      "unit_id": 212,
+      "type": "khabar",
+      "char_start": 80659,
+      "char_end": 81221,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 562
+    },
+    {
+      "unit_id": 213,
+      "type": "khabar",
+      "char_start": 81223,
+      "char_end": 81760,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 537
+    },
+    {
+      "unit_id": 214,
+      "type": "khabar",
+      "char_start": 81762,
+      "char_end": 82709,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 947
+    },
+    {
+      "unit_id": 215,
+      "type": "khabar",
+      "char_start": 82711,
+      "char_end": 83900,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1189
+    },
+    {
+      "unit_id": 216,
+      "type": "khabar",
+      "char_start": 83902,
+      "char_end": 84276,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 374
+    },
+    {
+      "unit_id": 217,
+      "type": "khabar",
+      "char_start": 84278,
+      "char_end": 84626,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 348
+    },
+    {
+      "unit_id": 218,
+      "type": "khabar",
+      "char_start": 84628,
+      "char_end": 84852,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 224
+    },
+    {
+      "unit_id": 219,
+      "type": "khabar",
+      "char_start": 84854,
+      "char_end": 85063,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 209
+    },
+    {
+      "unit_id": 220,
+      "type": "khabar",
+      "char_start": 85065,
+      "char_end": 85424,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 359
+    },
+    {
+      "unit_id": 221,
+      "type": "khabar",
+      "char_start": 85426,
+      "char_end": 85901,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 475
+    },
+    {
+      "unit_id": 222,
+      "type": "khabar",
+      "char_start": 85903,
+      "char_end": 86249,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 346
+    },
+    {
+      "unit_id": 223,
+      "type": "khabar",
+      "char_start": 86251,
+      "char_end": 86923,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 672
+    },
+    {
+      "unit_id": 224,
+      "type": "khabar",
+      "char_start": 86925,
+      "char_end": 87242,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 317
+    },
+    {
+      "unit_id": 225,
+      "type": "khabar",
+      "char_start": 87244,
+      "char_end": 87555,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 311
+    },
+    {
+      "unit_id": 226,
+      "type": "khabar",
+      "char_start": 87557,
+      "char_end": 87892,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 335
+    },
+    {
+      "unit_id": 227,
+      "type": "khabar",
+      "char_start": 87894,
+      "char_end": 88244,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 350
+    },
+    {
+      "unit_id": 228,
+      "type": "khabar",
+      "char_start": 88246,
+      "char_end": 88594,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 348
+    },
+    {
+      "unit_id": 229,
+      "type": "khabar",
+      "char_start": 88596,
+      "char_end": 88995,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 399
+    },
+    {
+      "unit_id": 230,
+      "type": "khabar",
+      "char_start": 88997,
+      "char_end": 89288,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 291
+    },
+    {
+      "unit_id": 231,
+      "type": "khabar",
+      "char_start": 89290,
+      "char_end": 89463,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 173
+    },
+    {
+      "unit_id": 232,
+      "type": "khabar",
+      "char_start": 89465,
+      "char_end": 89887,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 422
+    },
+    {
+      "unit_id": 233,
+      "type": "khabar",
+      "char_start": 89889,
+      "char_end": 90258,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 369
+    },
+    {
+      "unit_id": 234,
+      "type": "khabar",
+      "char_start": 90260,
+      "char_end": 94542,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 4282
+    },
+    {
+      "unit_id": 235,
+      "type": "khabar",
+      "char_start": 94544,
+      "char_end": 95185,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 641
+    },
+    {
+      "unit_id": 236,
+      "type": "khabar",
+      "char_start": 95187,
+      "char_end": 96150,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 963
+    },
+    {
+      "unit_id": 237,
+      "type": "khabar",
+      "char_start": 96152,
+      "char_end": 97128,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 976
+    },
+    {
+      "unit_id": 238,
+      "type": "khabar",
+      "char_start": 97130,
+      "char_end": 97407,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 277
+    },
+    {
+      "unit_id": 239,
+      "type": "khabar",
+      "char_start": 97409,
+      "char_end": 98057,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 648
+    },
+    {
+      "unit_id": 240,
+      "type": "khabar",
+      "char_start": 98059,
+      "char_end": 98564,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 505
+    },
+    {
+      "unit_id": 241,
+      "type": "khabar",
+      "char_start": 98566,
+      "char_end": 99204,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 638
+    },
+    {
+      "unit_id": 242,
+      "type": "khabar",
+      "char_start": 99206,
+      "char_end": 99684,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 478
+    },
+    {
+      "unit_id": 243,
+      "type": "khabar",
+      "char_start": 99686,
+      "char_end": 99867,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 181
+    },
+    {
+      "unit_id": 244,
+      "type": "khabar",
+      "char_start": 99869,
+      "char_end": 100333,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 464
+    },
+    {
+      "unit_id": 245,
+      "type": "khabar",
+      "char_start": 100335,
+      "char_end": 100699,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 364
+    },
+    {
+      "unit_id": 246,
+      "type": "khabar",
+      "char_start": 100701,
+      "char_end": 101100,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 399
+    },
+    {
+      "unit_id": 247,
+      "type": "khabar",
+      "char_start": 101102,
+      "char_end": 101739,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 637
+    },
+    {
+      "unit_id": 248,
+      "type": "khabar",
+      "char_start": 101741,
+      "char_end": 102191,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 450
+    },
+    {
+      "unit_id": 249,
+      "type": "khabar",
+      "char_start": 102193,
+      "char_end": 102709,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 516
+    },
+    {
+      "unit_id": 250,
+      "type": "khabar",
+      "char_start": 102711,
+      "char_end": 103095,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 384
+    },
+    {
+      "unit_id": 251,
+      "type": "khabar",
+      "char_start": 103097,
+      "char_end": 103599,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 502
+    },
+    {
+      "unit_id": 252,
+      "type": "khabar",
+      "char_start": 103601,
+      "char_end": 103756,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 155
+    },
+    {
+      "unit_id": 253,
+      "type": "khabar",
+      "char_start": 103758,
+      "char_end": 103897,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 139
+    },
+    {
+      "unit_id": 254,
+      "type": "khabar",
+      "char_start": 103899,
+      "char_end": 104163,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 264
+    },
+    {
+      "unit_id": 255,
+      "type": "khabar",
+      "char_start": 104165,
+      "char_end": 104493,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 328
+    },
+    {
+      "unit_id": 256,
+      "type": "khabar",
+      "char_start": 104495,
+      "char_end": 104959,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 464
+    },
+    {
+      "unit_id": 257,
+      "type": "khabar",
+      "char_start": 104961,
+      "char_end": 105763,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 802
+    },
+    {
+      "unit_id": 258,
+      "type": "khabar",
+      "char_start": 105765,
+      "char_end": 107038,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1273
+    },
+    {
+      "unit_id": 259,
+      "type": "khabar",
+      "char_start": 107040,
+      "char_end": 107972,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 932
+    },
+    {
+      "unit_id": 260,
+      "type": "khabar",
+      "char_start": 107974,
+      "char_end": 108285,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 311
+    },
+    {
+      "unit_id": 261,
+      "type": "khabar",
+      "char_start": 108287,
+      "char_end": 108709,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 422
+    },
+    {
+      "unit_id": 262,
+      "type": "khabar",
+      "char_start": 108711,
+      "char_end": 109130,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 419
+    },
+    {
+      "unit_id": 263,
+      "type": "khabar",
+      "char_start": 109132,
+      "char_end": 109712,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 580
+    },
+    {
+      "unit_id": 264,
+      "type": "khabar",
+      "char_start": 109714,
+      "char_end": 110023,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 309
+    },
+    {
+      "unit_id": 265,
+      "type": "khabar",
+      "char_start": 110025,
+      "char_end": 110108,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 83
+    },
+    {
+      "unit_id": 266,
+      "type": "khabar",
+      "char_start": 110110,
+      "char_end": 110571,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 461
+    },
+    {
+      "unit_id": 267,
+      "type": "khabar",
+      "char_start": 110573,
+      "char_end": 110842,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 269
+    },
+    {
+      "unit_id": 268,
+      "type": "khabar",
+      "char_start": 110844,
+      "char_end": 111038,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 194
+    },
+    {
+      "unit_id": 269,
+      "type": "khabar",
+      "char_start": 111040,
+      "char_end": 111696,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 656
+    },
+    {
+      "unit_id": 270,
+      "type": "khabar",
+      "char_start": 111698,
+      "char_end": 111910,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 212
+    },
+    {
+      "unit_id": 271,
+      "type": "khabar",
+      "char_start": 111912,
+      "char_end": 112459,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 547
+    },
+    {
+      "unit_id": 272,
+      "type": "khabar",
+      "char_start": 112461,
+      "char_end": 112875,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 414
+    },
+    {
+      "unit_id": 273,
+      "type": "khabar",
+      "char_start": 112877,
+      "char_end": 113031,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 154
+    },
+    {
+      "unit_id": 274,
+      "type": "khabar",
+      "char_start": 113033,
+      "char_end": 113491,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 458
+    },
+    {
+      "unit_id": 275,
+      "type": "khabar",
+      "char_start": 113493,
+      "char_end": 114093,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 600
+    },
+    {
+      "unit_id": 276,
+      "type": "khabar",
+      "char_start": 114095,
+      "char_end": 114541,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 446
+    },
+    {
+      "unit_id": 277,
+      "type": "khabar",
+      "char_start": 114543,
+      "char_end": 115192,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 649
+    },
+    {
+      "unit_id": 278,
+      "type": "khabar",
+      "char_start": 115194,
+      "char_end": 115572,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 378
+    },
+    {
+      "unit_id": 279,
+      "type": "khabar",
+      "char_start": 115574,
+      "char_end": 116066,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 492
+    },
+    {
+      "unit_id": 280,
+      "type": "khabar",
+      "char_start": 116068,
+      "char_end": 116507,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 439
+    },
+    {
+      "unit_id": 281,
+      "type": "khabar",
+      "char_start": 116509,
+      "char_end": 117899,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1390
+    },
+    {
+      "unit_id": 282,
+      "type": "khabar",
+      "char_start": 117901,
+      "char_end": 118264,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 363
+    },
+    {
+      "unit_id": 283,
+      "type": "khabar",
+      "char_start": 118266,
+      "char_end": 118599,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 333
+    },
+    {
+      "unit_id": 284,
+      "type": "khabar",
+      "char_start": 118601,
+      "char_end": 118738,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 137
+    },
+    {
+      "unit_id": 285,
+      "type": "khabar",
+      "char_start": 118740,
+      "char_end": 119095,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 355
+    },
+    {
+      "unit_id": 286,
+      "type": "khabar",
+      "char_start": 119097,
+      "char_end": 119803,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 706
+    },
+    {
+      "unit_id": 287,
+      "type": "khabar",
+      "char_start": 119805,
+      "char_end": 119924,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 119
+    },
+    {
+      "unit_id": 288,
+      "type": "khabar",
+      "char_start": 119926,
+      "char_end": 120271,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 345
+    },
+    {
+      "unit_id": 289,
+      "type": "khabar",
+      "char_start": 120273,
+      "char_end": 120612,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 339
+    },
+    {
+      "unit_id": 290,
+      "type": "khabar",
+      "char_start": 120614,
+      "char_end": 121689,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1075
+    },
+    {
+      "unit_id": 291,
+      "type": "khabar",
+      "char_start": 121691,
+      "char_end": 122251,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 560
+    },
+    {
+      "unit_id": 292,
+      "type": "khabar",
+      "char_start": 122253,
+      "char_end": 122353,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 100
+    },
+    {
+      "unit_id": 293,
+      "type": "khabar",
+      "char_start": 122355,
+      "char_end": 122547,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 192
+    },
+    {
+      "unit_id": 294,
+      "type": "khabar",
+      "char_start": 122549,
+      "char_end": 123181,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 632
+    },
+    {
+      "unit_id": 295,
+      "type": "khabar",
+      "char_start": 123183,
+      "char_end": 123540,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 357
+    },
+    {
+      "unit_id": 296,
+      "type": "khabar",
+      "char_start": 123542,
+      "char_end": 123787,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 245
+    },
+    {
+      "unit_id": 297,
+      "type": "khabar",
+      "char_start": 123789,
+      "char_end": 124434,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 645
+    },
+    {
+      "unit_id": 298,
+      "type": "khabar",
+      "char_start": 124436,
+      "char_end": 124562,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 126
+    },
+    {
+      "unit_id": 299,
+      "type": "khabar",
+      "char_start": 124564,
+      "char_end": 125755,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1191
+    },
+    {
+      "unit_id": 300,
+      "type": "khabar",
+      "char_start": 125757,
+      "char_end": 127461,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1704
+    },
+    {
+      "unit_id": 301,
+      "type": "khabar",
+      "char_start": 127463,
+      "char_end": 128127,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 664
+    },
+    {
+      "unit_id": 302,
+      "type": "khabar",
+      "char_start": 128129,
+      "char_end": 128508,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 379
+    },
+    {
+      "unit_id": 303,
+      "type": "khabar",
+      "char_start": 128510,
+      "char_end": 128851,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 341
+    },
+    {
+      "unit_id": 304,
+      "type": "khabar",
+      "char_start": 128853,
+      "char_end": 129902,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1049
+    },
+    {
+      "unit_id": 305,
+      "type": "khabar",
+      "char_start": 129904,
+      "char_end": 130653,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 749
+    },
+    {
+      "unit_id": 306,
+      "type": "khabar",
+      "char_start": 130655,
+      "char_end": 131053,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 398
+    },
+    {
+      "unit_id": 307,
+      "type": "khabar",
+      "char_start": 131055,
+      "char_end": 132441,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1386
+    },
+    {
+      "unit_id": 308,
+      "type": "khabar",
+      "char_start": 132443,
+      "char_end": 134008,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1565
+    },
+    {
+      "unit_id": 309,
+      "type": "khabar",
+      "char_start": 134010,
+      "char_end": 135008,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 998
+    },
+    {
+      "unit_id": 310,
+      "type": "khabar",
+      "char_start": 135010,
+      "char_end": 135136,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 126
+    },
+    {
+      "unit_id": 311,
+      "type": "khabar",
+      "char_start": 135138,
+      "char_end": 135672,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 534
+    },
+    {
+      "unit_id": 312,
+      "type": "khabar",
+      "char_start": 135674,
+      "char_end": 136251,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 577
+    },
+    {
+      "unit_id": 313,
+      "type": "khabar",
+      "char_start": 136253,
+      "char_end": 136760,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 507
+    },
+    {
+      "unit_id": 314,
+      "type": "khabar",
+      "char_start": 136762,
+      "char_end": 137104,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 342
+    },
+    {
+      "unit_id": 315,
+      "type": "khabar",
+      "char_start": 137106,
+      "char_end": 137377,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 271
+    },
+    {
+      "unit_id": 316,
+      "type": "khabar",
+      "char_start": 137379,
+      "char_end": 137685,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 306
+    },
+    {
+      "unit_id": 317,
+      "type": "khabar",
+      "char_start": 137687,
+      "char_end": 138438,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 751
+    },
+    {
+      "unit_id": 318,
+      "type": "khabar",
+      "char_start": 138440,
+      "char_end": 139318,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 878
+    },
+    {
+      "unit_id": 319,
+      "type": "khabar",
+      "char_start": 139320,
+      "char_end": 139754,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 434
+    },
+    {
+      "unit_id": 320,
+      "type": "khabar",
+      "char_start": 139756,
+      "char_end": 140455,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 699
+    },
+    {
+      "unit_id": 321,
+      "type": "khabar",
+      "char_start": 140457,
+      "char_end": 141385,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 928
+    },
+    {
+      "unit_id": 322,
+      "type": "khabar",
+      "char_start": 141387,
+      "char_end": 142289,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 902
+    },
+    {
+      "unit_id": 323,
+      "type": "khabar",
+      "char_start": 142291,
+      "char_end": 142735,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 444
+    },
+    {
+      "unit_id": 324,
+      "type": "khabar",
+      "char_start": 142737,
+      "char_end": 143323,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 586
+    },
+    {
+      "unit_id": 325,
+      "type": "khabar",
+      "char_start": 143325,
+      "char_end": 143773,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 448
+    },
+    {
+      "unit_id": 326,
+      "type": "khabar",
+      "char_start": 143775,
+      "char_end": 144231,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 456
+    },
+    {
+      "unit_id": 327,
+      "type": "khabar",
+      "char_start": 144233,
+      "char_end": 147168,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 2935
+    },
+    {
+      "unit_id": 328,
+      "type": "khabar",
+      "char_start": 147170,
+      "char_end": 147338,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 168
+    },
+    {
+      "unit_id": 329,
+      "type": "khabar",
+      "char_start": 147340,
+      "char_end": 147475,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 135
+    },
+    {
+      "unit_id": 330,
+      "type": "khabar",
+      "char_start": 147477,
+      "char_end": 147851,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 374
+    },
+    {
+      "unit_id": 331,
+      "type": "khabar",
+      "char_start": 147853,
+      "char_end": 148773,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 920
+    },
+    {
+      "unit_id": 332,
+      "type": "khabar",
+      "char_start": 148775,
+      "char_end": 148964,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 189
+    },
+    {
+      "unit_id": 333,
+      "type": "khabar",
+      "char_start": 148966,
+      "char_end": 149331,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 365
+    },
+    {
+      "unit_id": 334,
+      "type": "khabar",
+      "char_start": 149333,
+      "char_end": 149633,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 300
+    },
+    {
+      "unit_id": 335,
+      "type": "khabar",
+      "char_start": 149635,
+      "char_end": 150008,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 373
+    },
+    {
+      "unit_id": 336,
+      "type": "khabar",
+      "char_start": 150010,
+      "char_end": 150219,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 209
+    },
+    {
+      "unit_id": 337,
+      "type": "khabar",
+      "char_start": 150221,
+      "char_end": 150321,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 100
+    },
+    {
+      "unit_id": 338,
+      "type": "khabar",
+      "char_start": 150323,
+      "char_end": 150483,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 160
+    },
+    {
+      "unit_id": 339,
+      "type": "khabar",
+      "char_start": 150485,
+      "char_end": 150796,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 311
+    },
+    {
+      "unit_id": 340,
+      "type": "khabar",
+      "char_start": 150798,
+      "char_end": 151864,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1066
+    },
+    {
+      "unit_id": 341,
+      "type": "khabar",
+      "char_start": 151866,
+      "char_end": 152048,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 182
+    },
+    {
+      "unit_id": 342,
+      "type": "khabar",
+      "char_start": 152050,
+      "char_end": 152232,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 182
+    },
+    {
+      "unit_id": 343,
+      "type": "khabar",
+      "char_start": 152234,
+      "char_end": 152536,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 302
+    },
+    {
+      "unit_id": 344,
+      "type": "khabar",
+      "char_start": 152538,
+      "char_end": 153388,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 850
+    },
+    {
+      "unit_id": 345,
+      "type": "khabar",
+      "char_start": 153390,
+      "char_end": 154438,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1048
+    },
+    {
+      "unit_id": 346,
+      "type": "khabar",
+      "char_start": 154440,
+      "char_end": 154584,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 144
+    },
+    {
+      "unit_id": 347,
+      "type": "khabar",
+      "char_start": 154586,
+      "char_end": 154699,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 113
+    },
+    {
+      "unit_id": 348,
+      "type": "khabar",
+      "char_start": 154701,
+      "char_end": 155477,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 776
+    },
+    {
+      "unit_id": 349,
+      "type": "khabar",
+      "char_start": 155479,
+      "char_end": 156390,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 911
+    },
+    {
+      "unit_id": 350,
+      "type": "khabar",
+      "char_start": 156392,
+      "char_end": 157755,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1363
+    },
+    {
+      "unit_id": 351,
+      "type": "khabar",
+      "char_start": 157757,
+      "char_end": 158255,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 498
+    },
+    {
+      "unit_id": 352,
+      "type": "khabar",
+      "char_start": 158257,
+      "char_end": 159754,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1497
+    },
+    {
+      "unit_id": 353,
+      "type": "khabar",
+      "char_start": 159756,
+      "char_end": 160069,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 313
+    },
+    {
+      "unit_id": 354,
+      "type": "khabar",
+      "char_start": 160071,
+      "char_end": 160268,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 197
+    },
+    {
+      "unit_id": 355,
+      "type": "khabar",
+      "char_start": 160270,
+      "char_end": 161541,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1271
+    },
+    {
+      "unit_id": 356,
+      "type": "khabar",
+      "char_start": 161543,
+      "char_end": 162052,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 509
+    },
+    {
+      "unit_id": 357,
+      "type": "khabar",
+      "char_start": 162054,
+      "char_end": 162409,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 355
+    },
+    {
+      "unit_id": 358,
+      "type": "khabar",
+      "char_start": 162411,
+      "char_end": 162822,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 411
+    },
+    {
+      "unit_id": 359,
+      "type": "khabar",
+      "char_start": 162824,
+      "char_end": 163050,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 226
+    },
+    {
+      "unit_id": 360,
+      "type": "khabar",
+      "char_start": 163052,
+      "char_end": 163291,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 239
+    },
+    {
+      "unit_id": 361,
+      "type": "khabar",
+      "char_start": 163293,
+      "char_end": 163390,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 97
+    },
+    {
+      "unit_id": 362,
+      "type": "khabar",
+      "char_start": 163392,
+      "char_end": 163577,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 185
+    },
+    {
+      "unit_id": 363,
+      "type": "khabar",
+      "char_start": 163579,
+      "char_end": 163786,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 207
+    },
+    {
+      "unit_id": 364,
+      "type": "khabar",
+      "char_start": 163788,
+      "char_end": 164000,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 212
+    },
+    {
+      "unit_id": 365,
+      "type": "khabar",
+      "char_start": 164002,
+      "char_end": 164785,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 783
+    },
+    {
+      "unit_id": 366,
+      "type": "khabar",
+      "char_start": 164787,
+      "char_end": 165427,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 640
+    },
+    {
+      "unit_id": 367,
+      "type": "khabar",
+      "char_start": 165429,
+      "char_end": 166059,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 630
+    },
+    {
+      "unit_id": 368,
+      "type": "khabar",
+      "char_start": 166061,
+      "char_end": 167046,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 985
+    },
+    {
+      "unit_id": 369,
+      "type": "khabar",
+      "char_start": 167048,
+      "char_end": 167359,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 311
+    },
+    {
+      "unit_id": 370,
+      "type": "khabar",
+      "char_start": 167361,
+      "char_end": 168723,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1362
+    },
+    {
+      "unit_id": 371,
+      "type": "khabar",
+      "char_start": 168725,
+      "char_end": 169843,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1118
+    },
+    {
+      "unit_id": 372,
+      "type": "khabar",
+      "char_start": 169845,
+      "char_end": 170085,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 240
+    },
+    {
+      "unit_id": 373,
+      "type": "khabar",
+      "char_start": 170087,
+      "char_end": 170385,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 298
+    },
+    {
+      "unit_id": 374,
+      "type": "khabar",
+      "char_start": 170387,
+      "char_end": 171092,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 705
+    },
+    {
+      "unit_id": 375,
+      "type": "khabar",
+      "char_start": 171094,
+      "char_end": 172183,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1089
+    },
+    {
+      "unit_id": 376,
+      "type": "khabar",
+      "char_start": 172185,
+      "char_end": 172716,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 531
+    },
+    {
+      "unit_id": 377,
+      "type": "khabar",
+      "char_start": 172718,
+      "char_end": 172955,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 237
+    },
+    {
+      "unit_id": 378,
+      "type": "khabar",
+      "char_start": 172957,
+      "char_end": 173259,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 302
+    },
+    {
+      "unit_id": 379,
+      "type": "khabar",
+      "char_start": 173261,
+      "char_end": 173832,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 571
+    },
+    {
+      "unit_id": 380,
+      "type": "khabar",
+      "char_start": 173834,
+      "char_end": 174111,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 277
+    },
+    {
+      "unit_id": 381,
+      "type": "khabar",
+      "char_start": 174113,
+      "char_end": 174485,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 372
+    },
+    {
+      "unit_id": 382,
+      "type": "khabar",
+      "char_start": 174487,
+      "char_end": 174865,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 378
+    },
+    {
+      "unit_id": 383,
+      "type": "khabar",
+      "char_start": 174867,
+      "char_end": 174971,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 104
+    },
+    {
+      "unit_id": 384,
+      "type": "khabar",
+      "char_start": 174973,
+      "char_end": 175192,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 219
+    },
+    {
+      "unit_id": 385,
+      "type": "khabar",
+      "char_start": 175194,
+      "char_end": 175319,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 125
+    },
+    {
+      "unit_id": 386,
+      "type": "khabar",
+      "char_start": 175321,
+      "char_end": 175639,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 318
+    },
+    {
+      "unit_id": 387,
+      "type": "khabar",
+      "char_start": 175641,
+      "char_end": 175988,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 347
+    },
+    {
+      "unit_id": 388,
+      "type": "khabar",
+      "char_start": 175990,
+      "char_end": 176533,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 543
+    },
+    {
+      "unit_id": 389,
+      "type": "khabar",
+      "char_start": 176535,
+      "char_end": 176772,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 237
+    },
+    {
+      "unit_id": 390,
+      "type": "khabar",
+      "char_start": 176774,
+      "char_end": 177401,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 627
+    },
+    {
+      "unit_id": 391,
+      "type": "khabar",
+      "char_start": 177403,
+      "char_end": 177681,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 278
+    },
+    {
+      "unit_id": 392,
+      "type": "khabar",
+      "char_start": 177683,
+      "char_end": 178125,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 442
+    },
+    {
+      "unit_id": 393,
+      "type": "khabar",
+      "char_start": 178127,
+      "char_end": 178283,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 156
+    },
+    {
+      "unit_id": 394,
+      "type": "khabar",
+      "char_start": 178285,
+      "char_end": 178457,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 172
+    },
+    {
+      "unit_id": 395,
+      "type": "khabar",
+      "char_start": 178459,
+      "char_end": 178547,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 88
+    },
+    {
+      "unit_id": 396,
+      "type": "khabar",
+      "char_start": 178549,
+      "char_end": 178733,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 184
+    },
+    {
+      "unit_id": 397,
+      "type": "khabar",
+      "char_start": 178735,
+      "char_end": 178785,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 50
+    },
+    {
+      "unit_id": 398,
+      "type": "khabar",
+      "char_start": 178787,
+      "char_end": 179049,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 262
+    },
+    {
+      "unit_id": 399,
+      "type": "khabar",
+      "char_start": 179051,
+      "char_end": 179228,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 177
+    },
+    {
+      "unit_id": 400,
+      "type": "khabar",
+      "char_start": 179230,
+      "char_end": 179430,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 200
+    },
+    {
+      "unit_id": 401,
+      "type": "khabar",
+      "char_start": 179432,
+      "char_end": 180022,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 590
+    },
+    {
+      "unit_id": 402,
+      "type": "khabar",
+      "char_start": 180024,
+      "char_end": 180222,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 198
+    },
+    {
+      "unit_id": 403,
+      "type": "khabar",
+      "char_start": 180224,
+      "char_end": 180430,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 206
+    },
+    {
+      "unit_id": 404,
+      "type": "khabar",
+      "char_start": 180432,
+      "char_end": 180576,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 144
+    },
+    {
+      "unit_id": 405,
+      "type": "khabar",
+      "char_start": 180578,
+      "char_end": 180734,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 156
+    },
+    {
+      "unit_id": 406,
+      "type": "khabar",
+      "char_start": 180736,
+      "char_end": 180958,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 222
+    },
+    {
+      "unit_id": 407,
+      "type": "khabar",
+      "char_start": 180960,
+      "char_end": 181182,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 222
+    },
+    {
+      "unit_id": 408,
+      "type": "khabar",
+      "char_start": 181184,
+      "char_end": 181350,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 166
+    },
+    {
+      "unit_id": 409,
+      "type": "khabar",
+      "char_start": 181352,
+      "char_end": 181478,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 126
+    },
+    {
+      "unit_id": 410,
+      "type": "khabar",
+      "char_start": 181480,
+      "char_end": 181659,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 179
+    },
+    {
+      "unit_id": 411,
+      "type": "khabar",
+      "char_start": 181661,
+      "char_end": 181809,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 148
+    },
+    {
+      "unit_id": 412,
+      "type": "khabar",
+      "char_start": 181811,
+      "char_end": 181958,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 147
+    },
+    {
+      "unit_id": 413,
+      "type": "khabar",
+      "char_start": 181960,
+      "char_end": 182164,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 204
+    },
+    {
+      "unit_id": 414,
+      "type": "khabar",
+      "char_start": 182166,
+      "char_end": 182270,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 104
+    },
+    {
+      "unit_id": 415,
+      "type": "khabar",
+      "char_start": 182272,
+      "char_end": 182377,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 105
+    },
+    {
+      "unit_id": 416,
+      "type": "khabar",
+      "char_start": 182379,
+      "char_end": 182574,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 195
+    },
+    {
+      "unit_id": 417,
+      "type": "khabar",
+      "char_start": 182576,
+      "char_end": 182788,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 212
+    },
+    {
+      "unit_id": 418,
+      "type": "khabar",
+      "char_start": 182790,
+      "char_end": 182975,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 185
+    },
+    {
+      "unit_id": 419,
+      "type": "khabar",
+      "char_start": 182977,
+      "char_end": 183120,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 143
+    },
+    {
+      "unit_id": 420,
+      "type": "khabar",
+      "char_start": 183122,
+      "char_end": 183290,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 168
+    },
+    {
+      "unit_id": 421,
+      "type": "khabar",
+      "char_start": 183292,
+      "char_end": 183434,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 142
+    },
+    {
+      "unit_id": 422,
+      "type": "khabar",
+      "char_start": 183436,
+      "char_end": 183630,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 194
+    },
+    {
+      "unit_id": 423,
+      "type": "khabar",
+      "char_start": 183632,
+      "char_end": 183789,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 157
+    },
+    {
+      "unit_id": 424,
+      "type": "khabar",
+      "char_start": 183791,
+      "char_end": 183989,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 198
+    },
+    {
+      "unit_id": 425,
+      "type": "khabar",
+      "char_start": 183991,
+      "char_end": 184259,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 268
+    },
+    {
+      "unit_id": 426,
+      "type": "khabar",
+      "char_start": 184261,
+      "char_end": 184458,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 197
+    },
+    {
+      "unit_id": 427,
+      "type": "khabar",
+      "char_start": 184460,
+      "char_end": 184593,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 133
+    },
+    {
+      "unit_id": 428,
+      "type": "khabar",
+      "char_start": 184595,
+      "char_end": 184829,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 234
+    },
+    {
+      "unit_id": 429,
+      "type": "khabar",
+      "char_start": 184831,
+      "char_end": 184975,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 144
+    },
+    {
+      "unit_id": 430,
+      "type": "khabar",
+      "char_start": 184977,
+      "char_end": 185193,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 216
+    },
+    {
+      "unit_id": 431,
+      "type": "khabar",
+      "char_start": 185195,
+      "char_end": 185322,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 127
+    },
+    {
+      "unit_id": 432,
+      "type": "khabar",
+      "char_start": 185324,
+      "char_end": 185478,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 154
+    },
+    {
+      "unit_id": 433,
+      "type": "khabar",
+      "char_start": 185480,
+      "char_end": 185673,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 193
+    },
+    {
+      "unit_id": 434,
+      "type": "khabar",
+      "char_start": 185675,
+      "char_end": 185924,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 249
+    },
+    {
+      "unit_id": 435,
+      "type": "khabar",
+      "char_start": 185926,
+      "char_end": 186089,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 163
+    },
+    {
+      "unit_id": 436,
+      "type": "khabar",
+      "char_start": 186091,
+      "char_end": 186227,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 136
+    },
+    {
+      "unit_id": 437,
+      "type": "khabar",
+      "char_start": 186229,
+      "char_end": 186891,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 662
+    },
+    {
+      "unit_id": 438,
+      "type": "khabar",
+      "char_start": 186893,
+      "char_end": 187273,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 380
+    },
+    {
+      "unit_id": 439,
+      "type": "khabar",
+      "char_start": 187275,
+      "char_end": 187460,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 185
+    },
+    {
+      "unit_id": 440,
+      "type": "khabar",
+      "char_start": 187462,
+      "char_end": 187941,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 479
+    },
+    {
+      "unit_id": 441,
+      "type": "khabar",
+      "char_start": 187943,
+      "char_end": 188195,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 252
+    },
+    {
+      "unit_id": 442,
+      "type": "khabar",
+      "char_start": 188197,
+      "char_end": 188565,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 368
+    },
+    {
+      "unit_id": 443,
+      "type": "khabar",
+      "char_start": 188567,
+      "char_end": 188670,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 103
+    },
+    {
+      "unit_id": 444,
+      "type": "khabar",
+      "char_start": 188672,
+      "char_end": 188793,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 121
+    },
+    {
+      "unit_id": 445,
+      "type": "khabar",
+      "char_start": 188795,
+      "char_end": 189256,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 461
+    },
+    {
+      "unit_id": 446,
+      "type": "khabar",
+      "char_start": 189258,
+      "char_end": 189669,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 411
+    },
+    {
+      "unit_id": 447,
+      "type": "khabar",
+      "char_start": 189671,
+      "char_end": 191123,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1452
+    },
+    {
+      "unit_id": 448,
+      "type": "khabar",
+      "char_start": 191125,
+      "char_end": 191360,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 235
+    },
+    {
+      "unit_id": 449,
+      "type": "khabar",
+      "char_start": 191362,
+      "char_end": 191765,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 403
+    },
+    {
+      "unit_id": 450,
+      "type": "khabar",
+      "char_start": 191767,
+      "char_end": 194029,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 2262
+    },
+    {
+      "unit_id": 451,
+      "type": "khabar",
+      "char_start": 194031,
+      "char_end": 194261,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 230
+    },
+    {
+      "unit_id": 452,
+      "type": "khabar",
+      "char_start": 194263,
+      "char_end": 194901,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 638
+    },
+    {
+      "unit_id": 453,
+      "type": "khabar",
+      "char_start": 194903,
+      "char_end": 195192,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 289
+    },
+    {
+      "unit_id": 454,
+      "type": "khabar",
+      "char_start": 195194,
+      "char_end": 195442,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 248
+    },
+    {
+      "unit_id": 455,
+      "type": "khabar",
+      "char_start": 195444,
+      "char_end": 195770,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 326
+    },
+    {
+      "unit_id": 456,
+      "type": "khabar",
+      "char_start": 195772,
+      "char_end": 196184,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 412
+    },
+    {
+      "unit_id": 457,
+      "type": "khabar",
+      "char_start": 196186,
+      "char_end": 196602,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 416
+    },
+    {
+      "unit_id": 458,
+      "type": "khabar",
+      "char_start": 196604,
+      "char_end": 197395,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 791
+    },
+    {
+      "unit_id": 459,
+      "type": "khabar",
+      "char_start": 197397,
+      "char_end": 200702,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 3305
+    },
+    {
+      "unit_id": 460,
+      "type": "khabar",
+      "char_start": 200704,
+      "char_end": 200909,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 205
+    },
+    {
+      "unit_id": 461,
+      "type": "khabar",
+      "char_start": 200911,
+      "char_end": 201097,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 186
+    },
+    {
+      "unit_id": 462,
+      "type": "khabar",
+      "char_start": 201099,
+      "char_end": 201355,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 256
+    },
+    {
+      "unit_id": 463,
+      "type": "khabar",
+      "char_start": 201357,
+      "char_end": 201457,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 100
+    },
+    {
+      "unit_id": 464,
+      "type": "khabar",
+      "char_start": 201459,
+      "char_end": 201586,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 127
+    },
+    {
+      "unit_id": 465,
+      "type": "khabar",
+      "char_start": 201588,
+      "char_end": 201709,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 121
+    },
+    {
+      "unit_id": 466,
+      "type": "khabar",
+      "char_start": 201711,
+      "char_end": 202016,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 305
+    },
+    {
+      "unit_id": 467,
+      "type": "khabar",
+      "char_start": 202018,
+      "char_end": 202831,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 813
+    },
+    {
+      "unit_id": 468,
+      "type": "khabar",
+      "char_start": 202833,
+      "char_end": 203229,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 396
+    },
+    {
+      "unit_id": 469,
+      "type": "khabar",
+      "char_start": 203231,
+      "char_end": 205031,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1800
+    },
+    {
+      "unit_id": 470,
+      "type": "khabar",
+      "char_start": 205033,
+      "char_end": 205403,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 370
+    },
+    {
+      "unit_id": 471,
+      "type": "khabar",
+      "char_start": 205405,
+      "char_end": 206930,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1525
+    },
+    {
+      "unit_id": 472,
+      "type": "khabar",
+      "char_start": 206932,
+      "char_end": 207366,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 434
+    },
+    {
+      "unit_id": 473,
+      "type": "khabar",
+      "char_start": 207368,
+      "char_end": 207681,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 313
+    },
+    {
+      "unit_id": 474,
+      "type": "khabar",
+      "char_start": 207683,
+      "char_end": 208114,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 431
+    },
+    {
+      "unit_id": 475,
+      "type": "khabar",
+      "char_start": 208116,
+      "char_end": 208455,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 339
+    },
+    {
+      "unit_id": 476,
+      "type": "khabar",
+      "char_start": 208457,
+      "char_end": 208722,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 265
+    },
+    {
+      "unit_id": 477,
+      "type": "khabar",
+      "char_start": 208724,
+      "char_end": 208995,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 271
+    },
+    {
+      "unit_id": 478,
+      "type": "khabar",
+      "char_start": 208997,
+      "char_end": 209730,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 733
+    },
+    {
+      "unit_id": 479,
+      "type": "khabar",
+      "char_start": 209732,
+      "char_end": 209945,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 213
+    },
+    {
+      "unit_id": 480,
+      "type": "khabar",
+      "char_start": 209947,
+      "char_end": 210274,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 327
+    },
+    {
+      "unit_id": 481,
+      "type": "khabar",
+      "char_start": 210276,
+      "char_end": 210748,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 472
+    },
+    {
+      "unit_id": 482,
+      "type": "khabar",
+      "char_start": 210750,
+      "char_end": 211390,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 640
+    },
+    {
+      "unit_id": 483,
+      "type": "khabar",
+      "char_start": 211392,
+      "char_end": 211608,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 216
+    },
+    {
+      "unit_id": 484,
+      "type": "khabar",
+      "char_start": 211610,
+      "char_end": 211797,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 187
+    },
+    {
+      "unit_id": 485,
+      "type": "khabar",
+      "char_start": 211799,
+      "char_end": 212195,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 396
+    },
+    {
+      "unit_id": 486,
+      "type": "khabar",
+      "char_start": 212197,
+      "char_end": 212723,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 526
+    },
+    {
+      "unit_id": 487,
+      "type": "khabar",
+      "char_start": 212725,
+      "char_end": 213074,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 349
+    },
+    {
+      "unit_id": 488,
+      "type": "khabar",
+      "char_start": 213076,
+      "char_end": 213925,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 849
+    },
+    {
+      "unit_id": 489,
+      "type": "khabar",
+      "char_start": 213927,
+      "char_end": 214237,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 310
+    },
+    {
+      "unit_id": 490,
+      "type": "khabar",
+      "char_start": 214239,
+      "char_end": 214487,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 248
+    },
+    {
+      "unit_id": 491,
+      "type": "khabar",
+      "char_start": 214489,
+      "char_end": 214761,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 272
+    },
+    {
+      "unit_id": 492,
+      "type": "khabar",
+      "char_start": 214763,
+      "char_end": 214988,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 225
+    },
+    {
+      "unit_id": 493,
+      "type": "khabar",
+      "char_start": 214990,
+      "char_end": 215302,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 312
+    },
+    {
+      "unit_id": 494,
+      "type": "khabar",
+      "char_start": 215304,
+      "char_end": 215570,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 266
+    },
+    {
+      "unit_id": 495,
+      "type": "khabar",
+      "char_start": 215572,
+      "char_end": 215874,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 302
+    },
+    {
+      "unit_id": 496,
+      "type": "khabar",
+      "char_start": 215876,
+      "char_end": 216391,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 515
+    },
+    {
+      "unit_id": 497,
+      "type": "khabar",
+      "char_start": 216393,
+      "char_end": 216588,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 195
+    },
+    {
+      "unit_id": 498,
+      "type": "khabar",
+      "char_start": 216590,
+      "char_end": 216925,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 335
+    },
+    {
+      "unit_id": 499,
+      "type": "khabar",
+      "char_start": 216927,
+      "char_end": 217076,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 149
+    },
+    {
+      "unit_id": 500,
+      "type": "khabar",
+      "char_start": 217078,
+      "char_end": 217181,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 103
+    },
+    {
+      "unit_id": 501,
+      "type": "khabar",
+      "char_start": 217183,
+      "char_end": 217308,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 125
+    },
+    {
+      "unit_id": 502,
+      "type": "khabar",
+      "char_start": 217310,
+      "char_end": 217528,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 218
+    },
+    {
+      "unit_id": 503,
+      "type": "khabar",
+      "char_start": 217530,
+      "char_end": 217819,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 289
+    },
+    {
+      "unit_id": 504,
+      "type": "khabar",
+      "char_start": 217821,
+      "char_end": 218168,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 347
+    },
+    {
+      "unit_id": 505,
+      "type": "khabar",
+      "char_start": 218170,
+      "char_end": 219247,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1077
+    },
+    {
+      "unit_id": 506,
+      "type": "khabar",
+      "char_start": 219249,
+      "char_end": 220423,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1174
+    },
+    {
+      "unit_id": 507,
+      "type": "khabar",
+      "char_start": 220425,
+      "char_end": 221473,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1048
+    },
+    {
+      "unit_id": 508,
+      "type": "khabar",
+      "char_start": 221475,
+      "char_end": 222396,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 921
+    },
+    {
+      "unit_id": 509,
+      "type": "khabar",
+      "char_start": 222398,
+      "char_end": 222707,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 309
+    },
+    {
+      "unit_id": 510,
+      "type": "khabar",
+      "char_start": 222709,
+      "char_end": 222928,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 219
+    },
+    {
+      "unit_id": 511,
+      "type": "khabar",
+      "char_start": 222930,
+      "char_end": 223693,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 763
+    },
+    {
+      "unit_id": 512,
+      "type": "khabar",
+      "char_start": 223695,
+      "char_end": 223898,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 203
+    },
+    {
+      "unit_id": 513,
+      "type": "khabar",
+      "char_start": 223900,
+      "char_end": 224034,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 134
+    },
+    {
+      "unit_id": 514,
+      "type": "khabar",
+      "char_start": 224036,
+      "char_end": 224148,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 112
+    },
+    {
+      "unit_id": 515,
+      "type": "khabar",
+      "char_start": 224150,
+      "char_end": 224328,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 178
+    },
+    {
+      "unit_id": 516,
+      "type": "khabar",
+      "char_start": 224330,
+      "char_end": 224507,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 177
+    },
+    {
+      "unit_id": 517,
+      "type": "khabar",
+      "char_start": 224509,
+      "char_end": 225205,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 696
+    },
+    {
+      "unit_id": 518,
+      "type": "khabar",
+      "char_start": 225207,
+      "char_end": 225986,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 779
+    },
+    {
+      "unit_id": 519,
+      "type": "khabar",
+      "char_start": 225988,
+      "char_end": 226588,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 600
+    },
+    {
+      "unit_id": 520,
+      "type": "khabar",
+      "char_start": 226590,
+      "char_end": 227253,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 663
+    },
+    {
+      "unit_id": 521,
+      "type": "khabar",
+      "char_start": 227255,
+      "char_end": 228015,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 760
+    },
+    {
+      "unit_id": 522,
+      "type": "khabar",
+      "char_start": 228017,
+      "char_end": 228725,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 708
+    },
+    {
+      "unit_id": 523,
+      "type": "khabar",
+      "char_start": 228727,
+      "char_end": 229571,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 844
+    },
+    {
+      "unit_id": 524,
+      "type": "khabar",
+      "char_start": 229573,
+      "char_end": 230060,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 487
+    },
+    {
+      "unit_id": 525,
+      "type": "khabar",
+      "char_start": 230062,
+      "char_end": 230365,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 303
+    },
+    {
+      "unit_id": 526,
+      "type": "khabar",
+      "char_start": 230367,
+      "char_end": 230848,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 481
+    },
+    {
+      "unit_id": 527,
+      "type": "khabar",
+      "char_start": 230850,
+      "char_end": 231325,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 475
+    },
+    {
+      "unit_id": 528,
+      "type": "khabar",
+      "char_start": 231327,
+      "char_end": 231611,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 284
+    },
+    {
+      "unit_id": 529,
+      "type": "khabar",
+      "char_start": 231613,
+      "char_end": 232337,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 724
+    },
+    {
+      "unit_id": 530,
+      "type": "khabar",
+      "char_start": 232339,
+      "char_end": 232802,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 463
+    },
+    {
+      "unit_id": 531,
+      "type": "khabar",
+      "char_start": 232804,
+      "char_end": 233533,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 729
+    },
+    {
+      "unit_id": 532,
+      "type": "khabar",
+      "char_start": 233535,
+      "char_end": 233796,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 261
+    },
+    {
+      "unit_id": 533,
+      "type": "khabar",
+      "char_start": 233798,
+      "char_end": 234105,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 307
+    },
+    {
+      "unit_id": 534,
+      "type": "khabar",
+      "char_start": 234107,
+      "char_end": 234440,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 333
+    },
+    {
+      "unit_id": 535,
+      "type": "khabar",
+      "char_start": 234442,
+      "char_end": 234988,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 546
+    },
+    {
+      "unit_id": 536,
+      "type": "khabar",
+      "char_start": 234990,
+      "char_end": 235251,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 261
+    },
+    {
+      "unit_id": 537,
+      "type": "khabar",
+      "char_start": 235253,
+      "char_end": 235552,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 299
+    },
+    {
+      "unit_id": 538,
+      "type": "khabar",
+      "char_start": 235554,
+      "char_end": 235975,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 421
+    },
+    {
+      "unit_id": 539,
+      "type": "khabar",
+      "char_start": 235977,
+      "char_end": 236367,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 390
+    },
+    {
+      "unit_id": 540,
+      "type": "khabar",
+      "char_start": 236369,
+      "char_end": 236789,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 420
+    },
+    {
+      "unit_id": 541,
+      "type": "khabar",
+      "char_start": 236791,
+      "char_end": 237568,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 777
+    },
+    {
+      "unit_id": 542,
+      "type": "khabar",
+      "char_start": 237570,
+      "char_end": 237822,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 252
+    },
+    {
+      "unit_id": 543,
+      "type": "khabar",
+      "char_start": 237824,
+      "char_end": 238377,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 553
+    },
+    {
+      "unit_id": 544,
+      "type": "khabar",
+      "char_start": 238379,
+      "char_end": 238976,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 597
+    },
+    {
+      "unit_id": 545,
+      "type": "khabar",
+      "char_start": 238978,
+      "char_end": 239381,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 403
+    },
+    {
+      "unit_id": 546,
+      "type": "khabar",
+      "char_start": 239383,
+      "char_end": 239815,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 432
+    },
+    {
+      "unit_id": 547,
+      "type": "khabar",
+      "char_start": 239817,
+      "char_end": 240259,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 442
+    },
+    {
+      "unit_id": 548,
+      "type": "khabar",
+      "char_start": 240261,
+      "char_end": 240702,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 441
+    },
+    {
+      "unit_id": 549,
+      "type": "khabar",
+      "char_start": 240704,
+      "char_end": 241056,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 352
+    },
+    {
+      "unit_id": 550,
+      "type": "khabar",
+      "char_start": 241058,
+      "char_end": 241401,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 343
+    },
+    {
+      "unit_id": 551,
+      "type": "khabar",
+      "char_start": 241403,
+      "char_end": 242376,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 973
+    },
+    {
+      "unit_id": 552,
+      "type": "khabar",
+      "char_start": 242378,
+      "char_end": 242712,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 334
+    },
+    {
+      "unit_id": 553,
+      "type": "khabar",
+      "char_start": 242714,
+      "char_end": 243542,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 828
+    },
+    {
+      "unit_id": 554,
+      "type": "khabar",
+      "char_start": 243544,
+      "char_end": 244023,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 479
+    },
+    {
+      "unit_id": 555,
+      "type": "khabar",
+      "char_start": 244025,
+      "char_end": 244382,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 357
+    },
+    {
+      "unit_id": 556,
+      "type": "khabar",
+      "char_start": 244384,
+      "char_end": 244732,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 348
+    },
+    {
+      "unit_id": 557,
+      "type": "khabar",
+      "char_start": 244734,
+      "char_end": 245145,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 411
+    },
+    {
+      "unit_id": 558,
+      "type": "khabar",
+      "char_start": 245147,
+      "char_end": 245506,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 359
+    },
+    {
+      "unit_id": 559,
+      "type": "khabar",
+      "char_start": 245508,
+      "char_end": 245922,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 414
+    },
+    {
+      "unit_id": 560,
+      "type": "khabar",
+      "char_start": 245924,
+      "char_end": 246120,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 196
+    },
+    {
+      "unit_id": 561,
+      "type": "khabar",
+      "char_start": 246122,
+      "char_end": 246356,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 234
+    },
+    {
+      "unit_id": 562,
+      "type": "khabar",
+      "char_start": 246358,
+      "char_end": 246637,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 279
+    },
+    {
+      "unit_id": 563,
+      "type": "khabar",
+      "char_start": 246639,
+      "char_end": 247284,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 645
+    },
+    {
+      "unit_id": 564,
+      "type": "khabar",
+      "char_start": 247286,
+      "char_end": 248949,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 1663
+    },
+    {
+      "unit_id": 565,
+      "type": "khabar",
+      "char_start": 248951,
+      "char_end": 249220,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 269
+    },
+    {
+      "unit_id": 566,
+      "type": "khabar",
+      "char_start": 249222,
+      "char_end": 250195,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 973
+    },
+    {
+      "unit_id": 567,
+      "type": "khabar",
+      "char_start": 250197,
+      "char_end": 250923,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 726
+    },
+    {
+      "unit_id": 568,
+      "type": "khabar",
+      "char_start": 250925,
+      "char_end": 251184,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 259
+    },
+    {
+      "unit_id": 569,
+      "type": "khabar",
+      "char_start": 251186,
+      "char_end": 251800,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 614
+    },
+    {
+      "unit_id": 570,
+      "type": "khabar",
+      "char_start": 251802,
+      "char_end": 252327,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 525
+    },
+    {
+      "unit_id": 571,
+      "type": "khabar",
+      "char_start": 252329,
+      "char_end": 252844,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 515
+    },
+    {
+      "unit_id": 572,
+      "type": "khabar",
+      "char_start": 252846,
+      "char_end": 253200,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 354
+    },
+    {
+      "unit_id": 573,
+      "type": "khabar",
+      "char_start": 253202,
+      "char_end": 253532,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 330
+    },
+    {
+      "unit_id": 574,
+      "type": "khabar",
+      "char_start": 253534,
+      "char_end": 253951,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 417
+    },
+    {
+      "unit_id": 575,
+      "type": "khabar",
+      "char_start": 253953,
+      "char_end": 254196,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 243
+    },
+    {
+      "unit_id": 576,
+      "type": "khabar",
+      "char_start": 254198,
+      "char_end": 256654,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 2456
+    },
+    {
+      "unit_id": 577,
+      "type": "khabar",
+      "char_start": 256656,
+      "char_end": 256839,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 183
+    },
+    {
+      "unit_id": 578,
+      "type": "khabar",
+      "char_start": 256841,
+      "char_end": 257097,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 256
+    },
+    {
+      "unit_id": 579,
+      "type": "khabar",
+      "char_start": 257099,
+      "char_end": 257824,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 725
+    },
+    {
+      "unit_id": 580,
+      "type": "khabar",
+      "char_start": 257826,
+      "char_end": 258177,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 351
+    },
+    {
+      "unit_id": 581,
+      "type": "khabar",
+      "char_start": 258179,
+      "char_end": 258414,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 235
+    },
+    {
+      "unit_id": 582,
+      "type": "khabar",
+      "char_start": 258416,
+      "char_end": 258670,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 254
+    },
+    {
+      "unit_id": 583,
+      "type": "khabar",
+      "char_start": 258672,
+      "char_end": 258984,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 312
+    },
+    {
+      "unit_id": 584,
+      "type": "khabar",
+      "char_start": 258986,
+      "char_end": 259498,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 512
+    },
+    {
+      "unit_id": 585,
+      "type": "khabar",
+      "char_start": 259500,
+      "char_end": 259762,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 262
+    },
+    {
+      "unit_id": 586,
+      "type": "khabar",
+      "char_start": 259764,
+      "char_end": 260374,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 610
+    },
+    {
+      "unit_id": 587,
+      "type": "khabar",
+      "char_start": 260376,
+      "char_end": 261000,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 624
+    },
+    {
+      "unit_id": 588,
+      "type": "khabar",
+      "char_start": 261002,
+      "char_end": 261621,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 619
+    },
+    {
+      "unit_id": 589,
+      "type": "khabar",
+      "char_start": 261623,
+      "char_end": 261954,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 331
+    },
+    {
+      "unit_id": 590,
+      "type": "khabar",
+      "char_start": 261956,
+      "char_end": 262306,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 350
+    },
+    {
+      "unit_id": 591,
+      "type": "khabar",
+      "char_start": 262308,
+      "char_end": 262712,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 404
+    },
+    {
+      "unit_id": 592,
+      "type": "khabar",
+      "char_start": 262714,
+      "char_end": 262963,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 249
+    },
+    {
+      "unit_id": 593,
+      "type": "khabar",
+      "char_start": 262965,
+      "char_end": 263838,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 873
+    },
+    {
+      "unit_id": 594,
+      "type": "khabar",
+      "char_start": 263840,
+      "char_end": 264350,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 510
+    },
+    {
+      "unit_id": 595,
+      "type": "khabar",
+      "char_start": 264352,
+      "char_end": 264673,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 321
+    },
+    {
+      "unit_id": 596,
+      "type": "khabar",
+      "char_start": 264675,
+      "char_end": 264941,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 266
+    },
+    {
+      "unit_id": 597,
+      "type": "khabar",
+      "char_start": 264943,
+      "char_end": 265385,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 442
+    },
+    {
+      "unit_id": 598,
+      "type": "khabar",
+      "char_start": 265387,
+      "char_end": 265471,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 84
+    },
+    {
+      "unit_id": 599,
+      "type": "khabar",
+      "char_start": 265473,
+      "char_end": 266136,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 663
+    },
+    {
+      "unit_id": 600,
+      "type": "khabar",
+      "char_start": 266138,
+      "char_end": 266378,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 240
+    },
+    {
+      "unit_id": 601,
+      "type": "khabar",
+      "char_start": 266380,
+      "char_end": 266517,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 137
+    },
+    {
+      "unit_id": 602,
+      "type": "khabar",
+      "char_start": 266519,
+      "char_end": 266602,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 83
+    },
+    {
+      "unit_id": 603,
+      "type": "khabar",
+      "char_start": 266604,
+      "char_end": 266665,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 61
+    },
+    {
+      "unit_id": 604,
+      "type": "khabar",
+      "char_start": 266667,
+      "char_end": 266773,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 106
+    },
+    {
+      "unit_id": 605,
+      "type": "khabar",
+      "char_start": 266775,
+      "char_end": 266839,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 64
+    },
+    {
+      "unit_id": 606,
+      "type": "khabar",
+      "char_start": 266841,
+      "char_end": 266893,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 52
+    },
+    {
+      "unit_id": 607,
+      "type": "khabar",
+      "char_start": 266895,
+      "char_end": 267482,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 587
+    },
+    {
+      "unit_id": 608,
+      "type": "khabar",
+      "char_start": 267484,
+      "char_end": 267528,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 44
+    },
+    {
+      "unit_id": 609,
+      "type": "khabar",
+      "char_start": 267530,
+      "char_end": 267596,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 66
+    },
+    {
+      "unit_id": 610,
+      "type": "khabar",
+      "char_start": 267598,
+      "char_end": 267693,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 95
+    },
+    {
+      "unit_id": 611,
+      "type": "khabar",
+      "char_start": 267695,
+      "char_end": 268105,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 410
+    },
+    {
+      "unit_id": 612,
+      "type": "khabar",
+      "char_start": 268107,
+      "char_end": 268540,
+      "has_isnad": true,
+      "isnad_text": "",
+      "text_length": 433
+    }
+  ]
+}
