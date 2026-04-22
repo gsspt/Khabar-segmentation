@@ -1,0 +1,575 @@
+{
+  "metadata": {
+    "total_units": 63,
+    "units_with_isnad": 39
+  },
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "type": "khabar",
+      "char_start": 27,
+      "char_end": 209,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا أبو محمد الحسن بن إسماعيل الضراب، نا محمد بن أحمد المديني، نا الحسين بن عبد الله بن يزيد القطان، نا جعفر علي البغدادي، نا أبو الفضائل محمد بن أحمد، نا عبد الرحمن، عن أبيه، قال",
+      "text_length": 182
+    },
+    {
+      "unit_id": 1,
+      "type": "khabar",
+      "char_start": 1125,
+      "char_end": 1262,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 137
+    },
+    {
+      "unit_id": 2,
+      "type": "khabar",
+      "char_start": 1262,
+      "char_end": 1315,
+      "has_isnad": true,
+      "isnad_text": "روان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال",
+      "text_length": 53
+    },
+    {
+      "unit_id": 3,
+      "type": "khabar",
+      "char_start": 1415,
+      "char_end": 1593,
+      "has_isnad": true,
+      "isnad_text": "يقول: من أراد سرور الدنيا وحزن الآخرة، فليتمن ما هذا فيه.\n# فوالله لتمنيت أني كنت مت قبل أن ألي القضاء.\n# نا أحمد بن مسعود بن عمرو بن إدريس الزنبري، نا محمد بن أحمد الأنصاري، قال",
+      "text_length": 178
+    },
+    {
+      "unit_id": 4,
+      "type": "khabar",
+      "char_start": 1658,
+      "char_end": 1681,
+      "has_isnad": true,
+      "isnad_text": "أخبرني خلف بن سالم، قال",
+      "text_length": 23
+    },
+    {
+      "unit_id": 5,
+      "type": "khabar",
+      "char_start": 2015,
+      "char_end": 2068,
+      "has_isnad": true,
+      "isnad_text": "روان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال",
+      "text_length": 53
+    },
+    {
+      "unit_id": 6,
+      "type": "khabar",
+      "char_start": 2644,
+      "char_end": 2673,
+      "has_isnad": true,
+      "isnad_text": "روان، نا الحسن بن الحسين، قال",
+      "text_length": 29
+    },
+    {
+      "unit_id": 7,
+      "type": "khabar",
+      "char_start": 2675,
+      "char_end": 2684,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 9
+    },
+    {
+      "unit_id": 8,
+      "type": "khabar",
+      "char_start": 2684,
+      "char_end": 2747,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# مر بهلول في السوق وهو يأكل، فاستقبله بعض أصحابنا، فقال",
+      "text_length": 63
+    },
+    {
+      "unit_id": 9,
+      "type": "khabar",
+      "char_start": 2962,
+      "char_end": 2983,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 21
+    },
+    {
+      "unit_id": 10,
+      "type": "khabar",
+      "char_start": 2983,
+      "char_end": 3008,
+      "has_isnad": true,
+      "isnad_text": "حدثني سفيان بن عيينة، قال",
+      "text_length": 25
+    },
+    {
+      "unit_id": 11,
+      "type": "khabar",
+      "char_start": 3183,
+      "char_end": 3218,
+      "has_isnad": true,
+      "isnad_text": "حدثني عبد الكبير بن عبد الرحمن، قال",
+      "text_length": 35
+    },
+    {
+      "unit_id": 12,
+      "type": "khabar",
+      "char_start": 3220,
+      "char_end": 3233,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 13
+    },
+    {
+      "unit_id": 13,
+      "type": "khabar",
+      "char_start": 3233,
+      "char_end": 3241,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 8
+    },
+    {
+      "unit_id": 14,
+      "type": "khabar",
+      "char_start": 3241,
+      "char_end": 3259,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 18
+    },
+    {
+      "unit_id": 15,
+      "type": "khabar",
+      "char_start": 3259,
+      "char_end": 3295,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 36
+    },
+    {
+      "unit_id": 16,
+      "type": "khabar",
+      "char_start": 3295,
+      "char_end": 3519,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 224
+    },
+    {
+      "unit_id": 17,
+      "type": "khabar",
+      "char_start": 3519,
+      "char_end": 3554,
+      "has_isnad": true,
+      "isnad_text": "حدثني عبد الكبير بن عبد الرحمن، قال",
+      "text_length": 35
+    },
+    {
+      "unit_id": 18,
+      "type": "khabar",
+      "char_start": 3556,
+      "char_end": 3569,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 13
+    },
+    {
+      "unit_id": 19,
+      "type": "khabar",
+      "char_start": 3569,
+      "char_end": 3656,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 87
+    },
+    {
+      "unit_id": 20,
+      "type": "khabar",
+      "char_start": 3656,
+      "char_end": 3809,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# إن تقديمكم إياي ... من إعواز الأئمه\n# إن ديني لنحيف ... فيه شيء من مرمه\n# نا العصامي، نا أحمد بن إبراهيم بن مرزوق، نا علقمة، نا موسى بن زياد، قال",
+      "text_length": 153
+    },
+    {
+      "unit_id": 21,
+      "type": "khabar",
+      "char_start": 4127,
+      "char_end": 4415,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 288
+    },
+    {
+      "unit_id": 22,
+      "type": "khabar",
+      "char_start": 4415,
+      "char_end": 4435,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 20
+    },
+    {
+      "unit_id": 23,
+      "type": "khabar",
+      "char_start": 4435,
+      "char_end": 4445,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 10
+    },
+    {
+      "unit_id": 24,
+      "type": "khabar",
+      "char_start": 4445,
+      "char_end": 4460,
+      "has_isnad": true,
+      "isnad_text": "رواة العلم، قال",
+      "text_length": 15
+    },
+    {
+      "unit_id": 25,
+      "type": "khabar",
+      "char_start": 4569,
+      "char_end": 4643,
+      "has_isnad": true,
+      "isnad_text": "يقول لهم: يا إخوتاه، ما أحر الفراق!.\n# قلت: يا أبا محمد، من أين أقبلت؟ قال",
+      "text_length": 74
+    },
+    {
+      "unit_id": 26,
+      "type": "khabar",
+      "char_start": 4735,
+      "char_end": 4847,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# هم رحلوا يوم الخميس غدية ... فودعتهم لما استقلوا وودعوا\n# فلما تولوا ولت النفس معهم ... فقلت: ارجعي؛ قال",
+      "text_length": 112
+    },
+    {
+      "unit_id": 27,
+      "type": "khabar",
+      "char_start": 4998,
+      "char_end": 5038,
+      "has_isnad": true,
+      "isnad_text": "روان، نا محمد بن عبد العزيز، نا أبي، قال",
+      "text_length": 40
+    },
+    {
+      "unit_id": 28,
+      "type": "khabar",
+      "char_start": 5423,
+      "char_end": 5482,
+      "has_isnad": true,
+      "isnad_text": "روان الخزاعي، نا عمر بن محمد التغلبي، نا مرذويه الصائغ، قال",
+      "text_length": 59
+    },
+    {
+      "unit_id": 29,
+      "type": "khabar",
+      "char_start": 6325,
+      "char_end": 6386,
+      "has_isnad": true,
+      "isnad_text": "حدثني عبد الواحد بن بكر الورثاني، أن منصور بن أحمد الهروي قال",
+      "text_length": 61
+    },
+    {
+      "unit_id": 30,
+      "type": "khabar",
+      "char_start": 6388,
+      "char_end": 6430,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبا الحسين محمد بن علي الخوارزمي، قال",
+      "text_length": 42
+    },
+    {
+      "unit_id": 31,
+      "type": "khabar",
+      "char_start": 6432,
+      "char_end": 6453,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 21
+    },
+    {
+      "unit_id": 32,
+      "type": "khabar",
+      "char_start": 6453,
+      "char_end": 6540,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# مررت بأرض مصر، فرأيت الصبيان يرمون رجلا بالحجارة، فقلت لهم: ما تريدون منه؟ فقال",
+      "text_length": 87
+    },
+    {
+      "unit_id": 33,
+      "type": "khabar",
+      "char_start": 6684,
+      "char_end": 6700,
+      "has_isnad": true,
+      "isnad_text": "يقول هؤلاء؟ فقال",
+      "text_length": 16
+    },
+    {
+      "unit_id": 34,
+      "type": "khabar",
+      "char_start": 6706,
+      "char_end": 6746,
+      "has_isnad": true,
+      "isnad_text": "يقولون؟ قلت: يزعمون أنك ترى الله.\n# قال",
+      "text_length": 40
+    },
+    {
+      "unit_id": 35,
+      "type": "khabar",
+      "char_start": 6859,
+      "char_end": 6943,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 84
+    },
+    {
+      "unit_id": 36,
+      "type": "khabar",
+      "char_start": 6943,
+      "char_end": 7139,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# أيها الشامخ الذي لا يرام ... نحن من طينة عليك السلام\n# إنما هذه الحياة متاع ... ومع الموت تستوي الأقدام\n# نا أحمد بن سعيد الإخميمي، نا عبد الوهاب بن يزيد الصدائي، نا إبراهيم بن المنذر، قال",
+      "text_length": 196
+    },
+    {
+      "unit_id": 37,
+      "type": "khabar",
+      "char_start": 7540,
+      "char_end": 7657,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# أطلب ربا مهيمنا محمود ... بارئ الخلق، ماجد معبود\n# جاد بالفضل والنوال جميعا ... فهو بالفضل والعطا موجود\n# قال",
+      "text_length": 117
+    },
+    {
+      "unit_id": 38,
+      "type": "khabar",
+      "char_start": 7763,
+      "char_end": 7792,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو علي حاجب خاقان، قال",
+      "text_length": 29
+    },
+    {
+      "unit_id": 39,
+      "type": "khabar",
+      "char_start": 7949,
+      "char_end": 8099,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# كم يلبث الجنب على الجمر ... لا سيما بعد فناء الصبر\n# سألته الإنصاف في حبه ... فأوكل الأمر إلى الحشر\n# والله لا زلت له عاشقا ... وإن أمت أذكره",
+      "text_length": 150
+    },
+    {
+      "unit_id": 40,
+      "type": "khabar",
+      "char_start": 8122,
+      "char_end": 8218,
+      "has_isnad": true,
+      "isnad_text": "روان المالكي، نا محمد بن عبد الرحمن مولى بني هاشم، نا مصعب بن عبد الله، عن ابن أبي فديك، أنه قال",
+      "text_length": 96
+    },
+    {
+      "unit_id": 41,
+      "type": "khabar",
+      "char_start": 9925,
+      "char_end": 9962,
+      "has_isnad": true,
+      "isnad_text": "روان المالكي، نا إبراهيم بن حبيب، قال",
+      "text_length": 37
+    },
+    {
+      "unit_id": 42,
+      "type": "khabar",
+      "char_start": 9964,
+      "char_end": 9978,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 14
+    },
+    {
+      "unit_id": 43,
+      "type": "khabar",
+      "char_start": 9978,
+      "char_end": 10115,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# مر أبو الديك -وكان معتوها- على معلم كتاب في جبانة كندة، وهو ينشد:\n# إن الصنيعة لا تكون صنيعة ... حتى يصاب بها طريق المصنع\n# فقال",
+      "text_length": 137
+    },
+    {
+      "unit_id": 44,
+      "type": "khabar",
+      "char_start": 11237,
+      "char_end": 11300,
+      "has_isnad": true,
+      "isnad_text": "حدثني سليمان بن أحمد بدمشق، نا الحسن بن علي بن جعفر النخعي، قال",
+      "text_length": 63
+    },
+    {
+      "unit_id": 45,
+      "type": "khabar",
+      "char_start": 11371,
+      "char_end": 11500,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 129
+    },
+    {
+      "unit_id": 46,
+      "type": "khabar",
+      "char_start": 11500,
+      "char_end": 11528,
+      "has_isnad": true,
+      "isnad_text": "روان، نا ابن أبي الدنيا، قال",
+      "text_length": 28
+    },
+    {
+      "unit_id": 47,
+      "type": "khabar",
+      "char_start": 11799,
+      "char_end": 11953,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# وكافر بالله أمواله ... تزداد أضعافا على كفره\n# ومؤمن ليس له درهم ... يزداد إيمانا على فقره\n# لا خير فيمن لم يكن عاقلا ... يمد رجليه على قدره\n# قال",
+      "text_length": 154
+    },
+    {
+      "unit_id": 48,
+      "type": "khabar",
+      "char_start": 12233,
+      "char_end": 12524,
+      "has_isnad": true,
+      "isnad_text": "يقول:\n# كم يلبث الجنب على الجمر ... وكم عسى يستعمل الصبر\n# سألته الإنصاف في حبه ... فأوكل الأمر إلى الحشر\n# والله لا زلت له عاشقا ... وإن أمت أذكر في القبر",
+      "text_length": 291
+    },
+    {
+      "unit_id": 49,
+      "type": "khabar",
+      "char_start": 12524,
+      "char_end": 12556,
+      "has_isnad": true,
+      "isnad_text": "حدثني قبيصة أبو حاتم المنجم، قال",
+      "text_length": 32
+    },
+    {
+      "unit_id": 50,
+      "type": "khabar",
+      "char_start": 12625,
+      "char_end": 12658,
+      "has_isnad": true,
+      "isnad_text": "يقول الشعر فسألتهم: بم يعرف؟ فقال",
+      "text_length": 33
+    },
+    {
+      "unit_id": 51,
+      "type": "khabar",
+      "char_start": 12775,
+      "char_end": 12811,
+      "has_isnad": true,
+      "isnad_text": "يقول: هذه قصورهم، وهذه قبورهم.\n# قال",
+      "text_length": 36
+    },
+    {
+      "unit_id": 52,
+      "type": "khabar",
+      "char_start": 13172,
+      "char_end": 13381,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 209
+    },
+    {
+      "unit_id": 53,
+      "type": "khabar",
+      "char_start": 13444,
+      "char_end": 13472,
+      "has_isnad": true,
+      "isnad_text": "روان، نا ابن أبي الدنيا، قال",
+      "text_length": 28
+    },
+    {
+      "unit_id": 54,
+      "type": "khabar",
+      "char_start": 13474,
+      "char_end": 13494,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 20
+    },
+    {
+      "unit_id": 55,
+      "type": "khabar",
+      "char_start": 13494,
+      "char_end": 13551,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 57
+    },
+    {
+      "unit_id": 56,
+      "type": "khabar",
+      "char_start": 13551,
+      "char_end": 13690,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 139
+    },
+    {
+      "unit_id": 57,
+      "type": "khabar",
+      "char_start": 13690,
+      "char_end": 14197,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 507
+    },
+    {
+      "unit_id": 58,
+      "type": "khabar",
+      "char_start": 15156,
+      "char_end": 15183,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 27
+    },
+    {
+      "unit_id": 59,
+      "type": "khabar",
+      "char_start": 15188,
+      "char_end": 15281,
+      "has_isnad": false,
+      "isnad_text": null,
+      "text_length": 93
+    },
+    {
+      "unit_id": 60,
+      "type": "khabar",
+      "char_start": 15281,
+      "char_end": 15304,
+      "has_isnad": true,
+      "isnad_text": "حدثني أحمد بن حبيب، قال",
+      "text_length": 23
+    },
+    {
+      "unit_id": 61,
+      "type": "khabar",
+      "char_start": 15306,
+      "char_end": 15386,
+      "has_isnad": true,
+      "isnad_text": "وحدثني.. ..\n# .. .. هذا لغورك المجنون: يا أبا محمد، متى [حدث بك هذا العشق؟\n# قال",
+      "text_length": 80
+    },
+    {
+      "unit_id": 62,
+      "type": "khabar",
+      "char_start": 15449,
+      "char_end": 15590,
+      "has_isnad": true,
+      "isnad_text": "أنشدني:\n# كتمت جنوني وهو بالجسم وحده ... [فلما استوى والحب أعلنه الحب]\n# وأخلاه والجسم الصحيح يذيبه ... فلما أذاب [الجسم ذل له القلب]\n# وقال",
+      "text_length": 141
+    }
+  ]
+}

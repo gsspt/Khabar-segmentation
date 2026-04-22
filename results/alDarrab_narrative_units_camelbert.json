@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "total_units": 26,
+    "units_with_isnad": 26
+  },
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "type": "khabar",
+      "char_start": 2,
+      "char_end": 212,
+      "has_isnad": true,
+      "isnad_text": "بسم الله الرحمن الرحيم\n# أخبرنا أبو محمد الحسن بن إسماعيل الضراب",
+      "text_length": 210
+    },
+    {
+      "unit_id": 1,
+      "type": "khabar",
+      "char_start": 1248,
+      "char_end": 1334,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال:\n# قال حفص بن غياث",
+      "text_length": 86
+    },
+    {
+      "unit_id": 2,
+      "type": "khabar",
+      "char_start": 1517,
+      "char_end": 1693,
+      "has_isnad": true,
+      "isnad_text": ".\n# نا أحمد بن مسعود بن عمرو بن إدريس الزنبري، نا محمد بن أحمد الأنصاري، قال: قرأت على محمد بن سعدان الجوزجاني: قال أبو عبد الرحمن الأنصاري: أخبرني خلف بن سالم، قال:",
+      "text_length": 176
+    },
+    {
+      "unit_id": 3,
+      "type": "khabar",
+      "char_start": 2001,
+      "char_end": 2084,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال: قال ابن إدريس:",
+      "text_length": 83
+    },
+    {
+      "unit_id": 4,
+      "type": "khabar",
+      "char_start": 2630,
+      "char_end": 2689,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن مروان، نا الحسن بن الحسين، قال: سمعت أبي يقول:",
+      "text_length": 59
+    },
+    {
+      "unit_id": 5,
+      "type": "khabar",
+      "char_start": 2894,
+      "char_end": 3009,
+      "has_isnad": true,
+      "isnad_text": "# نا الحسن بن الحسن، نا محمود بن محمد الرافقي، نا عبد الله بن محمد، حدثني عباس البحراني، حدثني سفيان بن عيينة، قال:",
+      "text_length": 115
+    },
+    {
+      "unit_id": 6,
+      "type": "khabar",
+      "char_start": 3086,
+      "char_end": 3238,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إبراهيم بن مرزوق، نا القاسم بن محمد التبوذكي، حدثني عبد الكبير بن عبد الرحمن، قال: سمعت السكسكي يقول:",
+      "text_length": 152
+    },
+    {
+      "unit_id": 7,
+      "type": "khabar",
+      "char_start": 3424,
+      "char_end": 3574,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إبراهيم بن مرزوق، نا القاسم بن محمد التبوذكي، حدثني عبد الكبير بن عبد الرحمن، قال: سمعت السكسكي يقول:",
+      "text_length": 150
+    },
+    {
+      "unit_id": 8,
+      "type": "khabar",
+      "char_start": 3736,
+      "char_end": 3810,
+      "has_isnad": true,
+      "isnad_text": "# نا العصامي، نا أحمد بن إبراهيم بن مرزوق، نا علقمة، نا موسى بن زياد، قال:",
+      "text_length": 74
+    },
+    {
+      "unit_id": 9,
+      "type": "khabar",
+      "char_start": 4083,
+      "char_end": 4133,
+      "has_isnad": true,
+      "isnad_text": "قال: فقلت: هل قلت في ذلك شيئا؟ قال: نعم",
+      "text_length": 50
+    },
+    {
+      "unit_id": 10,
+      "type": "khabar",
+      "char_start": 4349,
+      "char_end": 4460,
+      "has_isnad": true,
+      "isnad_text": "# ذكر أحمد بن بهزاد، نا إسماعيل بن أبي هاشم أبو القاسم الزبيري،\n# حدثني أحمد بن حبيب، حدثني بعض رواة العلم، قال",
+      "text_length": 111
+    },
+    {
+      "unit_id": 11,
+      "type": "khabar",
+      "char_start": 4986,
+      "char_end": 5054,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان، نا محمد بن عبد العزيز، نا أبي، قال: قال ابن إدريس:",
+      "text_length": 68
+    },
+    {
+      "unit_id": 12,
+      "type": "khabar",
+      "char_start": 5409,
+      "char_end": 5483,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن مروان الخزاعي، نا عمر بن محمد التغلبي، نا مرذويه الصائغ، قال:",
+      "text_length": 74
+    },
+    {
+      "unit_id": 13,
+      "type": "khabar",
+      "char_start": 5813,
+      "char_end": 5988,
+      "has_isnad": true,
+      "isnad_text": "# أنبا الحسن بن رشيق، نا علي بن يعقوب بن سويد، نا عمرو بن علي بن سليمان الدينوري، نا أحمد بن عبد الله الخراساني، نا محمد بن عمر بن علي الجرجاني، نا يحيى بن أيوب المقابري، قال:",
+      "text_length": 175
+    },
+    {
+      "unit_id": 14,
+      "type": "khabar",
+      "char_start": 6323,
+      "char_end": 6458,
+      "has_isnad": true,
+      "isnad_text": "# حدثني عبد الواحد بن بكر الورثاني، أن منصور بن أحمد الهروي قال: سمعت أبا الحسين محمد بن علي الخوارزمي، قال: سمعت ذا النون المصري يقول:",
+      "text_length": 135
+    },
+    {
+      "unit_id": 15,
+      "type": "khabar",
+      "char_start": 7055,
+      "char_end": 7140,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن سعيد الإخميمي، نا عبد الوهاب بن يزيد الصدائي، نا إبراهيم بن المنذر، قال:",
+      "text_length": 85
+    },
+    {
+      "unit_id": 16,
+      "type": "khabar",
+      "char_start": 7688,
+      "char_end": 7814,
+      "has_isnad": true,
+      "isnad_text": "# نا محمد بن أحمد بن كامل المديني، نا أبو عبد الله محمد بن الحسن الدينوري، حدثني أبو علي حاجب خاقان، قال: قال ذو النون المصري:",
+      "text_length": 126
+    },
+    {
+      "unit_id": 17,
+      "type": "khabar",
+      "char_start": 8110,
+      "char_end": 8219,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان المالكي، نا محمد بن عبد الرحمن مولى بني هاشم، نا مصعب بن عبد الله، عن ابن أبي فديك، أنه قال:",
+      "text_length": 109
+    },
+    {
+      "unit_id": 18,
+      "type": "khabar",
+      "char_start": 9911,
+      "char_end": 9982,
+      "has_isnad": true,
+      "isnad_text": "# نا أحمد بن مروان المالكي، نا إبراهيم بن حبيب، قال: سمعت أبا نعيم يقول",
+      "text_length": 71
+    },
+    {
+      "unit_id": 19,
+      "type": "khabar",
+      "char_start": 10239,
+      "char_end": 10350,
+      "has_isnad": true,
+      "isnad_text": "# نا عبد العزيز بن علي المكتب، نا الحسن بن القاسم الدمشقي، نا أحمد بن عبيد بن معاوية، حدثت عن علي بن يوسف، قال:",
+      "text_length": 111
+    },
+    {
+      "unit_id": 20,
+      "type": "khabar",
+      "char_start": 11167,
+      "char_end": 11327,
+      "has_isnad": true,
+      "isnad_text": "نا عبد الواحد بن بكر الورثاني، أبو الفرج، نا محمد بن عبد الله الرازي، حدثني سليمان بن أحمد بدمشق، نا الحسن بن علي بن جعفر النخعي، قال:\n# قال لي ذو النون المصري:",
+      "text_length": 160
+    },
+    {
+      "unit_id": 21,
+      "type": "khabar",
+      "char_start": 11487,
+      "char_end": 11545,
+      "has_isnad": true,
+      "isnad_text": "أنا أحمد بن مروان، نا ابن أبي الدنيا، قال:\n# قال ذو النون:",
+      "text_length": 58
+    },
+    {
+      "unit_id": 22,
+      "type": "khabar",
+      "char_start": 12391,
+      "char_end": 12571,
+      "has_isnad": true,
+      "isnad_text": "وجدت على ظهر كتاب عبد العزيز بن أحمد بن الفرج الأحمري: نا أبو بكر أحمد بن الحسن بن هارون الضاحي، نا العباس بن محمد الأنصاري الأشهلي، حدثني قبيصة أبو حاتم المنجم، قال:\n# قال الأصبغ:",
+      "text_length": 180
+    },
+    {
+      "unit_id": 23,
+      "type": "khabar",
+      "char_start": 13429,
+      "char_end": 13499,
+      "has_isnad": true,
+      "isnad_text": "# أنا أحمد بن مروان، نا ابن أبي الدنيا، قال: سمعت محمد بن الحسين يقول:",
+      "text_length": 70
+    },
+    {
+      "unit_id": 24,
+      "type": "khabar",
+      "char_start": 15113,
+      "char_end": 15210,
+      "has_isnad": true,
+      "isnad_text": "# نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدونة",
+      "text_length": 97
+    },
+    {
+      "unit_id": 25,
+      "type": "khabar",
+      "char_start": 15281,
+      "char_end": 15317,
+      "has_isnad": true,
+      "isnad_text": "حدثني أحمد بن حبيب، قال: وحدثني",
+      "text_length": 36
+    }
+  ]
+}

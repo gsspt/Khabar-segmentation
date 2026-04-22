@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "comparison": "camelbert vs baseline",
+    "pipeline1": "results/alDarrab_narrative_units_camelbert.json",
+    "pipeline2": "results/alDarrab_narrative_units_baseline.json"
+  },
+  "metrics": {
+    "summary": {
+      "camelbert_boundaries": 26,
+      "baseline_boundaries": 63,
+      "difference": 37,
+      "difference_pct": 142.30769230769232
+    },
+    "camelbert_to_baseline": {
+      "distances": {
+        "min": 0,
+        "q25": 14,
+        "median": 44,
+        "q75": 95,
+        "max": 390,
+        "mean": 68.65384615384616
+      },
+      "within_20": 11,
+      "within_50": 14,
+      "within_100": 21,
+      "within_500": 26
+    },
+    "baseline_to_camelbert": {
+      "distances": {
+        "min": 0,
+        "q25": 45,
+        "median": 96,
+        "q75": 148,
+        "max": 384,
+        "mean": 112.80952380952381
+      },
+      "within_20": 11,
+      "within_50": 17,
+      "within_100": 33,
+      "within_500": 63
+    }
+  }
+}
