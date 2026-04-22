@@ -1,0 +1,78 @@
+{
+  "gold_boundaries": 613,
+  "boundary_tokens": 16165,
+  "strategies": {
+    "baseline_gap50": {
+      "clusters": 520,
+      "boundaries": 520,
+      "evaluation": {
+        "f1": 0.8578993821712269,
+        "precision": 0.9346153846153846,
+        "recall": 0.7928221859706363,
+        "tp": 486,
+        "fp": 34,
+        "fn": 127
+      }
+    },
+    "optimal_gap20": {
+      "clusters": 539,
+      "boundaries": 539,
+      "evaluation": {
+        "f1": 0.8645833333333333,
+        "precision": 0.9239332096474954,
+        "recall": 0.8123980424143556,
+        "tp": 498,
+        "fp": 41,
+        "fn": 115
+      }
+    },
+    "confidence_weighted": {
+      "clusters": 499,
+      "boundaries": 499,
+      "evaluation": {
+        "f1": 0.8579136690647481,
+        "precision": 0.9559118236472945,
+        "recall": 0.7781402936378466,
+        "tp": 477,
+        "fp": 22,
+        "fn": 136
+      }
+    },
+    "linguistic": {
+      "clusters": 520,
+      "boundaries": 520,
+      "evaluation": {
+        "f1": 0.8578993821712269,
+        "precision": 0.9346153846153846,
+        "recall": 0.7928221859706363,
+        "tp": 486,
+        "fp": 34,
+        "fn": 127
+      }
+    },
+    "hierarchical": {
+      "clusters": 532,
+      "boundaries": 532,
+      "evaluation": {
+        "f1": 0.8628820960698689,
+        "precision": 0.9285714285714286,
+        "recall": 0.8058727569331158,
+        "tp": 494,
+        "fp": 38,
+        "fn": 119
+      }
+    },
+    "ensemble": {
+      "clusters": 525,
+      "boundaries": 525,
+      "evaluation": {
+        "f1": 0.8629173989455184,
+        "precision": 0.9352380952380952,
+        "recall": 0.800978792822186,
+        "tp": 491,
+        "fp": 34,
+        "fn": 122
+      }
+    }
+  }
+}

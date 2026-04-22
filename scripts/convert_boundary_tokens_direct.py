@@ -83,8 +83,8 @@ for cs in boundary_chars_all[:20]:
 
 # ── Étape 2 : regrouper en clusters de boundary tokens ──────────────────────
 
-print("\nRegroupement des boundary tokens en clusters (GAP_CLUSTER ≤ 50 chars)...")
-GAP_CLUSTER = 50  # gap max entre tokens d'un même cluster isnad
+print("\nRegroupement des boundary tokens en clusters (GAP_CLUSTER ≤ 20 chars)...")
+GAP_CLUSTER = 20  # gap max entre tokens d'un même cluster isnad (optimisé)
 clusters = []
 if boundary_chars_all:
     cur_start = boundary_chars_all[0]
