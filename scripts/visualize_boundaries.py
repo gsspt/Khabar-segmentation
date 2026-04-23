@@ -35,10 +35,18 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
         before = corpus_text[last_end:start]
         html_parts.append(f"<span class='text'>{escape_html(before)}</span>")
 
-        # Boundary marker with tooltip
+        # Boundary marker with rich tooltip showing full isnad context
         prob_color = get_color_for_prob(max_prob)
-        tooltip = f"Boundary {i}: prob={max_prob:.3f}<br>Tokens: {', '.join(boundary.get('tokens', [])[:3])}"
-        html_parts.append(f"<span class='boundary' style='background-color:{prob_color}' title='{tooltip}'>│</span>")
+        tokens_str = ', '.join(boundary.get('tokens', [])[:5])  # Show more tokens
+
+        # Get context around boundary (more generous)
+        context_start = max(0, start - 100)
+        context_end = min(len(corpus_text), end + 100)
+        context = corpus_text[context_start:context_end]
+        context_escaped = escape_html(context).replace('<br>\n', ' | ')  # Show line breaks as | for tooltip
+
+        tooltip = f"Boundary {i}: prob={max_prob:.3f}\\nTokens: {tokens_str}\\nContext: ...{context_escaped}..."
+        html_parts.append(f"<span class='boundary' style='background-color:{prob_color}' title='{tooltip}' data-boundary='{i}'>│</span>")
 
         last_end = end
 
@@ -58,6 +66,10 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
         "medium_confidence": sum(1 for b in boundaries if 0.8 <= b.get("max_prob", 0) <= 0.95),
         "low_confidence": sum(1 for b in boundaries if b.get("max_prob", 0) < 0.8),
     }
+
+    # Prepare JSON data for JavaScript
+    boundaries_json = json.dumps(boundaries)
+    corpus_json = json.dumps(corpus_text)
 
     # Build HTML
     html = f"""<!DOCTYPE html>
@@ -113,9 +125,12 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
             background: white;
             padding: 30px;
             border-radius: 8px;
-            line-height: 2;
+            line-height: 1.8;
             font-size: 16px;
             word-wrap: break-word;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: 'Traditional Arabic', 'Arial Unicode MS', sans-serif;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 20px;
         }}
@@ -258,6 +273,46 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
             <div class="confidence-bar" style="width: {100*stats['low_confidence']/max(1,stats['total_boundaries'])}%; background-color: #ff6b6b;"></div>
         </div>
     </div>
+
+    <div id="boundary-detail" class="boundary-detail" style="display: none; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 20px;">
+        <h3>Boundary Details</h3>
+        <p><strong>Boundary ID:</strong> <span id="detail-id">-</span></p>
+        <p><strong>Confidence:</strong> <span id="detail-prob">-</span></p>
+        <p><strong>Tokens:</strong> <span id="detail-tokens">-</span></p>
+        <p><strong>Full Context (±150 chars):</strong></p>
+        <pre id="detail-context" style="background: #f5f5f5; padding: 10px; border-radius: 4px; overflow-x: auto;"></pre>
+    </div>
+
+    <script>
+        // Store boundary data for detail view
+        const boundaries = {boundaries_json};
+        const corpus = {corpus_json};
+
+        // Add click handlers to boundary markers
+        document.querySelectorAll('.boundary').forEach(el => {{
+            el.style.cursor = 'pointer';
+            el.addEventListener('click', function(e) {{
+                const bid = parseInt(this.getAttribute('data-boundary'));
+                const b = boundaries[bid];
+                const start = b.char_start;
+                const end = b.char_end;
+
+                // Show detail
+                document.getElementById('detail-id').textContent = bid;
+                document.getElementById('detail-prob').textContent = (b.max_prob ? b.max_prob.toFixed(4) : 'N/A');
+                document.getElementById('detail-tokens').textContent = b.tokens.join(', ');
+
+                // Full context
+                const ctx_start = Math.max(0, start - 150);
+                const ctx_end = Math.min(corpus.length, end + 150);
+                const ctx = corpus.substring(ctx_start, ctx_end);
+                document.getElementById('detail-context').textContent = ctx;
+
+                document.getElementById('boundary-detail').style.display = 'block';
+                document.getElementById('boundary-detail').scrollIntoView({{behavior: 'smooth'}});
+            }});
+        }});
+    </script>
 </body>
 </html>
 """
@@ -266,13 +321,17 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
 
 
 def escape_html(text: str) -> str:
-    """Escape HTML special characters."""
-    return (text
+    """Escape HTML special characters and preserve newlines."""
+    # First escape special characters
+    text = (text
             .replace("&", "&amp;")
             .replace("<", "&lt;")
             .replace(">", "&gt;")
             .replace('"', "&quot;")
             .replace("'", "&#39;"))
+    # Then convert newlines to <br> tags
+    text = text.replace("\n", "<br>\n")
+    return text
 
 
 def get_color_for_prob(prob: float) -> str:
