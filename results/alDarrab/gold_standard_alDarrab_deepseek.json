@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "source": "deepseek-api-optimized",
+    "model": "deepseek-chat",
+    "text_length_chars": 15689,
+    "total_chunks": 6,
+    "chunk_size": 3500,
+    "overlap": 500,
+    "total_units": 34,
+    "units_with_isnad": 29,
+    "method": "text-extraction-with-post-processing",
+    "note": "Positions determined via text search, not LLM calculation",
+    "parallel_workers": 4
+  },
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "char_start": 27,
+      "char_end": 1247,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا أبو محمد الحسن بن إسماعيل الضراب، نا محمد بن أحمد المديني، نا الحسين بن عبد الله بن يزيد القطان، نا جعفر علي البغدادي، نا أبو الفضائل محمد بن أحمد، نا عبد الرحمن، عن أبيه، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "أخبرنا أبو محمد الحسن بن إسماعيل الضراب، نا محمد ب",
+      "text_end_from_api": "فعاد بشوق قد نضا فقد حاله ... تذوب به أعضاؤه ومفاص"
+    },
+    {
+      "unit_id": 1,
+      "char_start": 1250,
+      "char_end": 1518,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أح",
+      "text_end_from_api": "فوالله لتمنيت أني كنت مت قبل أن ألي القضاء."
+    },
+    {
+      "unit_id": 2,
+      "char_start": 1521,
+      "char_end": 2000,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مسعود بن عمرو بن إدريس الزنبري، نا محمد بن أحمد الأنصاري، قال: قرأت على محمد بن سعدان الجوزجاني: قال أبو عبد الرحمن الأنصاري: أخبرني خلف بن سالم، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مسعود بن عمرو بن إدريس الزنبري، نا محمد",
+      "text_end_from_api": "قال: ربما، ولكن في هول الآخرة ما يشغل عن هول المقا"
+    },
+    {
+      "unit_id": 3,
+      "char_start": 2003,
+      "char_end": 2629,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أحمد بن يونس، قال: قال ابن إدريس:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان، نا الحسن بن الحسين الكوفي، نا أح",
+      "text_end_from_api": "قال: فما رجعت حتى قضيت حاجتي."
+    },
+    {
+      "unit_id": 4,
+      "char_start": 2632,
+      "char_end": 2893,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان، نا الحسن بن الحسين، قال: سمعت أبي يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان، نا الحسن بن الحسين، قال: سمعت أب",
+      "text_end_from_api": "وأنا لحقني الجوع في السوق، وفي كفي رغيف، فكرهت أن "
+    },
+    {
+      "unit_id": 5,
+      "char_start": 2896,
+      "char_end": 3085,
+      "has_isnad": true,
+      "isnad_text": "نا الحسن بن الحسن، نا محمود بن محمد الرافقي، نا عبد الله بن محمد، حدثني عباس البحراني، حدثني سفيان بن عيينة، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا الحسن بن الحسن، نا محمود بن محمد الرافقي، نا عب",
+      "text_end_from_api": "فقال: الملوك، هذه قصورهم، وهذه قبورهم."
+    },
+    {
+      "unit_id": 6,
+      "char_start": 3088,
+      "char_end": 3421,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إبراهيم بن مرزوق، نا القاسم بن محمد التبوذكي، حدثني عبد الكبير بن عبد الرحمن، قال: سمعت السكسكي يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إ",
+      "text_end_from_api": "ويقعدني الوسواس حتى كأنني ... صفدت له في القيد أو "
+    },
+    {
+      "unit_id": 7,
+      "char_start": 3088,
+      "char_end": 3735,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إبراهيم بن مرزوق، نا القاسم بن محمد التبوذكي، حدثني عبد الكبير بن عبد الرحمن، قال: سمعت السكسكي يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن عبد الله بن الحسن العصامي، نا أحمد بن إ",
+      "text_end_from_api": "إن ديني لنحيف ... فيه شيء من مرمه"
+    },
+    {
+      "unit_id": 8,
+      "char_start": 3738,
+      "char_end": 4348,
+      "has_isnad": true,
+      "isnad_text": "نا العصامي، نا أحمد بن إبراهيم بن مرزوق، نا علقمة، نا موسى بن زياد، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا العصامي، نا أحمد بن إبراهيم بن مرزوق، نا علقمة،",
+      "text_end_from_api": "وما بي جنة، لكن قلبي ... به داء تموت به القلوب"
+    },
+    {
+      "unit_id": 9,
+      "char_start": 4351,
+      "char_end": 4983,
+      "has_isnad": true,
+      "isnad_text": "ذكر أحمد بن بهزاد، نا إسماعيل بن أبي هاشم أبو القاسم الزبيري، حدثني أحمد بن حبيب، حدثني بعض رواة العلم، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "ذكر أحمد بن بهزاد، نا إسماعيل بن أبي هاشم أبو القا",
+      "text_end_from_api": "وعينان قد أعماهما الحب بالبكا ... وأذنان من طول ال"
+    },
+    {
+      "unit_id": 10,
+      "char_start": 4986,
+      "char_end": 5408,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان، نا محمد بن عبد العزيز، نا أبي، قال: قال ابن إدريس:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان، نا محمد بن عبد العزيز، نا أبي، ق",
+      "text_end_from_api": "قال ابن إدريس: فأفزعني والله، فأقبلت على القبلة بع"
+    },
+    {
+      "unit_id": 11,
+      "char_start": 5411,
+      "char_end": 5812,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان الخزاعي، نا عمر بن محمد التغلبي، نا مرذويه الصائغ، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان الخزاعي، نا عمر بن محمد التغلبي، ",
+      "text_end_from_api": "قال: فقلت له: سعدون، ما أرى معك زادا؟ فقال: قال لي"
+    },
+    {
+      "unit_id": 12,
+      "char_start": 5815,
+      "char_end": 6322,
+      "has_isnad": true,
+      "isnad_text": "أنبا الحسن بن رشيق، نا علي بن يعقوب بن سويد، نا عمرو بن علي بن سليمان الدينوري، نا أحمد بن عبد الله الخراساني، نا محمد بن عمر بن علي الجرجاني، نا يحيى بن أيوب المقابري، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "أنبا الحسن بن رشيق، نا علي بن يعقوب بن سويد، نا عم",
+      "text_end_from_api": "ثم قال: لا بل بكانا على أنفسنا أحق من بكائنا عليهم"
+    },
+    {
+      "unit_id": 13,
+      "char_start": 6325,
+      "char_end": 7054,
+      "has_isnad": true,
+      "isnad_text": "حدثني عبد الواحد بن بكر الورثاني، أن منصور بن أحمد الهروي قال: سمعت أبا الحسين محمد بن علي الخوارزمي، قال: سمعت ذا النون المصري يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "حدثني عبد الواحد بن بكر الورثاني، أن منصور بن أحمد",
+      "text_end_from_api": "إنما هذه الحياة متاع ... ومع الموت تستوي الأقدام"
+    },
+    {
+      "unit_id": 14,
+      "char_start": 7057,
+      "char_end": 7687,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن سعيد الإخميمي، نا عبد الوهاب بن يزيد الصدائي، نا إبراهيم بن المنذر، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن سعيد الإخميمي، نا عبد الوهاب بن يزيد ال",
+      "text_end_from_api": "قال: ثم ولى، وتركني أفكر في أمره."
+    },
+    {
+      "unit_id": 15,
+      "char_start": 7690,
+      "char_end": 8107,
+      "has_isnad": true,
+      "isnad_text": "نا محمد بن أحمد بن كامل المديني، نا أبو عبد الله محمد بن الحسن الدينوري، حدثني أبو علي حاجب خاقان، قال: قال ذو النون المصري:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا محمد بن أحمد بن كامل المديني، نا أبو عبد الله م",
+      "text_end_from_api": "والله لا زلت له عاشقا ... وإن أمت أذكره في القبر"
+    },
+    {
+      "unit_id": 16,
+      "char_start": 8110,
+      "char_end": 9306,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان المالكي، نا محمد بن عبد الرحمن مولى بني هاشم، نا مصعب بن عبد الله، عن ابن أبي فديك، أنه قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا أحمد بن مروان المالكي، نا محمد بن عبد الرحمن مو",
+      "text_end_from_api": "فلما أتاهم , حرك هارون الرشيد أبا نصر بيده، فرفع ر"
+    },
+    {
+      "unit_id": 17,
+      "char_start": 8806,
+      "char_end": 9206,
+      "has_isnad": false,
+      "isnad_text": null,
+      "unit_type": "sans_isnad",
+      "text_start_from_api": "وتوقي الأدناس، واجتناب المعاصي صغيرها وكبيرها. # ق",
+      "text_end_from_api": "قلت: فما البخل؟ فقال: أف؛ وحول وجهه عني، فقلت له: "
+    },
+    {
+      "unit_id": 18,
+      "char_start": 8975,
+      "char_end": 9375,
+      "has_isnad": true,
+      "isnad_text": "قال ابن أبي فديك:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "# قال ابن أبي فديك: وقدم هارون أمير المؤمنين، فأحب",
+      "text_end_from_api": "فقد قال عمر بن الخطاب رحمه الله: لو ضاعت سخلة على "
+    },
+    {
+      "unit_id": 19,
+      "char_start": 9603,
+      "char_end": 10003,
+      "has_isnad": false,
+      "isnad_text": null,
+      "unit_type": "sans_isnad",
+      "text_start_from_api": "# فبكى هارون وقال له: يا أبا نصر، إن رعيتي ودهري غ",
+      "text_end_from_api": "فإنك وعمر لتسألان عما خولكما الله."
+    },
+    {
+      "unit_id": 20,
+      "char_start": 9762,
+      "char_end": 10162,
+      "has_isnad": false,
+      "isnad_text": null,
+      "unit_type": "sans_isnad",
+      "text_start_from_api": "# ثم دعا هارون بصرة فيها مئة دينار، فقال: ادفعوها ",
+      "text_end_from_api": "ادفعوها إلى فلان يفرقها بينهم، ويجعلني رجلا منهم."
+    },
+    {
+      "unit_id": 21,
+      "char_start": 9911,
+      "char_end": 10238,
+      "has_isnad": true,
+      "isnad_text": "نا أحمد بن مروان المالكي، نا إبراهيم بن حبيب، قال: سمعت أبا نعيم يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "# نا أحمد بن مروان المالكي، نا إبراهيم بن حبيب، قا",
+      "text_end_from_api": "فقال أبو الديك: كذب، لا يكون المعروف معروفا حتى يص"
+    },
+    {
+      "unit_id": 22,
+      "char_start": 10239,
+      "char_end": 11164,
+      "has_isnad": true,
+      "isnad_text": "نا عبد العزيز بن علي المكتب، نا الحسن بن القاسم الدمشقي، نا أحمد بن عبيد بن معاوية، حدثت عن علي بن يوسف، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "# نا عبد العزيز بن علي المكتب، نا الحسن بن القاسم ",
+      "text_end_from_api": "فأكب جعيفران إلى الأرض، ثم رفع رأسه فقال: # يموت ه"
+    },
+    {
+      "unit_id": 23,
+      "char_start": 11165,
+      "char_end": 11484,
+      "has_isnad": true,
+      "isnad_text": "نا عبد الواحد بن بكر الورثاني، أبو الفرج، نا محمد بن عبد الله الرازي، حدثني سليمان بن أحمد بدمشق، نا الحسن بن علي بن جعفر النخعي، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "# نا عبد الواحد بن بكر الورثاني، أبو الفرج، نا محم",
+      "text_end_from_api": "من عند من علق الفؤاد بحبه ... فشكا إليه بخاطر مشتا"
+    },
+    {
+      "unit_id": 24,
+      "char_start": 11485,
+      "char_end": 12289,
+      "has_isnad": true,
+      "isnad_text": "أنا أحمد بن مروان، نا ابن أبي الدنيا، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "# أنا أحمد بن مروان، نا ابن أبي الدنيا، قال: # قال",
+      "text_end_from_api": "قال: وقال لي ذي النون: وذكر لي شيئا، وولع الوله بل"
+    },
+    {
+      "unit_id": 25,
+      "char_start": 12391,
+      "char_end": 13428,
+      "has_isnad": true,
+      "isnad_text": "وجدت على ظهر كتاب عبد العزيز بن أحمد بن الفرج الأحمري: نا أبو بكر أحمد بن الحسن بن هارون الضاحي، نا العباس بن محمد الأنصاري الأشهلي، حدثني قبيصة أبو حاتم المنجم، قال:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "وجدت على ظهر كتاب عبد العزيز بن أحمد بن الفرج الأح",
+      "text_end_from_api": "قال: ثم اندفن في ذلك الرمل، فلم أره بقية يومي ذلك."
+    },
+    {
+      "unit_id": 26,
+      "char_start": 13431,
+      "char_end": 13831,
+      "has_isnad": true,
+      "isnad_text": "أنا أحمد بن مروان، نا ابن أبي الدنيا، قال: سمعت محمد بن الحسين يقول:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "أنا أحمد بن مروان، نا ابن أبي الدنيا، قال: سمعت مح",
+      "text_end_from_api": "قال: فمشيت معه حتى عرفت موضعه، فكتبت عنه هذا [الدع"
+    },
+    {
+      "unit_id": 27,
+      "char_start": 14779,
+      "char_end": 15179,
+      "has_isnad": false,
+      "isnad_text": null,
+      "unit_type": "sans_isnad",
+      "text_start_from_api": "جاوزا] بعطفه على خلقه، طهر قلبي من أوساخ الغفلة، [",
+      "text_end_from_api": "جاوزا] بعطفه على خلقه، طهر قلبي من أوساخ الغفلة، ["
+    },
+    {
+      "unit_id": 28,
+      "char_start": 14898,
+      "char_end": 15298,
+      "has_isnad": false,
+      "isnad_text": null,
+      "unit_type": "sans_isnad",
+      "text_start_from_api": "صل على محمد عبدك ورسولك، وهب لي [صبرا ويقينا، واغف",
+      "text_end_from_api": "صل على محمد عبدك ورسولك، وهب لي [صبرا ويقينا، واغف"
+    },
+    {
+      "unit_id": 29,
+      "char_start": 15008,
+      "char_end": 15408,
+      "has_isnad": true,
+      "isnad_text": "[قال:]",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "[قال:] فمشيت معه حتى عرفت موضعه، فكتبت عنه هذا [ال",
+      "text_end_from_api": "[قال:] فمشيت معه حتى عرفت موضعه، فكتبت عنه هذا [ال"
+    },
+    {
+      "unit_id": 30,
+      "char_start": 15115,
+      "char_end": 15278,
+      "has_isnad": true,
+      "isnad_text": "نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدونة.. .. الفضل بن مروان يقول لمعلمه ابن الزيات:",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدو",
+      "text_end_from_api": "مهلا حا.. .. قد انصرف عني محاربكم، قد كنت أرج.. .."
+    },
+    {
+      "unit_id": 31,
+      "char_start": 15115,
+      "char_end": 15515,
+      "has_isnad": true,
+      "isnad_text": "نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدونة.. .. الفضل بن مروان",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدو",
+      "text_end_from_api": "نا علي بن يعقوب، نا جامع بن القاسم، قال: سمعت حمدو"
+    },
+    {
+      "unit_id": 32,
+      "char_start": 15281,
+      "char_end": 15681,
+      "has_isnad": true,
+      "isnad_text": "حدثني أحمد بن حبيب، قال: وحدثني.. ..",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "حدثني أحمد بن حبيب، قال: وحدثني.. ..",
+      "text_end_from_api": "حدثني أحمد بن حبيب، قال: وحدثني.. .."
+    },
+    {
+      "unit_id": 33,
+      "char_start": 15383,
+      "char_end": 15689,
+      "has_isnad": true,
+      "isnad_text": "قال:]",
+      "unit_type": "avec_isnad",
+      "text_start_from_api": "قال:] منذ زمان، إلا أني كنت [أكتمه، فلما غلب على] ",
+      "text_end_from_api": "قال:] منذ زمان، إلا أني كنت [أكتمه، فلما غلب على] "
+    }
+  ]
+}

@@ -128,25 +128,19 @@ def normalize_whitespace(text: str) -> str:
     Normalize whitespace while preserving paragraph structure.
 
     - Remove trailing whitespace from lines
-    - Collapse multiple blank lines into single blank line
+    - Preserve multiple blank lines (they indicate section breaks)
     - Remove leading whitespace from content lines
     """
     lines = text.split("\n")
     normalized = []
 
     for line in lines:
-        # Strip leading/trailing whitespace
+        # Strip leading/trailing whitespace from content
         line = line.strip()
+        # Keep the line as-is (empty string for blank lines)
+        normalized.append(line)
 
-        # Skip empty lines that would create excessive blank lines
-        if not line:
-            # Only add blank line if previous wasn't blank
-            if normalized and normalized[-1] != "":
-                normalized.append("")
-        else:
-            normalized.append(line)
-
-    # Remove trailing blank lines
+    # Remove trailing blank lines at the end
     while normalized and normalized[-1] == "":
         normalized.pop()
 
@@ -163,6 +157,9 @@ def validate_text(original: str, cleaned: str) -> dict:
     orig_content = len(original.replace(" ", "").replace("\n", ""))
     clean_content = len(cleaned.replace(" ", "").replace("\n", ""))
 
+    # Count words (separated by whitespace)
+    words = len(cleaned.split())
+
     # Extract some actual text to verify it's readable
     sample = "\n".join(cleaned.split("\n")[5:10])
 
@@ -174,6 +171,7 @@ def validate_text(original: str, cleaned: str) -> dict:
         "original_content": orig_content,
         "cleaned_content": clean_content,
         "content_retention": clean_content / orig_content if orig_content > 0 else 0,
+        "words": words,
         "sample_text": sample[:300],
     }
 
@@ -241,6 +239,7 @@ def clean_openiti_text(input_path: str, output_path: str) -> dict:
         'cleaned_chars': final_length,
         'removed_chars': removed_length,
         'lines': validation['cleaned_lines'],
+        'words': validation['words'],
         'content_retention': validation['content_retention']
     }
 

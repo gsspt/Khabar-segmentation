@@ -1,0 +1,3112 @@
+{
+  "metadata": {
+    "source": "baseline-v4-linguistic",
+    "total_units": 388
+  },
+  "narrative_units": [
+    {
+      "unit_id": 0,
+      "char_start": 725,
+      "char_end": 755,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا محمد بن ناصر الحافظ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 1,
+      "char_start": 757,
+      "char_end": 806,
+      "has_isnad": true,
+      "isnad_text": "حدثنا علي بن الحسين بن الحسن بن أحمد بن شاذان قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 2,
+      "char_start": 808,
+      "char_end": 846,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو بكر أحمد بن سلمان النجاد قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 3,
+      "char_start": 848,
+      "char_end": 881,
+      "has_isnad": true,
+      "isnad_text": "حدثنا عبد الله بن محمد القرشي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 4,
+      "char_start": 883,
+      "char_end": 904,
+      "has_isnad": true,
+      "isnad_text": "حدثنا خلف بن هشام قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 5,
+      "char_start": 906,
+      "char_end": 950,
+      "has_isnad": true,
+      "isnad_text": "حدثنا الحكم بن سنان عن حوشب عن الحسن أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 6,
+      "char_start": 1166,
+      "char_end": 1196,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا محمد بن عبد الملك، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 7,
+      "char_start": 1196,
+      "char_end": 1236,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا أبو محمد الحسن بن علي الجوهري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 8,
+      "char_start": 1238,
+      "char_end": 1264,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو عمر بن حيوية قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 9,
+      "char_start": 1266,
+      "char_end": 1289,
+      "has_isnad": true,
+      "isnad_text": "أنبأنا ابن المرزبان قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 10,
+      "char_start": 1305,
+      "char_end": 1323,
+      "has_isnad": true,
+      "isnad_text": "سمعت محمد بن مسلم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 11,
+      "char_start": 1323,
+      "char_end": 1414,
+      "has_isnad": true,
+      "isnad_text": "يقول: تكلم رجل في مجلس ابن عباس فأكثر الخطأ فالتفت عبد الله بن عباس إلى عبد له فأعتقه فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 12,
+      "char_start": 2723,
+      "char_end": 2763,
+      "has_isnad": true,
+      "isnad_text": "حدثهم، فإذا كثروا وثقل عليهم الحديث، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 13,
+      "char_start": 2973,
+      "char_end": 2991,
+      "has_isnad": true,
+      "isnad_text": "حدثهم ساعة ثم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 14,
+      "char_start": 3064,
+      "char_end": 3142,
+      "has_isnad": true,
+      "isnad_text": "يقول لأصحابه: هاتوا من أشعاركم هاتوا من حديثكم فإن الأذن مجة والقلب حمض. وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 15,
+      "char_start": 3172,
+      "char_end": 3308,
+      "has_isnad": true,
+      "isnad_text": "يقول: هاتوا من ظرفكم هاتوا من أشعاركم، أفيضوا في بعض ما يخفف عليكم وتأنس به طباعكم فإن الأذن مجاجة و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 16,
+      "char_start": 3458,
+      "char_end": 3497,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أنا\n#\n# وأبا حازم حتى يبكينا ثم ي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 17,
+      "char_start": 3497,
+      "char_end": 3518,
+      "has_isnad": true,
+      "isnad_text": "حدثنا حتى يضحكنا، ثم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 18,
+      "char_start": 3518,
+      "char_end": 3689,
+      "has_isnad": true,
+      "isnad_text": "يقول: مرة هكذا ومرة هكذا.\n\n# قلت: وما زال العلماء والأفاضل يعجبهم الملح، ويهشون لها، لأنها تجم النفس",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 19,
+      "char_start": 3776,
+      "char_end": 3835,
+      "has_isnad": true,
+      "isnad_text": "روينا عن ابن عائشة أحاديث ملاحا في بعضها رفث، وإن رجلا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 20,
+      "char_start": 4208,
+      "char_end": 4220,
+      "has_isnad": true,
+      "isnad_text": "سمعت الرشيد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 21,
+      "char_start": 4220,
+      "char_end": 4286,
+      "has_isnad": true,
+      "isnad_text": "يقول: النوادر تشحذ الأذهان وتفتق الآذان. وعن حماد بن سلمة أنه كان",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 22,
+      "char_start": 4286,
+      "char_end": 4360,
+      "has_isnad": true,
+      "isnad_text": "يقول: لا يحب الملح إلا ذكران الرجال ولا يكرهها إلا مؤنثهم. وعن الأصمعي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 23,
+      "char_start": 4718,
+      "char_end": 4809,
+      "has_isnad": true,
+      "isnad_text": "ذكرنا أن نفوس العلماء تسرح في مباح اللهو الذي يكسبها نشاطا للجد فكأنها من الجد لم تزل، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 24,
+      "char_start": 6237,
+      "char_end": 6638,
+      "has_isnad": true,
+      "isnad_text": "رواة الحديث وتصحيفه،\n# الباب الثاني عشر: في ذكر المغفلين من القضاة،\n# الباب الثالث عشر: في ذكر المغف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 25,
+      "char_start": 7224,
+      "char_end": 7749,
+      "has_isnad": true,
+      "isnad_text": "ذكرنا ما يتعلق باللغة في هذا الاسم ولا يظهر المقصود إلا بكشف المعنى فنقول: معنى الحمق والتغفيل هو ال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 26,
+      "char_start": 8127,
+      "char_end": 8201,
+      "has_isnad": true,
+      "isnad_text": "بلغني أنه قيل لعيسى ابن مريم عليه السلام: يا روح الله إنك تحيي الموتى؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 27,
+      "char_start": 8557,
+      "char_end": 8704,
+      "has_isnad": true,
+      "isnad_text": "يقول: الخفيف:\n# ليت شعري وقد تمادى بك الهج ... ر أمنك التفريط أم كان مني\n# إن تكن خنتنا فعنك عفا الل",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 28,
+      "char_start": 8964,
+      "char_end": 9086,
+      "has_isnad": true,
+      "isnad_text": "وأنشد بعض الحكماء: الخفيف:\n# وعلاج الأبدان أيسر خطبا ... حين تعتل من علاج العقول\n#\n\n# في ذكر اختلاف ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 29,
+      "char_start": 9086,
+      "char_end": 9387,
+      "has_isnad": true,
+      "isnad_text": "ذكرنا أن الحمق فساد في العقل أو في الذهن، وما كان موضوعا في أصل الجوهر، فهو غريزة لا ينفعها التأديب،",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 30,
+      "char_start": 9745,
+      "char_end": 9845,
+      "has_isnad": true,
+      "isnad_text": "يقول: ما أحد من الناس إلا وهو أحمق فيما بينه وبين ربه عز وجل، غير أن بعض الحمق أهون من بعض، وعنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 31,
+      "char_start": 9879,
+      "char_end": 9940,
+      "has_isnad": true,
+      "isnad_text": "يقول: هم الناس والنسناس، وأرى أناسا غمسوا في ماء الناس. وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 32,
+      "char_start": 9989,
+      "char_end": 10544,
+      "has_isnad": true,
+      "isnad_text": "وأنشد بعضهم: الطويل:\n# لعمرك ما شيء يفوتك نيله ... بغبن ولكن في العقول التغابن\n#\n\n# في ذكر أسماء الأ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 33,
+      "char_start": 12635,
+      "char_end": 12678,
+      "has_isnad": true,
+      "isnad_text": "روان: من طالت لحيته فهو كوسج في عقله. وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 34,
+      "char_start": 13455,
+      "char_end": 13495,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا أبو القاسم عبد الرحمن بن محمد قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 35,
+      "char_start": 13497,
+      "char_end": 13675,
+      "has_isnad": true,
+      "isnad_text": "بلغني أن المهدي لما فرغ من عيسا باذ ركب في جماعة يسيرة لينظر، فدخل مفاجأة فأخر كل من كان هناك من الن",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 36,
+      "char_start": 14579,
+      "char_end": 14594,
+      "has_isnad": true,
+      "isnad_text": "وأخبر الآخر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 37,
+      "char_start": 17093,
+      "char_end": 17137,
+      "has_isnad": true,
+      "isnad_text": "يقول: خفق النعال خلف الأحمق قلما يلبث. وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 38,
+      "char_start": 17261,
+      "char_end": 17353,
+      "has_isnad": true,
+      "isnad_text": "حدثه بحديث لا أصل له، فإن رأيته أصغى إليه وقبله فاعلم أنه أحمق، وإن أنكره فهو عاقل.\n\n# وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 39,
+      "char_start": 18989,
+      "char_end": 19019,
+      "has_isnad": true,
+      "isnad_text": "روينا عن الأحنف بن قيس أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 40,
+      "char_start": 19687,
+      "char_end": 19719,
+      "has_isnad": true,
+      "isnad_text": "روينا عن أبي يوسف القاضي أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 41,
+      "char_start": 20014,
+      "char_end": 20076,
+      "has_isnad": true,
+      "isnad_text": "يقول: يأتي على الناس زمان تكون الدولة فيه للحمقى. وعنه أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 42,
+      "char_start": 21450,
+      "char_end": 21600,
+      "has_isnad": true,
+      "isnad_text": "يقولون: أحمق من الضبع وأحمق من أم عامر، وأحمق من نعجة على حوض لأنها إذا وردت الماء أكبت عليه ولا تنث",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 43,
+      "char_start": 21622,
+      "char_end": 21772,
+      "has_isnad": true,
+      "isnad_text": "يقولون: أحمق م حمامة لأنها لا تصلح عشها وربما سقط بيضها فانكسر، وربما باضت على الأوتاد فيقع البيض، و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 44,
+      "char_start": 21842,
+      "char_end": 22179,
+      "has_isnad": true,
+      "isnad_text": "روان لأنه إذا رأى أناسا سقط على الطريق فيأخذونه.\n# ومن الموصوف بالحمق من الحيوان: الحبارى، والنعجة، ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 45,
+      "char_start": 22179,
+      "char_end": 22189,
+      "has_isnad": true,
+      "isnad_text": "روان ويقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 46,
+      "char_start": 22196,
+      "char_end": 22276,
+      "has_isnad": true,
+      "isnad_text": "روان أحد بني قيس بن ثعلبة، ومن حمقه أنه جعل في عنقه قلادة من ودع وعظام وخزف وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 47,
+      "char_start": 22812,
+      "char_end": 23013,
+      "has_isnad": true,
+      "isnad_text": "يقول: لا أصلح ما أفسده الله.\n\n# ومنهم أبو غبشان وهو من خزاعة كان يلي الكعبة، فاجتمع مع قصي بن كلاب ب",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 48,
+      "char_start": 24718,
+      "char_end": 24775,
+      "has_isnad": true,
+      "isnad_text": "وحدث بحديث: كان ذلك في خلافة المهدي قبل موت المنصور. وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 49,
+      "char_start": 25077,
+      "char_end": 25099,
+      "has_isnad": true,
+      "isnad_text": "حدثنا عن ابن عمر، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 50,
+      "char_start": 25309,
+      "char_end": 25355,
+      "has_isnad": true,
+      "isnad_text": "يقول: رأيت جحا رجلا كيسا ظريفا وهذا الذي يقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 51,
+      "char_start": 25629,
+      "char_end": 25711,
+      "has_isnad": true,
+      "isnad_text": "أخبرني عكرمة عن ابن عباس في قوله تعالى: \" وكان وراءهم ملك يأخذ كل سفينة غصبا \" قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 52,
+      "char_start": 26096,
+      "char_end": 26125,
+      "has_isnad": true,
+      "isnad_text": "يروى عن جحا، تغفيل نذكره كما",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 53,
+      "char_start": 26125,
+      "char_end": 26153,
+      "has_isnad": true,
+      "isnad_text": "سمعناه.\n# عن أبي الحسن، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 54,
+      "char_start": 26163,
+      "char_end": 26187,
+      "has_isnad": true,
+      "isnad_text": "سمعت من داركم صراخا، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 55,
+      "char_start": 26279,
+      "char_end": 26326,
+      "has_isnad": true,
+      "isnad_text": "وحكى أبو منصور الثعالبي في كتاب غرر النوادر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 56,
+      "char_start": 26960,
+      "char_end": 27006,
+      "has_isnad": true,
+      "isnad_text": "وحكي: أن جحا تبخر يوما فاحترقت ثيابه فغضب وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 57,
+      "char_start": 27938,
+      "char_end": 28039,
+      "has_isnad": true,
+      "isnad_text": "وحكي: أن جحا دفن دراهم في صحراء وجعل علامتها سحابة تظلها.\n# ومات أبوه فقيل له: إذهب واشتر الكفن، فقا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 58,
+      "char_start": 28084,
+      "char_end": 28161,
+      "has_isnad": true,
+      "isnad_text": "وحكي: أن المهدي أحضره ليمزح معه، فدعا بالنطع والسيف، فلما أقعد في النطع، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 59,
+      "char_start": 28422,
+      "char_end": 28458,
+      "has_isnad": true,
+      "isnad_text": "أخبرني بما ي كمي فله أكبر خوخة، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 60,
+      "char_start": 28519,
+      "char_end": 28543,
+      "has_isnad": true,
+      "isnad_text": "يقول ما أحسن القمر، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 61,
+      "char_start": 30053,
+      "char_end": 30073,
+      "has_isnad": true,
+      "isnad_text": "يقول يرحمك الله فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 62,
+      "char_start": 30170,
+      "char_end": 30211,
+      "has_isnad": true,
+      "isnad_text": "يقول: إن هؤلاء لا يعرفون العربية.\n# وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 63,
+      "char_start": 31389,
+      "char_end": 31702,
+      "has_isnad": true,
+      "isnad_text": "يقول: رخيص والله، وهذا من فضل ربي، آكل وأتمتع بدرهم، وإذا في المصحف \" ذرهم يأكلوا ويتمتعوا \" فصحف ذر",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 64,
+      "char_start": 32452,
+      "char_end": 32648,
+      "has_isnad": true,
+      "isnad_text": "يقول: نعوذ بالله من نعمه، ونتوب إليه من إحسانه، ونستقيله من عافيته، ونسأله عوائق الأمور. حسبي الله و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 65,
+      "char_start": 32891,
+      "char_end": 32999,
+      "has_isnad": true,
+      "isnad_text": "يقول: الحمد لله قد سرني والله يا أبا إسحاق، فدهش الزجاج ومن حضر، وقيل له: يا هذا، كيف سرك ما غمه وغم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 66,
+      "char_start": 33007,
+      "char_end": 33383,
+      "has_isnad": true,
+      "isnad_text": "بلغني أنه هو الذي مات، فلما صح عندي أنها هي التي ماتت سرني ذلك. فضحك الناس جميعا.\n# وكتب ابن الجصاص ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 67,
+      "char_start": 33507,
+      "char_end": 33538,
+      "has_isnad": true,
+      "isnad_text": "يقول: حسبي الله وحدي.\n#\n# وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 68,
+      "char_start": 33667,
+      "char_end": 33733,
+      "has_isnad": true,
+      "isnad_text": "سمعت لهم حسوه، وأراد حسا.\n# وذكر يوما ثلاثة أصناف من الثياب ثم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 69,
+      "char_start": 35057,
+      "char_end": 35072,
+      "has_isnad": true,
+      "isnad_text": "حدثك عنه حديثا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 70,
+      "char_start": 35072,
+      "char_end": 35119,
+      "has_isnad": true,
+      "isnad_text": "حدثنا به، تعلم معه أنه كان في غاية الحزم، فإنه",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 71,
+      "char_start": 35119,
+      "char_end": 35129,
+      "has_isnad": true,
+      "isnad_text": "حدثني فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 72,
+      "char_start": 35282,
+      "char_end": 35293,
+      "has_isnad": true,
+      "isnad_text": "سمعت حاجبه",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 73,
+      "char_start": 35293,
+      "char_end": 35590,
+      "has_isnad": true,
+      "isnad_text": "يقول وقد وليت: أي بيت مال يمشي على وجه الأرض ليس له من يأخذه؟ فقلت: إن هذا من كلام صاحبه وإني مسلوب،",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 74,
+      "char_start": 39416,
+      "char_end": 39460,
+      "has_isnad": true,
+      "isnad_text": "وحدثني أبو محمد عبد الله بن أحمد بن مكرم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 75,
+      "char_start": 39462,
+      "char_end": 39482,
+      "has_isnad": true,
+      "isnad_text": "حدثني بعض شيوخنا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 76,
+      "char_start": 40021,
+      "char_end": 40049,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو القاسم الجهني، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 77,
+      "char_start": 42781,
+      "char_end": 42793,
+      "has_isnad": true,
+      "isnad_text": "سمعتم ما قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 78,
+      "char_start": 43737,
+      "char_end": 43806,
+      "has_isnad": true,
+      "isnad_text": "يقول: وا بأب دردرك. فظنت أن الدردر أعجب إليه، فحطمت أسنانها، فلما قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 79,
+      "char_start": 44083,
+      "char_end": 44111,
+      "has_isnad": true,
+      "isnad_text": "أنبأنا محمد بن عبد الملك قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 80,
+      "char_start": 44113,
+      "char_end": 44130,
+      "has_isnad": true,
+      "isnad_text": "حدثنا ابن خلف قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 81,
+      "char_start": 44233,
+      "char_end": 44805,
+      "has_isnad": true,
+      "isnad_text": "ذكرنا في أحد الأقوال إنه اسم امرأة كانت تمتخط بكوعها.\n#\n\n# في ذكر أخبار جماعة من العقلاء\n# صدرت عنهم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 82,
+      "char_start": 45066,
+      "char_end": 45216,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا من علمني أنا أعلم منك، ويا من قدر تفضيل هذا علي ما فعلت صوابا.\n\n# فلما أعيته الحيل رضي بإهل",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 83,
+      "char_start": 45219,
+      "char_end": 45467,
+      "has_isnad": true,
+      "isnad_text": "يقول لأغوينهم، وجهله في قوله \" لأغوينهم \" من وجهين؛\n#\n# أحدهما: أنه أخرج ذلك مخرج القاصد لتأثر المعا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 84,
+      "char_start": 46358,
+      "char_end": 47115,
+      "has_isnad": true,
+      "isnad_text": "يقول: منه الظلم ومنه الشر، في عبارات أقبح من هذه قد ذكرت بعضها في التاريخ، فالعجب ممن يعترض على الخا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 85,
+      "char_start": 50864,
+      "char_end": 50953,
+      "has_isnad": true,
+      "isnad_text": "يقول: \" قضي الأمر الذي فيه تستفتيان \".\n# ولما دخل المأمون على زبيدة ليعزيها في الأمين قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 86,
+      "char_start": 51489,
+      "char_end": 51539,
+      "has_isnad": true,
+      "isnad_text": "وأنشد الصاحب بن عباد عضد الدولة مديحا له من قصيدة",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 87,
+      "char_start": 51539,
+      "char_end": 51655,
+      "has_isnad": true,
+      "isnad_text": "يقول فيها:\n#\n# الطويل:\n# ضممت على أبناء تغلب تاءها ... فتغلب ما كر الجديدان تغلب\n# فتطير عضد الدولة ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 88,
+      "char_start": 52045,
+      "char_end": 52081,
+      "has_isnad": true,
+      "isnad_text": "روان وكان شيخا كبيرا فاستنشده ما قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 89,
+      "char_start": 53237,
+      "char_end": 53636,
+      "has_isnad": true,
+      "isnad_text": "يقول: نبيع هذا التيس العلوي بدينار، فظن أنه قصده بذلك فعاد متألما من المنادي فكشف عن الحال،\n#\n# فوجد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 90,
+      "char_start": 53859,
+      "char_end": 54086,
+      "has_isnad": true,
+      "isnad_text": "وأنشد: بدل بالبازي غراب أبقع. فضحك منه الرجل حتى استلقى وخجل، وصارت نادرة يولع الرجل بها.\n#\n\n# في ذك",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 91,
+      "char_start": 54474,
+      "char_end": 54484,
+      "has_isnad": true,
+      "isnad_text": "حكيت عنه.",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 92,
+      "char_start": 54484,
+      "char_end": 54509,
+      "has_isnad": true,
+      "isnad_text": "حدثنا إسماعيل بن محمد قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 93,
+      "char_start": 54511,
+      "char_end": 54569,
+      "has_isnad": true,
+      "isnad_text": "سمعت عثمان بن أبي شيبة يقرأ \" فإن لم يصبها وابل فظل \". قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 94,
+      "char_start": 54734,
+      "char_end": 54857,
+      "has_isnad": true,
+      "isnad_text": "وحدثني أنه سمع أبا بكر الباغندي أملى عليهم في حديث ذكره \" وعباد الرحمن الذين يمشون على الأرض هويا \" ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 95,
+      "char_start": 54867,
+      "char_end": 54910,
+      "has_isnad": true,
+      "isnad_text": "وحدثنا أبو شيخ الأصبهاني محمد بن الحسين قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 96,
+      "char_start": 55026,
+      "char_end": 55079,
+      "has_isnad": true,
+      "isnad_text": "يقول: كنا في دهليز عثمان بن أبي شيبة فخرج إلينا وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 97,
+      "char_start": 55138,
+      "char_end": 55187,
+      "has_isnad": true,
+      "isnad_text": "يقول: أملى علينا عثمان بن أبي شيبة في التفسير قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 98,
+      "char_start": 55700,
+      "char_end": 55733,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو الحسين أحمد بن يحيى قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 99,
+      "char_start": 56023,
+      "char_end": 56049,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو فزارة الأسدي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 100,
+      "char_start": 56832,
+      "char_end": 57077,
+      "has_isnad": true,
+      "isnad_text": "يقول: رحم الله أبي ماكان يعدل بالقرآن وعلمه شيئا، فكانوا يرون أنه أعلم الناس بالقرآن، فسأله بعضهم في",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 101,
+      "char_start": 57371,
+      "char_end": 57416,
+      "has_isnad": true,
+      "isnad_text": "يقول غير الصحيح إني أصلي ولا أشر الخمر، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 102,
+      "char_start": 57844,
+      "char_end": 57857,
+      "has_isnad": true,
+      "isnad_text": "سمعت الشافعي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 103,
+      "char_start": 57857,
+      "char_end": 57913,
+      "has_isnad": true,
+      "isnad_text": "يقول: قرأ رجل فما لكم في المنافقين قيس قيل: فما قيس؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 104,
+      "char_start": 57935,
+      "char_end": 57972,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو بكر محمد بن جعفر السواق قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 105,
+      "char_start": 58725,
+      "char_end": 58744,
+      "has_isnad": true,
+      "isnad_text": "حدثني الدراقطني قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 106,
+      "char_start": 58989,
+      "char_end": 59008,
+      "has_isnad": true,
+      "isnad_text": "حدثني الدارقطني قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 107,
+      "char_start": 59201,
+      "char_end": 59217,
+      "has_isnad": true,
+      "isnad_text": "حدثنا النقاش قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 108,
+      "char_start": 60013,
+      "char_end": 60029,
+      "has_isnad": true,
+      "isnad_text": "سمعت ابن الرومي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 109,
+      "char_start": 60029,
+      "char_end": 60089,
+      "has_isnad": true,
+      "isnad_text": "يقول: خرج رجل إلى قرية فأضافه خطيبها فأقام عنده أياما، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 110,
+      "char_start": 60322,
+      "char_end": 60351,
+      "has_isnad": true,
+      "isnad_text": "رواة الحديث والمصحفين\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 111,
+      "char_start": 60432,
+      "char_end": 60469,
+      "has_isnad": true,
+      "isnad_text": "حدثني شهر بن خوشب، فقلت: من هذا؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 112,
+      "char_start": 60641,
+      "char_end": 60677,
+      "has_isnad": true,
+      "isnad_text": "حدثكم المسعودي عن جراب التيمي، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 113,
+      "char_start": 60721,
+      "char_end": 60750,
+      "has_isnad": true,
+      "isnad_text": "حدثكم أيوب عن ابن شيرين. فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 114,
+      "char_start": 60809,
+      "char_end": 60836,
+      "has_isnad": true,
+      "isnad_text": "يقول حكاية عن بعض شيوخه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 115,
+      "char_start": 60903,
+      "char_end": 60985,
+      "has_isnad": true,
+      "isnad_text": "أخبرنا أبو حرة عن الحسن ووصف شيخنا ضحك هشيم هه هه. وعن محمد بن يونس الكندي أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 116,
+      "char_start": 61046,
+      "char_end": 61082,
+      "has_isnad": true,
+      "isnad_text": "حدثكم سبعة وسبعين، فضحك المؤمل وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 117,
+      "char_start": 61111,
+      "char_end": 61126,
+      "has_isnad": true,
+      "isnad_text": "حدثنا إسحاق قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 118,
+      "char_start": 61214,
+      "char_end": 61237,
+      "has_isnad": true,
+      "isnad_text": "حدثنا خربز عن رقبة، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 119,
+      "char_start": 61257,
+      "char_end": 61279,
+      "has_isnad": true,
+      "isnad_text": "حدثنا محمد بن سعيد قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 120,
+      "char_start": 61281,
+      "char_end": 61307,
+      "has_isnad": true,
+      "isnad_text": "سمعت الفضل بن يوسف الجعفي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 121,
+      "char_start": 61313,
+      "char_end": 61323,
+      "has_isnad": true,
+      "isnad_text": "سمعت رجلا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 122,
+      "char_start": 61323,
+      "char_end": 61355,
+      "has_isnad": true,
+      "isnad_text": "يقول لأبي نعيم: حدثتك أمك، يريد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 123,
+      "char_start": 61355,
+      "char_end": 61377,
+      "has_isnad": true,
+      "isnad_text": "حدثك أمي الصيرفي. قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 124,
+      "char_start": 61527,
+      "char_end": 61549,
+      "has_isnad": true,
+      "isnad_text": "حدثنا يحيى بن بكير قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 125,
+      "char_start": 61587,
+      "char_end": 61658,
+      "has_isnad": true,
+      "isnad_text": "حدثك نافع عن النبي صلى الله عليه وسلم: في الذي نشرت في أبيه القصة فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 126,
+      "char_start": 61726,
+      "char_end": 61756,
+      "has_isnad": true,
+      "isnad_text": "وحدثني محمد بن يحيى الصولي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 127,
+      "char_start": 61758,
+      "char_end": 61779,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو العيناء قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 128,
+      "char_start": 61798,
+      "char_end": 62014,
+      "has_isnad": true,
+      "isnad_text": "حدثين المغفلين فأسند حديثا عن النبي صلى الله عليه وسلم عن جبرائيل عن الله عن رجل، فقلت: من هذا الذي ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 129,
+      "char_start": 62016,
+      "char_end": 62052,
+      "has_isnad": true,
+      "isnad_text": "سمعت القاضي أبا بكر بن أحمد بن كامل",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 130,
+      "char_start": 62052,
+      "char_end": 62088,
+      "has_isnad": true,
+      "isnad_text": "يقول: حضرت بعض المشايخ المغفلين فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 131,
+      "char_start": 62221,
+      "char_end": 62262,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو أيوب سليمان بن إسحاق الخلال قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 132,
+      "char_start": 62332,
+      "char_end": 62365,
+      "has_isnad": true,
+      "isnad_text": "سمعنا منه ولم يكن بصيرا بالحديث،",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 133,
+      "char_start": 62365,
+      "char_end": 62381,
+      "has_isnad": true,
+      "isnad_text": "حدثنا بحديث فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 134,
+      "char_start": 62460,
+      "char_end": 62479,
+      "has_isnad": true,
+      "isnad_text": "سمعت محمد بن حمدان",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 135,
+      "char_start": 62485,
+      "char_end": 62506,
+      "has_isnad": true,
+      "isnad_text": "سمعت صالحا يعني جزرة",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 136,
+      "char_start": 62506,
+      "char_end": 62582,
+      "has_isnad": true,
+      "isnad_text": "يقول: قدم علينا بعض الشيوخ من الشام وكان عنده كراس فيه عن جرير، فقرأت عليه:",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 137,
+      "char_start": 62582,
+      "char_end": 62696,
+      "has_isnad": true,
+      "isnad_text": "حدثكم جرير عن ابن عثمان أنه كان لأبي أسامة خرزة يرقي بها المريض، فصحفت أنا الخرزة، فقلت: كان لأبي أس",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 138,
+      "char_start": 62733,
+      "char_end": 62790,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو الحسن الدارقطني أن أبا موسى محمد بن المثنى قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 139,
+      "char_start": 63246,
+      "char_end": 63281,
+      "has_isnad": true,
+      "isnad_text": "يقول: لا أدخل حتى يدخل والدي، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 140,
+      "char_start": 63551,
+      "char_end": 63640,
+      "has_isnad": true,
+      "isnad_text": "يقول: معاد بن حبل، حجاج بن قراقصة، وعلقمة بن مريد فقلت له: أبوك لم يسلمك إلى الكتاب؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 141,
+      "char_start": 63692,
+      "char_end": 63717,
+      "has_isnad": true,
+      "isnad_text": "وأخبرني يعقوب بن موسى قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 142,
+      "char_start": 63850,
+      "char_end": 64011,
+      "has_isnad": true,
+      "isnad_text": "وبلغني أنه ناظر إسحاق في القرعة فاحتج عليه إسحاق بالأحاديث الصحيحة فأفحمه، فانصرف، ففتش كتبه فوجد في",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 143,
+      "char_start": 64060,
+      "char_end": 64070,
+      "has_isnad": true,
+      "isnad_text": "أخبره فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 144,
+      "char_start": 64134,
+      "char_end": 64188,
+      "has_isnad": true,
+      "isnad_text": "حدثك عمر أن النبي صلى الله عليه وسلم نهى عن الخبز، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 145,
+      "char_start": 64533,
+      "char_end": 64549,
+      "has_isnad": true,
+      "isnad_text": "حدثكم هسيم، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 146,
+      "char_start": 64626,
+      "char_end": 64695,
+      "has_isnad": true,
+      "isnad_text": "حدثك نافع عن النبي صلى الله عليه وسلم في الذي نشرت في أبيه القصة؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 147,
+      "char_start": 64862,
+      "char_end": 64948,
+      "has_isnad": true,
+      "isnad_text": "رواة الحديث فروى يوما: أن عرفجة قطع أنفه يوم الكلام، وكان مستمليه رجلا من أهل كجة فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 148,
+      "char_start": 65344,
+      "char_end": 65385,
+      "has_isnad": true,
+      "isnad_text": "يقول: يشققون الحطب،\n#\n# فقلت: بالحاء؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 149,
+      "char_start": 65479,
+      "char_end": 65496,
+      "has_isnad": true,
+      "isnad_text": "حدثنا الشافعي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 150,
+      "char_start": 65530,
+      "char_end": 65582,
+      "has_isnad": true,
+      "isnad_text": "حدثك أبوك عن جدك أن رسول الله صلى الله عليه وسلم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 151,
+      "char_start": 65656,
+      "char_end": 65678,
+      "has_isnad": true,
+      "isnad_text": "حدثنا إسحاق بن وهب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 152,
+      "char_start": 65760,
+      "char_end": 65819,
+      "has_isnad": true,
+      "isnad_text": "حدثنا به عدة، فصاح به المستملي: يا أبا خالد عدة ابن من؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 153,
+      "char_start": 65843,
+      "char_end": 65870,
+      "has_isnad": true,
+      "isnad_text": "حدثني الفضل بن أبي طاهر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 154,
+      "char_start": 66094,
+      "char_end": 66128,
+      "has_isnad": true,
+      "isnad_text": "يقول له: كيف الزبير بن خريت؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 155,
+      "char_start": 66318,
+      "char_end": 66347,
+      "has_isnad": true,
+      "isnad_text": "وأنبأ أبو بكر بن الأنباري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 156,
+      "char_start": 66349,
+      "char_end": 66362,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 157,
+      "char_start": 66871,
+      "char_end": 66892,
+      "has_isnad": true,
+      "isnad_text": "حدثنا سعيد بن عمر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 158,
+      "char_start": 67062,
+      "char_end": 67096,
+      "has_isnad": true,
+      "isnad_text": "يقول: المرء حيث يهوى قلبه.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 159,
+      "char_start": 67107,
+      "char_end": 67138,
+      "has_isnad": true,
+      "isnad_text": "وسمعت أبا العباس ابن أبي مهران",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 160,
+      "char_start": 67138,
+      "char_end": 67238,
+      "has_isnad": true,
+      "isnad_text": "يقول: كان ابن جميل الرازي يريد أن يخرج التفسير فأخرجه في رقاع، فأخرج ذات ليلة رقعة إلى الوراقين فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 161,
+      "char_start": 67373,
+      "char_end": 67387,
+      "has_isnad": true,
+      "isnad_text": "سمعت البرقاني",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 162,
+      "char_start": 67387,
+      "char_end": 67397,
+      "has_isnad": true,
+      "isnad_text": "يقول: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 163,
+      "char_start": 67922,
+      "char_end": 68000,
+      "has_isnad": true,
+      "isnad_text": "حدثنا عبد الله بن موسى، والفريابي عن إسرائيل عن أبي إسحاق عن حارثة بن مضرب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 164,
+      "char_start": 68356,
+      "char_end": 68369,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 165,
+      "char_start": 68502,
+      "char_end": 68520,
+      "has_isnad": true,
+      "isnad_text": "سمعت أحمد بن صالح",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 166,
+      "char_start": 68520,
+      "char_end": 68561,
+      "has_isnad": true,
+      "isnad_text": "يقول: قدمت أبلة\n#\n# فتلقيت سلامة بن روح ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 167,
+      "char_start": 68561,
+      "char_end": 68590,
+      "has_isnad": true,
+      "isnad_text": "سمعته يحدث حديثا لسقيفة فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 168,
+      "char_start": 68962,
+      "char_end": 68985,
+      "has_isnad": true,
+      "isnad_text": "وحدثنا محمد بن أحمد قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 169,
+      "char_start": 69176,
+      "char_end": 69250,
+      "has_isnad": true,
+      "isnad_text": "بلغني أن امرأة جاءت إلى علي بن داود وهو يحدث وبين يديه مقدار ألف نفس، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 170,
+      "char_start": 69362,
+      "char_end": 69415,
+      "has_isnad": true,
+      "isnad_text": "يقول: آه آه، غلطنا والله أمرناها بكفارة الظهار.\n#\n\n#",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 171,
+      "char_start": 69415,
+      "char_end": 69443,
+      "has_isnad": true,
+      "isnad_text": "حدثني محمد بن عدي البصري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 172,
+      "char_start": 69459,
+      "char_end": 69469,
+      "has_isnad": true,
+      "isnad_text": "يقول: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 173,
+      "char_start": 69558,
+      "char_end": 69581,
+      "has_isnad": true,
+      "isnad_text": "حدثنا محمد بن عيسى، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 174,
+      "char_start": 69583,
+      "char_end": 69597,
+      "has_isnad": true,
+      "isnad_text": "حدثنا عباس قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 175,
+      "char_start": 69599,
+      "char_end": 69617,
+      "has_isnad": true,
+      "isnad_text": "سمعت يحيى بن معين",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 176,
+      "char_start": 69617,
+      "char_end": 69668,
+      "has_isnad": true,
+      "isnad_text": "يقول عن سعيد بن مسلم: كان عنده كتاب عن منصور، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 177,
+      "char_start": 69676,
+      "char_end": 69697,
+      "has_isnad": true,
+      "isnad_text": "سمعت هذا الكتاب؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 178,
+      "char_start": 69737,
+      "char_end": 69754,
+      "has_isnad": true,
+      "isnad_text": "سمعت حمزة السهمي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 179,
+      "char_start": 69760,
+      "char_end": 69799,
+      "has_isnad": true,
+      "isnad_text": "سمعت على شيخ وأخذنا بكتابة السماع، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 180,
+      "char_start": 69865,
+      "char_end": 69898,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبو الحسن بن خلف الفقيه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 181,
+      "char_start": 70101,
+      "char_end": 70126,
+      "has_isnad": true,
+      "isnad_text": "سمعت القاضي أحمد بن كامل",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 182,
+      "char_start": 70126,
+      "char_end": 70231,
+      "has_isnad": true,
+      "isnad_text": "يقول: ما جمع أحد من\n#\n# العلم ما جمع محمد بن موسى البربري، ودخلت عليه يوما وهو مغموم فقلت له: ما بك؟",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 183,
+      "char_start": 70890,
+      "char_end": 70923,
+      "has_isnad": true,
+      "isnad_text": "سمعت أحمد بن محمد بن عيسى الوراق",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 184,
+      "char_start": 70929,
+      "char_end": 70964,
+      "has_isnad": true,
+      "isnad_text": "سمعت عبد الرحمن بن أبي حاتم الرازي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 185,
+      "char_start": 70970,
+      "char_end": 70979,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 186,
+      "char_start": 70979,
+      "char_end": 71226,
+      "has_isnad": true,
+      "isnad_text": "يقول: كتب إلي\n#\n# صالح بن محمد العبادي أن محمد بن يحيى لما مات أجلسوا مكانه محدثا يعرف بمحمد بن يزيد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 187,
+      "char_start": 71761,
+      "char_end": 71813,
+      "has_isnad": true,
+      "isnad_text": "وحكى لنا أبو بكر ابن عبد الباقي البزاز، صحف رجل فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 188,
+      "char_start": 71815,
+      "char_end": 71886,
+      "has_isnad": true,
+      "isnad_text": "حدثنا سقنان البوري عن جلد المجدا عن اتش عن النبي صلى الله عليه وسلم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 189,
+      "char_start": 73160,
+      "char_end": 73178,
+      "has_isnad": true,
+      "isnad_text": "حدثنا المدائني قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 190,
+      "char_start": 73495,
+      "char_end": 73527,
+      "has_isnad": true,
+      "isnad_text": "أخبرني سعيد بن جعفر الأنباري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 191,
+      "char_start": 73529,
+      "char_end": 73538,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 192,
+      "char_start": 73538,
+      "char_end": 73594,
+      "has_isnad": true,
+      "isnad_text": "يقول: غضب أبو الخيثم على عامل له فكلم في الرضاء عنه فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 193,
+      "char_start": 73609,
+      "char_end": 73640,
+      "has_isnad": true,
+      "isnad_text": "بلغني عنه أنه قبل رجلي.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 194,
+      "char_start": 74264,
+      "char_end": 74361,
+      "has_isnad": true,
+      "isnad_text": "وبلغنا أن المهلب ولى بعض الأعراب كورة بخراسان وعزل واليها فصعد المنبر وحمد الله وأثنى عليه ثم قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 195,
+      "char_start": 74759,
+      "char_end": 74850,
+      "has_isnad": true,
+      "isnad_text": "وبلغنا أن يزيد بن المهلب ولى أعرابيا على بعض كور خراسان فلما كان يوم الجمعة صعد المنبر وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 196,
+      "char_start": 75138,
+      "char_end": 75179,
+      "has_isnad": true,
+      "isnad_text": "وبلغنا أن بعض العرب خطب في عمل وليه فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 197,
+      "char_start": 75301,
+      "char_end": 75325,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو بكر النقاش قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 198,
+      "char_start": 76026,
+      "char_end": 76047,
+      "has_isnad": true,
+      "isnad_text": "حدثنا محمد بن خلف قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 199,
+      "char_start": 76205,
+      "char_end": 76237,
+      "has_isnad": true,
+      "isnad_text": "أخبرني الأمير أبو بكر بن بدر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 200,
+      "char_start": 76447,
+      "char_end": 76485,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو علي محمد بن الحسن الكاتب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 201,
+      "char_start": 76850,
+      "char_end": 76868,
+      "has_isnad": true,
+      "isnad_text": "حدثنا المدائين قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 202,
+      "char_start": 77201,
+      "char_end": 77233,
+      "has_isnad": true,
+      "isnad_text": "حدثنا سليمان بن حسن بن مخلد: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 203,
+      "char_start": 77235,
+      "char_end": 77248,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 204,
+      "char_start": 77647,
+      "char_end": 77671,
+      "has_isnad": true,
+      "isnad_text": "يقول: لا أقلعه رحمة له.",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 205,
+      "char_start": 77671,
+      "char_end": 77748,
+      "has_isnad": true,
+      "isnad_text": "وبلغنا عن نصر بن مقبل وكان عامل الرشيد على الرقة، أنه أمر بجلد شاة الحد، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 206,
+      "char_start": 79259,
+      "char_end": 79395,
+      "has_isnad": true,
+      "isnad_text": "يقول: أحمد بن محمد القزويني الكاتب تسلمت من حضرة الوزير اللص العيار العراقي ثلاثة وهم واحد رجل، وكتب",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 207,
+      "char_start": 79479,
+      "char_end": 79502,
+      "has_isnad": true,
+      "isnad_text": "كتبي لي هذا الصوت، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 208,
+      "char_start": 79528,
+      "char_end": 79575,
+      "has_isnad": true,
+      "isnad_text": "كتبيه بلحنه وأنا لا أحسن أكتبه بلحنه.\n#\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 209,
+      "char_start": 80708,
+      "char_end": 80974,
+      "has_isnad": true,
+      "isnad_text": "وحكى أبو إسحاق الصابي أن رجلا من كبار كتاب العجم يعرف بأبي العباس بن درستويه حضر مجلس أبي الفرج محمد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 210,
+      "char_start": 81126,
+      "char_end": 81280,
+      "has_isnad": true,
+      "isnad_text": "وأنشد عبد الله بن فضلويه عامل قرميسين في مجلسه والمجلس غاص بأهله، هذا البيت: البسيط:\n# يوم القيامة ي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 211,
+      "char_start": 81884,
+      "char_end": 82178,
+      "has_isnad": true,
+      "isnad_text": "وبلغني أن الرشيد منحدر إلى البصرة فسألت أهل جبل أن يثنوا علي فوعدوني أن يفعلوا ذلك وتفرقوا، فلما آيس",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 212,
+      "char_start": 82637,
+      "char_end": 82690,
+      "has_isnad": true,
+      "isnad_text": "أخبرني أن الأمير أخر الجمعة فانصرفت. فضحك الحجاج وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 213,
+      "char_start": 82981,
+      "char_end": 83028,
+      "has_isnad": true,
+      "isnad_text": "رواة: تقدم رجلان إلى أبي العطوف قاضي حران فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 214,
+      "char_start": 83167,
+      "char_end": 83180,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 215,
+      "char_start": 83950,
+      "char_end": 83989,
+      "has_isnad": true,
+      "isnad_text": "وحكى أبو الخير الخياط عن بعض أصحابه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 216,
+      "char_start": 84403,
+      "char_end": 84492,
+      "has_isnad": true,
+      "isnad_text": "وبلغنا أن رجلا قدم رجلا إلى بعض القضاة فادعى عليه بثلاثين دينارا وأقام شاهدا واحدا، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 217,
+      "char_start": 84553,
+      "char_end": 84577,
+      "has_isnad": true,
+      "isnad_text": "وحكى فقيه من رفقائنا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 218,
+      "char_start": 84817,
+      "char_end": 84840,
+      "has_isnad": true,
+      "isnad_text": "حدثني حماد بن إسحاق قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 219,
+      "char_start": 86489,
+      "char_end": 86566,
+      "has_isnad": true,
+      "isnad_text": "سمعته مرة يحلف ويقلو: والله الذي لا إله إلا هو أعني به الطلاق والعتاق.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 220,
+      "char_start": 87037,
+      "char_end": 87070,
+      "has_isnad": true,
+      "isnad_text": "وبلغني عن بعض قواد الديلم أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 221,
+      "char_start": 88773,
+      "char_end": 88923,
+      "has_isnad": true,
+      "isnad_text": "روان إلى الوليد بن عبد الملك: قد بعثت إليك خزا أحمر وأحمى.\n\n# وكتب رجل من البصرة إلى أبيه: كتبت إليك",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 222,
+      "char_start": 89256,
+      "char_end": 89522,
+      "has_isnad": true,
+      "isnad_text": "بلغني أنه قد جاءك من النبيذ شيء كثير كثير شطرا، وأنا أحبه شديد شديد شطرا آخر، وبحياتي عليك ألا بعثت ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 223,
+      "char_start": 89524,
+      "char_end": 89555,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أن أعرابيا سمع مؤذنا كان",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 224,
+      "char_start": 89555,
+      "char_end": 89596,
+      "has_isnad": true,
+      "isnad_text": "يقول: أشهد أن محمدا رسول الله بالنصب فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 225,
+      "char_start": 89983,
+      "char_end": 90122,
+      "has_isnad": true,
+      "isnad_text": "يقول في تسحيره: استحثو قديراتكم، عجلوا في أكلكم قبل أن أأذن فيسخم الله وجوهكم وتحردوا.\n#\n\n# في ذكر ا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 226,
+      "char_start": 90297,
+      "char_end": 90349,
+      "has_isnad": true,
+      "isnad_text": "يقول لي: احفظ مكاني حتى أجيء.\n\n# وعن محمد بن خلف قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 227,
+      "char_start": 90703,
+      "char_end": 90807,
+      "has_isnad": true,
+      "isnad_text": "سمعت حديث رسول الله صلى الله عليه وسلم: \" من أم الناس فليخفف فإن خلفه الكبير والضعيف وذا الحاجة \". ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 228,
+      "char_start": 91134,
+      "char_end": 91155,
+      "has_isnad": true,
+      "isnad_text": "أخبرني أبو العنبس قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 229,
+      "char_start": 92377,
+      "char_end": 92408,
+      "has_isnad": true,
+      "isnad_text": "يقول: الكامل:\n# ما إن رأيت ولا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 230,
+      "char_start": 92408,
+      "char_end": 92626,
+      "has_isnad": true,
+      "isnad_text": "سمعت بمثله ... فيما مضى من سالف الأحقاب\n# من فعل علج جئته ليخيط لي ... ثوبا فخرقه كفعل مصاب\n# فعلوته",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 231,
+      "char_start": 93596,
+      "char_end": 93620,
+      "has_isnad": true,
+      "isnad_text": "يقولون نكرة ومعرفة، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 232,
+      "char_start": 94470,
+      "char_end": 94600,
+      "has_isnad": true,
+      "isnad_text": "يقول: الرجز:\n# يا رب قدر لي في حماسي ... وفي طلاب الرزق بالتماس\n# صفراء تجلو كسل النعاس\n# فضربته عقر",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 233,
+      "char_start": 94600,
+      "char_end": 94689,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا رب الذنب لي إذ لم أبين لك ما أريده، اللهم لك الحمد والشكر، فقيل له: ما تصنع أما",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 234,
+      "char_start": 94689,
+      "char_end": 94747,
+      "has_isnad": true,
+      "isnad_text": "سمعت قول الله تعالى \" لئن شكرتم لأزيدنكم \": فوثب جزعا وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 235,
+      "char_start": 94943,
+      "char_end": 95238,
+      "has_isnad": true,
+      "isnad_text": "يقول: الطويل:\n# إليك اعتذاري من صلاتي قاعدا ... على غير طهر موميا نحو قبلتي\n# فما لي ببرد الماء يا ر",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 236,
+      "char_start": 95275,
+      "char_end": 95309,
+      "has_isnad": true,
+      "isnad_text": "يقول ثعلب، فلما ابتدأ بالرقية، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 237,
+      "char_start": 95546,
+      "char_end": 95623,
+      "has_isnad": true,
+      "isnad_text": "يقول: اللهم اغفر لي وحدي، فقيل له: لو عممت بدعائك فإن الله واسع المغفرة، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 238,
+      "char_start": 95883,
+      "char_end": 96268,
+      "has_isnad": true,
+      "isnad_text": "يقول: الطويل:\n# أما تستحي مني وقد قمت شاخصا ... أناجيك يا ربي وأنت عليم\n# فإن تكسني يا رب خفا وفروة ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 239,
+      "char_start": 96825,
+      "char_end": 96975,
+      "has_isnad": true,
+      "isnad_text": "يقول: ما أرى المطلوب غيري.\n\n# وصلى أعرابي خلف إمام صلاة الغداة، فقرأ الإمام سورة البقرة، وكان الأعرا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 240,
+      "char_start": 97042,
+      "char_end": 97210,
+      "has_isnad": true,
+      "isnad_text": "يقول: أمس قرأت البقرة فلم تفرغ إلى نصف النهار، واليوم تقرأ الفيل ما أظنك تفرغ منها إلى نصف الليل.\n\n#",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 241,
+      "char_start": 98343,
+      "char_end": 98429,
+      "has_isnad": true,
+      "isnad_text": "سمعتم ابن الفاعلة يعرض أقوال النحويين على رجل يموت.\n\n# وعن عبد الله بن صالح العجلي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 242,
+      "char_start": 98431,
+      "char_end": 98456,
+      "has_isnad": true,
+      "isnad_text": "أخبرني أبو زيد النحوي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 243,
+      "char_start": 98666,
+      "char_end": 98691,
+      "has_isnad": true,
+      "isnad_text": "سمعت ابن أخي عمير الكاتب",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 244,
+      "char_start": 98691,
+      "char_end": 98784,
+      "has_isnad": true,
+      "isnad_text": "يقول وهو يعزي قوما: آجركم الله وإن شئتم أجركم الله، كلاهما سماعي من الفراء.\n#\n\n# وعن سلمة قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 245,
+      "char_start": 99196,
+      "char_end": 99220,
+      "has_isnad": true,
+      "isnad_text": "روينا عن الوليد أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 246,
+      "char_start": 99299,
+      "char_end": 99320,
+      "has_isnad": true,
+      "isnad_text": "يقول لك ما شأنك؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 247,
+      "char_start": 100032,
+      "char_end": 100126,
+      "has_isnad": true,
+      "isnad_text": "يقول لك اخدم عمك وتلحن؟ فقلت له: جعلت فداك، أنت أعلم الناس بالنحو فمن أفسد بيان هذا الصبي؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 248,
+      "char_start": 100829,
+      "char_end": 100875,
+      "has_isnad": true,
+      "isnad_text": "وسمعت شيخنا أبا بكر محمد بن عبد الباقي البزار",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 249,
+      "char_start": 100875,
+      "char_end": 100885,
+      "has_isnad": true,
+      "isnad_text": "يقول: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 250,
+      "char_start": 100935,
+      "char_end": 100978,
+      "has_isnad": true,
+      "isnad_text": "يقولون: أبو فلان وأبا فلان وأبي فلان. فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 251,
+      "char_start": 101014,
+      "char_end": 101117,
+      "has_isnad": true,
+      "isnad_text": "يقولون: أبا فلان لمن عظم قدره، وأبو فلان للمتوسطين، وأبي فلان للرذلة.\n\n# وعن الأصمعي عن عيسى بن عمر ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 252,
+      "char_start": 102084,
+      "char_end": 102154,
+      "has_isnad": true,
+      "isnad_text": "يقول\n#\n# لأصحابه: إياكم والنحو بين العامة فإنه كاللحن بين الخاصة. قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 253,
+      "char_start": 102583,
+      "char_end": 102619,
+      "has_isnad": true,
+      "isnad_text": "يقول الرجل لامرأته والله ما أدري ما",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 254,
+      "char_start": 102619,
+      "char_end": 102731,
+      "has_isnad": true,
+      "isnad_text": "يقول، قومي حتى ننصرف. الشكر: الفرج والشبر: النكاح وتطلها: تبطل حقها وتضهلها: تعطيها حقها قليلا قليلا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 255,
+      "char_start": 103429,
+      "char_end": 103453,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبا زيد النحوي، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 256,
+      "char_start": 103582,
+      "char_end": 103607,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو حمزة المؤدب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 257,
+      "char_start": 103609,
+      "char_end": 103695,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أحمد بن محمد القزويني وكان شاعرا أنه دخل سوق النخاسين بالكوفة فقعد إلى نخاس فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 258,
+      "char_start": 103970,
+      "char_end": 103991,
+      "has_isnad": true,
+      "isnad_text": "حدثنا بعض أصحابنا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 259,
+      "char_start": 104616,
+      "char_end": 104654,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أبو عثمان عن أبي حمزة المؤدب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 260,
+      "char_start": 104930,
+      "char_end": 105073,
+      "has_isnad": true,
+      "isnad_text": "روان أحر وجكى، والدقس باني والطبر لري شك لك بك، ثم صاح الجرار: يا غلام شرج ثم درب وإلى الوالي\n#\n# فق",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 261,
+      "char_start": 105073,
+      "char_end": 105208,
+      "has_isnad": true,
+      "isnad_text": "وأنشد لثعلب. السريع:\n# إن شئت أن تصبح بين الورى ... ما بين شتام ومغتاب\n# فكن عبوسا حين تلقاهم ... وك",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 262,
+      "char_start": 105255,
+      "char_end": 105415,
+      "has_isnad": true,
+      "isnad_text": "أنشدني بعض الحمقى: مجزوء الرمل:\n# إن داء الحب سقم ... ليس يهنيه القرار\n# ونجا من كان لا يع ... شق من",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 263,
+      "char_start": 105504,
+      "char_end": 105519,
+      "has_isnad": true,
+      "isnad_text": "وحكى بعضهم: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 264,
+      "char_start": 105918,
+      "char_end": 106076,
+      "has_isnad": true,
+      "isnad_text": "وأنشد: الطويل:\n# وكانوا كفأر وسوسوا خلف حائط ... وكنت كسنور عليهم تسلقا\n# فأمر سيف الدولة بإخراجه، ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 265,
+      "char_start": 106356,
+      "char_end": 106368,
+      "has_isnad": true,
+      "isnad_text": "انشدنيه، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 266,
+      "char_start": 107260,
+      "char_end": 107317,
+      "has_isnad": true,
+      "isnad_text": "حدثنا شريك عن مغيرة عن إبراهيم بن عبد الله مثله سواء، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 267,
+      "char_start": 107342,
+      "char_end": 107375,
+      "has_isnad": true,
+      "isnad_text": "سمعنا وكذا نحدث.\n# عن ابن خلف قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 268,
+      "char_start": 107547,
+      "char_end": 107571,
+      "has_isnad": true,
+      "isnad_text": "حكيت ذلك لابن غياث، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 269,
+      "char_start": 107835,
+      "char_end": 107917,
+      "has_isnad": true,
+      "isnad_text": "وحكى أبو منصور الثعالبي: أن رجلا سأل سيفويه عن الغسلين في\n#\n# كتاب الله تعالى فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 270,
+      "char_start": 108800,
+      "char_end": 108841,
+      "has_isnad": true,
+      "isnad_text": "حدثهم إذ بدت كفه فإذا فيها خاتم ذهب، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 271,
+      "char_start": 108936,
+      "char_end": 108948,
+      "has_isnad": true,
+      "isnad_text": "سمعت الفراء",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 272,
+      "char_start": 108948,
+      "char_end": 109026,
+      "has_isnad": true,
+      "isnad_text": "يقول: كان عندنا رجل يفسر القرآن برأيه فقيل له: \" أرأيت الذي يكذب بالدين \" فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 273,
+      "char_start": 109935,
+      "char_end": 109979,
+      "has_isnad": true,
+      "isnad_text": "سمعت قاصا أحمق وهو يقص حديث موسى وفرعون وهو",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 274,
+      "char_start": 109979,
+      "char_end": 110035,
+      "has_isnad": true,
+      "isnad_text": "يقول: لما صار فرعون في وسط البحر في الطريق اليابس، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 275,
+      "char_start": 110141,
+      "char_end": 110160,
+      "has_isnad": true,
+      "isnad_text": "وسمعت قاصا بالكوفة",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 276,
+      "char_start": 110160,
+      "char_end": 110235,
+      "has_isnad": true,
+      "isnad_text": "يقول: والله لو أن يهوديا مات وهو يحب عليا ثم دخل النار ما ضره حرها.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 277,
+      "char_start": 110723,
+      "char_end": 110760,
+      "has_isnad": true,
+      "isnad_text": "يقول: \" لا تسألوا عن أشياء \".\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 278,
+      "char_start": 110951,
+      "char_end": 111082,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا رب قنبيل، يا رب خشيرك ويا رب افتيمون إلى أن أنهى ما ذكر.\n#\n\n# في ذكر المغفلين من المتزهدين\n",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 279,
+      "char_start": 112121,
+      "char_end": 112271,
+      "has_isnad": true,
+      "isnad_text": "يقول لك: موسى الزكوري غدا رفيقك في الجنة. فصعق أبو عبد الله فتركه موسى فرجع، فلما كان من الغد كان يو",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 280,
+      "char_start": 112271,
+      "char_end": 112414,
+      "has_isnad": true,
+      "isnad_text": "يقول: تمسوا بابن الزكوري واسألوه أن يجعلني في حل واطلبوه لي، فأقبل العامة إلى دار ابن الوكوري يطلبون",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 281,
+      "char_start": 112474,
+      "char_end": 112539,
+      "has_isnad": true,
+      "isnad_text": "بلغني أن الله عز وجل يعظم خلق الكافر حتى يكون ضرسه مثل أحد، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 282,
+      "char_start": 112831,
+      "char_end": 112890,
+      "has_isnad": true,
+      "isnad_text": "بلغني عن حجاج الشاعر أنه مر يوما في درب وفي آخره ميزاب، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 283,
+      "char_start": 113433,
+      "char_end": 113456,
+      "has_isnad": true,
+      "isnad_text": "أخبرني يحيى بن جعفر قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 284,
+      "char_start": 113651,
+      "char_end": 113694,
+      "has_isnad": true,
+      "isnad_text": "سمعن هذه الآية التي قتلت هذا وأذهب نومي، فت",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 285,
+      "char_start": 113694,
+      "char_end": 113788,
+      "has_isnad": true,
+      "isnad_text": "سمعت عليه فإذا الآية \" يسألونك عن المحيض قل هو أذى \" فعلمت أن طول اللحية لا يخلف.\n\n# وعنه، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 286,
+      "char_start": 113790,
+      "char_end": 113807,
+      "has_isnad": true,
+      "isnad_text": "أخبرني النظام قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 287,
+      "char_start": 113901,
+      "char_end": 113963,
+      "has_isnad": true,
+      "isnad_text": "يقول: حسبي الله حسبي الله، فقلت: يا عم ليس هذا هو التسبيح، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 288,
+      "char_start": 114175,
+      "char_end": 114297,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا منقذ الموتى، ومنجي الغرقى، وقابل التوبات، وراحم العثرات، أنت تجد من ترحمه غيري وأنا لا أجد ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 289,
+      "char_start": 114358,
+      "char_end": 114530,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا رباه، يا سيداه، يا مولاه، يا جبرائيل، يا إسرافيل، يا ميكائيل، يا كعب الأحبار يا أويس القرني",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 290,
+      "char_start": 114596,
+      "char_end": 114796,
+      "has_isnad": true,
+      "isnad_text": "يقول في سجوده: سجد لك خضرتي وحمرتي وصفرتي وبياضي وسوادي، خاشعا ضارعا خاضعا ماصا لبظر أمه، ومن أنا عن",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 291,
+      "char_start": 114873,
+      "char_end": 115019,
+      "has_isnad": true,
+      "isnad_text": "يقول في دعائه: بمن كان بين محمد وآله من النبيين والمرسلين، فقلت له: يا عم، اسمعك تدعو بهذا الدعاء فم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 292,
+      "char_start": 115511,
+      "char_end": 115580,
+      "has_isnad": true,
+      "isnad_text": "بلغني أن بعض المؤدبين للمأمون أساء أدبه على المأمون وكان صغيرا، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 293,
+      "char_start": 116140,
+      "char_end": 116180,
+      "has_isnad": true,
+      "isnad_text": "يقول: النساء أعدل شهادة من معلم.\n\n# وقد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 294,
+      "char_start": 116180,
+      "char_end": 116199,
+      "has_isnad": true,
+      "isnad_text": "روينا أن الشعبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 295,
+      "char_start": 116201,
+      "char_end": 116214,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبا بكر",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 296,
+      "char_start": 116214,
+      "char_end": 116288,
+      "has_isnad": true,
+      "isnad_text": "يقول: مررت بمؤدب وقد تلا على غلام فريق في الجنة وفريق السعير فقلت: ما قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 297,
+      "char_start": 116482,
+      "char_end": 116503,
+      "has_isnad": true,
+      "isnad_text": "حدثنا محمد بن خلف قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 298,
+      "char_start": 119206,
+      "char_end": 119248,
+      "has_isnad": true,
+      "isnad_text": "يقولون لا تنفقوا إلا من عند رسول الله فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 299,
+      "char_start": 120068,
+      "char_end": 120158,
+      "has_isnad": true,
+      "isnad_text": "حدثنا سفيان عن أبي هرون يعني موسى بن أبي عيسى أن مريم ذهبت تطلبه يعني عيى فلقيت حائكا فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 300,
+      "char_start": 121201,
+      "char_end": 121254,
+      "has_isnad": true,
+      "isnad_text": "وأخبرها بمكاني من الناس وموضعي عندهم، فدخل عليها فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 301,
+      "char_start": 121917,
+      "char_end": 122097,
+      "has_isnad": true,
+      "isnad_text": "يقول: خلقني خالق الكرام وخلقك خالق اللئام. فتغضب وتصيح وتبكي ويضحك ابن عمر.\n\n# عن محمد بن الحسن بن ز",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 302,
+      "char_start": 122150,
+      "char_end": 122378,
+      "has_isnad": true,
+      "isnad_text": "وحكي أن هذا المذكور قد احتلم ليلة في وقت بارد، وكره أن ينغمس في\n#\n# الماء البارد وطلب شيئا يسخن فيه ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 303,
+      "char_start": 122991,
+      "char_end": 123079,
+      "has_isnad": true,
+      "isnad_text": "حدثه بمناقبه وأنه زوج بنت رسول الله صلى الله عليه وسلم وأبو الحسنين وابن عم الرسول، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 304,
+      "char_start": 124571,
+      "char_end": 124579,
+      "has_isnad": true,
+      "isnad_text": "روان قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 305,
+      "char_start": 126074,
+      "char_end": 126128,
+      "has_isnad": true,
+      "isnad_text": "يقول: استشهد قبل أن يحج، والآخر يضحي عن أبي بكر وعمر و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 306,
+      "char_start": 126128,
+      "char_end": 126191,
+      "has_isnad": true,
+      "isnad_text": "يقول: غلطا في ترك الأضحية، والآخر يفطر عن عائشة أيام التشريق، و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 307,
+      "char_start": 126191,
+      "char_end": 126268,
+      "has_isnad": true,
+      "isnad_text": "يقول: غلطت في صوم أيام العيد، فمن صام عن أبيه فأنا أفطر عن أمي عائشة.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 308,
+      "char_start": 126497,
+      "char_end": 126533,
+      "has_isnad": true,
+      "isnad_text": "يقول: أشهد أن لا إله إلا الله، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 309,
+      "char_start": 127518,
+      "char_end": 127568,
+      "has_isnad": true,
+      "isnad_text": "يقول: المكذبون هم الرسل، والمكذبين هم الكفار، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 310,
+      "char_start": 127724,
+      "char_end": 127861,
+      "has_isnad": true,
+      "isnad_text": "وبلغ القول إلي، فقلت: يا أمير المؤمنين، عاقل يجري على حكم جاهل؟ فتبينت الغضب في وجهه فقلت: يا أمير ا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 311,
+      "char_start": 127981,
+      "char_end": 128003,
+      "has_isnad": true,
+      "isnad_text": "أخبرني بعض أصحابنا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 312,
+      "char_start": 128139,
+      "char_end": 128161,
+      "has_isnad": true,
+      "isnad_text": "أخبرني بعض الأدباء قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 313,
+      "char_start": 128615,
+      "char_end": 128768,
+      "has_isnad": true,
+      "isnad_text": "يقول شيئا فيه فحش، فرفسته فانبطح يفحص برجليه ميتا، اللهم قد أقررت لك الآن فاغفر لي كما تريد.\n\n# وخرج",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 314,
+      "char_start": 129171,
+      "char_end": 129195,
+      "has_isnad": true,
+      "isnad_text": "وأخبرني بعض أصحابنا، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 315,
+      "char_start": 129979,
+      "char_end": 130097,
+      "has_isnad": true,
+      "isnad_text": "يقول: ولدت في سنة خمس وسبعين ومائتين، فما أراه يكثر في طول هذه المدة، فإذا الكبر يكون عنده بقدم المو",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 316,
+      "char_start": 130362,
+      "char_end": 130408,
+      "has_isnad": true,
+      "isnad_text": "وأخبرني باسمك حتى أدعو لك، فأعطاها شر لحم وقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 317,
+      "char_start": 130511,
+      "char_end": 130589,
+      "has_isnad": true,
+      "isnad_text": "وحكي أن قصابا كان ينادي على اللحم، سري تعالوا على أربعة.\n\n# عن محمد الداري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 318,
+      "char_start": 131070,
+      "char_end": 131120,
+      "has_isnad": true,
+      "isnad_text": "يقول: أنتم لا صبحكم الله إلا بالخير، ويمر بآخرين و",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 319,
+      "char_start": 131120,
+      "char_end": 131216,
+      "has_isnad": true,
+      "isnad_text": "يقول: أنتم لا مساكم الله إلا بالكرامة، وكان لا يمر آخر كلامه حتى يسبح.\n\n# عن أبي سعيد الحربي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 320,
+      "char_start": 132451,
+      "char_end": 132475,
+      "has_isnad": true,
+      "isnad_text": "حدثنا منها بشيء صحيح قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 321,
+      "char_start": 132576,
+      "char_end": 132585,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 322,
+      "char_start": 132585,
+      "char_end": 132595,
+      "has_isnad": true,
+      "isnad_text": "يقول: قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 323,
+      "char_start": 132817,
+      "char_end": 132865,
+      "has_isnad": true,
+      "isnad_text": "يقول لعمرو بن دينار: أنا أبصر بالنجوم،\n#\n# فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 324,
+      "char_start": 133982,
+      "char_end": 133995,
+      "has_isnad": true,
+      "isnad_text": "حدثني أبي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 325,
+      "char_start": 134640,
+      "char_end": 134663,
+      "has_isnad": true,
+      "isnad_text": "أخبرني بعض أصحابنا، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 326,
+      "char_start": 135035,
+      "char_end": 135064,
+      "has_isnad": true,
+      "isnad_text": "حدثني عبد الرحمن بن محمد، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 327,
+      "char_start": 135554,
+      "char_end": 135581,
+      "has_isnad": true,
+      "isnad_text": "وأخبرني أبو صالح البصري قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 328,
+      "char_start": 135652,
+      "char_end": 135760,
+      "has_isnad": true,
+      "isnad_text": "بلغني أنك ولدت ابنا فأحسن الله جزاءك وأعان على مكافأتك وقد سميته محمد بن عبد الله صلى الله عليه وسلم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 329,
+      "char_start": 135762,
+      "char_end": 135787,
+      "has_isnad": true,
+      "isnad_text": "وأخبرني بعض أهل الأدب قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 330,
+      "char_start": 136086,
+      "char_end": 136107,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبا بكر بن محمد",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 331,
+      "char_start": 136107,
+      "char_end": 136153,
+      "has_isnad": true,
+      "isnad_text": "يقول: قلت لأبي العبر: لقد أسرع إليك الشيب، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 332,
+      "char_start": 136374,
+      "char_end": 136396,
+      "has_isnad": true,
+      "isnad_text": "سمعت أبا الحسن بن عمر",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 333,
+      "char_start": 136396,
+      "char_end": 136619,
+      "has_isnad": true,
+      "isnad_text": "يقول: بعت دارا لي، فكنت كلما أذنت بباب المسجد أنسى أنني بعتها فأصلي وأرجع إليها وأفتح الباب وأدخل. ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 334,
+      "char_start": 136680,
+      "char_end": 136732,
+      "has_isnad": true,
+      "isnad_text": "يقول له: أخمسمائة اليوم أحب إليك أم ألف في القابل! ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 335,
+      "char_start": 136732,
+      "char_end": 136771,
+      "has_isnad": true,
+      "isnad_text": "يقول: ألف في قابل، فإذا أتاه قابلا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 336,
+      "char_start": 138035,
+      "char_end": 138061,
+      "has_isnad": true,
+      "isnad_text": "سمعت هذا التفصيل قط.\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 337,
+      "char_start": 138138,
+      "char_end": 138151,
+      "has_isnad": true,
+      "isnad_text": "يقول: لا.\n\n#",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 338,
+      "char_start": 138151,
+      "char_end": 138173,
+      "has_isnad": true,
+      "isnad_text": "حدثني بعض أصدقائنا قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 339,
+      "char_start": 139113,
+      "char_end": 139234,
+      "has_isnad": true,
+      "isnad_text": "يقول إنه فقيه يكنى أبا الغوث وفيه تغفيل، فقيل له: ما تقول فيمن نذر صور عاشوراء فاتفق عاشوراء في رمضا",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 340,
+      "char_start": 139820,
+      "char_end": 139855,
+      "has_isnad": true,
+      "isnad_text": "يقول واحد، اثنين، ثلاثة إلى أن قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 341,
+      "char_start": 140898,
+      "char_end": 140924,
+      "has_isnad": true,
+      "isnad_text": "سمعت طلاق هذه المرأة! فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 342,
+      "char_start": 141019,
+      "char_end": 141043,
+      "has_isnad": true,
+      "isnad_text": "سمعت طلاق هذه المرأة قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 343,
+      "char_start": 141162,
+      "char_end": 141175,
+      "has_isnad": true,
+      "isnad_text": "سمعت زعقاتهم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 344,
+      "char_start": 141175,
+      "char_end": 141236,
+      "has_isnad": true,
+      "isnad_text": "وسمعت الطلاق الثلاث، فما أدري أهي طلقته أم هو طلقها.\n#\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 345,
+      "char_start": 141238,
+      "char_end": 141947,
+      "has_isnad": true,
+      "isnad_text": "حدثني جماعة من أهل سابور فيهم كتاب وتجار وغير ذلك، أنه كان عندهم في سنة نيف وأربعين وثلاثمائة، شاب م",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 346,
+      "char_start": 142624,
+      "char_end": 142685,
+      "has_isnad": true,
+      "isnad_text": "بلغنا أن رجلا أسرع في ماله فبقي منه\n#\n# خمسة آلاف دينار، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 347,
+      "char_start": 143389,
+      "char_end": 143407,
+      "has_isnad": true,
+      "isnad_text": "حدثها بالحال، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 348,
+      "char_start": 147941,
+      "char_end": 147981,
+      "has_isnad": true,
+      "isnad_text": "ذكرني وجع ضرسي حتى أسأله عن الدواء، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 349,
+      "char_start": 148048,
+      "char_end": 148093,
+      "has_isnad": true,
+      "isnad_text": "يقول: الله المستعين.\n# دخل أحمق على مريض فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 350,
+      "char_start": 148379,
+      "char_end": 148390,
+      "has_isnad": true,
+      "isnad_text": "سمعته، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 351,
+      "char_start": 148393,
+      "char_end": 148407,
+      "has_isnad": true,
+      "isnad_text": "سمعت شيئا؟ قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 352,
+      "char_start": 148416,
+      "char_end": 148437,
+      "has_isnad": true,
+      "isnad_text": "سمعت منهما شيئا، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 353,
+      "char_start": 151590,
+      "char_end": 151638,
+      "has_isnad": true,
+      "isnad_text": "يقول لكل من رآه: رأيت صبيا عليه قميص أحمر؟ فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 354,
+      "char_start": 152212,
+      "char_end": 152305,
+      "has_isnad": true,
+      "isnad_text": "يقول: اللهم اغفر لي من ذنوبي ما تعلم وما لا تعلم.\n\n# قدم رجل من الحمقى فسأل رجل متى قدمت! قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 355,
+      "char_start": 153034,
+      "char_end": 153116,
+      "has_isnad": true,
+      "isnad_text": "بلغني مصيبتك وما هي بمصيبة،\n#\n# وقد جاء بالخبر عن النبي صلى الله عليه وسلم أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 356,
+      "char_start": 153500,
+      "char_end": 153560,
+      "has_isnad": true,
+      "isnad_text": "يقول: أنعم الله صباحك فيضحك.\n\n# حكى أقضى القضاة الماوردي قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 357,
+      "char_start": 153746,
+      "char_end": 153838,
+      "has_isnad": true,
+      "isnad_text": "أخبرني عن نجم إبليس ونجم آدم ما هما، فإن هذين لا يسأل عنهما لعظم شأنهما إلا علماء الدين، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 358,
+      "char_start": 155822,
+      "char_end": 155853,
+      "has_isnad": true,
+      "isnad_text": "روانه فمات، يريد شريانه.\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 359,
+      "char_start": 155935,
+      "char_end": 156072,
+      "has_isnad": true,
+      "isnad_text": "سمعت بأذني وأشار إلى عينه ورأيت بعيني وأشار إلى أذنيه بأنه جاء إلي رجل فتلبب بعنقه وأشار إلى صدره وم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 360,
+      "char_start": 156619,
+      "char_end": 156661,
+      "has_isnad": true,
+      "isnad_text": "روان على شاطىء الفرات مع أبي السرايا، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 361,
+      "char_start": 157246,
+      "char_end": 157305,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا منشىء السحاب بلا مثال.\n\n# دخل رجل على المعتضد فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 362,
+      "char_start": 158830,
+      "char_end": 158853,
+      "has_isnad": true,
+      "isnad_text": "يقول في عذاب القبر، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 363,
+      "char_start": 158921,
+      "char_end": 158944,
+      "has_isnad": true,
+      "isnad_text": "سمعت؟ فسكت الشيخ، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 364,
+      "char_start": 159749,
+      "char_end": 159835,
+      "has_isnad": true,
+      "isnad_text": "يقول: رحمك الله، متاعك جاءني يحتاج إلى حشو كثير وأنت من العجلة تمشين على أربع.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 365,
+      "char_start": 160218,
+      "char_end": 160270,
+      "has_isnad": true,
+      "isnad_text": "يقول: \" قد أفلح من زكاها وقد خاب من\n#\n# دساها \" قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 366,
+      "char_start": 164570,
+      "char_end": 164711,
+      "has_isnad": true,
+      "isnad_text": "يقول: نصف القرآن مخلوق ونصفه لا، وليس في القوم خير من النبي وبعده الخضر، فبادرني الضحك فرددته مخافة ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 367,
+      "char_start": 165207,
+      "char_end": 165250,
+      "has_isnad": true,
+      "isnad_text": "يقول لآخر: إلزم السنة حتى تدخل الجنة، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 368,
+      "char_start": 167200,
+      "char_end": 167327,
+      "has_isnad": true,
+      "isnad_text": "يقول: يا أمي أماتني الله قبلك، أمي زانية إن لم تدخل الجنة، لا دخلتها امرأة أبدا.\n\n# مات ولد لرجل فقي",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 369,
+      "char_start": 170518,
+      "char_end": 170685,
+      "has_isnad": true,
+      "isnad_text": "سمعت أن\n#\n# الملائكة لا تدخل بيتا فيه شيء من آلات الملاهي والفجور، فإن كان ملك الموت من الملائكة دفع",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 370,
+      "char_start": 172300,
+      "char_end": 172346,
+      "has_isnad": true,
+      "isnad_text": "حدثنا أنه دخل على بعض من كان يعرفه بالتشيع قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 371,
+      "char_start": 173871,
+      "char_end": 173917,
+      "has_isnad": true,
+      "isnad_text": "سمعني كل مكروه لعن الله هذا وخيله معه.\n\n# قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 372,
+      "char_start": 174102,
+      "char_end": 174204,
+      "has_isnad": true,
+      "isnad_text": "يقول: أيها المغتر بنا والمجترىء علينا، بئس والله ما اخترت لنفسك، خير قليل وسيف صقيل، لعاب المنية الذ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 373,
+      "char_start": 174204,
+      "char_end": 174393,
+      "has_isnad": true,
+      "isnad_text": "سمعت به، مشهورة ضربته لا تخاف نبوته، أخرج بالعفو عنك لا أدخل بالعقوبة عليك؛ إني والله إن أدع قيسا تم",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 374,
+      "char_start": 175213,
+      "char_end": 175247,
+      "has_isnad": true,
+      "isnad_text": "وحدثني يزيد مولى إسحاق بن عيسى قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 375,
+      "char_start": 175326,
+      "char_end": 175458,
+      "has_isnad": true,
+      "isnad_text": "سمعناه يصيح أواه، فنزلنا بأجمعنا إليه فزعين وقلنا: ما لك مالك؟ وإذا هو على شقه الأيسر وهو قابض بيده ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 376,
+      "char_start": 175568,
+      "char_end": 175585,
+      "has_isnad": true,
+      "isnad_text": "وحدثني ثمامة، قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 377,
+      "char_start": 176213,
+      "char_end": 176240,
+      "has_isnad": true,
+      "isnad_text": "يقول بعضهم: ليس بقديم، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 378,
+      "char_start": 176927,
+      "char_end": 177066,
+      "has_isnad": true,
+      "isnad_text": "حدثني بعض إخواني أنه كان بتكريت وأن رجلا اشترى من خباز مائتين وعشرين رطلا من الخبز بدينار، ثم كان يأ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 379,
+      "char_start": 177172,
+      "char_end": 177193,
+      "has_isnad": true,
+      "isnad_text": "يقول كيف أفعل بهذا؟ ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 380,
+      "char_start": 177193,
+      "char_end": 177247,
+      "has_isnad": true,
+      "isnad_text": "يقول: أليس لك عندي مائة وعشرين ولي عندك مائة وعشرين؟ ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 381,
+      "char_start": 177247,
+      "char_end": 177259,
+      "has_isnad": true,
+      "isnad_text": "يقول: بلى، ف",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 382,
+      "char_start": 177259,
+      "char_end": 177440,
+      "has_isnad": true,
+      "isnad_text": "يقول: انذر هذه بهذه وأعطني الدينار، فاجتمع الناس عليهم على ذلك إلى أن رفعت قصتهم إلى الأمير.\n\n# رجع ",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 383,
+      "char_start": 177556,
+      "char_end": 177584,
+      "has_isnad": true,
+      "isnad_text": "بلغني عن بعض القصاص أنه قال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 384,
+      "char_start": 177637,
+      "char_end": 177687,
+      "has_isnad": true,
+      "isnad_text": "حدثني بعض العلماء أن رجلا مغفلا نظر في المصحف فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 385,
+      "char_start": 177852,
+      "char_end": 177926,
+      "has_isnad": true,
+      "isnad_text": "حدثني بعض الأصدقا أن رجلا وقف بباب داره يوم الجمعة والمطر يأتي سيلا، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 386,
+      "char_start": 180292,
+      "char_end": 180370,
+      "has_isnad": true,
+      "isnad_text": "يقول: اشتفيت والله. ثم عاد إلى مكانه.\n\n# شهد رجل عند بعض القضاة على رجل، فقال",
+      "unit_type": "avec_isnad"
+    },
+    {
+      "unit_id": 387,
+      "char_start": 181174,
+      "char_end": 181200,
+      "has_isnad": true,
+      "isnad_text": "أخبرني أبو عيسى اللحام قال",
+      "unit_type": "avec_isnad"
+    }
+  ]
+}

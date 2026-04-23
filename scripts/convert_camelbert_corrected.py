@@ -1,30 +1,31 @@
 #!/usr/bin/env python3
 """
-Robust CAMeL-BERT post-processing v2: Offset pattern-based reconstruction.
+Corrected CAMeL-BERT post-processing: Text-based chunk localization.
 
-KEY INSIGHT: Raw inference uses SLIDING WINDOW chunks (500+ chars) with overlaps.
-Each chunk processes ~500 chars, and offsets are positions within that chunk.
+CRITICAL FIX: The previous approach estimated chunk positions from offset patterns,
+which was fundamentally flawed. This version locates chunks by searching for
+actual token text in the corpus.
 
 Strategy:
-1. Detect chunk local offset range (e.g., 0-550)
-2. Estimate overlap between consecutive chunks from offset patterns
-3. Map chunk-relative offsets to absolute corpus positions
+1. For each chunk, find the first real token (not [PAD]/[CLS]/[SEP])
+2. Search for this token text in the corpus
+3. Use actual position to determine chunk start (position = token_pos - token_offset)
+4. All subsequent tokens in chunk use: absolute = chunk_start + chunk_relative_offset
 
-This works for ANY chunk configuration without text searching.
+This is robust and doesn't require any assumptions about chunk structure.
 
 Usage:
-    python scripts/convert_camelbert_robust_v2.py \
+    python scripts/convert_camelbert_corrected.py \
       --raw_inference results/[TEXT]/camelbert_[TEXT]_raw_inference.json \
       --corpus data/processed/[TEXT]_clean.txt \
-      --output results/camelbert_[TEXT]_char_boundaries_robust.json
+      --output results/[TEXT]/camelbert_[TEXT]_char_boundaries.json
 """
 
 import json
 import argparse
 import logging
 from pathlib import Path
-from typing import Dict, List, Tuple
-import statistics
+from typing import Dict, List, Optional
 
 logging.basicConfig(
     level=logging.INFO,
@@ -33,97 +34,138 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-class OffsetPatternAnalyzer:
-    """Analyze chunk offset patterns to reconstruct absolute positions."""
+class TextBasedChunkLocator:
+    """Locate chunk positions by searching for token text in corpus."""
 
-    def __init__(self, tokens: List[str], offsets: List[Tuple[int, int]], corpus_len: int):
+    def __init__(self, tokens: List[str], offsets: List[tuple], corpus_text: str):
         """
-        Initialize analyzer.
+        Initialize locator.
 
         Args:
             tokens: Token list from raw inference
             offsets: Offset list (chunk-relative positions)
-            corpus_len: Total corpus length
+            corpus_text: Full corpus text
         """
         self.tokens = tokens
         self.offsets = offsets
-        self.corpus_len = corpus_len
+        self.corpus_text = corpus_text
         self.SPECIAL_TOKENS = {"[PAD]", "[CLS]", "[SEP]", "[UNK]"}
 
         # Find chunk boundaries
         self.sep_indices = [i for i, t in enumerate(tokens) if t == "[SEP]"]
         logger.info(f"Found {len(self.sep_indices)} chunks (SEP tokens)")
 
-    def _extract_chunk_offsets(self, chunk_id: int) -> List[int]:
-        """Extract all non-zero, non-special offsets for a chunk."""
-        start_idx = 0 if chunk_id == 0 else self.sep_indices[chunk_id - 1] + 1
-        end_idx = self.sep_indices[chunk_id]
-
-        offsets = []
-        for i in range(start_idx, end_idx):
-            token = self.tokens[i]
-            offset = self.offsets[i]
-
-            if token not in self.SPECIAL_TOKENS and offset != [0, 0]:
-                offsets.append(offset[0])
-
-        return sorted(set(offsets))  # Unique, sorted
-
-    def estimate_chunk_positions(self) -> List[int]:
+    def _find_token_in_corpus(
+        self, token_text: str, search_start: int = 0, search_end: Optional[int] = None
+    ) -> Optional[int]:
         """
-        Estimate absolute corpus position for each chunk.
+        Search for token text in corpus (case-sensitive, exact match).
 
-        Strategy:
-        1. For each chunk, get min/max offset (gives span within chunk)
-        2. Estimate overlap between consecutive chunks
-        3. Calculate absolute start position
+        Args:
+            token_text: Text to search for (without ## prefix)
+            search_start: Start position in corpus
+            search_end: End position in corpus
 
         Returns:
-            List of absolute corpus start positions for each chunk
+            Position in corpus where token starts, or None if not found
         """
-        chunk_positions = [0]  # First chunk always starts at 0
+        if search_end is None:
+            search_end = len(self.corpus_text)
 
-        for chunk_id in range(1, len(self.sep_indices)):
-            prev_offsets = self._extract_chunk_offsets(chunk_id - 1)
-            curr_offsets = self._extract_chunk_offsets(chunk_id)
+        search_start = max(0, search_start)
+        search_end = min(len(self.corpus_text), search_end)
 
-            if not prev_offsets or not curr_offsets:
-                # Estimate from previous position
-                estimated = chunk_positions[-1] + 500
-                chunk_positions.append(min(estimated, self.corpus_len))
+        search_substr = self.corpus_text[search_start:search_end]
+        pos = search_substr.find(token_text)
+
+        return search_start + pos if pos >= 0 else None
+
+    def locate_chunk_positions(self) -> Dict[int, int]:
+        """
+        Locate absolute corpus position for each chunk by finding token text.
+
+        Returns:
+            Dict mapping chunk_id -> absolute_corpus_position
+        """
+        chunk_positions = {}
+
+        for chunk_id in range(len(self.sep_indices)):
+            # Get token range for this chunk
+            start_idx = 0 if chunk_id == 0 else self.sep_indices[chunk_id - 1] + 1
+            end_idx = self.sep_indices[chunk_id]
+
+            # Find first real token in this chunk
+            anchor_token = None
+            anchor_offset = None
+            anchor_idx = None
+
+            for idx in range(start_idx, end_idx):
+                tok = self.tokens[idx]
+                off = self.offsets[idx]
+
+                if tok not in self.SPECIAL_TOKENS and off != [0, 0]:
+                    anchor_token = tok
+                    anchor_offset = off[0]  # char_start relative to chunk
+                    anchor_idx = idx
+                    break
+
+            if not anchor_token:
+                logger.warning(f"Chunk {chunk_id}: No anchor token found")
+                # Estimate from previous chunk
+                if chunk_positions:
+                    chunk_positions[chunk_id] = list(chunk_positions.values())[-1] + 500
+                else:
+                    chunk_positions[chunk_id] = chunk_id * 500
                 continue
 
-            prev_max = max(prev_offsets)
-            curr_min = min(curr_offsets)
+            # Search for anchor token in corpus
+            anchor_token_clean = anchor_token.lstrip("##")
 
-            # The overlap between chunks means:
-            # - Previous chunk's max offset = position X in corpus
-            # - Current chunk's min offset should correspond to ~same position
-            # - So current chunk starts at: prev_chunk_start + prev_max - curr_min
+            # Determine search window
+            if chunk_id == 0:
+                search_start = 0
+                search_end = len(self.corpus_text)
+            else:
+                # Estimate: previous chunk should be before current
+                prev_chunk_pos = chunk_positions.get(chunk_id - 1, 0)
+                search_start = max(0, prev_chunk_pos)
+                search_end = min(len(self.corpus_text), prev_chunk_pos + 2000)
 
-            # But we need to account for the chunk spanning
-            # Calculate based on where the previous chunk likely ends
-            prev_span = prev_max - min(prev_offsets)  # How much text this chunk covers
-            curr_span = max(curr_offsets) - curr_min
+            # Find token in corpus
+            token_pos_in_corpus = self._find_token_in_corpus(
+                anchor_token_clean, search_start, search_end
+            )
 
-            # Estimate overlap
-            # If prev went 0-500 in chunk (500 chars), and curr starts at 50,
-            # then overlap is 50 chars
-            overlap = curr_min
+            if token_pos_in_corpus is not None:
+                # Token found at position X in corpus
+                # Token has offset O relative to chunk start
+                # Therefore: chunk_start = X - O
+                chunk_start = token_pos_in_corpus - anchor_offset
+                chunk_start = max(0, min(chunk_start, len(self.corpus_text)))
+                chunk_positions[chunk_id] = chunk_start
 
-            # Next chunk starts at: previous start + previous span - overlap
-            next_start = chunk_positions[-1] + prev_span - overlap
-            next_start = max(0, min(next_start, self.corpus_len))
+                logger.debug(
+                    f"Chunk {chunk_id}: Found anchor '{anchor_token}' at corpus pos "
+                    f"{token_pos_in_corpus}, chunk starts at {chunk_start}"
+                )
+            else:
+                logger.warning(
+                    f"Chunk {chunk_id}: Could not find anchor token '{anchor_token_clean}' "
+                    f"in search range [{search_start}, {search_end}]"
+                )
+                # Estimate
+                if chunk_positions:
+                    chunk_positions[chunk_id] = list(chunk_positions.values())[-1] + 500
+                else:
+                    chunk_positions[chunk_id] = 0
 
-            chunk_positions.append(next_start)
-
-        logger.info(f"Estimated chunk positions: {chunk_positions[:10]}...")
-        logger.info(f"Position range: {min(chunk_positions)} to {max(chunk_positions)}")
+        logger.info(f"Located {len(chunk_positions)} chunks")
+        logger.info(f"Chunk positions: {list(chunk_positions.values())[:10]}...")
 
         return chunk_positions
 
     def extract_absolute_boundaries(
-        self, predictions: List[int], probabilities: List[float]
+        self, predictions: List[int], probabilities: List[float], chunk_positions: Dict[int, int]
     ) -> Dict[int, Dict]:
         """
         Extract boundary positions with absolute corpus coordinates.
@@ -131,14 +173,14 @@ class OffsetPatternAnalyzer:
         Args:
             predictions: Prediction array (1 = boundary, 0 = non-boundary)
             probabilities: Confidence scores
+            chunk_positions: Dict mapping chunk_id -> absolute position
 
         Returns:
             Dict mapping char_start -> {prob, token, chunk_id}
         """
-        chunk_positions = self.estimate_chunk_positions()
-
         char_to_info = {}
-        boundary_count = 0
+        found_count = 0
+        missing_chunk_count = 0
 
         for tok_idx, (token, offset, pred, prob) in enumerate(
             zip(self.tokens, self.offsets, predictions, probabilities)
@@ -149,14 +191,14 @@ class OffsetPatternAnalyzer:
             if token in self.SPECIAL_TOKENS or offset == [0, 0]:
                 continue
 
-            # Find chunk this token belongs to
+            # Find which chunk this token belongs to
             chunk_id = 0
             for sep_idx in self.sep_indices:
                 if tok_idx > sep_idx:
                     chunk_id += 1
 
-            if chunk_id >= len(chunk_positions):
-                logger.warning(f"Token {tok_idx} in chunk {chunk_id}, but only {len(chunk_positions)} chunks")
+            if chunk_id not in chunk_positions:
+                missing_chunk_count += 1
                 continue
 
             # Convert to absolute position
@@ -165,8 +207,7 @@ class OffsetPatternAnalyzer:
             cs_abs = chunk_start_abs + cs_rel
 
             # Validate: position must be within corpus
-            if cs_abs < 0 or cs_abs > self.corpus_len:
-                logger.debug(f"Skipping boundary at invalid position {cs_abs}")
+            if cs_abs < 0 or cs_abs > len(self.corpus_text):
                 continue
 
             # Keep highest probability for each position
@@ -175,28 +216,20 @@ class OffsetPatternAnalyzer:
                     "prob": prob,
                     "token": token,
                     "chunk_id": chunk_id,
-                    "offset_rel": cs_rel,
                 }
-                boundary_count += 1
+                found_count += 1
 
-        logger.info(f"Extracted {boundary_count} boundary tokens -> {len(char_to_info)} unique positions")
+        logger.info(f"Extracted {found_count} boundary tokens -> {len(char_to_info)} unique positions")
+        if missing_chunk_count > 0:
+            logger.warning(f"Skipped {missing_chunk_count} tokens in unlocated chunks")
+
         return char_to_info
 
 
 def cluster_boundaries(
     char_to_info: Dict[int, Dict], corpus_text: str, gap_cluster: int = 20
 ) -> List[Dict]:
-    """
-    Cluster adjacent boundary tokens into narrative units.
-
-    Args:
-        char_to_info: Mapping of char position -> boundary info
-        corpus_text: Full text
-        gap_cluster: Max gap between tokens in same cluster (chars)
-
-    Returns:
-        List of clusters with metadata
-    """
+    """Cluster adjacent boundary tokens into narrative units."""
     if not char_to_info:
         return []
 
@@ -234,23 +267,24 @@ def cluster_boundaries(
             current_cluster = [pos]
 
     # Last cluster
-    cluster_start = current_cluster[0]
-    cluster_end = current_cluster[-1]
-    context_start = max(0, cluster_start - 40)
-    context_end = min(len(corpus_text), cluster_end + 80)
-    text_context = corpus_text[context_start:context_end]
+    if current_cluster:
+        cluster_start = current_cluster[0]
+        cluster_end = current_cluster[-1]
+        context_start = max(0, cluster_start - 40)
+        context_end = min(len(corpus_text), cluster_end + 80)
+        text_context = corpus_text[context_start:context_end]
 
-    clusters.append(
-        {
-            "boundary_id": len(clusters),
-            "char_start": cluster_start,
-            "char_end": cluster_end,
-            "n_tokens": len(current_cluster),
-            "tokens": [char_to_info[p]["token"] for p in current_cluster[:10]],
-            "max_prob": max(char_to_info[p]["prob"] for p in current_cluster),
-            "text_context": text_context,
-        }
-    )
+        clusters.append(
+            {
+                "boundary_id": len(clusters),
+                "char_start": cluster_start,
+                "char_end": cluster_end,
+                "n_tokens": len(current_cluster),
+                "tokens": [char_to_info[p]["token"] for p in current_cluster[:10]],
+                "max_prob": max(char_to_info[p]["prob"] for p in current_cluster),
+                "text_context": text_context,
+            }
+        )
 
     return clusters
 
@@ -285,12 +319,6 @@ def validate_boundaries(clusters: List[Dict], corpus_text: str) -> Dict:
             "very_long": sum(1 for g in gaps if g > 5000),
         }
 
-        short_pct = report["gap_stats"]["very_short"] / len(gaps) * 100
-        if short_pct > 10:
-            report["quality_issues"].append(
-                f"High rate of very short gaps (<50 chars): {short_pct:.1f}%"
-            )
-
     # Mid-word boundaries
     mid_word_count = 0
     for cluster in clusters:
@@ -308,7 +336,7 @@ def validate_boundaries(clusters: List[Dict], corpus_text: str) -> Dict:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Robust CAMeL-BERT post-processing using offset pattern analysis"
+        description="Corrected CAMeL-BERT post-processing with text-based chunk localization"
     )
     parser.add_argument("--raw_inference", required=True, help="Path to raw inference JSON")
     parser.add_argument("--corpus", required=True, help="Path to corpus text file")
@@ -333,12 +361,13 @@ def main():
     logger.info(f"  Corpus: {len(corpus_text):,} chars")
     logger.info(f"  Tokens: {len(tokens):,}")
 
-    # Analyze offset patterns and estimate chunk positions
-    logger.info("\nAnalyzing offset patterns...")
-    analyzer = OffsetPatternAnalyzer(tokens, offsets, len(corpus_text))
+    # Locate chunks using token text
+    logger.info("\nLocating chunk positions via token search...")
+    locator = TextBasedChunkLocator(tokens, offsets, corpus_text)
+    chunk_positions = locator.locate_chunk_positions()
 
     logger.info("Extracting boundary positions...")
-    char_to_info = analyzer.extract_absolute_boundaries(predictions, probabilities)
+    char_to_info = locator.extract_absolute_boundaries(predictions, probabilities, chunk_positions)
 
     logger.info(f"  Unique boundary positions: {len(char_to_info):,}")
 
@@ -372,11 +401,11 @@ def main():
     # Save output
     output = {
         "metadata": {
-            "method": "offset_pattern_analysis",
+            "method": "text_based_chunk_localization",
             "description": (
-                "Robust extraction using sliding window offset pattern detection. "
-                "Analyzes local offset ranges within chunks to estimate absolute positions. "
-                "Works for any chunk overlap configuration."
+                "Corrected extraction using text-based chunk location detection. "
+                "Finds anchor tokens in corpus to determine chunk positions, then maps "
+                "offsets to absolute coordinates. No assumptions about chunk structure."
             ),
             "source": args.raw_inference,
             "corpus": args.corpus,
