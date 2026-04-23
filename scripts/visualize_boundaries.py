@@ -20,9 +20,9 @@ logger = logging.getLogger(__name__)
 
 
 def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> str:
-    """Generate interactive HTML visualization."""
+    """Generate interactive HTML visualization with background highlighting."""
 
-    # Build highlighted text with boundary markers
+    # Build text with background-highlighted boundaries (no inline markers)
     html_parts = []
     last_end = 0
 
@@ -32,27 +32,38 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
         max_prob = boundary.get("max_prob", 0)
 
         # Text before boundary
-        before = corpus_text[last_end:start]
-        html_parts.append(f"<span class='text'>{escape_html(before)}</span>")
+        if last_end < start:
+            before = corpus_text[last_end:start]
+            html_parts.append(f"<span class='text'>{escape_html(before)}</span>")
 
-        # Boundary marker with rich tooltip showing full isnad context
+        # Boundary region with background highlight (no inline marker)
         prob_color = get_color_for_prob(max_prob)
-        tokens_str = ', '.join(boundary.get('tokens', [])[:5])  # Show more tokens
+        boundary_text = corpus_text[start:end]
+        tokens_str = ', '.join(boundary.get('tokens', [])[:5])
 
-        # Get context around boundary (more generous)
+        # Get context around boundary
         context_start = max(0, start - 100)
         context_end = min(len(corpus_text), end + 100)
         context = corpus_text[context_start:context_end]
-        context_escaped = escape_html(context).replace('<br>\n', ' | ')  # Show line breaks as | for tooltip
+        context_escaped = escape_html(context).replace('<br>\n', ' | ')
 
         tooltip = f"Boundary {i}: prob={max_prob:.3f}\\nTokens: {tokens_str}\\nContext: ...{context_escaped}..."
-        html_parts.append(f"<span class='boundary' style='background-color:{prob_color}' title='{tooltip}' data-boundary='{i}'>│</span>")
+
+        # Use background highlight with subtle border and opacity
+        html_parts.append(
+            f"<span class='boundary-region' "
+            f"style='background-color:{prob_color}; opacity: 0.3; "
+            f"border-bottom: 2px solid {prob_color};' "
+            f"title='{tooltip}' data-boundary='{i}'>"
+            f"{escape_html(boundary_text)}</span>"
+        )
 
         last_end = end
 
     # Remaining text
     if last_end < len(corpus_text):
-        html_parts.append(f"<span class='text'>{escape_html(corpus_text[last_end:])}</span>")
+        remaining = corpus_text[last_end:]
+        html_parts.append(f"<span class='text'>{escape_html(remaining)}</span>")
 
     highlighted_text = "".join(html_parts)
 
@@ -137,18 +148,15 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
         .text {{
             color: #333;
         }}
-        .boundary {{
-            display: inline-block;
-            width: 2px;
-            height: 1.5em;
-            margin: 0 2px;
+        .boundary-region {{
             cursor: pointer;
-            vertical-align: middle;
-            border: 1px solid rgba(0,0,0,0.3);
+            transition: opacity 0.2s ease;
+            padding: 2px 0;
+            border-radius: 2px;
         }}
-        .boundary:hover {{
-            opacity: 0.7;
-            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        .boundary-region:hover {{
+            opacity: 0.6 !important;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
         }}
         .legend {{
             display: flex;
@@ -240,17 +248,23 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
     </div>
 
     <div class="legend">
+        <div style="margin-bottom: 10px; font-size: 0.9em; color: #666;">
+            <strong>Background Colors:</strong> Boundaries are highlighted by background color based on confidence
+        </div>
         <div class="legend-item">
-            <div class="legend-color" style="background-color: #6bcf7f;"></div>
+            <div class="legend-color" style="background-color: #6bcf7f; opacity: 0.3;"></div>
             <span>High confidence (>0.95)</span>
         </div>
         <div class="legend-item">
-            <div class="legend-color" style="background-color: #ffd93d;"></div>
+            <div class="legend-color" style="background-color: #ffd93d; opacity: 0.3;"></div>
             <span>Medium confidence (0.8-0.95)</span>
         </div>
         <div class="legend-item">
-            <div class="legend-color" style="background-color: #ff6b6b;"></div>
+            <div class="legend-color" style="background-color: #ff6b6b; opacity: 0.3;"></div>
             <span>Low confidence (<0.8)</span>
+        </div>
+        <div style="margin-top: 10px; font-size: 0.9em; color: #666;">
+            <strong>Interaction:</strong> Hover over highlighted regions to see tooltips. Click to see full context details.
         </div>
     </div>
 
@@ -288,14 +302,21 @@ def generate_html(boundaries: List[Dict], corpus_text: str, text_name: str) -> s
         const boundaries = {boundaries_json};
         const corpus = {corpus_json};
 
-        // Add click handlers to boundary markers
-        document.querySelectorAll('.boundary').forEach(el => {{
-            el.style.cursor = 'pointer';
+        // Add click handlers to boundary regions
+        document.querySelectorAll('.boundary-region').forEach(el => {{
             el.addEventListener('click', function(e) {{
                 const bid = parseInt(this.getAttribute('data-boundary'));
                 const b = boundaries[bid];
                 const start = b.char_start;
                 const end = b.char_end;
+
+                // Remove previous selection highlight
+                document.querySelectorAll('.boundary-region').forEach(e => {{
+                    e.style.opacity = '0.3';
+                }});
+
+                // Highlight selected boundary
+                this.style.opacity = '0.7';
 
                 // Show detail
                 document.getElementById('detail-id').textContent = bid;
